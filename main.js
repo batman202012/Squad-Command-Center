@@ -2,7 +2,7 @@ const { app, BrowserWindow, globalShortcut, ipcMain, shell } = require('electron
 const path = require('path');
 const fs = require('fs');
 const crypto = require('crypto');
-const API_BASE_URL = 'http://api.tpun.online/api';
+const API_BASE_URL = 'https://api.tpun.online/api';
 const { exec } = require('child_process');
 const { autoUpdater } = require('electron-updater');
 
