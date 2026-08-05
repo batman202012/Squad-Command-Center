@@ -85,7 +85,9 @@ To keep this repository lightweight, the 8.6 GB of raw high-resolution map tiles
 
 This project stands on the shoulders of some incredible community resources. Huge thanks to the following creators and communities:
 
-*   **[SquadMaps.com](https://squadmaps.com)**: For generating and providing the high-resolution map tiles, topographic data, and heightmaps used in our mapping engine.
+*   **[squadcalc.app](https://squadcalc.app)**:
+For creating such high-resolution topographic maps with easy to understand colors and contour lines used in our mapping engine.
+*   **[SquadMaps.com](https://squadmaps.com)**: For generating and providing the high-resolution map tiles, and heightmaps used in our mapping engine.
 *   **[Squad-Armor.com](https://squad-armor.com)**: For their incredible web-based 3D armor models, which this app links directly into for the Armor Viewer component.
 *   **[The Official Squad Wiki](https://squad.fandom.com/wiki/Squad_Wiki)**: For providing tactical, faction, and UI icons used throughout the application. 
 *   **[Squad Browser](https://squadbrowser.app/)**: For providing a highly functional server browser, which this app links directly into for people with issues with the current in-game browser.
