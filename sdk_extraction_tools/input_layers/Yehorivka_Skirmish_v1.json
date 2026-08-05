@@ -1,0 +1,97 @@
+{
+    "map_id": "yehorivka",
+    "layer_name": "Yehorivka_Skirmish_v1",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 45303.0,
+            "y": -28566.29,
+            "z": 4433.52,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Lower Petrivka",
+            "lane": "Any",
+            "order": 1,
+            "x": 19733.37,
+            "y": -50832.12,
+            "z": 5901.1,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Petrivka Co-op",
+            "lane": "Any",
+            "order": 2,
+            "x": -8420.99,
+            "y": -49323.94,
+            "z": 6983.91,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Ditch",
+            "lane": "Any",
+            "order": 3,
+            "x": -27611.69,
+            "y": -33991.9,
+            "z": 6382.61,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Petrivka",
+            "lane": "Any",
+            "order": 4,
+            "x": 11319.89,
+            "y": -83314.95,
+            "z": 6492.14,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Upper Petrivka",
+            "lane": "Any",
+            "order": 5,
+            "x": 19682.21,
+            "y": -95275.86,
+            "z": 6341.62,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Creek",
+            "lane": "Any",
+            "order": 6,
+            "x": -3732.62,
+            "y": -63740.64,
+            "z": 6328.12,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Farmstead",
+            "lane": "Any",
+            "order": 7,
+            "x": -39035.17,
+            "y": -74584.89,
+            "z": 6726.24,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -51216.83,
+            "y": -108645.25,
+            "z": 4508.48,
+            "is_sky_node": true,
+            "linked_flags": []
+        }
+    ]
+}

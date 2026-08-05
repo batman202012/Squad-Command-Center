@@ -1,0 +1,455 @@
+{
+    "map_id": "goose_bay",
+    "layer_name": "GooseBay_RAAS_v2",
+    "total_flags": 31,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -176516.72,
+            "y": 81355.48,
+            "z": -23925.39
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 147474.09,
+            "y": -79318.32,
+            "z": -15704.88
+        },
+        {
+            "name": "FlagPole_Ballhead2",
+            "lane": "Any",
+            "order": -1,
+            "x": 137463.02,
+            "y": 11862.72,
+            "z": -14388.09
+        },
+        {
+            "name": "CAF",
+            "lane": "Any",
+            "order": -1,
+            "x": 137461.98,
+            "y": 11859.9,
+            "z": -13546.48
+        },
+        {
+            "name": "FlagPole_Ballhead3",
+            "lane": "Any",
+            "order": -1,
+            "x": -93157.02,
+            "y": 112599.05,
+            "z": -24388.09
+        },
+        {
+            "name": "CAF2",
+            "lane": "Any",
+            "order": -1,
+            "x": -93164.05,
+            "y": 112599.23,
+            "z": -23596.48
+        },
+        {
+            "name": "Taqqut Coop",
+            "x": -163869.27,
+            "y": 9353.23,
+            "z": -22571.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                },
+                {
+                    "order": 1,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1A",
+                "1B"
+            ]
+        },
+        {
+            "name": "5 Wing HQ",
+            "x": -94748.41,
+            "y": 112784.74,
+            "z": -24360.97,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "1C"
+            ]
+        },
+        {
+            "name": "Naval Refueling Station",
+            "x": -119867.52,
+            "y": -62222.51,
+            "z": -21808.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Drilling Site",
+            "x": -93284.79,
+            "y": -16391.97,
+            "z": -20738.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "Shimik",
+            "x": -87510.62,
+            "y": -45542.64,
+            "z": -22778.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Research Station",
+            "x": -56760.55,
+            "y": 93948.43,
+            "z": -23557.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "Happy Valley",
+            "x": -11882.47,
+            "y": 148504.69,
+            "z": -21613.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "Fishing Village",
+            "x": -117068.41,
+            "y": 56524.74,
+            "z": -23630.97,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "Weather Station",
+            "x": -72329.78,
+            "y": 22739.27,
+            "z": -23720.97,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Train Yard",
+            "x": -84322.09,
+            "y": -102467.69,
+            "z": -21808.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "OP Hebb",
+            "x": 17313.59,
+            "y": 109189.74,
+            "z": -19280.97,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "Hilltop Redoubt",
+            "x": -7964.3,
+            "y": -12600.62,
+            "z": -15663.16,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Postville",
+            "x": 146216.4,
+            "y": 132839.0,
+            "z": -19783.58,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "Shipping Center",
+            "x": 71757.53,
+            "y": 140494.69,
+            "z": -21613.0,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "Loading Dock",
+            "x": -155918.24,
+            "y": -181171.12,
+            "z": -21808.0,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Refinery",
+            "x": 97166.4,
+            "y": 72668.99,
+            "z": -16351.12,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C"
+            ]
+        },
+        {
+            "name": "Sheshatshiu East",
+            "x": -6299.67,
+            "y": -129362.5,
+            "z": -15417.0,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Sheshatshiu West",
+            "x": -42068.2,
+            "y": -127696.37,
+            "z": -15417.0,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "CFB Goose Bay",
+            "x": 52177.28,
+            "y": 27021.34,
+            "z": -13657.14,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                },
+                {
+                    "order": 6,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5B",
+                "6C"
+            ]
+        },
+        {
+            "name": "Airfield Defenses",
+            "x": 28257.98,
+            "y": 63870.38,
+            "z": -13657.14,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C"
+            ]
+        },
+        {
+            "name": "Churchill",
+            "x": 33101.51,
+            "y": -88630.35,
+            "z": -18883.08,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                },
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5B",
+                "6A"
+            ]
+        },
+        {
+            "name": "NORAD Facility",
+            "x": 100340.21,
+            "y": -40544.22,
+            "z": -13657.14,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "B"
+                },
+                {
+                    "order": 7,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "6B",
+                "7C"
+            ]
+        },
+        {
+            "name": "Military Housing",
+            "x": 142171.17,
+            "y": 11872.8,
+            "z": -13657.14,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "6C"
+            ]
+        },
+        {
+            "name": "Airfield Checkpoint",
+            "x": 85375.95,
+            "y": 25355.53,
+            "z": -13657.14,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "6C"
+            ]
+        },
+        {
+            "name": "FOB Inkpen",
+            "x": 93381.51,
+            "y": -111260.35,
+            "z": -14463.08,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "A"
+                },
+                {
+                    "order": 7,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "7A",
+                "7B"
+            ]
+        }
+    ]
+}

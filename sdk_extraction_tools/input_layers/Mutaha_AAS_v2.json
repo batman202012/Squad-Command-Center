@@ -1,0 +1,77 @@
+{
+    "map_id": "mutaha",
+    "layer_name": "Mutaha_AAS_v2",
+    "total_flags": 7,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 62463.76,
+            "y": -105712.67,
+            "z": 343.68,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Signals Regiment HQ",
+            "lane": "Any",
+            "order": 1,
+            "x": 91729.18,
+            "y": -30736.14,
+            "z": 19.84,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "North Highway Bridges",
+            "lane": "Any",
+            "order": 2,
+            "x": 38840.82,
+            "y": -30807.43,
+            "z": 363.51,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "MSR Intersection",
+            "lane": "Any",
+            "order": 3,
+            "x": 34246.45,
+            "y": 24356.69,
+            "z": -66.37,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "South Highway Bridges",
+            "lane": "Any",
+            "order": 4,
+            "x": 45841.02,
+            "y": 79456.31,
+            "z": -147.46,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Staging Area",
+            "lane": "Any",
+            "order": 5,
+            "x": 94312.67,
+            "y": 93104.29,
+            "z": -444.54,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 79676.77,
+            "y": 156878.28,
+            "z": -401.56,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

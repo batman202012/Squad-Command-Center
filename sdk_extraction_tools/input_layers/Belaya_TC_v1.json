@@ -1,0 +1,27 @@
+{
+    "map_id": "belaya_pass",
+    "layer_name": "Belaya_TC_v1",
+    "total_flags": 2,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -138026.69,
+            "y": 116321.64,
+            "z": -29334.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 91289.83,
+            "y": -153904.39,
+            "z": -30179.08,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

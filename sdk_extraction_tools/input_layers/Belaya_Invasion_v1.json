@@ -1,0 +1,157 @@
+{
+    "map_id": "belaya_pass",
+    "layer_name": "Belaya_Invasion_v1",
+    "total_flags": 15,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 91622.45,
+            "y": -153981.94,
+            "z": -30179.07,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 1,
+            "x": -137252.0,
+            "y": 118239.0,
+            "z": -29030.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Upper Velino",
+            "lane": "Any",
+            "order": 1,
+            "x": 24785.06,
+            "y": -171279.44,
+            "z": -30609.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Central Velino",
+            "lane": "Any",
+            "order": 1,
+            "x": 23434.06,
+            "y": -152410.5,
+            "z": -30609.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 2,
+            "x": -137252.0,
+            "y": 118239.0,
+            "z": -29030.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Velino Outskirts",
+            "lane": "Any",
+            "order": 2,
+            "x": 3170.97,
+            "y": -126211.25,
+            "z": -30374.52,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Tire Factory",
+            "lane": "Any",
+            "order": 2,
+            "x": -30432.72,
+            "y": -136212.97,
+            "z": -29574.7,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 3,
+            "x": -137252.0,
+            "y": 118239.0,
+            "z": -29030.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Train Tunnel",
+            "lane": "Any",
+            "order": 3,
+            "x": -52981.94,
+            "y": -71719.64,
+            "z": -30225.2,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 4,
+            "x": -137252.0,
+            "y": 118239.0,
+            "z": -29030.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Industrial Yard",
+            "lane": "Any",
+            "order": 4,
+            "x": -110350.66,
+            "y": -20508.72,
+            "z": -30551.35,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Nikola",
+            "lane": "Any",
+            "order": 4,
+            "x": -32646.66,
+            "y": -12371.72,
+            "z": -30555.35,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 5,
+            "x": -137252.0,
+            "y": 118239.0,
+            "z": -29030.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Depot",
+            "lane": "Any",
+            "order": 5,
+            "x": -81273.58,
+            "y": 35963.69,
+            "z": -30068.21,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -137210.56,
+            "y": 115425.51,
+            "z": -29493.98,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

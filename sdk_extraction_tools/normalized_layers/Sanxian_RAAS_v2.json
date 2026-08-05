@@ -1,0 +1,738 @@
+{
+    "map_id": "maps",
+    "layer_name": "Sanxian_RAAS_v2",
+    "total_flags": 49,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 180027.89,
+            "y": -36831.35,
+            "z": 809.36
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -187853.07,
+            "y": 70354.96,
+            "z": 707.33
+        },
+        {
+            "name": "Walled Farm",
+            "x": 131464.84,
+            "y": -52858.23,
+            "z": 4635.35,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "1C"
+            ]
+        },
+        {
+            "name": "WW2 Bunkers",
+            "x": 110519.84,
+            "y": 44811.77,
+            "z": 1051.09,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "1A"
+            ]
+        },
+        {
+            "name": "Farming Community",
+            "x": 109329.21,
+            "y": 11680.46,
+            "z": 2486.87,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "1A"
+            ]
+        },
+        {
+            "name": "Logistics Center",
+            "x": 108126.53,
+            "y": -34175.18,
+            "z": 4338.88,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1B"
+            ]
+        },
+        {
+            "name": "Taishan",
+            "x": 123754.0,
+            "y": -29509.38,
+            "z": 3688.88,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1B"
+            ]
+        },
+        {
+            "name": "Rice Farm",
+            "x": 68274.84,
+            "y": -12663.23,
+            "z": 2911.23,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "1A"
+            ]
+        },
+        {
+            "name": "Antenna Compound",
+            "x": 85624.84,
+            "y": -5163.23,
+            "z": 3649.21,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "1A"
+            ]
+        },
+        {
+            "name": "Refinery",
+            "x": 84964.84,
+            "y": -92608.23,
+            "z": 1059.23,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "Dacun",
+            "x": 26113.64,
+            "y": 20188.02,
+            "z": 1088.88,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Plantations",
+            "x": 53631.48,
+            "y": -45242.34,
+            "z": 1488.88,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                },
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2B",
+                "2C"
+            ]
+        },
+        {
+            "name": "Dacun Admin",
+            "x": 68092.84,
+            "y": 29554.48,
+            "z": 1338.88,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Hilltop Estate",
+            "x": 68264.84,
+            "y": -65258.23,
+            "z": 4635.35,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "Canal Town",
+            "x": 24439.84,
+            "y": -69153.23,
+            "z": 531.89,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                },
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3B",
+                "3C"
+            ]
+        },
+        {
+            "name": "Duwu",
+            "x": 13634.7,
+            "y": 56064.07,
+            "z": 588.88,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Wushiwan",
+            "x": 66594.95,
+            "y": 64453.99,
+            "z": 1786.88,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "East Gate",
+            "x": 3711.84,
+            "y": -26352.23,
+            "z": 531.89,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Yueshan Warehouse",
+            "x": 51995.81,
+            "y": 108861.74,
+            "z": 386.88,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Ridgeline Silos",
+            "x": -45249.92,
+            "y": -120731.68,
+            "z": 3441.37,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "Yueshan Admin",
+            "x": 64355.05,
+            "y": 109711.2,
+            "z": 386.88,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Yueshan",
+            "x": 63238.17,
+            "y": 98649.79,
+            "z": 1136.88,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "South East Farm",
+            "x": 26480.28,
+            "y": 91636.9,
+            "z": 836.89,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Power Plant",
+            "x": -23001.91,
+            "y": -30918.91,
+            "z": 1829.18,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Power Plant Admin",
+            "x": -25630.2,
+            "y": -47917.36,
+            "z": 1829.18,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Navy Port",
+            "x": -6852.47,
+            "y": 56581.04,
+            "z": 1829.18,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Crossroads",
+            "x": -27898.36,
+            "y": -83330.01,
+            "z": 1104.48,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "Lower Oil Storage",
+            "x": -46784.94,
+            "y": -68547.21,
+            "z": 2504.48,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "Rentang",
+            "x": -93605.66,
+            "y": -91920.12,
+            "z": 349.78,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C"
+            ]
+        },
+        {
+            "name": "Radar Station",
+            "x": 82.06,
+            "y": 124946.21,
+            "z": 936.89,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Rentang Port North",
+            "x": -91420.09,
+            "y": -57202.55,
+            "z": 805.46,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C"
+            ]
+        },
+        {
+            "name": "Rentang Port South",
+            "x": -85518.94,
+            "y": -44179.44,
+            "z": 805.46,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C"
+            ]
+        },
+        {
+            "name": "Hill",
+            "x": -8286.28,
+            "y": 104569.95,
+            "z": 1770.89,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Coal Storage",
+            "x": -41452.49,
+            "y": -28682.6,
+            "z": 1829.18,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "Yunbo Docks",
+            "x": -80113.16,
+            "y": -11540.23,
+            "z": 216.03,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "Island Charlie",
+            "x": -69795.16,
+            "y": 125616.77,
+            "z": 1279.18,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "Dongchung East",
+            "x": -60740.16,
+            "y": 28596.77,
+            "z": 874.03,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "6B"
+            ]
+        },
+        {
+            "name": "Chanwan",
+            "x": -142084.16,
+            "y": -40028.23,
+            "z": 515.83,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "6C"
+            ]
+        },
+        {
+            "name": "Chanwan Warehouse",
+            "x": -108329.16,
+            "y": -30644.23,
+            "z": 225.53,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "6C"
+            ]
+        },
+        {
+            "name": "Chanwan Docks",
+            "x": -135887.02,
+            "y": -52102.35,
+            "z": 805.46,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "6C"
+            ]
+        },
+        {
+            "name": "Island Alpha",
+            "x": -88895.13,
+            "y": 93966.79,
+            "z": 1029.18,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "Island Bravo",
+            "x": -59845.16,
+            "y": 89516.79,
+            "z": 1029.18,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "Dongchung West",
+            "x": -83740.16,
+            "y": 25646.77,
+            "z": 524.03,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "6B"
+            ]
+        },
+        {
+            "name": "Telecom Compound",
+            "x": -91990.16,
+            "y": 1196.77,
+            "z": 1274.03,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "6B"
+            ]
+        },
+        {
+            "name": "Harbour Town",
+            "x": -123334.16,
+            "y": 20471.77,
+            "z": 400.88,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "7B"
+            ]
+        },
+        {
+            "name": "Harbour",
+            "x": -120027.2,
+            "y": 27015.43,
+            "z": 278.29,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "7B"
+            ]
+        },
+        {
+            "name": "Jipashi",
+            "x": -147595.16,
+            "y": 102896.77,
+            "z": 1104.0,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "7A"
+            ]
+        },
+        {
+            "name": "Menzai",
+            "x": -124837.94,
+            "y": 80646.84,
+            "z": 408.21,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "7A"
+            ]
+        },
+        {
+            "name": "Shipwreck Cove",
+            "x": -154934.16,
+            "y": 1121.77,
+            "z": 200.88,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "7C"
+            ]
+        }
+    ]
+}

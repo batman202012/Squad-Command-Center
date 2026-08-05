@@ -1,0 +1,22 @@
+{
+    "id": "albasrah",
+    "name": "Al Basrah",
+    "metadata": {
+        "mapExtent": [
+            0,
+            -8192,
+            8192,
+            0
+        ],
+        "physicalSizeMeters": 4000,
+        "physicalSizeMetersX": 4000,
+        "physicalSizeMetersY": 4000,
+        "ueOffsetX": 0,
+        "ueOffsetY": 0,
+        "maxZoom": 5,
+        "minZoom": 1,
+        "tileUrl": "./assets/maps/Albasrah/albasrah_tiles/{z}/{x}/{y}.png",
+        "heightmapUrl": "./assets/maps/Albasrah/albasrah_height_map.webp",
+        "heightmapSize": 8192
+    }
+}

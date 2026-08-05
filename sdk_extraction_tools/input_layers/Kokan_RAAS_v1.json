@@ -1,0 +1,437 @@
+{
+    "map_id": "kokan_valley",
+    "layer_name": "Kokan_RAAS_v1",
+    "total_flags": 43,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 68561.61,
+            "y": 77845.41,
+            "z": -24676.06,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 1,
+            "x": -12407.0,
+            "y": 59249.0,
+            "z": -20649.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 1,
+            "x": 22617.0,
+            "y": 61869.0,
+            "z": -20649.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 1,
+            "x": 45615.0,
+            "y": 40598.0,
+            "z": -20649.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Nova Isle",
+            "lane": "B",
+            "order": 1,
+            "x": 22710.0,
+            "y": 58771.0,
+            "z": -24660.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Imam's Compound",
+            "lane": "A",
+            "order": 1,
+            "x": -17538.0,
+            "y": 61769.0,
+            "z": -24672.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "First Stand",
+            "lane": "C",
+            "order": 1,
+            "x": 49404.2,
+            "y": 37610.66,
+            "z": -24669.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "First Stand2",
+            "lane": "C",
+            "order": 1,
+            "x": 46311.54,
+            "y": 41619.81,
+            "z": -24669.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "First Stand3",
+            "lane": "C",
+            "order": 1,
+            "x": 43899.29,
+            "y": 37309.95,
+            "z": -24669.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 2,
+            "x": -34713.0,
+            "y": 27489.0,
+            "z": -22478.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 2,
+            "x": 17328.0,
+            "y": 35360.0,
+            "z": -20649.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 2,
+            "x": 29031.0,
+            "y": 21967.0,
+            "z": -20649.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "The Nest",
+            "lane": "B",
+            "order": 2,
+            "x": 17854.0,
+            "y": 32566.0,
+            "z": -24672.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Gran Dell",
+            "lane": "C",
+            "order": 2,
+            "x": 33953.22,
+            "y": 19304.08,
+            "z": -24669.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Sarak",
+            "lane": "A",
+            "order": 2,
+            "x": -17912.64,
+            "y": 26351.36,
+            "z": -24672.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Novac",
+            "lane": "A",
+            "order": 2,
+            "x": -47097.71,
+            "y": 30978.89,
+            "z": -24672.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Gran Dell",
+            "lane": "C",
+            "order": 2,
+            "x": 22675.33,
+            "y": 19799.14,
+            "z": -24669.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Gran Dell",
+            "lane": "C",
+            "order": 2,
+            "x": 28008.67,
+            "y": 12524.31,
+            "z": -24669.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 3,
+            "x": -37926.0,
+            "y": -3753.0,
+            "z": -22105.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 3,
+            "x": 389.0,
+            "y": 7910.0,
+            "z": -20649.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 3,
+            "x": 27883.0,
+            "y": -2801.0,
+            "z": -20649.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Slums",
+            "lane": "A",
+            "order": 3,
+            "x": -46223.0,
+            "y": -6798.0,
+            "z": -24341.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Tempest Estate",
+            "lane": "A",
+            "order": 3,
+            "x": -27368.72,
+            "y": 1297.27,
+            "z": -24690.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Tempest Estate2",
+            "lane": "A",
+            "order": 3,
+            "x": -21148.6,
+            "y": -1998.93,
+            "z": -24690.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "OP Larosse",
+            "lane": "B",
+            "order": 3,
+            "x": -1770.68,
+            "y": 1973.49,
+            "z": -24850.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "HVT Compound",
+            "lane": "C",
+            "order": 3,
+            "x": 15478.0,
+            "y": 929.0,
+            "z": -24559.83,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Petrol Station",
+            "lane": "C",
+            "order": 3,
+            "x": 54387.0,
+            "y": -9458.0,
+            "z": -24559.83,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 4,
+            "x": -35935.0,
+            "y": -44967.0,
+            "z": -22841.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 4,
+            "x": -20891.0,
+            "y": -31859.0,
+            "z": -20649.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 4,
+            "x": 25797.0,
+            "y": -30473.0,
+            "z": -20649.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "District Center",
+            "lane": "B",
+            "order": 4,
+            "x": 12379.0,
+            "y": -39062.0,
+            "z": -24559.83,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Depot",
+            "lane": "A",
+            "order": 4,
+            "x": -53086.0,
+            "y": -45907.0,
+            "z": -24657.76,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Market",
+            "lane": "A",
+            "order": 4,
+            "x": -21279.0,
+            "y": -34078.0,
+            "z": -24665.7,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Market",
+            "lane": "B",
+            "order": 4,
+            "x": -21279.0,
+            "y": -34078.0,
+            "z": -24665.7,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "District Center",
+            "lane": "C",
+            "order": 4,
+            "x": 14737.0,
+            "y": -32193.0,
+            "z": -24559.83,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Informant's Compound",
+            "lane": "C",
+            "order": 4,
+            "x": 39783.0,
+            "y": -36197.0,
+            "z": -24559.83,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 5,
+            "x": -19520.0,
+            "y": -70909.0,
+            "z": -23854.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 5,
+            "x": -6897.0,
+            "y": -70949.0,
+            "z": -20649.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 5,
+            "x": 25417.0,
+            "y": -52171.0,
+            "z": -20649.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ruins",
+            "lane": "A",
+            "order": 5,
+            "x": -36126.0,
+            "y": -59378.0,
+            "z": -24674.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Stonebend",
+            "lane": "B",
+            "order": 5,
+            "x": -7027.0,
+            "y": -76976.0,
+            "z": -24684.38,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Farmstead",
+            "lane": "C",
+            "order": 45,
+            "x": 26225.0,
+            "y": -58581.0,
+            "z": -24559.83,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 46316.77,
+            "y": -88730.23,
+            "z": -24684.38,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

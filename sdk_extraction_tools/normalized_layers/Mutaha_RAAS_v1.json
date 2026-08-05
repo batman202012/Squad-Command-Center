@@ -1,0 +1,513 @@
+{
+    "map_id": "mutaha",
+    "layer_name": "Mutaha_RAAS_v1",
+    "total_flags": 33,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -46984.38,
+            "y": -105397.19,
+            "z": -575.44
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 156168.41,
+            "y": 158452.3,
+            "z": -1061.9
+        },
+        {
+            "name": "Zatar Compound",
+            "x": -30213.81,
+            "y": -22430.68,
+            "z": -100.18,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "1C"
+            ]
+        },
+        {
+            "name": "North Market",
+            "x": -15021.95,
+            "y": -36723.64,
+            "z": 251.44,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1B"
+            ]
+        },
+        {
+            "name": "North Orchard",
+            "x": -17741.95,
+            "y": -51403.64,
+            "z": 251.44,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "1A"
+            ]
+        },
+        {
+            "name": "Baraka Road Blockade",
+            "x": -26204.48,
+            "y": 4532.6,
+            "z": -89.12,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "Hydro Station",
+            "x": 32690.55,
+            "y": -47858.84,
+            "z": 130.79,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "West Suburb",
+            "x": -2518.98,
+            "y": -14293.09,
+            "z": 208.62,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "Baraka Suburbs",
+            "x": -8547.73,
+            "y": 9939.84,
+            "z": 220.78,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                },
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2C",
+                "3B"
+            ]
+        },
+        {
+            "name": "Baraka Market",
+            "x": -35384.48,
+            "y": 8582.6,
+            "z": -89.12,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "Baraka Road North",
+            "x": -18274.48,
+            "y": -707.4,
+            "z": -89.12,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "Crash Site",
+            "x": -28078.22,
+            "y": 24568.28,
+            "z": -100.17,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "Shamal Compound",
+            "x": 71905.91,
+            "y": -50793.8,
+            "z": -525.46,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "HVT Compound",
+            "x": 32793.55,
+            "y": -16804.84,
+            "z": -4.21,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                },
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3A",
+                "3B"
+            ]
+        },
+        {
+            "name": "Intersection",
+            "x": 33263.97,
+            "y": 23000.6,
+            "z": -55.29,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Ammo Warehouse",
+            "x": 41230.86,
+            "y": 14600.83,
+            "z": 99.62,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Police Station",
+            "x": 27073.84,
+            "y": 37170.62,
+            "z": -63.46,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Communication Outpost",
+            "x": 92041.27,
+            "y": -29854.79,
+            "z": 601.01,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Drying House",
+            "x": 17585.91,
+            "y": 54642.2,
+            "z": -488.46,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "Overgrown Village",
+            "x": -5830.09,
+            "y": 65308.2,
+            "z": -319.46,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "Four Points",
+            "x": -19132.09,
+            "y": 56460.2,
+            "z": -374.46,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "School",
+            "x": 79635.46,
+            "y": 38239.54,
+            "z": 542.54,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "East Mosque",
+            "x": 79591.97,
+            "y": 5759.49,
+            "z": 268.71,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Highway Farm",
+            "x": 41271.97,
+            "y": 64827.49,
+            "z": 268.71,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                },
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5B",
+                "5C"
+            ]
+        },
+        {
+            "name": "Highway South Bridges",
+            "x": 45611.97,
+            "y": 80257.49,
+            "z": 268.71,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C"
+            ]
+        },
+        {
+            "name": "NE Outskirts",
+            "x": 88211.97,
+            "y": -6820.51,
+            "z": 268.71,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Chop Shop",
+            "x": 101641.02,
+            "y": 49576.91,
+            "z": 208.62,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "South Village",
+            "x": 45187.97,
+            "y": 104510.5,
+            "z": -229.29,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "6C"
+            ]
+        },
+        {
+            "name": "Orchard",
+            "x": 68533.97,
+            "y": 71897.49,
+            "z": -374.29,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "B"
+                },
+                {
+                    "order": 6,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "6B",
+                "6C"
+            ]
+        },
+        {
+            "name": "East Suburb",
+            "x": 101671.02,
+            "y": 32446.91,
+            "z": 208.62,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "Slums",
+            "x": 125911.02,
+            "y": 26966.91,
+            "z": 208.62,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "South Farm",
+            "x": 94654.01,
+            "y": 93227.77,
+            "z": -558.39,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "B"
+                },
+                {
+                    "order": 7,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "7B",
+                "7C"
+            ]
+        },
+        {
+            "name": "Vineyard",
+            "x": 134172.66,
+            "y": 72695.23,
+            "z": 31.53,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "7A"
+            ]
+        }
+    ]
+}

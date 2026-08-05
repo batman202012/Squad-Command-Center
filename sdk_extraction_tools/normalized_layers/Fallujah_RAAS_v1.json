@@ -1,0 +1,707 @@
+{
+    "map_id": "fallujah_city",
+    "layer_name": "Fallujah_RAAS_v1",
+    "total_flags": 44,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 22936.41,
+            "y": -127262.31,
+            "z": -4014.54
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -43503.05,
+            "y": 86800.23,
+            "z": -3410.53
+        },
+        {
+            "name": "SM_USA_Flag_2",
+            "lane": "Any",
+            "order": -1,
+            "x": -27127.36,
+            "y": -36929.61,
+            "z": -3818.97
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": -37129.02,
+            "y": 80872.95,
+            "z": -2988.29
+        },
+        {
+            "name": "SM_USA_Flag_3",
+            "lane": "Any",
+            "order": -1,
+            "x": 13294.93,
+            "y": 43220.02,
+            "z": -4412.89
+        },
+        {
+            "name": "Cement Plant",
+            "x": 29257.95,
+            "y": -73183.99,
+            "z": -4424.3,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                },
+                {
+                    "order": 1,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1A",
+                "1B"
+            ]
+        },
+        {
+            "name": "Train Station",
+            "x": -36983.96,
+            "y": -90542.81,
+            "z": -3947.31,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "C"
+                },
+                {
+                    "order": 1,
+                    "lane": "D"
+                },
+                {
+                    "order": 1,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "1C",
+                "1D",
+                "1E"
+            ]
+        },
+        {
+            "name": "Askari Slums",
+            "x": 76144.66,
+            "y": -63947.2,
+            "z": -4090.2,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Refugee Camp West",
+            "x": -29091.17,
+            "y": -70758.62,
+            "z": -3947.31,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                },
+                {
+                    "order": 2,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "2C",
+                "2D"
+            ]
+        },
+        {
+            "name": "West T",
+            "x": 29564.41,
+            "y": -48484.7,
+            "z": -4424.3,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "East T",
+            "x": 37255.47,
+            "y": -49424.21,
+            "z": -4424.3,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "Sheik's Compound",
+            "x": 44814.34,
+            "y": -50103.92,
+            "z": -4424.3,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "Refugee Camp East",
+            "x": -17190.71,
+            "y": -65396.02,
+            "z": -3947.31,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "Crash Site",
+            "x": -60006.25,
+            "y": -50503.92,
+            "z": -4317.31,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "D"
+                },
+                {
+                    "order": 2,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "2D",
+                "2E"
+            ]
+        },
+        {
+            "name": "Checkpoint",
+            "x": -94721.57,
+            "y": -56311.35,
+            "z": -4137.31,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "2E"
+            ]
+        },
+        {
+            "name": "Blue Mosque",
+            "x": 36423.18,
+            "y": -29712.11,
+            "z": -3372.25,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Muallimin",
+            "x": 184.99,
+            "y": -49796.69,
+            "z": -3823.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "Police Station",
+            "x": -22732.6,
+            "y": -34670.77,
+            "z": -3550.38,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                },
+                {
+                    "order": 3,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "3C",
+                "3D"
+            ]
+        },
+        {
+            "name": "Askari Hill",
+            "x": 76484.66,
+            "y": -35087.2,
+            "z": -3510.2,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Bus Terminal",
+            "x": -46726.79,
+            "y": -29601.4,
+            "z": -4317.31,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "3D"
+            ]
+        },
+        {
+            "name": "Old Town",
+            "x": -65050.28,
+            "y": -15998.14,
+            "z": -4197.31,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "3E"
+            ]
+        },
+        {
+            "name": "Cloverleaf",
+            "x": 119624.66,
+            "y": -27447.2,
+            "z": -3680.2,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Bazaar East",
+            "x": 34715.52,
+            "y": -13995.06,
+            "z": -4426.42,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Commercial District West",
+            "x": 3964.39,
+            "y": -21933.2,
+            "z": -3140.47,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "Cross Roads NW",
+            "x": -33439.89,
+            "y": -9887.36,
+            "z": -3343.54,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "4D"
+            ]
+        },
+        {
+            "name": "Market",
+            "x": 71144.66,
+            "y": -13777.2,
+            "z": -3510.2,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Construction Compound",
+            "x": 59734.66,
+            "y": -16887.2,
+            "z": -4310.2,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Bazaar West",
+            "x": 28492.62,
+            "y": -12833.16,
+            "z": -4616.42,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Commercial District East",
+            "x": 13750.45,
+            "y": -28409.62,
+            "z": -3140.47,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "Cross Roads NE",
+            "x": -24762.1,
+            "y": -13176.98,
+            "z": -3343.54,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "4D"
+            ]
+        },
+        {
+            "name": "Monument Park Apartments",
+            "x": -14732.46,
+            "y": -20155.66,
+            "z": -4317.31,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "4D"
+            ]
+        },
+        {
+            "name": "Cemetary",
+            "x": -48688.69,
+            "y": -3088.0,
+            "z": -4317.31,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "4E"
+            ]
+        },
+        {
+            "name": "Green Zone",
+            "x": 11188.12,
+            "y": 22101.45,
+            "z": -3134.74,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                },
+                {
+                    "order": 6,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5B",
+                "6C"
+            ]
+        },
+        {
+            "name": "Commericial District South",
+            "x": 4140.18,
+            "y": -10846.32,
+            "z": -3257.04,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C"
+            ]
+        },
+        {
+            "name": "Hotel",
+            "x": 12314.77,
+            "y": -13372.51,
+            "z": -3255.26,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C"
+            ]
+        },
+        {
+            "name": "Factory",
+            "x": 42504.66,
+            "y": 22392.8,
+            "z": -3510.2,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                },
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5A",
+                "5B"
+            ]
+        },
+        {
+            "name": "Crossroads SE",
+            "x": -19334.22,
+            "y": -874.33,
+            "z": -3140.47,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "5D"
+            ]
+        },
+        {
+            "name": "TV Station",
+            "x": -14330.85,
+            "y": -8022.61,
+            "z": -3590.47,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "5D"
+            ]
+        },
+        {
+            "name": "Warehouse",
+            "x": -3721.65,
+            "y": 8444.23,
+            "z": -4317.31,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "5D"
+            ]
+        },
+        {
+            "name": "Risala",
+            "x": -25140.97,
+            "y": 23554.94,
+            "z": -4216.47,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "D"
+                },
+                {
+                    "order": 6,
+                    "lane": "D"
+                },
+                {
+                    "order": 5,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "5D",
+                "6D",
+                "5E"
+            ]
+        },
+        {
+            "name": "Mullah's Compound",
+            "x": 48884.66,
+            "y": 9812.8,
+            "z": -4220.2,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Jubai",
+            "x": -46035.66,
+            "y": 43845.59,
+            "z": -4371.37,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "6E"
+            ]
+        },
+        {
+            "name": "Communications Towers",
+            "x": 18934.66,
+            "y": 60035.7,
+            "z": -1768.63,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                },
+                {
+                    "order": 6,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "6A",
+                "6B"
+            ]
+        },
+        {
+            "name": "Al-Khadra",
+            "x": -10911.57,
+            "y": 61324.21,
+            "z": -4193.89,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "A"
+                },
+                {
+                    "order": 7,
+                    "lane": "B"
+                },
+                {
+                    "order": 7,
+                    "lane": "C"
+                },
+                {
+                    "order": 7,
+                    "lane": "D"
+                },
+                {
+                    "order": 7,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "7A",
+                "7B",
+                "7C",
+                "7D",
+                "7E"
+            ]
+        }
+    ]
+}

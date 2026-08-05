@@ -1,0 +1,113 @@
+{
+    "map_id": "narva",
+    "layer_name": "Narva_AAS_v2",
+    "total_flags": 8,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -118948.04,
+            "y": -80889.05,
+            "z": 1420.17
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 127752.34,
+            "y": 32691.81,
+            "z": 299.99
+        },
+        {
+            "name": "Radio Station",
+            "x": -54447.24,
+            "y": -78119.7,
+            "z": 1937.47,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Old Barracks",
+            "x": -10034.25,
+            "y": -70823.98,
+            "z": 1303.48,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Old Hospital",
+            "x": -13707.25,
+            "y": -33756.98,
+            "z": 1303.48,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Oru Village",
+            "x": -31531.16,
+            "y": 15196.23,
+            "z": 495.57,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Kanepi Rd",
+            "x": -4627.44,
+            "y": 40009.0,
+            "z": 660.66,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Power Plant",
+            "x": 45297.31,
+            "y": 57687.69,
+            "z": 1477.89,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        }
+    ]
+}

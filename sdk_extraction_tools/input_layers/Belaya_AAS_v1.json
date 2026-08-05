@@ -1,0 +1,77 @@
+{
+    "map_id": "belaya_pass",
+    "layer_name": "Belaya_AAS_v1",
+    "total_flags": 7,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -138206.11,
+            "y": 115502.0,
+            "z": -29452.91,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Velino",
+            "lane": "Any",
+            "order": 1,
+            "x": 13891.43,
+            "y": -162213.44,
+            "z": -30447.75,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Tire Factory",
+            "lane": "Any",
+            "order": 2,
+            "x": -27607.43,
+            "y": -136102.27,
+            "z": -30210.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Train Tunnel",
+            "lane": "Any",
+            "order": 3,
+            "x": -51553.73,
+            "y": -69589.06,
+            "z": -30211.52,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Nikola",
+            "lane": "Any",
+            "order": 4,
+            "x": -25539.02,
+            "y": -6010.92,
+            "z": -30519.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Depot",
+            "lane": "Any",
+            "order": 5,
+            "x": -81820.25,
+            "y": 35952.95,
+            "z": -30183.59,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 91562.55,
+            "y": -154164.41,
+            "z": -30179.07,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

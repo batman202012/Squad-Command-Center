@@ -1,0 +1,128 @@
+{
+    "map_id": "kohat",
+    "layer_name": "Kohat_Skirmish_v1",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 41708.09,
+            "y": 49767.48,
+            "z": 3836.94
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -73901.27,
+            "y": 22780.0,
+            "z": 3797.38
+        },
+        {
+            "name": "East Ridge",
+            "x": 18101.06,
+            "y": 45086.77,
+            "z": 4833.12,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Malak Abad",
+            "x": -10735.42,
+            "y": 9261.92,
+            "z": 2903.12,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Syed Abad",
+            "x": -11377.92,
+            "y": 28138.86,
+            "z": 2227.3,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Ali Abad",
+            "x": -4386.1,
+            "y": -22839.37,
+            "z": 4543.75,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Mohd Zai",
+            "x": -20035.24,
+            "y": 53214.82,
+            "z": 1413.12,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Elder's Compound",
+            "x": -18228.38,
+            "y": 69938.14,
+            "z": 1273.12,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "Darbond Hill",
+            "x": -50479.97,
+            "y": 38908.59,
+            "z": 6953.12,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "7Any"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,257 @@
+{
+    "map_id": "sumari",
+    "layer_name": "Sumari_RAAS_v1",
+    "total_flags": 25,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -52021.77,
+            "y": 29424.0,
+            "z": -13222.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 1,
+            "x": -35041.0,
+            "y": 32298.0,
+            "z": -13496.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Checkpoint",
+            "lane": "Any",
+            "order": 1,
+            "x": -35435.0,
+            "y": 36754.0,
+            "z": -13483.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Two Story",
+            "lane": "Any",
+            "order": 1,
+            "x": -30972.0,
+            "y": 28761.0,
+            "z": -13499.77,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Women's Mosque",
+            "lane": "Any",
+            "order": 1,
+            "x": -41568.0,
+            "y": 31975.0,
+            "z": -13096.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 2,
+            "x": -19564.0,
+            "y": 28439.0,
+            "z": -13487.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Brickworks",
+            "lane": "Any",
+            "order": 2,
+            "x": -18566.0,
+            "y": 31640.0,
+            "z": -13472.78,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Courtyard",
+            "lane": "Any",
+            "order": 2,
+            "x": -20389.0,
+            "y": 26108.0,
+            "z": -13336.72,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 3,
+            "x": -11203.0,
+            "y": 16126.0,
+            "z": -13486.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Market",
+            "lane": "Any",
+            "order": 3,
+            "x": -16420.0,
+            "y": 13735.0,
+            "z": -13485.54,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Police Station",
+            "lane": "Any",
+            "order": 3,
+            "x": -6562.0,
+            "y": 19558.0,
+            "z": -13485.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Al-Zawahiri Compound",
+            "lane": "Any",
+            "order": 3,
+            "x": -15460.38,
+            "y": 18475.6,
+            "z": -13485.55,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Slums",
+            "lane": "Any",
+            "order": 3,
+            "x": -4523.0,
+            "y": 5415.0,
+            "z": -13418.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 4,
+            "x": 6991.0,
+            "y": 26945.0,
+            "z": -13201.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Materials Site",
+            "lane": "Any",
+            "order": 4,
+            "x": 1376.0,
+            "y": 31204.0,
+            "z": -13445.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Palace",
+            "lane": "Any",
+            "order": 4,
+            "x": 11606.0,
+            "y": 26208.0,
+            "z": -13471.72,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Mosque",
+            "lane": "Any",
+            "order": 4,
+            "x": 7334.0,
+            "y": 21967.0,
+            "z": -13152.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Souk",
+            "lane": "Any",
+            "order": 4,
+            "x": 8893.0,
+            "y": 34537.0,
+            "z": -12987.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 5,
+            "x": 22582.0,
+            "y": 29591.0,
+            "z": -13488.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Bakery",
+            "lane": "Any",
+            "order": 5,
+            "x": 19983.08,
+            "y": 34361.72,
+            "z": -13500.29,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "School",
+            "lane": "Any",
+            "order": 5,
+            "x": 24423.0,
+            "y": 25352.0,
+            "z": -12691.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 6,
+            "x": 35051.32,
+            "y": 22067.14,
+            "z": -13488.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Training Camp",
+            "lane": "Any",
+            "order": 6,
+            "x": 37146.24,
+            "y": 15320.77,
+            "z": -13245.5,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Drug Den",
+            "lane": "Any",
+            "order": 6,
+            "x": 48521.01,
+            "y": 13459.69,
+            "z": -13408.92,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 52245.48,
+            "y": 33313.07,
+            "z": -13255.72,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

@@ -1,0 +1,137 @@
+{
+    "map_id": "goose_bay",
+    "layer_name": "GooseBay_Skirmish_v1",
+    "total_flags": 13,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 14351.18,
+            "y": 170127.76,
+            "z": -23426.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Morris Crescent",
+            "lane": "Any",
+            "order": 1,
+            "x": -8465.38,
+            "y": 163981.11,
+            "z": -24028.74,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Treeline",
+            "lane": "Any",
+            "order": 2,
+            "x": -35644.47,
+            "y": 151772.18,
+            "z": -24419.26,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Groves St",
+            "lane": "Any",
+            "order": 3,
+            "x": -20922.97,
+            "y": 151338.58,
+            "z": -24260.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hangar",
+            "lane": "Any",
+            "order": 4,
+            "x": -18251.0,
+            "y": 135370.37,
+            "z": -23768.24,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Cartwright",
+            "lane": "Any",
+            "order": 5,
+            "x": -7060.72,
+            "y": 144962.7,
+            "z": -23579.58,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Pondside",
+            "lane": "Any",
+            "order": 6,
+            "x": -33378.86,
+            "y": 165954.44,
+            "z": -24053.34,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ATC",
+            "lane": "Any",
+            "order": 7,
+            "x": -29845.82,
+            "y": 132703.31,
+            "z": -23839.33,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -43826.72,
+            "y": 115885.17,
+            "z": -23609.25,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead2",
+            "lane": "Any",
+            "order": -1,
+            "x": 137463.02,
+            "y": 11862.72,
+            "z": -14388.09,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "CAF",
+            "lane": "Any",
+            "order": -1,
+            "x": 137461.98,
+            "y": 11859.9,
+            "z": -13546.48,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead3",
+            "lane": "Any",
+            "order": -1,
+            "x": -93157.02,
+            "y": 112599.05,
+            "z": -24388.09,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "CAF2",
+            "lane": "Any",
+            "order": -1,
+            "x": -93164.05,
+            "y": 112599.23,
+            "z": -23596.48,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

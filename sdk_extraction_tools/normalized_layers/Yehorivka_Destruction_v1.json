@@ -1,0 +1,824 @@
+{
+    "map_id": "yehorivka",
+    "layer_name": "Yehorivka_Destruction_v1",
+    "total_flags": 100,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -145303.61,
+            "y": 152513.83,
+            "z": 4629.76
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 132585.33,
+            "y": -32896.28,
+            "z": 5872.29
+        },
+        {
+            "name": "ObjectiveSpawnLocation",
+            "lane": "Any",
+            "order": -1,
+            "x": -76110.0,
+            "y": 67920.0,
+            "z": 6596.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation2",
+            "lane": "Any",
+            "order": -1,
+            "x": -76250.0,
+            "y": 69770.0,
+            "z": 6580.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation3",
+            "lane": "Any",
+            "order": -1,
+            "x": -75470.0,
+            "y": 69860.0,
+            "z": 6580.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation4",
+            "lane": "Any",
+            "order": -1,
+            "x": -74161.0,
+            "y": 69470.0,
+            "z": 6600.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation5",
+            "lane": "Any",
+            "order": -1,
+            "x": -70620.0,
+            "y": 70410.0,
+            "z": 6460.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation6",
+            "lane": "Any",
+            "order": -1,
+            "x": -67910.0,
+            "y": 72010.0,
+            "z": 6620.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation7",
+            "lane": "Any",
+            "order": -1,
+            "x": -67910.0,
+            "y": 72010.0,
+            "z": 6976.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation8",
+            "lane": "Any",
+            "order": -1,
+            "x": -67110.0,
+            "y": 72010.0,
+            "z": 6967.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation9",
+            "lane": "Any",
+            "order": -1,
+            "x": -66457.31,
+            "y": 66515.81,
+            "z": 6590.13
+        },
+        {
+            "name": "ObjectiveSpawnLocation10",
+            "lane": "Any",
+            "order": -1,
+            "x": -66717.31,
+            "y": 65225.81,
+            "z": 6590.13
+        },
+        {
+            "name": "ObjectiveSpawnLocation11",
+            "lane": "Any",
+            "order": -1,
+            "x": -68717.31,
+            "y": 65465.81,
+            "z": 6620.13
+        },
+        {
+            "name": "ObjectiveSpawnLocation12",
+            "lane": "Any",
+            "order": -1,
+            "x": -75107.31,
+            "y": 63955.81,
+            "z": 6660.13
+        },
+        {
+            "name": "ObjectiveSpawnLocation13",
+            "lane": "Any",
+            "order": -1,
+            "x": -74507.31,
+            "y": 62635.81,
+            "z": 6660.13
+        },
+        {
+            "name": "ObjectiveSpawnLocation14",
+            "lane": "Any",
+            "order": -1,
+            "x": -80807.31,
+            "y": 62985.81,
+            "z": 6560.13
+        },
+        {
+            "name": "ObjectiveSpawnLocation15",
+            "lane": "Any",
+            "order": -1,
+            "x": -83377.31,
+            "y": 65005.81,
+            "z": 6560.13
+        },
+        {
+            "name": "ObjectiveSpawnLocation16",
+            "lane": "Any",
+            "order": -1,
+            "x": -82477.31,
+            "y": 66285.81,
+            "z": 6560.13
+        },
+        {
+            "name": "ObjectiveSpawnLocation17",
+            "lane": "Any",
+            "order": -1,
+            "x": -81007.31,
+            "y": 66285.81,
+            "z": 6560.13
+        },
+        {
+            "name": "ObjectiveSpawnLocation18",
+            "lane": "Any",
+            "order": -1,
+            "x": 12624.0,
+            "y": 117510.0,
+            "z": 9958.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation19",
+            "lane": "Any",
+            "order": -1,
+            "x": 14650.0,
+            "y": 117620.0,
+            "z": 10140.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation20",
+            "lane": "Any",
+            "order": -1,
+            "x": 15780.0,
+            "y": 114610.0,
+            "z": 10151.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation21",
+            "lane": "Any",
+            "order": -1,
+            "x": 15780.0,
+            "y": 109649.0,
+            "z": 10080.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation22",
+            "lane": "Any",
+            "order": -1,
+            "x": 15780.0,
+            "y": 106970.0,
+            "z": 10080.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation23",
+            "lane": "Any",
+            "order": -1,
+            "x": 20370.0,
+            "y": 106970.0,
+            "z": 10270.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation24",
+            "lane": "Any",
+            "order": -1,
+            "x": 22150.0,
+            "y": 112660.0,
+            "z": 10250.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation25",
+            "lane": "Any",
+            "order": -1,
+            "x": 22240.0,
+            "y": 115690.0,
+            "z": 10250.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation26",
+            "lane": "Any",
+            "order": -1,
+            "x": 20380.0,
+            "y": 111800.0,
+            "z": 10264.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation27",
+            "lane": "Any",
+            "order": -1,
+            "x": 18680.0,
+            "y": 114350.0,
+            "z": 10048.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation28",
+            "lane": "Any",
+            "order": -1,
+            "x": 8930.0,
+            "y": 115290.0,
+            "z": 9840.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation29",
+            "lane": "Any",
+            "order": -1,
+            "x": 8660.0,
+            "y": 111830.0,
+            "z": 9876.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation30",
+            "lane": "Any",
+            "order": -1,
+            "x": -82240.0,
+            "y": -82920.0,
+            "z": 4280.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation31",
+            "lane": "Any",
+            "order": -1,
+            "x": -84530.0,
+            "y": -82920.0,
+            "z": 4280.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation32",
+            "lane": "Any",
+            "order": -1,
+            "x": -84710.0,
+            "y": -83840.0,
+            "z": 4289.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation33",
+            "lane": "Any",
+            "order": -1,
+            "x": -84450.0,
+            "y": -85500.0,
+            "z": 4310.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation34",
+            "lane": "Any",
+            "order": -1,
+            "x": -83290.0,
+            "y": -86960.0,
+            "z": 4250.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation35",
+            "lane": "Any",
+            "order": -1,
+            "x": -81700.0,
+            "y": -86230.0,
+            "z": 4290.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation36",
+            "lane": "Any",
+            "order": -1,
+            "x": -86140.0,
+            "y": -91340.0,
+            "z": 4240.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation37",
+            "lane": "Any",
+            "order": -1,
+            "x": -87180.0,
+            "y": -90520.0,
+            "z": 4250.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation38",
+            "lane": "Any",
+            "order": -1,
+            "x": -89030.0,
+            "y": -91850.0,
+            "z": 4250.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation39",
+            "lane": "Any",
+            "order": -1,
+            "x": -89030.0,
+            "y": -93380.0,
+            "z": 4250.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation40",
+            "lane": "Any",
+            "order": -1,
+            "x": -93010.0,
+            "y": -91800.0,
+            "z": 4280.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation41",
+            "lane": "Any",
+            "order": -1,
+            "x": -92980.0,
+            "y": -91580.0,
+            "z": 4645.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation42",
+            "lane": "Any",
+            "order": -1,
+            "x": -94860.0,
+            "y": -83810.0,
+            "z": 3696.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation43",
+            "lane": "Any",
+            "order": -1,
+            "x": -90880.0,
+            "y": -76450.0,
+            "z": 2919.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation44",
+            "lane": "Any",
+            "order": -1,
+            "x": -71440.0,
+            "y": -150210.0,
+            "z": 5590.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation45",
+            "lane": "Any",
+            "order": -1,
+            "x": -70930.0,
+            "y": -149650.0,
+            "z": 5630.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation46",
+            "lane": "Any",
+            "order": -1,
+            "x": -68460.0,
+            "y": -146310.0,
+            "z": 5600.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation47",
+            "lane": "Any",
+            "order": -1,
+            "x": -65850.0,
+            "y": -146310.0,
+            "z": 5570.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation48",
+            "lane": "Any",
+            "order": -1,
+            "x": -65390.0,
+            "y": -143690.0,
+            "z": 5550.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation49",
+            "lane": "Any",
+            "order": -1,
+            "x": -66190.0,
+            "y": -140810.0,
+            "z": 5550.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation50",
+            "lane": "Any",
+            "order": -1,
+            "x": -64790.0,
+            "y": -140200.0,
+            "z": 5550.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation51",
+            "lane": "Any",
+            "order": -1,
+            "x": -63310.0,
+            "y": -141400.0,
+            "z": 5560.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation52",
+            "lane": "Any",
+            "order": -1,
+            "x": -71240.0,
+            "y": -143220.0,
+            "z": 5720.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation53",
+            "lane": "Any",
+            "order": -1,
+            "x": -72750.0,
+            "y": -145160.0,
+            "z": 5730.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation54",
+            "lane": "Any",
+            "order": -1,
+            "x": -73970.0,
+            "y": -145160.0,
+            "z": 5700.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation55",
+            "lane": "Any",
+            "order": -1,
+            "x": -77470.0,
+            "y": -137600.0,
+            "z": 4630.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation56",
+            "lane": "Any",
+            "order": -1,
+            "x": -79290.0,
+            "y": -137270.0,
+            "z": 4610.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation57",
+            "lane": "Any",
+            "order": -1,
+            "x": -82790.0,
+            "y": -139570.0,
+            "z": 4380.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation58",
+            "lane": "Any",
+            "order": -1,
+            "x": -86010.0,
+            "y": -143190.0,
+            "z": 4480.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation59",
+            "lane": "Any",
+            "order": -1,
+            "x": -84750.0,
+            "y": -144840.0,
+            "z": 4430.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation60",
+            "lane": "Any",
+            "order": -1,
+            "x": -86670.0,
+            "y": -144060.0,
+            "z": 4821.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation61",
+            "lane": "Any",
+            "order": -1,
+            "x": -100140.0,
+            "y": -139600.0,
+            "z": 3730.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation62",
+            "lane": "Any",
+            "order": -1,
+            "x": -101650.0,
+            "y": -144000.0,
+            "z": 3730.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation63",
+            "lane": "Any",
+            "order": -1,
+            "x": -102290.0,
+            "y": -148060.0,
+            "z": 3730.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation64",
+            "lane": "Any",
+            "order": -1,
+            "x": -100030.0,
+            "y": -152410.0,
+            "z": 3730.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation65",
+            "lane": "Any",
+            "order": -1,
+            "x": -94250.0,
+            "y": -143530.0,
+            "z": 4560.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation66",
+            "lane": "Any",
+            "order": -1,
+            "x": 50040.0,
+            "y": -188560.0,
+            "z": 8040.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation67",
+            "lane": "Any",
+            "order": -1,
+            "x": 50040.0,
+            "y": -191140.0,
+            "z": 8040.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation68",
+            "lane": "Any",
+            "order": -1,
+            "x": 51270.0,
+            "y": -190910.0,
+            "z": 8030.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation69",
+            "lane": "Any",
+            "order": -1,
+            "x": 56190.0,
+            "y": -191670.0,
+            "z": 8030.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation70",
+            "lane": "Any",
+            "order": -1,
+            "x": 54900.0,
+            "y": -193310.0,
+            "z": 8050.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation71",
+            "lane": "Any",
+            "order": -1,
+            "x": 58770.0,
+            "y": -192530.0,
+            "z": 8030.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation72",
+            "lane": "Any",
+            "order": -1,
+            "x": 59140.0,
+            "y": -192240.0,
+            "z": 8080.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation73",
+            "lane": "Any",
+            "order": -1,
+            "x": 59090.0,
+            "y": -195920.0,
+            "z": 8030.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation74",
+            "lane": "Any",
+            "order": -1,
+            "x": 61160.0,
+            "y": -195971.0,
+            "z": 8030.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation75",
+            "lane": "Any",
+            "order": -1,
+            "x": 61070.0,
+            "y": -197230.0,
+            "z": 8040.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation76",
+            "lane": "Any",
+            "order": -1,
+            "x": 58590.0,
+            "y": -197940.0,
+            "z": 8020.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation77",
+            "lane": "Any",
+            "order": -1,
+            "x": 63907.0,
+            "y": -195510.0,
+            "z": 8030.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation78",
+            "lane": "Any",
+            "order": -1,
+            "x": 64650.0,
+            "y": -194850.0,
+            "z": 8060.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation79",
+            "lane": "Any",
+            "order": -1,
+            "x": 64650.0,
+            "y": -192290.0,
+            "z": 8060.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation80",
+            "lane": "Any",
+            "order": -1,
+            "x": 64650.0,
+            "y": -191090.0,
+            "z": 8030.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation81",
+            "lane": "Any",
+            "order": -1,
+            "x": 65660.0,
+            "y": -189830.0,
+            "z": 8030.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation82",
+            "lane": "Any",
+            "order": -1,
+            "x": 64180.0,
+            "y": -187670.0,
+            "z": 8040.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation83",
+            "lane": "Any",
+            "order": -1,
+            "x": 60680.0,
+            "y": -187670.0,
+            "z": 8030.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation84",
+            "lane": "Any",
+            "order": -1,
+            "x": 57230.0,
+            "y": -187670.0,
+            "z": 8030.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation85",
+            "lane": "Any",
+            "order": -1,
+            "x": 57230.0,
+            "y": -188620.0,
+            "z": 8030.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation86",
+            "lane": "Any",
+            "order": -1,
+            "x": 59770.0,
+            "y": -190150.0,
+            "z": 8040.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation87",
+            "lane": "Any",
+            "order": -1,
+            "x": 56230.0,
+            "y": -181780.0,
+            "z": 8040.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation88",
+            "lane": "Any",
+            "order": -1,
+            "x": 64960.0,
+            "y": -183710.0,
+            "z": 8070.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation89",
+            "lane": "Any",
+            "order": -1,
+            "x": 64869.0,
+            "y": -183023.0,
+            "z": 8414.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation90",
+            "lane": "Any",
+            "order": -1,
+            "x": 102630.0,
+            "y": -191680.0,
+            "z": 7640.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation91",
+            "lane": "Any",
+            "order": -1,
+            "x": 104350.0,
+            "y": -192340.0,
+            "z": 7640.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation92",
+            "lane": "Any",
+            "order": -1,
+            "x": 105030.0,
+            "y": -192340.0,
+            "z": 7640.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation93",
+            "lane": "Any",
+            "order": -1,
+            "x": 104830.0,
+            "y": -190260.0,
+            "z": 7630.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation94",
+            "lane": "Any",
+            "order": -1,
+            "x": 103610.0,
+            "y": -187550.0,
+            "z": 7630.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation95",
+            "lane": "Any",
+            "order": -1,
+            "x": 101990.0,
+            "y": -187760.0,
+            "z": 7630.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation96",
+            "lane": "Any",
+            "order": -1,
+            "x": 101990.0,
+            "y": -189840.0,
+            "z": 7630.0
+        },
+        {
+            "name": "ObjectiveSpawnLocation97",
+            "lane": "Any",
+            "order": -1,
+            "x": 103923.0,
+            "y": -190474.0,
+            "z": 7642.0
+        },
+        {
+            "name": "DestructionObjectiveArea",
+            "x": -73240.0,
+            "y": 67240.0,
+            "z": 7230.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "P"
+                },
+                {
+                    "order": 2,
+                    "lane": "P"
+                },
+                {
+                    "order": 3,
+                    "lane": "P"
+                }
+            ],
+            "phase_labels": [
+                "1P",
+                "2P",
+                "3P"
+            ]
+        }
+    ]
+}

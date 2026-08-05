@@ -1,0 +1,117 @@
+{
+    "map_id": "jensens_range",
+    "layer_name": "Jensens_Range_ADF-PLAAGF",
+    "total_flags": 11,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 7743.2,
+            "y": -27163.04,
+            "z": -45.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Jensen's Test Track",
+            "lane": "Any",
+            "order": 1,
+            "x": 60964.22,
+            "y": -96575.63,
+            "z": -594.53,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 6235.45,
+            "y": -27955.45,
+            "z": -45.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead1",
+            "lane": "Any",
+            "order": -1,
+            "x": 6674.17,
+            "y": -19008.2,
+            "z": 235.91,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "PLA",
+            "lane": "Any",
+            "order": -1,
+            "x": 6674.44,
+            "y": -19008.84,
+            "z": 599.52,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead2",
+            "lane": "Any",
+            "order": -1,
+            "x": 6663.34,
+            "y": -16996.31,
+            "z": 235.91,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ADF",
+            "lane": "Any",
+            "order": -1,
+            "x": 6663.6,
+            "y": -16996.95,
+            "z": 599.52,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ADF_Rallypoint",
+            "lane": "Any",
+            "order": -1,
+            "x": 6747.0,
+            "y": -17868.0,
+            "z": -45.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "PLA_Rallypoint",
+            "lane": "Any",
+            "order": -1,
+            "x": 6739.72,
+            "y": -18164.68,
+            "z": -45.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "US RallyPoint",
+            "lane": "Any",
+            "order": -1,
+            "x": 6751.49,
+            "y": -17852.61,
+            "z": -45.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "INS Rallypoint",
+            "lane": "Any",
+            "order": -1,
+            "x": 6734.92,
+            "y": -18167.88,
+            "z": -45.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

@@ -1,0 +1,665 @@
+{
+    "map_id": "tallil_outskirts",
+    "layer_name": "Tallil_RAAS_v1",
+    "total_flags": 36,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -167670.28,
+            "y": 197123.62,
+            "z": -6704.35
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 146970.17,
+            "y": -196973.12,
+            "z": -6852.64
+        },
+        {
+            "name": "SM_USA_Flag_4",
+            "lane": "Any",
+            "order": -1,
+            "x": -56791.81,
+            "y": 102645.78,
+            "z": -7225.26
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": -59253.03,
+            "y": 109318.96,
+            "z": -7103.6
+        },
+        {
+            "name": "SM_USA_Flag_2",
+            "lane": "Any",
+            "order": -1,
+            "x": -59292.87,
+            "y": 109131.57,
+            "z": -7103.6
+        },
+        {
+            "name": "SM_USA_Flag_3",
+            "lane": "Any",
+            "order": -1,
+            "x": -59334.63,
+            "y": 108935.06,
+            "z": -7103.6
+        },
+        {
+            "name": "Eridu",
+            "x": -84947.11,
+            "y": 161504.02,
+            "z": -7022.7,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                },
+                {
+                    "order": 1,
+                    "lane": "B"
+                },
+                {
+                    "order": 1,
+                    "lane": "C"
+                },
+                {
+                    "order": 1,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "1A",
+                "1B",
+                "1C",
+                "1D"
+            ]
+        },
+        {
+            "name": "Ali Billet",
+            "x": -53432.32,
+            "y": 105147.27,
+            "z": -7213.27,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Mahatt Ur",
+            "x": 43936.39,
+            "y": 151053.72,
+            "z": -7532.46,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                },
+                {
+                    "order": 2,
+                    "lane": "C"
+                },
+                {
+                    "order": 3,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "2B",
+                "2C",
+                "3D"
+            ]
+        },
+        {
+            "name": "Ali Hangars 3 &",
+            "x": -36193.61,
+            "y": 106276.2,
+            "z": -7232.82,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                },
+                {
+                    "order": 2,
+                    "lane": "D"
+                },
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2A",
+                "2D",
+                "3C"
+            ]
+        },
+        {
+            "name": "Ali Service Area",
+            "x": -34264.22,
+            "y": 122571.91,
+            "z": -7232.82,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                },
+                {
+                    "order": 2,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "2A",
+                "2D"
+            ]
+        },
+        {
+            "name": "Ali Hangar",
+            "x": -14171.29,
+            "y": 104223.37,
+            "z": -7232.06,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                },
+                {
+                    "order": 2,
+                    "lane": "D"
+                },
+                {
+                    "order": 3,
+                    "lane": "A"
+                },
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2A",
+                "2D",
+                "3A",
+                "3C"
+            ]
+        },
+        {
+            "name": "Gas Town",
+            "x": 107354.14,
+            "y": 77420.77,
+            "z": -7175.49,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                },
+                {
+                    "order": 4,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "3B",
+                "4D"
+            ]
+        },
+        {
+            "name": "Ali Airbase NW",
+            "x": -67547.57,
+            "y": 79526.78,
+            "z": -7232.06,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Abandoned Soviet Base W",
+            "x": 13235.09,
+            "y": 10424.75,
+            "z": -7216.18,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                },
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4B",
+                "4C"
+            ]
+        },
+        {
+            "name": "Abandoned Service Hangars",
+            "x": -11196.62,
+            "y": -1809.06,
+            "z": -7239.02,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                },
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4B",
+                "5C"
+            ]
+        },
+        {
+            "name": "Abandoned Soviet Base E",
+            "x": 25864.64,
+            "y": 19612.7,
+            "z": -7217.58,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                },
+                {
+                    "order": 4,
+                    "lane": "C"
+                },
+                {
+                    "order": 5,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "4B",
+                "4C",
+                "5D"
+            ]
+        },
+        {
+            "name": "Fortified ATC",
+            "x": -48615.86,
+            "y": 31140.77,
+            "z": -7175.49,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                },
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4A",
+                "4C"
+            ]
+        },
+        {
+            "name": "Airfield Outpost",
+            "x": -83635.86,
+            "y": 10450.77,
+            "z": -7535.49,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Iraqi Hangars 23 &",
+            "x": -55387.91,
+            "y": -19275.2,
+            "z": -7222.66,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                },
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5A",
+                "5B"
+            ]
+        },
+        {
+            "name": "Iraqi Hangars 25 &",
+            "x": -41288.46,
+            "y": -11297.41,
+            "z": -7222.66,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                },
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5A",
+                "5B"
+            ]
+        },
+        {
+            "name": "Iraqi Hangars 12 &",
+            "x": -34955.03,
+            "y": -29526.48,
+            "z": -7232.05,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                },
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5A",
+                "5B"
+            ]
+        },
+        {
+            "name": "Overpass Ridge",
+            "x": 118144.14,
+            "y": 2920.77,
+            "z": -7615.49,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "5D"
+            ]
+        },
+        {
+            "name": "Iraqi Hangars 21 &",
+            "x": -69755.29,
+            "y": -35991.14,
+            "z": -7232.05,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "Iraqi Hangars 16 &",
+            "x": -70210.09,
+            "y": -49682.2,
+            "z": -7232.05,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "Iraqi Hangars 18 &",
+            "x": -87603.48,
+            "y": -43801.68,
+            "z": -7232.05,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "East Batha",
+            "x": 24831.14,
+            "y": -131429.25,
+            "z": -7798.45,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "B"
+                },
+                {
+                    "order": 7,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6B",
+                "7A"
+            ]
+        },
+        {
+            "name": "North Batha",
+            "x": 5371.14,
+            "y": -147629.25,
+            "z": -7798.45,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "B"
+                },
+                {
+                    "order": 7,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6B",
+                "7A"
+            ]
+        },
+        {
+            "name": "West Batha",
+            "x": 731.14,
+            "y": -134029.25,
+            "z": -7798.45,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "B"
+                },
+                {
+                    "order": 7,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6B",
+                "7A"
+            ]
+        },
+        {
+            "name": "Refueling Area",
+            "x": 54005.9,
+            "y": -22972.31,
+            "z": -7929.36,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "C"
+                },
+                {
+                    "order": 6,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "6C",
+                "6D"
+            ]
+        },
+        {
+            "name": "West Al-Khidhir",
+            "x": 75809.27,
+            "y": -56852.43,
+            "z": -7969.27,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "D"
+                },
+                {
+                    "order": 7,
+                    "lane": "C"
+                },
+                {
+                    "order": 7,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "6D",
+                "7C",
+                "7B"
+            ]
+        },
+        {
+            "name": "North Al-Khidhir",
+            "x": 84760.88,
+            "y": -66991.02,
+            "z": -7969.27,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "D"
+                },
+                {
+                    "order": 7,
+                    "lane": "C"
+                },
+                {
+                    "order": 7,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "6D",
+                "7C",
+                "7B"
+            ]
+        },
+        {
+            "name": "South Batha",
+            "x": 7331.14,
+            "y": -125419.25,
+            "z": -7798.45,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "7A"
+            ]
+        },
+        {
+            "name": "East Al-Khidhir",
+            "x": 110093.12,
+            "y": -60496.09,
+            "z": -7929.36,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "C"
+                },
+                {
+                    "order": 7,
+                    "lane": "D"
+                },
+                {
+                    "order": 7,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "7C",
+                "7D",
+                "7B"
+            ]
+        },
+        {
+            "name": "Sympathizer's Compound",
+            "x": 102473.16,
+            "y": -68966.12,
+            "z": -7929.36,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "C"
+                },
+                {
+                    "order": 7,
+                    "lane": "D"
+                },
+                {
+                    "order": 7,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "7C",
+                "7D",
+                "7B"
+            ]
+        },
+        {
+            "name": "Batha",
+            "x": 7331.14,
+            "y": -125419.25,
+            "z": -7798.45,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "6B"
+            ]
+        }
+    ]
+}

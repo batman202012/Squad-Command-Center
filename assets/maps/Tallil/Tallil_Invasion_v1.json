@@ -1,0 +1,280 @@
+{
+    "map_id": "tallil_outskirts",
+    "layer_name": "Tallil_Invasion_v1",
+    "total_flags": 21,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -167912.2,
+            "y": 198587.66,
+            "z": -6791.15
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 148075.45,
+            "y": -200616.31,
+            "z": -6698.53
+        },
+        {
+            "name": "SM_USA_Flag_4",
+            "lane": "Any",
+            "order": -1,
+            "x": -56791.81,
+            "y": 102645.78,
+            "z": -7225.26
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": -59253.03,
+            "y": 109318.96,
+            "z": -7103.6
+        },
+        {
+            "name": "SM_USA_Flag_2",
+            "lane": "Any",
+            "order": -1,
+            "x": -59292.87,
+            "y": 109131.57,
+            "z": -7103.6
+        },
+        {
+            "name": "SM_USA_Flag_3",
+            "lane": "Any",
+            "order": -1,
+            "x": -59334.63,
+            "y": 108935.06,
+            "z": -7103.6
+        },
+        {
+            "name": "Eridu",
+            "x": -84179.14,
+            "y": 158200.72,
+            "z": -6947.11,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "1A"
+            ]
+        },
+        {
+            "name": "Central Ali Air Base",
+            "x": -53313.57,
+            "y": 104755.95,
+            "z": -7226.75,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Mahatt Ur",
+            "x": 42831.19,
+            "y": 153315.47,
+            "z": -7576.36,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "South Ali Air Base",
+            "x": -33927.04,
+            "y": 122196.49,
+            "z": -7226.75,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "North Ali Air Base",
+            "x": -58166.71,
+            "y": 81877.86,
+            "z": -7226.75,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Fortified ATC",
+            "x": -48396.81,
+            "y": 30814.8,
+            "z": -7242.49,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Gas Town",
+            "x": 108854.14,
+            "y": 78301.04,
+            "z": -7576.36,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Abandoned Soviet Base East",
+            "x": 25574.08,
+            "y": 19566.28,
+            "z": -7213.5,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Central Iraqi Hangars",
+            "x": -55123.28,
+            "y": -18525.45,
+            "z": -7187.81,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Civilian Hangars",
+            "x": -12322.99,
+            "y": 117.96,
+            "z": -7187.87,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Overpass",
+            "x": 122927.84,
+            "y": 9633.46,
+            "z": -7576.36,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Ridgeline",
+            "x": 106415.34,
+            "y": -12606.83,
+            "z": -7576.36,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Batha",
+            "x": 10261.94,
+            "y": -136169.89,
+            "z": -7634.26,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "East Al-Khidhir",
+            "x": 112668.28,
+            "y": -63269.03,
+            "z": -7475.37,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "West Al-Khidhir",
+            "x": 77297.19,
+            "y": -67371.69,
+            "z": -7475.39,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        }
+    ]
+}

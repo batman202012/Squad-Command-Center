@@ -1,0 +1,630 @@
+{
+    "map_id": "goose_bay",
+    "layer_name": "GooseBay_RAAS_v1",
+    "total_flags": 38,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -157025.64,
+            "y": -178368.22,
+            "z": -22535.98
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 185516.84,
+            "y": 173713.9,
+            "z": -20374.88
+        },
+        {
+            "name": "FlagPole_Ballhead2",
+            "lane": "Any",
+            "order": -1,
+            "x": 137463.02,
+            "y": 11862.72,
+            "z": -14388.09
+        },
+        {
+            "name": "CAF",
+            "lane": "Any",
+            "order": -1,
+            "x": 137461.98,
+            "y": 11859.9,
+            "z": -13546.48
+        },
+        {
+            "name": "FlagPole_Ballhead3",
+            "lane": "Any",
+            "order": -1,
+            "x": -93157.02,
+            "y": 112599.05,
+            "z": -24388.09
+        },
+        {
+            "name": "CAF2",
+            "lane": "Any",
+            "order": -1,
+            "x": -93164.05,
+            "y": 112599.23,
+            "z": -23596.48
+        },
+        {
+            "name": "Naval Refueling Station",
+            "x": -119867.53,
+            "y": -62222.51,
+            "z": -21808.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                },
+                {
+                    "order": 1,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1A",
+                "1B"
+            ]
+        },
+        {
+            "name": "Train Yard",
+            "x": -84322.09,
+            "y": -102467.69,
+            "z": -21808.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "B"
+                },
+                {
+                    "order": 1,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "1B",
+                "1C"
+            ]
+        },
+        {
+            "name": "Sheshatshiu",
+            "x": -4712.6,
+            "y": -125491.47,
+            "z": -15417.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "C"
+                },
+                {
+                    "order": 1,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "1C",
+                "1D"
+            ]
+        },
+        {
+            "name": "Drilling Site",
+            "x": -93284.79,
+            "y": -16391.97,
+            "z": -20738.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "Shimik",
+            "x": -87510.62,
+            "y": -45542.64,
+            "z": -22778.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "Taqqut Coop",
+            "x": -163869.27,
+            "y": 9353.23,
+            "z": -22571.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Churchill",
+            "x": 33101.52,
+            "y": -88630.35,
+            "z": -18883.08,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                },
+                {
+                    "order": 2,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "2C",
+                "2D"
+            ]
+        },
+        {
+            "name": "FOB Inkpen",
+            "x": 93381.51,
+            "y": -111260.35,
+            "z": -14463.08,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "2D"
+            ]
+        },
+        {
+            "name": "NORAD Facility",
+            "x": 104070.2,
+            "y": -39285.04,
+            "z": -12597.14,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                },
+                {
+                    "order": 3,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "3C",
+                "3D"
+            ]
+        },
+        {
+            "name": "Factory",
+            "x": -182942.96,
+            "y": 79042.13,
+            "z": -24476.47,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Hilltop Redoubt",
+            "x": -7964.3,
+            "y": -12600.62,
+            "z": -15663.16,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "Weather Station",
+            "x": -72329.78,
+            "y": 22739.27,
+            "z": -23720.97,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Fishing Village",
+            "x": -117068.41,
+            "y": 56524.73,
+            "z": -23630.97,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Farmstead",
+            "x": -29057.0,
+            "y": -2913.94,
+            "z": -19311.82,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Research Station",
+            "x": -56760.55,
+            "y": 93948.43,
+            "z": -23557.0,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "CFB Goose Bay",
+            "x": 57985.27,
+            "y": 10629.8,
+            "z": -13657.14,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "5 Wing HQ",
+            "x": -94748.41,
+            "y": 112784.73,
+            "z": -24360.97,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Military Housing Central",
+            "x": 140009.73,
+            "y": 12193.18,
+            "z": -13657.14,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "D"
+                },
+                {
+                    "order": 4,
+                    "lane": "C"
+                },
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4D",
+                "4C",
+                "5C"
+            ]
+        },
+        {
+            "name": "Military Housing SE",
+            "x": 144389.73,
+            "y": 17803.18,
+            "z": -13657.14,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "D"
+                },
+                {
+                    "order": 4,
+                    "lane": "C"
+                },
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4D",
+                "4C",
+                "5C"
+            ]
+        },
+        {
+            "name": "Military Housing NW",
+            "x": 131739.73,
+            "y": 5263.18,
+            "z": -13657.14,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "D"
+                },
+                {
+                    "order": 4,
+                    "lane": "C"
+                },
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4D",
+                "4C",
+                "5C"
+            ]
+        },
+        {
+            "name": "Roundabout",
+            "x": -80948.41,
+            "y": 83284.73,
+            "z": -24426.95,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Happy Valley",
+            "x": -13021.29,
+            "y": 150679.95,
+            "z": -21613.0,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                },
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5A",
+                "5B"
+            ]
+        },
+        {
+            "name": "OP Hebb",
+            "x": 17313.59,
+            "y": 109189.73,
+            "z": -19280.97,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "Airfield Checkpoint",
+            "x": 85375.95,
+            "y": 25355.53,
+            "z": -13657.14,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "5D"
+            ]
+        },
+        {
+            "name": "Happy Valley Industrial",
+            "x": -35681.83,
+            "y": 185839.86,
+            "z": -21613.0,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Refinery",
+            "x": 97166.4,
+            "y": 72668.99,
+            "z": -16351.12,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "D"
+                },
+                {
+                    "order": 6,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "6D",
+                "6C"
+            ]
+        },
+        {
+            "name": "Shipping Center",
+            "x": 71757.53,
+            "y": 140494.69,
+            "z": -21613.0,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                },
+                {
+                    "order": 6,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "6A",
+                "6B"
+            ]
+        },
+        {
+            "name": "Crossing",
+            "x": 179766.4,
+            "y": 75968.99,
+            "z": -17936.75,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "D"
+                },
+                {
+                    "order": 6,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "6D",
+                "6C"
+            ]
+        },
+        {
+            "name": "General's House",
+            "x": 138866.4,
+            "y": 63568.99,
+            "z": -16321.35,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "D"
+                },
+                {
+                    "order": 6,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "6D",
+                "6C"
+            ]
+        },
+        {
+            "name": "Pump Station",
+            "x": 78383.4,
+            "y": 95579.79,
+            "z": -17426.72,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                },
+                {
+                    "order": 6,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "6A",
+                "6B"
+            ]
+        },
+        {
+            "name": "Postville",
+            "x": 147816.4,
+            "y": 139138.99,
+            "z": -19283.58,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "B"
+                },
+                {
+                    "order": 7,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "7B",
+                "7A"
+            ]
+        },
+        {
+            "name": "PostvilleNorth",
+            "x": 147516.4,
+            "y": 121238.99,
+            "z": -19783.58,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "C"
+                },
+                {
+                    "order": 7,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "7C",
+                "7D"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,152 @@
+{
+    "map_id": "fallujah_city",
+    "layer_name": "Fallujah_Skirmish_v1",
+    "total_flags": 12,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 48628.09,
+            "y": 9767.48,
+            "z": -4327.89
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -6811.27,
+            "y": -10690.0,
+            "z": -4332.62
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": -37129.02,
+            "y": 80872.95,
+            "z": -2988.29
+        },
+        {
+            "name": "SM_USA_Flag_3",
+            "lane": "Any",
+            "order": -1,
+            "x": 13294.93,
+            "y": 43220.02,
+            "z": -4412.89
+        },
+        {
+            "name": "SM_USA_Flag_2",
+            "lane": "Any",
+            "order": -1,
+            "x": -27127.36,
+            "y": -36929.61,
+            "z": -3818.97
+        },
+        {
+            "name": "Warehouse",
+            "x": 50872.56,
+            "y": -4992.11,
+            "z": -4146.88,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Market Square",
+            "x": 40377.0,
+            "y": -8460.82,
+            "z": -5246.88,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "South Entrance",
+            "x": 29527.88,
+            "y": -3391.3,
+            "z": -5552.7,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Bazaar",
+            "x": 28499.27,
+            "y": -12813.79,
+            "z": -3876.25,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "West Entrance",
+            "x": 20946.0,
+            "y": -12139.29,
+            "z": -4856.88,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Storehouses",
+            "x": 34395.81,
+            "y": -14668.8,
+            "z": -4226.88,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "Hotel",
+            "x": 12318.93,
+            "y": -13623.76,
+            "z": -5486.88,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "7Any"
+            ]
+        }
+    ]
+}

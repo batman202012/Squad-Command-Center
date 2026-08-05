@@ -1,0 +1,225 @@
+{
+    "map_id": "kohat",
+    "layer_name": "Kohat_Invasion_v2",
+    "total_flags": 20,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 23617.38,
+            "y": 157545.91,
+            "z": 3762.28,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 1,
+            "x": -98693.52,
+            "y": -28394.45,
+            "z": 22020.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "01-Chakar Kot",
+                "01-Bahadur Valley"
+            ]
+        },
+        {
+            "name": "Bahadur Valley",
+            "lane": "Any",
+            "order": 1,
+            "x": -88584.01,
+            "y": 20699.87,
+            "z": 4526.32,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Chakar Kot",
+            "lane": "Any",
+            "order": 1,
+            "x": -17124.33,
+            "y": -60790.05,
+            "z": 6970.54,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 2,
+            "x": -32085.79,
+            "y": 14012.22,
+            "z": 13742.81,
+            "is_sky_node": true,
+            "linked_flags": [
+                "03-Malak Abad",
+                "02-Ali Abad2",
+                "02-Ali Abad"
+            ]
+        },
+        {
+            "name": "Ali Abad",
+            "lane": "Any",
+            "order": 2,
+            "x": -3023.31,
+            "y": -20923.05,
+            "z": 3686.15,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Ali Abad2",
+            "lane": "Any",
+            "order": 2,
+            "x": 7047.92,
+            "y": -10924.04,
+            "z": 3133.1,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 3,
+            "x": -8270.44,
+            "y": 41489.02,
+            "z": 19328.91,
+            "is_sky_node": true,
+            "linked_flags": [
+                "03-Syed Abad",
+                "03-Lower Mohd Zai",
+                "03-Mohd Zai"
+            ]
+        },
+        {
+            "name": "Lower Mohd Zai",
+            "lane": "Any",
+            "order": 3,
+            "x": -17775.11,
+            "y": 69272.52,
+            "z": 3709.33,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Malak Abad",
+            "lane": "Any",
+            "order": 3,
+            "x": -11675.94,
+            "y": 8984.17,
+            "z": 3197.4,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Syed Abad",
+            "lane": "Any",
+            "order": 3,
+            "x": -6575.06,
+            "y": 33484.85,
+            "z": 2143.11,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Mohd Zai",
+            "lane": "Any",
+            "order": 3,
+            "x": -19985.27,
+            "y": 52267.97,
+            "z": 2143.11,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 4,
+            "x": 59721.64,
+            "y": 45922.02,
+            "z": 7831.81,
+            "is_sky_node": true,
+            "linked_flags": [
+                "04-Upper Ambar Banda",
+                "04-Jouzara Valley",
+                "04-Jouzara Proper",
+                "04-Ambar Banda Bridge"
+            ]
+        },
+        {
+            "name": "Jouzara Proper",
+            "lane": "Any",
+            "order": 4,
+            "x": 83885.31,
+            "y": 60241.23,
+            "z": 1826.52,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Jouzara Valley",
+            "lane": "Any",
+            "order": 4,
+            "x": 66899.85,
+            "y": 67263.23,
+            "z": 1735.61,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ambar Banda Bridge",
+            "lane": "Any",
+            "order": 4,
+            "x": 41421.41,
+            "y": 68234.06,
+            "z": 1887.75,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Upper Ambar Banda",
+            "lane": "Any",
+            "order": 4,
+            "x": 42581.5,
+            "y": 50733.27,
+            "z": 1887.75,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 5,
+            "x": 115966.64,
+            "y": 81972.02,
+            "z": 22658.81,
+            "is_sky_node": true,
+            "linked_flags": [
+                "05-Hangu"
+            ]
+        },
+        {
+            "name": "Hangu",
+            "lane": "Any",
+            "order": 5,
+            "x": 114800.84,
+            "y": 89438.56,
+            "z": 3020.06,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -151076.56,
+            "y": -72678.64,
+            "z": 8021.88,
+            "is_sky_node": true,
+            "linked_flags": []
+        }
+    ]
+}

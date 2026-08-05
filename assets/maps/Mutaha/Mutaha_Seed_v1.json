@@ -1,0 +1,68 @@
+{
+    "map_id": "mutaha",
+    "layer_name": "Mutaha_Seed_v1",
+    "total_flags": 5,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 33661.31,
+            "y": -18053.05,
+            "z": -100.41
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 19205.75,
+            "y": 53546.55,
+            "z": -548.28
+        },
+        {
+            "name": "Ammo Warehouse",
+            "x": 42484.89,
+            "y": 14431.45,
+            "z": 343.15,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Checkpoint",
+            "x": 33801.7,
+            "y": 24021.7,
+            "z": 483.53,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Police Station",
+            "x": 27035.46,
+            "y": 37093.06,
+            "z": 371.3,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        }
+    ]
+}

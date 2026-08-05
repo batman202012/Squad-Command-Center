@@ -1,0 +1,128 @@
+{
+    "map_id": "lashkar_valley",
+    "layer_name": "Lashkar_AAS_v2",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 2347.15,
+            "y": 155340.22,
+            "z": 1506.14
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 154786.61,
+            "y": -157719.73,
+            "z": 1194.62
+        },
+        {
+            "name": "Sheena",
+            "x": -944.5,
+            "y": 113537.66,
+            "z": 633.21,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Nangalam",
+            "x": 587.91,
+            "y": 66584.63,
+            "z": 859.25,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Toormang",
+            "x": 29758.78,
+            "y": 46817.39,
+            "z": 782.59,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Malgir",
+            "x": 4657.05,
+            "y": 20568.12,
+            "z": 839.19,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Lashkar",
+            "x": -2610.0,
+            "y": -33652.65,
+            "z": 919.79,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Ak Toba",
+            "x": 33063.17,
+            "y": -82512.57,
+            "z": 946.08,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "Sahib Abad",
+            "x": 70519.06,
+            "y": -111284.73,
+            "z": 1352.56,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "7Any"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "id": "kokan",
+    "name": "Kokan",
+    "metadata": {
+        "mapExtent": [
+            0,
+            -8192,
+            8192,
+            0
+        ],
+        "physicalSizeMeters": 2496,
+        "physicalSizeMetersX": 2496,
+        "physicalSizeMetersY": 2496,
+        "ueOffsetX": -172,
+        "ueOffsetY": -172,
+        "maxZoom": 5,
+        "minZoom": 1,
+        "tileUrl": "./assets/maps/Kokan/kokan_tiles/{z}/{x}/{y}.png",
+        "heightmapUrl": "./assets/maps/Kokan/kokan_height_map.webp",
+        "heightmapSize": 4096
+    }
+}

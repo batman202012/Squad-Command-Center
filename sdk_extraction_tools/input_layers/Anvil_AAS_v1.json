@@ -1,0 +1,77 @@
+{
+    "map_id": "anvil",
+    "layer_name": "Anvil_AAS_v1",
+    "total_flags": 7,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -160541.94,
+            "y": -183808.38,
+            "z": -4465.36,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Vineyard",
+            "lane": "Any",
+            "order": 1,
+            "x": -109266.0,
+            "y": -97320.0,
+            "z": -6046.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Orchard",
+            "lane": "Any",
+            "order": 2,
+            "x": -71027.0,
+            "y": -59005.0,
+            "z": -6547.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lavender Farm",
+            "lane": "Any",
+            "order": 3,
+            "x": -32345.0,
+            "y": -46515.0,
+            "z": -5512.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Qalat",
+            "lane": "Any",
+            "order": 4,
+            "x": 7980.0,
+            "y": -66750.0,
+            "z": -5789.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Poppy Farms",
+            "lane": "Any",
+            "order": 5,
+            "x": 57067.0,
+            "y": -49081.0,
+            "z": -5266.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 74664.64,
+            "y": -2700.3,
+            "z": -5830.42,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

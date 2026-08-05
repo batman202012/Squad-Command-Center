@@ -1,0 +1,97 @@
+{
+    "map_id": "lashkar_valley",
+    "layer_name": "Lashkar_AAS_v1",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 2110.47,
+            "y": 154995.03,
+            "z": 1133.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Sheena",
+            "lane": "Any",
+            "order": 1,
+            "x": -753.28,
+            "y": 113577.48,
+            "z": 740.18,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Soviet Outpost",
+            "lane": "Any",
+            "order": 2,
+            "x": 102864.94,
+            "y": 86808.64,
+            "z": 9851.78,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Ghawchak Village",
+            "lane": "Any",
+            "order": 3,
+            "x": 113870.12,
+            "y": 41053.98,
+            "z": 3640.87,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Gulestan",
+            "lane": "Any",
+            "order": 4,
+            "x": 81499.5,
+            "y": 3124.11,
+            "z": 3235.21,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Marjah",
+            "lane": "Any",
+            "order": 5,
+            "x": 151206.42,
+            "y": 2294.8,
+            "z": 2961.63,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Takur Ghar",
+            "lane": "Any",
+            "order": 6,
+            "x": 74101.02,
+            "y": -63124.89,
+            "z": 3470.25,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Kanju",
+            "lane": "Any",
+            "order": 7,
+            "x": 144425.3,
+            "y": -70717.8,
+            "z": 3743.5,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 154951.17,
+            "y": -158445.89,
+            "z": 1782.4,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

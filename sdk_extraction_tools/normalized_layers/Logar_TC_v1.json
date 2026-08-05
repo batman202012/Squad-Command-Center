@@ -1,0 +1,23 @@
+{
+    "map_id": "logar_valley",
+    "layer_name": "Logar_TC_v1",
+    "total_flags": 2,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -73420.13,
+            "y": -15910.43,
+            "z": 4947.17
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 69863.43,
+            "y": -43644.62,
+            "z": 4547.16
+        }
+    ]
+}

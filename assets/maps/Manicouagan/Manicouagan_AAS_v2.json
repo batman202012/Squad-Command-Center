@@ -1,0 +1,152 @@
+{
+    "map_id": "manicouagan",
+    "layer_name": "Manicouagan_AAS_v2",
+    "total_flags": 12,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 175568.15,
+            "y": 185838.19,
+            "z": 5182.0
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -180909.63,
+            "y": -174879.23,
+            "z": 8219.46
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": -170099.52,
+            "y": -73194.71,
+            "z": 12147.0
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh",
+            "lane": "Any",
+            "order": -1,
+            "x": -33322.11,
+            "y": -35379.22,
+            "z": 5300.0
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh2",
+            "lane": "Any",
+            "order": -1,
+            "x": -34046.83,
+            "y": -32674.62,
+            "z": 5300.0
+        },
+        {
+            "name": "Diefenbunker",
+            "x": 117292.44,
+            "y": 112317.89,
+            "z": 5495.72,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Bay Comeau East",
+            "x": 33725.2,
+            "y": 118604.9,
+            "z": 5508.02,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Bay Comeau Central",
+            "x": -20772.84,
+            "y": 83752.18,
+            "z": 5672.89,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Firebase Boris",
+            "x": -27420.16,
+            "y": 25665.86,
+            "z": 5762.02,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Power Station",
+            "x": -34599.21,
+            "y": -34242.41,
+            "z": 4489.04,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Underground Dam Outlet",
+            "x": -49140.17,
+            "y": -69580.38,
+            "z": 3257.82,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "Alma",
+            "x": -123085.26,
+            "y": -71492.72,
+            "z": 7629.01,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "7Any"
+            ]
+        }
+    ]
+}

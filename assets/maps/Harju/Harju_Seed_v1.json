@@ -1,0 +1,210 @@
+{
+    "map_id": "maps",
+    "layer_name": "Harju_Seed_v1",
+    "total_flags": 21,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 101127.84,
+            "y": -20370.72,
+            "z": 990.35
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -7476.74,
+            "y": -62928.87,
+            "z": 1274.45
+        },
+        {
+            "name": "HorizontalFlag8",
+            "lane": "Any",
+            "order": -1,
+            "x": 33094.27,
+            "y": -88780.67,
+            "z": 3985.98
+        },
+        {
+            "name": "HorizontalFlag7",
+            "lane": "Any",
+            "order": -1,
+            "x": -60165.73,
+            "y": 54779.47,
+            "z": 856.04
+        },
+        {
+            "name": "SM_USA_Flag_3",
+            "lane": "Any",
+            "order": -1,
+            "x": -60166.42,
+            "y": 54782.28,
+            "z": 261.88
+        },
+        {
+            "name": "FlagPole_Ballhead_Angled",
+            "lane": "Any",
+            "order": -1,
+            "x": 149.0,
+            "y": -53458.77,
+            "z": 1119.5
+        },
+        {
+            "name": "FlagPole_Ballhead_Angled3",
+            "lane": "Any",
+            "order": -1,
+            "x": 110.84,
+            "y": -53468.02,
+            "z": 1158.76
+        },
+        {
+            "name": "HorizontalFlag3",
+            "lane": "Any",
+            "order": -1,
+            "x": -30138.54,
+            "y": -113734.52,
+            "z": 1107.62
+        },
+        {
+            "name": "HorizontalFlag4",
+            "lane": "Any",
+            "order": -1,
+            "x": -57055.11,
+            "y": -102082.51,
+            "z": 1175.74
+        },
+        {
+            "name": "HorizontalFlag9",
+            "lane": "Any",
+            "order": -1,
+            "x": -30132.83,
+            "y": -113735.54,
+            "z": 476.81
+        },
+        {
+            "name": "FlagPole_Ballhead_Angled2",
+            "lane": "Any",
+            "order": -1,
+            "x": 60657.86,
+            "y": -79864.52,
+            "z": 638.96
+        },
+        {
+            "name": "HorizontalFlag5",
+            "lane": "Any",
+            "order": -1,
+            "x": 60622.98,
+            "y": -79879.95,
+            "z": 679.59
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh",
+            "lane": "Any",
+            "order": -1,
+            "x": 69160.72,
+            "y": -90375.8,
+            "z": 154.61
+        },
+        {
+            "name": "HorizontalFlag_InstancedMesh",
+            "lane": "Any",
+            "order": -1,
+            "x": 71324.23,
+            "y": -88866.98,
+            "z": 628.87
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh2",
+            "lane": "Any",
+            "order": -1,
+            "x": 84540.36,
+            "y": -87894.29,
+            "z": 172.2
+        },
+        {
+            "name": "HorizontalFlag_InstancedMesh2",
+            "lane": "Any",
+            "order": -1,
+            "x": 84544.05,
+            "y": -87892.7,
+            "z": 646.47
+        },
+        {
+            "name": "Abandoned Homes",
+            "x": 82652.95,
+            "y": -46746.45,
+            "z": 741.75,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Southern Apartments",
+            "x": 81447.23,
+            "y": -70616.01,
+            "z": -338.96,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Wunda Mart",
+            "x": 65928.87,
+            "y": -84580.99,
+            "z": 651.36,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "BioChem Plant",
+            "x": 62579.41,
+            "y": -104673.86,
+            "z": 1176.67,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Construction Site",
+            "x": 32067.24,
+            "y": -91447.17,
+            "z": 2273.29,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

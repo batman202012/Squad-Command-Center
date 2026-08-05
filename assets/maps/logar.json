@@ -1,0 +1,22 @@
+{
+    "id": "logar",
+    "name": "Logar Valley",
+    "metadata": {
+        "mapExtent": [
+            0,
+            -8192,
+            8192,
+            0
+        ],
+        "physicalSizeMeters": 1761,
+        "physicalSizeMetersX": 1761,
+        "physicalSizeMetersY": 1761,
+        "ueOffsetX": 1,
+        "ueOffsetY": 251,
+        "maxZoom": 5,
+        "minZoom": 1,
+        "tileUrl": "./assets/maps/Logar/logar_tiles/{z}/{x}/{y}.png",
+        "heightmapUrl": "./assets/maps/Logar/logar_height_map.webp",
+        "heightmapSize": 4096
+    }
+}

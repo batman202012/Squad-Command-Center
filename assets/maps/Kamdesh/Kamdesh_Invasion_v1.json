@@ -1,0 +1,158 @@
+{
+    "map_id": "kamdesh_highlands",
+    "layer_name": "Kamdesh_Invasion_v1",
+    "total_flags": 11,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -153539.0,
+            "y": 42571.55,
+            "z": 6916.02
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 121873.38,
+            "y": -113934.12,
+            "z": 9547.95
+        },
+        {
+            "name": "Toba",
+            "x": -115802.84,
+            "y": 109935.63,
+            "z": 7675.23,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Sao",
+            "x": -94762.44,
+            "y": 12622.98,
+            "z": 6380.79,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Carpenter's Guild",
+            "x": -84773.44,
+            "y": 84769.98,
+            "z": 6380.79,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Aringshah",
+            "x": -44745.27,
+            "y": 110201.33,
+            "z": 7818.25,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "OP Chaxton",
+            "x": -52546.44,
+            "y": 43873.04,
+            "z": 4884.89,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Darin",
+            "x": -15277.14,
+            "y": 77117.51,
+            "z": 5054.07,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Nahrain",
+            "x": -18825.14,
+            "y": 9458.51,
+            "z": 5645.07,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Capo",
+            "x": 29021.86,
+            "y": 29033.51,
+            "z": 6340.07,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Tatar",
+            "x": 77233.86,
+            "y": 45958.51,
+            "z": 6340.07,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

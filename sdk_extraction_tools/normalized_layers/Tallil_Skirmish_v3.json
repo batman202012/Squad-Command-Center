@@ -1,0 +1,160 @@
+{
+    "map_id": "tallil_outskirts",
+    "layer_name": "Tallil_Skirmish_v3",
+    "total_flags": 13,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -46134.88,
+            "y": 31532.36,
+            "z": -7110.64
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -103422.14,
+            "y": -80822.62,
+            "z": -7218.98
+        },
+        {
+            "name": "SM_USA_Flag_4",
+            "lane": "Any",
+            "order": -1,
+            "x": -56791.81,
+            "y": 102645.78,
+            "z": -7225.26
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": -59253.03,
+            "y": 109318.96,
+            "z": -7103.6
+        },
+        {
+            "name": "SM_USA_Flag_2",
+            "lane": "Any",
+            "order": -1,
+            "x": -59292.87,
+            "y": 109131.57,
+            "z": -7103.6
+        },
+        {
+            "name": "SM_USA_Flag_3",
+            "lane": "Any",
+            "order": -1,
+            "x": -59334.63,
+            "y": 108935.06,
+            "z": -7103.6
+        },
+        {
+            "name": "Alpha",
+            "x": -43900.55,
+            "y": -7342.73,
+            "z": -7841.81,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Bravo",
+            "x": -53238.34,
+            "y": -22939.93,
+            "z": -7810.2,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Charlie",
+            "x": -66052.7,
+            "y": -33341.43,
+            "z": -7860.14,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Delta",
+            "x": -51769.92,
+            "y": -39338.96,
+            "z": -7415.61,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Echo",
+            "x": -30917.1,
+            "y": -27239.1,
+            "z": -7636.94,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Foxtrot",
+            "x": -74106.3,
+            "y": -52428.95,
+            "z": -8052.04,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "Golf",
+            "x": -90416.76,
+            "y": -38899.35,
+            "z": -7363.98,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "7Any"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,293 @@
+{
+    "map_id": "gorodok",
+    "layer_name": "Gorodok_Invasion_v4_CL",
+    "total_flags": 19,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -25816.88,
+            "y": 166545.52,
+            "z": -3862.47
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -1419.12,
+            "y": -176857.77,
+            "z": -3231.55
+        },
+        {
+            "name": "P115 Intersection",
+            "x": -135810.48,
+            "y": 47414.95,
+            "z": -2472.43,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                },
+                {
+                    "order": 1,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1A",
+                "1B"
+            ]
+        },
+        {
+            "name": "Outpost",
+            "x": -98511.76,
+            "y": 74220.32,
+            "z": -2472.43,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                },
+                {
+                    "order": 1,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1A",
+                "1B"
+            ]
+        },
+        {
+            "name": "Wheat Farm",
+            "x": -78799.31,
+            "y": 37119.29,
+            "z": -3449.63,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                },
+                {
+                    "order": 1,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1A",
+                "1B"
+            ]
+        },
+        {
+            "name": "Niva Upper",
+            "x": -30286.39,
+            "y": 10230.1,
+            "z": -1728.54,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Niva Lower",
+            "x": 365.68,
+            "y": 13976.39,
+            "z": -3776.6,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "Abandoned Storage",
+            "x": -64473.77,
+            "y": 554.92,
+            "z": -867.24,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Hilltop Old Bunker",
+            "x": -43769.98,
+            "y": -612.72,
+            "z": -972.8,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "River Fortifications",
+            "x": 37955.03,
+            "y": 47746.39,
+            "z": -4677.36,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "Radio Tower",
+            "x": 40467.73,
+            "y": -4155.93,
+            "z": -3531.26,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Sluda Hamlet",
+            "x": 74637.71,
+            "y": -39484.07,
+            "z": -2794.21,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Sluda Overlook",
+            "x": 83514.05,
+            "y": -20129.63,
+            "z": -2169.41,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Boris Farmstead",
+            "x": 102731.94,
+            "y": 54359.97,
+            "z": -89.69,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Tunnel Defences",
+            "x": 136674.13,
+            "y": 19822.32,
+            "z": -2419.17,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Butcher's House",
+            "x": 121672.77,
+            "y": -16447.12,
+            "z": -2773.5,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Akim Central",
+            "x": 127507.97,
+            "y": -77989.67,
+            "z": -3651.84,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Rocky gorge",
+            "x": 99177.66,
+            "y": -108230.33,
+            "z": -3651.84,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Akim Lower",
+            "x": 72431.59,
+            "y": -93814.48,
+            "z": -4708.62,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        }
+    ]
+}

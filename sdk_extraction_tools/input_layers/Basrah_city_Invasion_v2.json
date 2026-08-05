@@ -1,0 +1,544 @@
+{
+    "map_id": "basrah_city",
+    "layer_name": "AlBasrah_Invasion_v2",
+    "total_flags": 49,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 48037.52,
+            "y": -134147.56,
+            "z": -776.78,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 1,
+            "x": -64966.62,
+            "y": -88865.36,
+            "z": 4221.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "01-North Hangars"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 1,
+            "x": -48725.98,
+            "y": -70479.36,
+            "z": 4221.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B1-Basrah Airport"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 1,
+            "x": 11799.21,
+            "y": -45468.03,
+            "z": 4221.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C1-North Hwy 6 Bridge",
+                "C1-North VCP Ruins"
+            ]
+        },
+        {
+            "name": "North Hwy 6 Bridge",
+            "lane": "C",
+            "order": 1,
+            "x": 35115.7,
+            "y": -48801.42,
+            "z": -573.77,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "North Hangars",
+            "lane": "Any",
+            "order": 1,
+            "x": -63190.36,
+            "y": -102878.62,
+            "z": -778.44,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Basrah Airport",
+            "lane": "B",
+            "order": 1,
+            "x": -67285.36,
+            "y": -70647.62,
+            "z": -778.44,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "North VCP Ruins",
+            "lane": "C",
+            "order": 1,
+            "x": -7509.3,
+            "y": -27339.42,
+            "z": -573.77,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 2,
+            "x": -69377.11,
+            "y": -73053.06,
+            "z": 4220.99,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A2-Basrah Airport",
+                "A2-Basrah Airport Admin",
+                "A2-Basrah Airport Camp"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 2,
+            "x": -28501.47,
+            "y": -10949.41,
+            "z": 4221.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B2-Guest House",
+                "B2-North VCP Ruins",
+                "B2-VCP"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 2,
+            "x": 40357.84,
+            "y": 22147.48,
+            "z": 4221.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C2-Refinery Housing",
+                "C2-Refinery"
+            ]
+        },
+        {
+            "name": "Basrah Airport Admin",
+            "lane": "A",
+            "order": 2,
+            "x": -60009.36,
+            "y": -69890.62,
+            "z": -778.44,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "North VCP Ruins",
+            "lane": "B",
+            "order": 2,
+            "x": -7509.3,
+            "y": -27339.42,
+            "z": -573.77,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Refinery Housing",
+            "lane": "C",
+            "order": 2,
+            "x": 33577.92,
+            "y": 30945.06,
+            "z": -766.01,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Basrah Airport Camp",
+            "lane": "A",
+            "order": 2,
+            "x": -74300.36,
+            "y": -72158.62,
+            "z": -778.44,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Basrah Airport",
+            "lane": "A",
+            "order": 2,
+            "x": -67285.36,
+            "y": -70647.62,
+            "z": -778.44,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Refinery",
+            "lane": "C",
+            "order": 2,
+            "x": 46727.5,
+            "y": 33266.25,
+            "z": -766.01,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Guest House",
+            "lane": "B",
+            "order": 2,
+            "x": -39967.81,
+            "y": 13198.5,
+            "z": -778.45,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "VCP",
+            "lane": "B",
+            "order": 2,
+            "x": -7361.02,
+            "y": -7485.13,
+            "z": -573.77,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 3,
+            "x": -67221.08,
+            "y": 20032.58,
+            "z": 4220.97,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A3-Ruins",
+                "A3-Guest House",
+                "A3-Al Khora"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 3,
+            "x": 995.81,
+            "y": 33470.39,
+            "z": 4221.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B3-North Outskirts2",
+                "B3-West Outskirts",
+                "B3-North Outskirts"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 3,
+            "x": 42934.96,
+            "y": 53286.42,
+            "z": 4221.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C3-North Apartments",
+                "C3-Mosque"
+            ]
+        },
+        {
+            "name": "North Outskirts",
+            "lane": "B",
+            "order": 3,
+            "x": 14192.05,
+            "y": 25471.36,
+            "z": -766.01,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ruins",
+            "lane": "A",
+            "order": 3,
+            "x": -81498.45,
+            "y": 7730.01,
+            "z": -778.45,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Al Khora",
+            "lane": "A",
+            "order": 3,
+            "x": -84229.26,
+            "y": 38534.16,
+            "z": -778.45,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Guest House",
+            "lane": "A",
+            "order": 3,
+            "x": -39967.81,
+            "y": 13198.5,
+            "z": -778.45,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "North Outskirts2",
+            "lane": "B",
+            "order": 3,
+            "x": 2952.05,
+            "y": 35504.18,
+            "z": -766.01,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "West Outskirts",
+            "lane": "B",
+            "order": 3,
+            "x": -5428.5,
+            "y": 43870.07,
+            "z": -766.01,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Mosque",
+            "lane": "C",
+            "order": 3,
+            "x": 31542.99,
+            "y": 50106.5,
+            "z": -395.56,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "North Apartments",
+            "lane": "C",
+            "order": 3,
+            "x": 44577.61,
+            "y": 51540.79,
+            "z": -395.56,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 4,
+            "x": -9671.38,
+            "y": 77452.52,
+            "z": 4221.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A4-Druglord Compound",
+                "A4-Gas Station",
+                "A4-Oasis Park"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 4,
+            "x": 20168.13,
+            "y": 54460.41,
+            "z": 4221.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B4-Crossroads",
+                "B4-Mosque",
+                "B4-Market Apartments"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 4,
+            "x": 43783.21,
+            "y": 71507.24,
+            "z": 4221.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C4-Central Apartments",
+                "C4-South Apartments"
+            ]
+        },
+        {
+            "name": "Mosque",
+            "lane": "B",
+            "order": 4,
+            "x": 31542.99,
+            "y": 50106.5,
+            "z": -395.56,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Gas Station",
+            "lane": "A",
+            "order": 4,
+            "x": -4695.65,
+            "y": 70709.74,
+            "z": -778.45,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Oasis Park",
+            "lane": "A",
+            "order": 4,
+            "x": -871.93,
+            "y": 84983.12,
+            "z": -778.45,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Druglord Compound",
+            "lane": "A",
+            "order": 4,
+            "x": -38597.51,
+            "y": 46579.53,
+            "z": -778.44,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Crossroads",
+            "lane": "B",
+            "order": 4,
+            "x": 22551.99,
+            "y": 63239.09,
+            "z": -395.56,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Market Apartments",
+            "lane": "B",
+            "order": 4,
+            "x": 10841.06,
+            "y": 56363.46,
+            "z": -395.56,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "South Apartments",
+            "lane": "C",
+            "order": 4,
+            "x": 46957.44,
+            "y": 69014.88,
+            "z": -395.58,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Central Apartments",
+            "lane": "C",
+            "order": 4,
+            "x": 39772.73,
+            "y": 67874.04,
+            "z": -395.58,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 5,
+            "x": -290.02,
+            "y": 112849.52,
+            "z": 4221.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A5-Lower Fringe"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 5,
+            "x": 24746.36,
+            "y": 83694.06,
+            "z": 4221.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B5-Commerce District",
+                "B5-South Suburbs"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 5,
+            "x": 65598.8,
+            "y": 66824.41,
+            "z": 4221.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C5-Island Suburbs"
+            ]
+        },
+        {
+            "name": "Island Suburbs",
+            "lane": "C",
+            "order": 5,
+            "x": 65793.76,
+            "y": 65649.34,
+            "z": -978.54,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lower Fringe",
+            "lane": "A",
+            "order": 5,
+            "x": 2696.01,
+            "y": 116025.7,
+            "z": -778.43,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Commerce District",
+            "lane": "B",
+            "order": 5,
+            "x": 14203.02,
+            "y": 82597.55,
+            "z": -395.56,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "South Suburbs",
+            "lane": "B",
+            "order": 5,
+            "x": 30441.56,
+            "y": 79001.71,
+            "z": -395.56,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 62647.95,
+            "y": 115752.84,
+            "z": -767.42,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

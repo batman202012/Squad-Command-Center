@@ -1,0 +1,146 @@
+{
+    "map_id": "maps",
+    "layer_name": "BlackCoast_Seed_v1",
+    "total_flags": 13,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -15546.82,
+            "y": -101371.95,
+            "z": 1016.87
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -65697.94,
+            "y": -31756.68,
+            "z": 999.07
+        },
+        {
+            "name": "FlagPole_Ballhead",
+            "lane": "Any",
+            "order": -1,
+            "x": 11920.24,
+            "y": -40469.14,
+            "z": 891.66
+        },
+        {
+            "name": "FlagPole_Ballhead2",
+            "lane": "Any",
+            "order": -1,
+            "x": 11920.24,
+            "y": -40469.14,
+            "z": 1627.19
+        },
+        {
+            "name": "FlagPole_Ballhead3",
+            "lane": "Any",
+            "order": -1,
+            "x": 64957.38,
+            "y": -23632.21,
+            "z": 5073.71
+        },
+        {
+            "name": "FlagPole_Ballhead4",
+            "lane": "Any",
+            "order": -1,
+            "x": 64957.38,
+            "y": -23632.2,
+            "z": 5808.99
+        },
+        {
+            "name": "FlagPole_Ballhead5",
+            "lane": "Any",
+            "order": -1,
+            "x": -2058.19,
+            "y": 83500.22,
+            "z": 887.74
+        },
+        {
+            "name": "FlagPole_Ballhead6",
+            "lane": "Any",
+            "order": -1,
+            "x": -2058.19,
+            "y": 83500.22,
+            "z": 1176.52
+        },
+        {
+            "name": "Gas Station",
+            "x": -30608.13,
+            "y": -73478.51,
+            "z": 1188.33,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Old Factory",
+            "x": -31475.39,
+            "y": -63102.73,
+            "z": 859.45,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Village Centre",
+            "x": -41158.42,
+            "y": -63557.8,
+            "z": 859.45,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Kalinovka School",
+            "x": -49576.69,
+            "y": -60513.82,
+            "z": 1228.6,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Anton's Homestead",
+            "x": -55168.98,
+            "y": -45091.03,
+            "z": 1003.16,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

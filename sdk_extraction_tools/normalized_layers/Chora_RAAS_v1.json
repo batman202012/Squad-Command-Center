@@ -1,0 +1,393 @@
+{
+    "map_id": "chora",
+    "layer_name": "Chora_RAAS_v1",
+    "total_flags": 26,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 42387.03,
+            "y": -89086.74,
+            "z": -76238.16
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -189010.58,
+            "y": 3800.79,
+            "z": -77287.5
+        },
+        {
+            "name": "Gas Station",
+            "x": 3574.41,
+            "y": -86429.18,
+            "z": -76528.1,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "C"
+                },
+                {
+                    "order": 1,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1C",
+                "1B"
+            ]
+        },
+        {
+            "name": "Mosque",
+            "x": 16379.35,
+            "y": -86443.0,
+            "z": -76528.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "C"
+                },
+                {
+                    "order": 1,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1C",
+                "1B"
+            ]
+        },
+        {
+            "name": "Compound Abrams",
+            "x": -21266.85,
+            "y": -113229.39,
+            "z": -76528.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "1A"
+            ]
+        },
+        {
+            "name": "Compound Zulu",
+            "x": 7702.46,
+            "y": -70025.22,
+            "z": -76528.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "1C"
+            ]
+        },
+        {
+            "name": "Opium Blackmarket",
+            "x": -29489.36,
+            "y": -48330.42,
+            "z": -76659.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "Naan Merchant",
+            "x": -11937.46,
+            "y": -60617.83,
+            "z": -76659.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "Lavender Estate",
+            "x": -27694.0,
+            "y": -68252.0,
+            "z": -76659.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "Hemp Farm",
+            "x": -32978.0,
+            "y": -93857.0,
+            "z": -76574.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Vineyard",
+            "x": -74524.52,
+            "y": -90672.8,
+            "z": -76693.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Poppy Farm",
+            "x": -75092.42,
+            "y": -74122.94,
+            "z": -76741.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Hemp Processor",
+            "x": -41625.04,
+            "y": -90767.82,
+            "z": -76528.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Radio Station",
+            "x": -55295.67,
+            "y": -43967.09,
+            "z": -76826.47,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "Market",
+            "x": -61295.4,
+            "y": -47421.45,
+            "z": -76790.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Butcher",
+            "x": -45092.52,
+            "y": -33543.18,
+            "z": -76490.62,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "Central Orchard",
+            "x": -100541.23,
+            "y": -62908.73,
+            "z": -76813.0,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Lower Orchard",
+            "x": -91012.25,
+            "y": -25465.27,
+            "z": -76153.0,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "Upper Orchard",
+            "x": -103848.0,
+            "y": -82681.36,
+            "z": -75790.0,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Abdul's Farm",
+            "x": -115073.82,
+            "y": -67752.46,
+            "z": -76693.0,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Island Farm",
+            "x": -98105.46,
+            "y": -49227.23,
+            "z": -77011.92,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Monolith",
+            "x": -162055.29,
+            "y": -32037.93,
+            "z": -76872.0,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "River Estate",
+            "x": -134366.79,
+            "y": -49936.65,
+            "z": -77044.0,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Small Mosque",
+            "x": -154368.0,
+            "y": -57698.0,
+            "z": -76391.0,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Nursery",
+            "x": -121558.59,
+            "y": -12708.53,
+            "z": -76693.0,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C"
+            ]
+        },
+        {
+            "name": "Hemp Nursery",
+            "x": -129737.43,
+            "y": -14567.73,
+            "z": -76701.51,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C"
+            ]
+        }
+    ]
+}

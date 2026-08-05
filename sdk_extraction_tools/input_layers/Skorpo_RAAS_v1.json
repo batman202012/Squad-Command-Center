@@ -1,0 +1,805 @@
+{
+    "map_id": "skorpo",
+    "layer_name": "Skorpo_RAAS_v1",
+    "total_flags": 79,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 213045.91,
+            "y": -133921.86,
+            "z": -26018.48,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 1,
+            "x": 138829.12,
+            "y": -53021.59,
+            "z": -8067.98,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Halsatoppen",
+            "lane": "Any",
+            "order": 1,
+            "x": 144421.08,
+            "y": -56754.19,
+            "z": -18815.46,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Korsneset",
+            "lane": "Any",
+            "order": 1,
+            "x": 151369.8,
+            "y": -112989.05,
+            "z": -27115.46,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Adnaklett",
+            "lane": "Any",
+            "order": 1,
+            "x": 164733.47,
+            "y": -27154.71,
+            "z": -9015.46,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 2,
+            "x": 165619.11,
+            "y": 17378.41,
+            "z": -26367.98,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 2,
+            "x": 93300.0,
+            "y": -21476.55,
+            "z": -3317.98,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 2,
+            "x": 93300.0,
+            "y": -21476.55,
+            "z": -3317.98,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hjelmelandsgarden",
+            "lane": "C",
+            "order": 2,
+            "x": 187009.41,
+            "y": 33349.98,
+            "z": -27888.3,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Svingen",
+            "lane": "C",
+            "order": 2,
+            "x": 137475.94,
+            "y": 20563.37,
+            "z": -27543.78,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lumberyard",
+            "lane": "A",
+            "order": 2,
+            "x": 70621.11,
+            "y": -20391.44,
+            "z": -29070.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Neset",
+            "lane": "A",
+            "order": 2,
+            "x": 73726.78,
+            "y": -47098.24,
+            "z": -27851.01,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Radio Tower",
+            "lane": "A",
+            "order": 2,
+            "x": 94184.94,
+            "y": -1332.29,
+            "z": -27559.44,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "EB Petrol",
+            "lane": "A",
+            "order": 2,
+            "x": 99121.11,
+            "y": -32791.44,
+            "z": -26670.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Flatholmen",
+            "lane": "A",
+            "order": 2,
+            "x": 47266.07,
+            "y": -51256.47,
+            "z": -28151.01,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lumberyard2",
+            "lane": "A",
+            "order": 2,
+            "x": 70621.11,
+            "y": -20391.44,
+            "z": -29070.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Neset2",
+            "lane": "A",
+            "order": 2,
+            "x": 73726.78,
+            "y": -47098.24,
+            "z": -27851.01,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Radio Tower2",
+            "lane": "A",
+            "order": 2,
+            "x": 94184.94,
+            "y": -1332.29,
+            "z": -27559.44,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "EB Petrol2",
+            "lane": "A",
+            "order": 2,
+            "x": 99121.11,
+            "y": -32791.44,
+            "z": -26670.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Flatholmen2",
+            "lane": "A",
+            "order": 2,
+            "x": 47266.07,
+            "y": -51256.47,
+            "z": -28151.01,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 3,
+            "x": 116287.38,
+            "y": 61112.91,
+            "z": -5770.58,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 3,
+            "x": 47876.53,
+            "y": 18318.17,
+            "z": -17662.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 3,
+            "x": 47876.53,
+            "y": 18318.17,
+            "z": -17662.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lower Eik",
+            "lane": "A",
+            "order": 3,
+            "x": 11813.27,
+            "y": 3625.37,
+            "z": -28831.17,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Tacan Site",
+            "lane": "C",
+            "order": 3,
+            "x": 112099.41,
+            "y": 63879.98,
+            "z": -26174.3,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lillehaug",
+            "lane": "C",
+            "order": 3,
+            "x": 27526.31,
+            "y": 43378.67,
+            "z": -20287.73,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Nyland",
+            "lane": "C",
+            "order": 3,
+            "x": 100049.41,
+            "y": 42229.98,
+            "z": -28660.3,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Borvettunnelen",
+            "lane": "C",
+            "order": 3,
+            "x": 162699.41,
+            "y": 74589.98,
+            "z": -27176.3,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Helgheim",
+            "lane": "A",
+            "order": 3,
+            "x": 72021.11,
+            "y": 3208.56,
+            "z": -29070.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Captain's Farm",
+            "lane": "A",
+            "order": 3,
+            "x": 64521.11,
+            "y": 23108.56,
+            "z": -29070.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Power Plant",
+            "lane": "A",
+            "order": 3,
+            "x": 40621.11,
+            "y": 20708.56,
+            "z": -27470.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Marina",
+            "lane": "A",
+            "order": 3,
+            "x": 51321.11,
+            "y": -5891.44,
+            "z": -28770.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lower Eik2",
+            "lane": "A",
+            "order": 3,
+            "x": 11813.27,
+            "y": 3625.37,
+            "z": -28831.17,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Helgheim2",
+            "lane": "A",
+            "order": 3,
+            "x": 72021.11,
+            "y": 3208.56,
+            "z": -29070.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Captain's Farm2",
+            "lane": "A",
+            "order": 3,
+            "x": 64521.11,
+            "y": 23108.56,
+            "z": -29070.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Power Plant2",
+            "lane": "A",
+            "order": 3,
+            "x": 40621.11,
+            "y": 20708.56,
+            "z": -27470.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Marina2",
+            "lane": "A",
+            "order": 3,
+            "x": 51321.11,
+            "y": -5891.44,
+            "z": -28770.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 4,
+            "x": -9432.41,
+            "y": 133642.5,
+            "z": -1690.59,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 4,
+            "x": -8933.47,
+            "y": 46198.17,
+            "z": -14582.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 4,
+            "x": -8933.47,
+            "y": 46198.17,
+            "z": -14582.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Water Storage",
+            "lane": "A",
+            "order": 4,
+            "x": 8845.44,
+            "y": 54703.58,
+            "z": -20333.05,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Upper Eik",
+            "lane": "A",
+            "order": 4,
+            "x": -12521.67,
+            "y": 25239.39,
+            "z": -26730.3,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Flatene",
+            "lane": "C",
+            "order": 4,
+            "x": -4443.3,
+            "y": 145422.12,
+            "z": -8930.5,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Pallane",
+            "lane": "A",
+            "order": 4,
+            "x": -29055.06,
+            "y": 45217.71,
+            "z": -23029.44,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Observation Outpost",
+            "lane": "C",
+            "order": 4,
+            "x": -21343.69,
+            "y": 82048.67,
+            "z": -13157.73,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Water Storage2",
+            "lane": "A",
+            "order": 4,
+            "x": 8845.44,
+            "y": 54703.58,
+            "z": -20333.05,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Upper Eik2",
+            "lane": "A",
+            "order": 4,
+            "x": -12521.67,
+            "y": 25239.39,
+            "z": -26730.3,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Pallane2",
+            "lane": "A",
+            "order": 4,
+            "x": -29055.06,
+            "y": 45217.71,
+            "z": -23029.44,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 5,
+            "x": -83512.41,
+            "y": 90142.5,
+            "z": 6779.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C5-Stordalen Pass",
+                "C5-Stordalen Ridge",
+                "C5-Steinsletta Ridge",
+                "C5-Steinsletta"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 5,
+            "x": -71765.84,
+            "y": -9956.73,
+            "z": -23893.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 5,
+            "x": -71765.84,
+            "y": -9956.73,
+            "z": -23893.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Steinsletta",
+            "lane": "C",
+            "order": 5,
+            "x": -117240.98,
+            "y": 112160.86,
+            "z": -5015.14,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Bornset Shipyard West",
+            "lane": "A",
+            "order": 5,
+            "x": -72984.47,
+            "y": -21915.8,
+            "z": -28192.53,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Bornset Shipyard East",
+            "lane": "A",
+            "order": 5,
+            "x": -51191.86,
+            "y": -11708.39,
+            "z": -26266.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Stordalen Pass",
+            "lane": "C",
+            "order": 5,
+            "x": -59858.97,
+            "y": 97734.86,
+            "z": -3968.67,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Stordalen Ridge",
+            "lane": "C",
+            "order": 5,
+            "x": -75517.38,
+            "y": 112388.41,
+            "z": 2256.09,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Steinsletta Ridge",
+            "lane": "C",
+            "order": 5,
+            "x": -101228.27,
+            "y": 86429.84,
+            "z": -4964.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Bornset Shipyard West2",
+            "lane": "A",
+            "order": 5,
+            "x": -72984.47,
+            "y": -21915.8,
+            "z": -28192.53,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Bornset Shipyard East2",
+            "lane": "A",
+            "order": 5,
+            "x": -51191.86,
+            "y": -11708.39,
+            "z": -26266.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 6,
+            "x": -147875.0,
+            "y": 87004.3,
+            "z": 5543.79,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C6-Bringedalslia",
+                "C6-Steinsletta Foot Hills"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 6,
+            "x": -171653.47,
+            "y": 9778.17,
+            "z": -25612.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 6,
+            "x": -171653.47,
+            "y": 9778.17,
+            "z": -25612.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Vaagen",
+            "lane": "A",
+            "order": 6,
+            "x": -178306.05,
+            "y": -28165.36,
+            "z": -28915.49,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Steinsletta Foot Hills",
+            "lane": "C",
+            "order": 6,
+            "x": -135368.27,
+            "y": 72009.84,
+            "z": -7095.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Bringedalslia",
+            "lane": "C",
+            "order": 6,
+            "x": -156910.59,
+            "y": 60702.37,
+            "z": -11471.77,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ljosrnyr",
+            "lane": "A",
+            "order": 6,
+            "x": -160560.59,
+            "y": 18222.37,
+            "z": -15828.77,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lia",
+            "lane": "A",
+            "order": 6,
+            "x": -150506.05,
+            "y": -8165.36,
+            "z": -24615.49,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Vaagen2",
+            "lane": "A",
+            "order": 6,
+            "x": -178306.05,
+            "y": -28165.36,
+            "z": -28915.49,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ljosrnyr2",
+            "lane": "A",
+            "order": 6,
+            "x": -160560.59,
+            "y": 18222.37,
+            "z": -15828.77,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lia2",
+            "lane": "A",
+            "order": 6,
+            "x": -150506.05,
+            "y": -8165.36,
+            "z": -24615.49,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 7,
+            "x": -257203.47,
+            "y": 55458.17,
+            "z": -20502.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 7,
+            "x": -199300.89,
+            "y": 125628.41,
+            "z": -7188.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 7,
+            "x": -257203.47,
+            "y": 55458.17,
+            "z": -20502.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Bringedal",
+            "lane": "C",
+            "order": 7,
+            "x": -196418.95,
+            "y": 122344.5,
+            "z": -20881.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Fish Oil Factory",
+            "lane": "A",
+            "order": 7,
+            "x": -283572.56,
+            "y": 61769.45,
+            "z": -27844.42,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Heroysund",
+            "lane": "A",
+            "order": 7,
+            "x": -241245.12,
+            "y": 61500.12,
+            "z": -25073.2,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Fish Oil Factory2",
+            "lane": "A",
+            "order": 7,
+            "x": -283572.56,
+            "y": 61769.45,
+            "z": -27844.42,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Heroysund2",
+            "lane": "A",
+            "order": 7,
+            "x": -241245.12,
+            "y": 61500.12,
+            "z": -25073.2,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -279204.36,
+            "y": 162092.48,
+            "z": -23344.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

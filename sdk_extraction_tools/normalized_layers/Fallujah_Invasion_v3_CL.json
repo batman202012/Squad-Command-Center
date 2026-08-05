@@ -1,0 +1,257 @@
+{
+    "map_id": "fallujah_city",
+    "layer_name": "Fallujah_Invasion_v3_CL",
+    "total_flags": 19,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 94205.21,
+            "y": -82584.55,
+            "z": -4420.33
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -41185.94,
+            "y": 85735.46,
+            "z": -3275.13
+        },
+        {
+            "name": "SM_USA_Flag_2",
+            "lane": "Any",
+            "order": -1,
+            "x": -27127.36,
+            "y": -36929.61,
+            "z": -3818.97
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": -37129.02,
+            "y": 80872.95,
+            "z": -2988.29
+        },
+        {
+            "name": "SM_USA_Flag_3",
+            "lane": "Any",
+            "order": -1,
+            "x": 13294.93,
+            "y": 43220.02,
+            "z": -4412.89
+        },
+        {
+            "name": "BlueMosque",
+            "x": 36792.7,
+            "y": -29998.4,
+            "z": -3372.25,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "1A"
+            ]
+        },
+        {
+            "name": "ShurtaNeighborhood",
+            "x": 48991.8,
+            "y": -47461.24,
+            "z": -3372.25,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "1A"
+            ]
+        },
+        {
+            "name": "OpenAirMarket",
+            "x": 71943.69,
+            "y": -20445.91,
+            "z": -4410.51,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Bazaar",
+            "x": 38323.06,
+            "y": -10086.34,
+            "z": -3990.46,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Factory",
+            "x": 43108.85,
+            "y": 22011.83,
+            "z": -4172.57,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "GreenZone",
+            "x": 11228.3,
+            "y": 22182.17,
+            "z": -3697.39,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "RadioHill",
+            "x": 21683.33,
+            "y": 58885.63,
+            "z": -2905.85,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "TVStation",
+            "x": -10590.7,
+            "y": -8274.22,
+            "z": -3415.16,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "PoliceStation",
+            "x": -22884.45,
+            "y": -34623.45,
+            "z": -3819.73,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "BusTerminal",
+            "x": -46802.71,
+            "y": -26791.48,
+            "z": -4420.33,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Crossroads",
+            "x": -22510.5,
+            "y": -5675.79,
+            "z": -4351.44,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "JubaiRiverside",
+            "x": -63336.29,
+            "y": 41590.66,
+            "z": -4651.24,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Risala",
+            "x": -24394.8,
+            "y": 22909.13,
+            "z": -4304.27,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Jubai",
+            "x": -45418.34,
+            "y": 43291.27,
+            "z": -4348.14,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        }
+    ]
+}

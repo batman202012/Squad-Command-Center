@@ -1,0 +1,136 @@
+{
+    "map_id": "maps",
+    "layer_name": "AlBasrah_Skirmish_v1",
+    "total_flags": 10,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -2312.45,
+            "y": -10759.06,
+            "z": 967.15
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -152360.44,
+            "y": -93120.27,
+            "z": 518.74
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": 62901.11,
+            "y": 65489.51,
+            "z": 487.93
+        },
+        {
+            "name": "Checkpoint",
+            "x": -34056.16,
+            "y": -49364.79,
+            "z": 778.94,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Hotel",
+            "x": -54633.99,
+            "y": -41997.25,
+            "z": 681.48,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Terminal",
+            "x": -53494.07,
+            "y": -57233.94,
+            "z": 1290.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "ATC Tower",
+            "x": -74022.25,
+            "y": -60438.3,
+            "z": 472.3,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Helicopter Base",
+            "x": -97065.82,
+            "y": -61637.04,
+            "z": 482.11,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Warehouse",
+            "x": -93583.0,
+            "y": -39405.01,
+            "z": 2540.05,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "Storage Center",
+            "x": -127628.75,
+            "y": -49684.95,
+            "z": -7.97,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "7Any"
+            ]
+        }
+    ]
+}

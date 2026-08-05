@@ -1,0 +1,575 @@
+{
+    "map_id": "lashkar_valley",
+    "layer_name": "Lashkar_Invasion_v1",
+    "total_flags": 53,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 2037.29,
+            "y": 155238.19,
+            "z": 1265.82,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 1,
+            "x": -13298.49,
+            "y": 86403.07,
+            "z": 409.35,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 1,
+            "x": 4437.23,
+            "y": 112136.4,
+            "z": 409.35,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 1,
+            "x": 140544.75,
+            "y": 88403.92,
+            "z": 409.35,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Nangalam",
+            "lane": "Any",
+            "order": 1,
+            "x": -1614.09,
+            "y": 67155.63,
+            "z": 647.25,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Sheena",
+            "lane": "Any",
+            "order": 1,
+            "x": -1492.28,
+            "y": 113096.48,
+            "z": 633.18,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Gardez",
+            "lane": "Any",
+            "order": 1,
+            "x": -18761.77,
+            "y": 66759.77,
+            "z": 647.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Sheena",
+            "lane": "B",
+            "order": 1,
+            "x": -1492.28,
+            "y": 113096.48,
+            "z": 633.18,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Furlongs",
+            "lane": "C",
+            "order": 1,
+            "x": 138553.27,
+            "y": 101639.71,
+            "z": 4348.68,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 2,
+            "x": -108710.04,
+            "y": 43068.04,
+            "z": 3086.26,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A2-Kumbar Maidan Upper",
+                "A2-Kumbar Maidan Lower",
+                "A2-Watapur",
+                "A2-Derapet"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 2,
+            "x": -10515.94,
+            "y": 62457.86,
+            "z": 5583.17,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B2-Gardez",
+                "B2-Nangalam"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 2,
+            "x": 108456.16,
+            "y": 56361.91,
+            "z": 2123.79,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C2-Soviet Outpost",
+                "C2-Ghawchak Village"
+            ]
+        },
+        {
+            "name": "Kumbar Maidan Upper",
+            "lane": "A",
+            "order": 2,
+            "x": -64504.32,
+            "y": 33357.18,
+            "z": 5566.29,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Kumbar Maidan Lower",
+            "lane": "A",
+            "order": 2,
+            "x": -72119.82,
+            "y": 18988.09,
+            "z": 4476.88,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Ghawchak Village",
+            "lane": "C",
+            "order": 2,
+            "x": 114141.7,
+            "y": 39928.16,
+            "z": 3776.58,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Derapet",
+            "lane": "A",
+            "order": 2,
+            "x": -88862.12,
+            "y": 63534.64,
+            "z": 3930.75,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Soviet Outpost",
+            "lane": "C",
+            "order": 2,
+            "x": 102874.87,
+            "y": 86866.02,
+            "z": 9529.31,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Watapur",
+            "lane": "A",
+            "order": 2,
+            "x": -149458.22,
+            "y": 77829.38,
+            "z": 6723.8,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Nangalam",
+            "lane": "B",
+            "order": 2,
+            "x": -1614.09,
+            "y": 67155.63,
+            "z": 647.25,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Gardez",
+            "lane": "B",
+            "order": 2,
+            "x": -18761.77,
+            "y": 66759.77,
+            "z": 647.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 3,
+            "x": -121082.24,
+            "y": -4785.41,
+            "z": 11173.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A3-Ajabay",
+                "A3-Toor Camp"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 3,
+            "x": 17176.64,
+            "y": 26980.0,
+            "z": 7729.77,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B3-Toormang",
+                "B3-Malgir"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 3,
+            "x": 109802.1,
+            "y": 1755.22,
+            "z": 9504.81,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C3-Marjah",
+                "C3-Gulestan"
+            ]
+        },
+        {
+            "name": "Malgir",
+            "lane": "B",
+            "order": 3,
+            "x": 4484.59,
+            "y": 18957.66,
+            "z": 756.57,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Toormang",
+            "lane": "B",
+            "order": 3,
+            "x": 29758.78,
+            "y": 46817.39,
+            "z": 782.59,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Gulestan",
+            "lane": "C",
+            "order": 3,
+            "x": 81341.38,
+            "y": 2680.55,
+            "z": 2695.76,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Toor Camp",
+            "lane": "A",
+            "order": 3,
+            "x": -115091.88,
+            "y": -12461.09,
+            "z": 8981.39,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Ajabay",
+            "lane": "A",
+            "order": 3,
+            "x": -142521.69,
+            "y": 7659.48,
+            "z": 8736.36,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Marjah",
+            "lane": "C",
+            "order": 3,
+            "x": 150166.13,
+            "y": 2427.03,
+            "z": 2695.76,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 4,
+            "x": -152825.67,
+            "y": -37460.16,
+            "z": 22679.3,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A4-Tizak"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 4,
+            "x": -4220.75,
+            "y": -47032.41,
+            "z": 738.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 4,
+            "x": 107034.66,
+            "y": -63961.44,
+            "z": 10845.9,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C4-Takur Ghar",
+                "C4-Kanju"
+            ]
+        },
+        {
+            "name": "Central Lashkar",
+            "lane": "B",
+            "order": 4,
+            "x": -3589.53,
+            "y": -34778.34,
+            "z": 919.79,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Upper Lashkar",
+            "lane": "B",
+            "order": 4,
+            "x": -5348.4,
+            "y": -44069.42,
+            "z": 892.97,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lashkar Market",
+            "lane": "B",
+            "order": 4,
+            "x": -12351.84,
+            "y": -29760.66,
+            "z": 434.77,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lashkar East",
+            "lane": "B",
+            "order": 4,
+            "x": 8786.14,
+            "y": -34239.39,
+            "z": 1096.22,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Tizak",
+            "lane": "A",
+            "order": 4,
+            "x": -148215.5,
+            "y": -33933.69,
+            "z": 4116.87,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Kanju",
+            "lane": "C",
+            "order": 4,
+            "x": 144503.19,
+            "y": -70664.17,
+            "z": 3537.05,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Takur Ghar",
+            "lane": "C",
+            "order": 4,
+            "x": 73452.41,
+            "y": -61977.42,
+            "z": 3022.9,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 5,
+            "x": -88739.84,
+            "y": -96579.22,
+            "z": 9549.39,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A5-Jowman",
+                "A5-Asmar",
+                "A5-Grape Farm"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 5,
+            "x": -13656.21,
+            "y": -102675.47,
+            "z": 7391.16,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B5-Jowman",
+                "B5-Outdoor Market",
+                "B5-Asmar",
+                "B5-Ak Toba"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 5,
+            "x": 90185.66,
+            "y": -119316.22,
+            "z": 10845.9,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C5-Gosam",
+                "C5-Sahib Abad",
+                "C5-Dogram"
+            ]
+        },
+        {
+            "name": "Sahib Abad",
+            "lane": "C",
+            "order": 5,
+            "x": 70176.75,
+            "y": -110927.38,
+            "z": 1073.33,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ak Toba",
+            "lane": "B",
+            "order": 5,
+            "x": 33051.82,
+            "y": -82640.06,
+            "z": 946.08,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Outdoor Market",
+            "lane": "B",
+            "order": 5,
+            "x": -33727.41,
+            "y": -64615.28,
+            "z": 1175.26,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Jowman",
+            "lane": "A",
+            "order": 5,
+            "x": -64737.34,
+            "y": -61157.56,
+            "z": 902.14,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Grape Farm",
+            "lane": "A",
+            "order": 5,
+            "x": -120922.9,
+            "y": -94233.03,
+            "z": 1337.71,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Asmar",
+            "lane": "A",
+            "order": 5,
+            "x": -93396.36,
+            "y": -111512.84,
+            "z": 1035.9,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Gosam",
+            "lane": "C",
+            "order": 5,
+            "x": 118653.7,
+            "y": -111440.66,
+            "z": 1029.35,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Dogram",
+            "lane": "C",
+            "order": 5,
+            "x": 89822.66,
+            "y": -140295.47,
+            "z": 2773.57,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Jowman",
+            "lane": "B",
+            "order": 5,
+            "x": -64737.34,
+            "y": -61157.56,
+            "z": 902.14,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Asmar",
+            "lane": "B",
+            "order": 5,
+            "x": -93396.36,
+            "y": -111512.84,
+            "z": 1035.9,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -9156.16,
+            "y": -141057.12,
+            "z": 8823.52,
+            "is_sky_node": true,
+            "linked_flags": []
+        }
+    ]
+}

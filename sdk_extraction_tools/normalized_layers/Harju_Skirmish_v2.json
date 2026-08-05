@@ -1,0 +1,240 @@
+{
+    "map_id": "maps",
+    "layer_name": "Harju_Skirmish_v2",
+    "total_flags": 23,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -32946.54,
+            "y": -12231.99,
+            "z": 712.9
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 33458.16,
+            "y": -69612.12,
+            "z": 2476.37
+        },
+        {
+            "name": "HorizontalFlag8",
+            "lane": "Any",
+            "order": -1,
+            "x": 33094.27,
+            "y": -88780.67,
+            "z": 3985.98
+        },
+        {
+            "name": "HorizontalFlag7",
+            "lane": "Any",
+            "order": -1,
+            "x": -60165.73,
+            "y": 54779.47,
+            "z": 856.04
+        },
+        {
+            "name": "SM_USA_Flag_3",
+            "lane": "Any",
+            "order": -1,
+            "x": -60166.42,
+            "y": 54782.28,
+            "z": 261.88
+        },
+        {
+            "name": "FlagPole_Ballhead_Angled",
+            "lane": "Any",
+            "order": -1,
+            "x": 149.0,
+            "y": -53458.77,
+            "z": 1119.5
+        },
+        {
+            "name": "FlagPole_Ballhead_Angled3",
+            "lane": "Any",
+            "order": -1,
+            "x": 110.84,
+            "y": -53468.02,
+            "z": 1158.76
+        },
+        {
+            "name": "HorizontalFlag3",
+            "lane": "Any",
+            "order": -1,
+            "x": -30138.54,
+            "y": -113734.52,
+            "z": 1107.62
+        },
+        {
+            "name": "HorizontalFlag4",
+            "lane": "Any",
+            "order": -1,
+            "x": -57055.11,
+            "y": -102082.51,
+            "z": 1175.74
+        },
+        {
+            "name": "HorizontalFlag9",
+            "lane": "Any",
+            "order": -1,
+            "x": -30132.83,
+            "y": -113735.54,
+            "z": 476.81
+        },
+        {
+            "name": "FlagPole_Ballhead_Angled2",
+            "lane": "Any",
+            "order": -1,
+            "x": 60657.86,
+            "y": -79864.52,
+            "z": 638.96
+        },
+        {
+            "name": "HorizontalFlag5",
+            "lane": "Any",
+            "order": -1,
+            "x": 60622.98,
+            "y": -79879.95,
+            "z": 679.59
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh",
+            "lane": "Any",
+            "order": -1,
+            "x": 69160.72,
+            "y": -90375.8,
+            "z": 154.61
+        },
+        {
+            "name": "HorizontalFlag_InstancedMesh",
+            "lane": "Any",
+            "order": -1,
+            "x": 71324.23,
+            "y": -88866.98,
+            "z": 628.87
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh2",
+            "lane": "Any",
+            "order": -1,
+            "x": 84540.36,
+            "y": -87894.29,
+            "z": 172.2
+        },
+        {
+            "name": "HorizontalFlag_InstancedMesh2",
+            "lane": "Any",
+            "order": -1,
+            "x": 84544.05,
+            "y": -87892.7,
+            "z": 646.47
+        },
+        {
+            "name": "MSR Intersection",
+            "x": -20704.05,
+            "y": -24143.73,
+            "z": 542.72,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Mets\u00e4kyl\u00e4 Apartments",
+            "x": -8171.33,
+            "y": -61959.57,
+            "z": 649.09,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Mets\u00e4kyl\u00e4",
+            "x": -1926.52,
+            "y": -50589.3,
+            "z": 1344.16,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Train Station",
+            "x": 3887.23,
+            "y": -39444.05,
+            "z": 640.0,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Powerplant Warehouse",
+            "x": 14826.89,
+            "y": -19031.91,
+            "z": -178.05,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Powerplant Admin",
+            "x": 15634.77,
+            "y": -11681.34,
+            "z": 549.56,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "Logistics Hub",
+            "x": 21367.55,
+            "y": -53634.64,
+            "z": 2137.07,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "7Any"
+            ]
+        }
+    ]
+}

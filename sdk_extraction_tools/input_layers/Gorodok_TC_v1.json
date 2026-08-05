@@ -1,0 +1,27 @@
+{
+    "map_id": "gorodok",
+    "layer_name": "Gorodok_TC_v1",
+    "total_flags": 2,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -31667.8,
+            "y": 78023.31,
+            "z": -2515.61,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 46676.81,
+            "y": -165000.39,
+            "z": -2348.59,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

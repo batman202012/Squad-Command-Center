@@ -1,0 +1,442 @@
+{
+    "map_id": "maps",
+    "layer_name": "AlBasrah_RAAS_v3",
+    "total_flags": 40,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 114215.9,
+            "y": 120314.22,
+            "z": 479.13,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 1,
+            "x": 118556.99,
+            "y": 68179.13,
+            "z": 8931.55,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A1-Kardalan3",
+                "A1-Shipbreakers Admin",
+                "A1-Kardalan4",
+                "A1-The Brick",
+                "A1-Kardalan",
+                "A1-Kardalan2"
+            ]
+        },
+        {
+            "name": "The Brick",
+            "lane": "A",
+            "order": 1,
+            "x": 116392.4,
+            "y": 87413.1,
+            "z": 534.78,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Kardalan",
+            "lane": "A",
+            "order": 1,
+            "x": 113051.39,
+            "y": 75173.18,
+            "z": 554.68,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Shipbreakers Admin",
+            "lane": "A",
+            "order": 1,
+            "x": 105094.4,
+            "y": 49834.15,
+            "z": 590.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Kardalan2",
+            "lane": "A",
+            "order": 1,
+            "x": 106617.76,
+            "y": 82787.42,
+            "z": 464.55,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Kardalan3",
+            "lane": "A",
+            "order": 1,
+            "x": 128794.3,
+            "y": 78530.22,
+            "z": 571.52,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Kardalan4",
+            "lane": "A",
+            "order": 1,
+            "x": 121297.87,
+            "y": 75116.25,
+            "z": 456.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 2,
+            "x": 125156.97,
+            "y": 26569.44,
+            "z": 7926.37,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A2-Date Orchard",
+                "A2-Riverside Hamlet",
+                "A2-Shuman",
+                "A2-Highway 10 Bridge",
+                "A2-At Tannuhmah"
+            ]
+        },
+        {
+            "name": "Shuman",
+            "lane": "A",
+            "order": 2,
+            "x": 139458.81,
+            "y": 25891.67,
+            "z": 863.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Highway 10 Bridge",
+            "lane": "A",
+            "order": 2,
+            "x": 148709.55,
+            "y": 10884.62,
+            "z": 787.14,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Date Orchard",
+            "lane": "A",
+            "order": 2,
+            "x": 118560.59,
+            "y": 21617.92,
+            "z": 658.15,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "At Tannuhmah",
+            "lane": "A",
+            "order": 2,
+            "x": 136790.27,
+            "y": 38580.12,
+            "z": 658.82,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Riverside Hamlet",
+            "lane": "A",
+            "order": 2,
+            "x": 100420.06,
+            "y": 19241.49,
+            "z": 1004.44,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 3,
+            "x": 125277.33,
+            "y": -10938.87,
+            "z": 4167.62,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A3-Kibasi South",
+                "A3-Date Orchard",
+                "A3-Kibasi South2",
+                "A3-Kibasi Market"
+            ]
+        },
+        {
+            "name": "Kibasi Market",
+            "lane": "A",
+            "order": 3,
+            "x": 131740.4,
+            "y": -17840.85,
+            "z": 600.41,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Date Orchard",
+            "lane": "A",
+            "order": 3,
+            "x": 108668.39,
+            "y": -1092.48,
+            "z": 334.01,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Kibasi South",
+            "lane": "A",
+            "order": 3,
+            "x": 145301.67,
+            "y": -16904.53,
+            "z": 764.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Kibasi South2",
+            "lane": "A",
+            "order": 3,
+            "x": 130047.54,
+            "y": -8951.65,
+            "z": 562.97,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 4,
+            "x": 115475.91,
+            "y": -34496.49,
+            "z": 6066.26,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A4-Police Station2",
+                "A4-Kibasi West",
+                "A4-Docks",
+                "A4-Kibasi Central"
+            ]
+        },
+        {
+            "name": "Docks",
+            "lane": "A",
+            "order": 4,
+            "x": 86939.85,
+            "y": -31382.43,
+            "z": 1012.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Kibasi West",
+            "lane": "A",
+            "order": 4,
+            "x": 112242.54,
+            "y": -25787.93,
+            "z": 546.42,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Police Station2",
+            "lane": "A",
+            "order": 4,
+            "x": 123439.71,
+            "y": -39260.4,
+            "z": 541.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Kibasi Central",
+            "lane": "A",
+            "order": 4,
+            "x": 131606.4,
+            "y": -33513.85,
+            "z": 484.44,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 5,
+            "x": 124935.22,
+            "y": -60563.88,
+            "z": 6323.39,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A5-Kibasi North",
+                "A5-Highway 10"
+            ]
+        },
+        {
+            "name": "Kibasi North",
+            "lane": "A",
+            "order": 5,
+            "x": 133255.64,
+            "y": -68276.48,
+            "z": 488.03,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Kibasi North",
+            "lane": "A",
+            "order": 5,
+            "x": 102226.33,
+            "y": -59536.39,
+            "z": 311.13,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Highway 10",
+            "lane": "A",
+            "order": 5,
+            "x": 149332.45,
+            "y": -53205.46,
+            "z": 683.9,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 6,
+            "x": 134094.48,
+            "y": -101069.33,
+            "z": 7313.52,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A6-Al Yawiyah3",
+                "A6-CanalTown",
+                "A6-Al Yawiyah1",
+                "A6-Al Yawiyah2"
+            ]
+        },
+        {
+            "name": "Al Yawiyah1",
+            "lane": "A",
+            "order": 6,
+            "x": 120924.85,
+            "y": -107429.43,
+            "z": 461.23,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Al Yawiyah2",
+            "lane": "A",
+            "order": 6,
+            "x": 110152.61,
+            "y": -94054.41,
+            "z": 972.64,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Al Yawiyah3",
+            "lane": "A",
+            "order": 6,
+            "x": 125952.97,
+            "y": -94394.57,
+            "z": 737.57,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "CanalTown",
+            "lane": "A",
+            "order": 6,
+            "x": 169079.06,
+            "y": -95635.85,
+            "z": 430.15,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 7,
+            "x": 139691.98,
+            "y": -147808.59,
+            "z": 6313.39,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A7-CanalFarm",
+                "A7-BridgeConstruction",
+                "A7-Al Yawiyah North"
+            ]
+        },
+        {
+            "name": "Al Yawiyah North",
+            "lane": "A",
+            "order": 7,
+            "x": 118381.85,
+            "y": -139502.43,
+            "z": 400.49,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Al Yawiyah North",
+            "lane": "A",
+            "order": 7,
+            "x": 131433.85,
+            "y": -144043.43,
+            "z": 307.77,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "CanalFarm",
+            "lane": "A",
+            "order": 7,
+            "x": 164832.24,
+            "y": -167751.84,
+            "z": 299.98,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "BridgeConstruction",
+            "lane": "A",
+            "order": 7,
+            "x": 97806.3,
+            "y": -139668.56,
+            "z": 423.27,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 108704.17,
+            "y": -185555.38,
+            "z": 398.11,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": 62901.11,
+            "y": 65489.51,
+            "z": 487.93,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

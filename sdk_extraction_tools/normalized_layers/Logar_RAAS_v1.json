@@ -1,0 +1,443 @@
+{
+    "map_id": "logar_valley",
+    "layer_name": "Logar_RAAS_v1",
+    "total_flags": 30,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -73708.36,
+            "y": -16421.09,
+            "z": 4959.8
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 75553.57,
+            "y": -18378.8,
+            "z": 4918.74
+        },
+        {
+            "name": "Hilltop Storage",
+            "x": -59231.0,
+            "y": -39469.0,
+            "z": 8080.34,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Abandoned Farm",
+            "x": -49185.0,
+            "y": -36165.0,
+            "z": 7157.48,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Twin Compound",
+            "x": -74564.0,
+            "y": -45048.0,
+            "z": 7835.86,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Estate",
+            "x": -52203.04,
+            "y": -10996.38,
+            "z": 5455.08,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Bend",
+            "x": -58242.72,
+            "y": 5343.04,
+            "z": 5847.57,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Muhammad's Compound",
+            "x": -30912.27,
+            "y": 17060.83,
+            "z": 3638.64,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Strip Mall",
+            "x": -34754.53,
+            "y": -2784.84,
+            "z": 4381.07,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Akhtar's Compound",
+            "x": -42992.72,
+            "y": 19638.04,
+            "z": 4052.57,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Abandoned Storage",
+            "x": -36140.0,
+            "y": -56660.0,
+            "z": 4262.48,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "District Heights",
+            "x": -28279.53,
+            "y": -19069.84,
+            "z": 4381.07,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Lower District East",
+            "x": -4400.0,
+            "y": -2832.0,
+            "z": 3362.93,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Lower District West",
+            "x": -16009.0,
+            "y": -332.0,
+            "z": 3357.8,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Hemp Farm",
+            "x": -19707.9,
+            "y": 8674.82,
+            "z": 3806.25,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Mosque",
+            "x": -6748.04,
+            "y": -3667.05,
+            "z": 3349.1,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Shanty",
+            "x": -13047.57,
+            "y": 3661.6,
+            "z": 3540.23,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Upper District East",
+            "x": -2354.0,
+            "y": -30579.0,
+            "z": 3660.91,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Central District",
+            "x": -7442.0,
+            "y": -20820.0,
+            "z": 3792.77,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Upper District West",
+            "x": -16948.0,
+            "y": -32436.0,
+            "z": 3439.69,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Upper DC Compound East",
+            "x": 2334.21,
+            "y": -32653.02,
+            "z": 3817.06,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Upper DC Compound West",
+            "x": -3644.86,
+            "y": -33771.65,
+            "z": 3903.05,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Upper Slums",
+            "x": -12630.93,
+            "y": -32915.59,
+            "z": 3465.82,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Nomad Camp",
+            "x": 37031.0,
+            "y": -8318.0,
+            "z": 5995.37,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Farmstead",
+            "x": 20417.0,
+            "y": 3986.0,
+            "z": 5813.22,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Residence",
+            "x": 34742.32,
+            "y": -43974.01,
+            "z": 4967.17,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Homestead",
+            "x": 19278.63,
+            "y": -56376.14,
+            "z": 4423.48,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Material Storage",
+            "x": 58581.07,
+            "y": -53115.25,
+            "z": 4471.67,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "Governor's Estate",
+            "x": 69533.7,
+            "y": -43686.52,
+            "z": 4589.12,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "Farm",
+            "x": 53438.03,
+            "y": -42580.8,
+            "z": 4844.95,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        }
+    ]
+}

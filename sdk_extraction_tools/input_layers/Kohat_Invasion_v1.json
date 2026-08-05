@@ -1,0 +1,181 @@
+{
+    "map_id": "kohat",
+    "layer_name": "Kohat_Invasion_v1",
+    "total_flags": 16,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 180242.81,
+            "y": -138786.06,
+            "z": 24687.12,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 1,
+            "x": -61759.07,
+            "y": 46448.86,
+            "z": 6833.06,
+            "is_sky_node": true,
+            "linked_flags": [
+                "01-Bahadur Hill",
+                "01-Bahadur Proper",
+                "01-Bahadur Agriculture"
+            ]
+        },
+        {
+            "name": "Bahadur Proper",
+            "lane": "Any",
+            "order": 1,
+            "x": -80808.48,
+            "y": 43119.2,
+            "z": 5316.48,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Bahadur Hill",
+            "lane": "Any",
+            "order": 1,
+            "x": -83592.94,
+            "y": 27653.18,
+            "z": 4034.4,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Bahadur Agriculture",
+            "lane": "Any",
+            "order": 1,
+            "x": -75928.94,
+            "y": 16986.18,
+            "z": 3349.4,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 2,
+            "x": -5992.45,
+            "y": -5710.44,
+            "z": 4821.46,
+            "is_sky_node": true,
+            "linked_flags": [
+                "02-Bridge"
+            ]
+        },
+        {
+            "name": "Ali Abad",
+            "lane": "Any",
+            "order": 2,
+            "x": -3023.36,
+            "y": -20923.03,
+            "z": 3686.15,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Ali Abad2",
+            "lane": "Any",
+            "order": 2,
+            "x": 7047.89,
+            "y": -10924.04,
+            "z": 3133.1,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Bridge",
+            "lane": "Any",
+            "order": 2,
+            "x": -41983.94,
+            "y": -5568.82,
+            "z": 2040.4,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 3,
+            "x": 83885.32,
+            "y": 60241.23,
+            "z": 5781.81,
+            "is_sky_node": true,
+            "linked_flags": [
+                "02-Ali Abad2",
+                "02-Ali Abad"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 4,
+            "x": 32096.48,
+            "y": -40456.06,
+            "z": 7831.81,
+            "is_sky_node": true,
+            "linked_flags": [
+                "04-Khadizai",
+                "04-Thirah"
+            ]
+        },
+        {
+            "name": "Thirah",
+            "lane": "Any",
+            "order": 4,
+            "x": 39637.48,
+            "y": -35758.06,
+            "z": 6273.79,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Khadizai",
+            "lane": "Any",
+            "order": 4,
+            "x": 56738.48,
+            "y": -3915.06,
+            "z": 3446.79,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 5,
+            "x": 110879.48,
+            "y": -50533.06,
+            "z": 7831.81,
+            "is_sky_node": true,
+            "linked_flags": [
+                "05-Upper Nasrat"
+            ]
+        },
+        {
+            "name": "Upper Nasrat",
+            "lane": "Any",
+            "order": 5,
+            "x": 96155.48,
+            "y": -38612.06,
+            "z": 7891.79,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -138134.77,
+            "y": 70776.12,
+            "z": 11847.29,
+            "is_sky_node": true,
+            "linked_flags": []
+        }
+    ]
+}

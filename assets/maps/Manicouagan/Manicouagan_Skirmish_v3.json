@@ -1,0 +1,152 @@
+{
+    "map_id": "manicouagan",
+    "layer_name": "Manicouagan_Skirmish_v3",
+    "total_flags": 12,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -58511.91,
+            "y": -74382.52,
+            "z": 5189.47
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -35641.27,
+            "y": -56980.0,
+            "z": 4661.93
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": -170099.52,
+            "y": -73194.71,
+            "z": 12147.0
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh",
+            "lane": "Any",
+            "order": -1,
+            "x": -33322.11,
+            "y": -35379.22,
+            "z": 5300.0
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh2",
+            "lane": "Any",
+            "order": -1,
+            "x": -34046.83,
+            "y": -32674.62,
+            "z": 5300.0
+        },
+        {
+            "name": "Stairwell",
+            "x": -52212.9,
+            "y": -72252.93,
+            "z": 4559.62,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Pipe Control",
+            "x": -50767.44,
+            "y": -71252.51,
+            "z": 3990.15,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Employee Area",
+            "x": -47551.92,
+            "y": -69974.18,
+            "z": 4572.81,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Upper Rooms South",
+            "x": -49659.99,
+            "y": -67701.42,
+            "z": 4941.63,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Loading Platform",
+            "x": -49038.23,
+            "y": -68170.24,
+            "z": 4342.81,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Upper Rooms North",
+            "x": -51536.12,
+            "y": -68704.25,
+            "z": 4921.51,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "Entry Tunnels",
+            "x": -46040.3,
+            "y": -65119.84,
+            "z": 4140.85,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "7Any"
+            ]
+        }
+    ]
+}

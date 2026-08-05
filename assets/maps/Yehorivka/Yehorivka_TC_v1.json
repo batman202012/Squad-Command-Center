@@ -1,0 +1,23 @@
+{
+    "map_id": "yehorivka",
+    "layer_name": "Yehorivka_TC_v1",
+    "total_flags": 2,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 206000.94,
+            "y": 49281.18,
+            "z": 5896.75
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -165587.7,
+            "y": 3546.21,
+            "z": 3680.06
+        }
+    ]
+}

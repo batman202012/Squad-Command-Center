@@ -1,0 +1,221 @@
+{
+    "map_id": "maps",
+    "layer_name": "BlackCoast_Invasion_v2",
+    "total_flags": 18,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -121642.91,
+            "y": -167572.44,
+            "z": 2524.32
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 179423.02,
+            "y": 175432.47,
+            "z": 989.0
+        },
+        {
+            "name": "FlagPole_Ballhead",
+            "lane": "Any",
+            "order": -1,
+            "x": 11920.24,
+            "y": -40469.14,
+            "z": 891.66
+        },
+        {
+            "name": "FlagPole_Ballhead2",
+            "lane": "Any",
+            "order": -1,
+            "x": 11920.24,
+            "y": -40469.14,
+            "z": 1627.19
+        },
+        {
+            "name": "FlagPole_Ballhead3",
+            "lane": "Any",
+            "order": -1,
+            "x": 64957.38,
+            "y": -23632.21,
+            "z": 5073.71
+        },
+        {
+            "name": "FlagPole_Ballhead4",
+            "lane": "Any",
+            "order": -1,
+            "x": 64957.38,
+            "y": -23632.2,
+            "z": 5808.99
+        },
+        {
+            "name": "FlagPole_Ballhead5",
+            "lane": "Any",
+            "order": -1,
+            "x": -2058.19,
+            "y": 83500.22,
+            "z": 887.74
+        },
+        {
+            "name": "FlagPole_Ballhead6",
+            "lane": "Any",
+            "order": -1,
+            "x": -2058.19,
+            "y": 83500.22,
+            "z": 1176.52
+        },
+        {
+            "name": "Pig Farm",
+            "x": -72259.16,
+            "y": -123350.88,
+            "z": 437.56,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Kalinovka",
+            "x": -39989.25,
+            "y": -64016.75,
+            "z": 946.23,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Fortified Farm",
+            "x": -91919.66,
+            "y": -50171.27,
+            "z": -766.01,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Sablya",
+            "x": -51969.56,
+            "y": -366.8,
+            "z": 946.23,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Old Train Yard",
+            "x": -108422.09,
+            "y": -6379.16,
+            "z": -767.7,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Sablya Outskirts",
+            "x": -54415.91,
+            "y": 45554.32,
+            "z": -767.7,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Torpedo Factory",
+            "x": -34531.84,
+            "y": 49829.49,
+            "z": 1928.25,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Chernikov Shoreline",
+            "x": 16009.31,
+            "y": 83906.78,
+            "z": 1928.25,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Chernikov Central",
+            "x": 25400.01,
+            "y": 67288.7,
+            "z": 1928.25,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Old Fort",
+            "x": -25958.71,
+            "y": 131609.16,
+            "z": 2307.59,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "map_id": "chora",
+    "layer_name": "Chora_AAS_v3",
+    "total_flags": 8,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 42243.93,
+            "y": -89629.7,
+            "z": -76145.95,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Checkpoint",
+            "lane": "Any",
+            "order": 1,
+            "x": -2916.26,
+            "y": -112185.22,
+            "z": -76528.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lavender Estate",
+            "lane": "Any",
+            "order": 2,
+            "x": -27990.53,
+            "y": -68054.97,
+            "z": -76574.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Radio Station",
+            "lane": "Any",
+            "order": 3,
+            "x": -59007.0,
+            "y": -45726.0,
+            "z": -76795.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lower Orchard",
+            "lane": "Any",
+            "order": 4,
+            "x": -88038.0,
+            "y": -28759.0,
+            "z": -76472.26,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Nursery",
+            "lane": "Any",
+            "order": 5,
+            "x": -125821.37,
+            "y": -15046.28,
+            "z": -76674.9,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Monolith",
+            "lane": "Any",
+            "order": 6,
+            "x": -161670.16,
+            "y": -32061.95,
+            "z": -76872.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -189041.22,
+            "y": 3375.32,
+            "z": -77248.7,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

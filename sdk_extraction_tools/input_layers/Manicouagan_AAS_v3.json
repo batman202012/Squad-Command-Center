@@ -1,0 +1,127 @@
+{
+    "map_id": "manicouagan",
+    "layer_name": "Manicouagan_AAS_v3",
+    "total_flags": 12,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 175856.38,
+            "y": 185634.42,
+            "z": 5484.88,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Gold Mine",
+            "lane": "Any",
+            "order": 1,
+            "x": 166818.65,
+            "y": 76330.01,
+            "z": 9562.72,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Warehouses",
+            "lane": "Any",
+            "order": 2,
+            "x": 143754.0,
+            "y": 8748.66,
+            "z": 8672.02,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Checkpoint",
+            "lane": "Any",
+            "order": 3,
+            "x": 88316.76,
+            "y": -1112.59,
+            "z": 10479.89,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Dieppe",
+            "lane": "Any",
+            "order": 4,
+            "x": 68332.17,
+            "y": -73033.34,
+            "z": 13447.02,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Old Convent",
+            "lane": "Any",
+            "order": 5,
+            "x": 64537.76,
+            "y": -139135.34,
+            "z": 13184.04,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Abandoned Island",
+            "lane": "Any",
+            "order": 6,
+            "x": 9118.0,
+            "y": -161194.68,
+            "z": 13495.82,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Dam Inlet",
+            "lane": "Any",
+            "order": 7,
+            "x": -48719.83,
+            "y": -149147.62,
+            "z": 12274.49,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -181219.02,
+            "y": -174430.55,
+            "z": 8691.74,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": -170099.52,
+            "y": -73194.71,
+            "z": 12147.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh",
+            "lane": "Any",
+            "order": -1,
+            "x": -33322.11,
+            "y": -35379.22,
+            "z": 5300.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh2",
+            "lane": "Any",
+            "order": -1,
+            "x": -34046.83,
+            "y": -32674.62,
+            "z": 5300.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        }
+    ]
+}

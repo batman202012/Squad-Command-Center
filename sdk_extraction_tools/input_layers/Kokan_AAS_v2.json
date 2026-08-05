@@ -1,0 +1,77 @@
+{
+    "map_id": "kokan_valley",
+    "layer_name": "Kokan_AAS_v2",
+    "total_flags": 7,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 68932.48,
+            "y": 78722.27,
+            "z": -24684.38,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Nova Isle",
+            "lane": "Any",
+            "order": 1,
+            "x": 22233.0,
+            "y": 59236.0,
+            "z": -24140.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "The Nest",
+            "lane": "Any",
+            "order": 2,
+            "x": 17864.0,
+            "y": 32573.0,
+            "z": -24662.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hyena Road",
+            "lane": "Any",
+            "order": 3,
+            "x": 13963.0,
+            "y": -3057.0,
+            "z": -24250.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "District Center",
+            "lane": "Any",
+            "order": 4,
+            "x": 12785.0,
+            "y": -40059.0,
+            "z": -24633.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Nexus",
+            "lane": "Any",
+            "order": 5,
+            "x": 10620.0,
+            "y": -77378.0,
+            "z": -24167.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 47052.73,
+            "y": -89415.97,
+            "z": -24200.77,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

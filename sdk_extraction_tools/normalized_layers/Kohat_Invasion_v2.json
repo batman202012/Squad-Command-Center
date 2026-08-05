@@ -1,0 +1,208 @@
+{
+    "map_id": "kohat",
+    "layer_name": "Kohat_Invasion_v2",
+    "total_flags": 14,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 23617.38,
+            "y": 157545.91,
+            "z": 3762.28
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -151076.56,
+            "y": -72678.64,
+            "z": 8021.88
+        },
+        {
+            "name": "Bahadur Valley",
+            "x": -88584.01,
+            "y": 20699.87,
+            "z": 4526.32,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Chakar Kot",
+            "x": -17124.33,
+            "y": -60790.05,
+            "z": 6970.54,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Ali Abad",
+            "x": -3023.31,
+            "y": -20923.05,
+            "z": 3686.15,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Lower Mohd Zai",
+            "x": -17775.11,
+            "y": 69272.52,
+            "z": 3709.33,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Malak Abad",
+            "x": -11675.94,
+            "y": 8984.17,
+            "z": 3197.4,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                },
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any",
+                "2Any"
+            ]
+        },
+        {
+            "name": "Syed Abad",
+            "x": -6575.06,
+            "y": 33484.85,
+            "z": 2143.11,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Mohd Zai",
+            "x": -19985.27,
+            "y": 52267.97,
+            "z": 2143.11,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Jouzara Proper",
+            "x": 83885.31,
+            "y": 60241.23,
+            "z": 1826.52,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Jouzara Valley",
+            "x": 66899.85,
+            "y": 67263.23,
+            "z": 1735.61,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Ambar Banda Bridge",
+            "x": 41421.41,
+            "y": 68234.06,
+            "z": 1887.75,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Upper Ambar Banda",
+            "x": 42581.5,
+            "y": 50733.27,
+            "z": 1887.75,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Hangu",
+            "x": 114800.84,
+            "y": 89438.56,
+            "z": 3020.06,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

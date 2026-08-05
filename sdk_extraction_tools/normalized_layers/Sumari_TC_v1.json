@@ -1,0 +1,23 @@
+{
+    "map_id": "sumari",
+    "layer_name": "Sumari_TC_v1",
+    "total_flags": 2,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -52006.84,
+            "y": 29424.0,
+            "z": -12989.13
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 52080.65,
+            "y": 33198.25,
+            "z": -13341.46
+        }
+    ]
+}

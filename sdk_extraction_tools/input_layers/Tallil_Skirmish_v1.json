@@ -1,0 +1,137 @@
+{
+    "map_id": "tallil_outskirts",
+    "layer_name": "Tallil_Skirmish_v1",
+    "total_flags": 13,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 133012.92,
+            "y": -33467.84,
+            "z": -7851.42,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "East Outskirt",
+            "lane": "Any",
+            "order": 1,
+            "x": 122918.97,
+            "y": -51561.78,
+            "z": -7596.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "HVT Compound",
+            "lane": "Any",
+            "order": 2,
+            "x": 92614.72,
+            "y": -49193.24,
+            "z": -7596.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Elder's Compound",
+            "lane": "Any",
+            "order": 3,
+            "x": 102119.03,
+            "y": -69894.06,
+            "z": -7312.7,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "East Al-Khidir",
+            "lane": "Any",
+            "order": 4,
+            "x": 111788.89,
+            "y": -62423.79,
+            "z": -7143.51,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "West Al-Khidir",
+            "lane": "Any",
+            "order": 5,
+            "x": 83232.23,
+            "y": -65818.09,
+            "z": -7596.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Al-Khidir Bridge",
+            "lane": "Any",
+            "order": 6,
+            "x": 102304.16,
+            "y": -55063.91,
+            "z": -7596.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "West Outskirt",
+            "lane": "Any",
+            "order": 7,
+            "x": 68691.17,
+            "y": -59250.65,
+            "z": -7596.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 49258.73,
+            "y": -75340.0,
+            "z": -7207.55,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_4",
+            "lane": "Any",
+            "order": -1,
+            "x": -56791.81,
+            "y": 102645.78,
+            "z": -7225.26,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": -59253.03,
+            "y": 109318.96,
+            "z": -7103.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_2",
+            "lane": "Any",
+            "order": -1,
+            "x": -59292.87,
+            "y": 109131.57,
+            "z": -7103.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_3",
+            "lane": "Any",
+            "order": -1,
+            "x": -59334.63,
+            "y": 108935.06,
+            "z": -7103.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

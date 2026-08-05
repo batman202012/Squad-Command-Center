@@ -1,0 +1,23 @@
+{
+    "map_id": "chora",
+    "layer_name": "Chora_TC_v1",
+    "total_flags": 2,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 42811.61,
+            "y": -89037.83,
+            "z": -76246.88
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -189061.03,
+            "y": 3703.55,
+            "z": -77287.49
+        }
+    ]
+}

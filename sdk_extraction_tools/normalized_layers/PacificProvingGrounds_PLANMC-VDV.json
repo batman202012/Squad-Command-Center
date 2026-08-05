@@ -1,0 +1,23 @@
+{
+    "map_id": "pacificprovinggrounds",
+    "layer_name": "PacificProvingGrounds_PLANMC-VDV",
+    "total_flags": 2,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -19147.93,
+            "y": 11487.25,
+            "z": 1600.46
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -28096.58,
+            "y": 5968.8,
+            "z": 1184.13
+        }
+    ]
+}

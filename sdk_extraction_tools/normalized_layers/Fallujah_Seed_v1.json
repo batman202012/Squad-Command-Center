@@ -1,0 +1,92 @@
+{
+    "map_id": "fallujah_city",
+    "layer_name": "Fallujah_Seed_v1",
+    "total_flags": 8,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 11663.11,
+            "y": -15773.68,
+            "z": -4402.81
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 44705.5,
+            "y": -10197.74,
+            "z": -4339.92
+        },
+        {
+            "name": "SM_USA_Flag_3",
+            "lane": "Any",
+            "order": -1,
+            "x": 13294.93,
+            "y": 43220.02,
+            "z": -4412.89
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": -37129.02,
+            "y": 80872.95,
+            "z": -2988.29
+        },
+        {
+            "name": "SM_USA_Flag_2",
+            "lane": "Any",
+            "order": -1,
+            "x": -27127.36,
+            "y": -36929.61,
+            "z": -3818.97
+        },
+        {
+            "name": "Shipping Area",
+            "x": 22854.11,
+            "y": -14699.44,
+            "z": -4420.32,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Market Center",
+            "x": 28571.95,
+            "y": -12943.86,
+            "z": -4414.47,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Hallal Market",
+            "x": 34586.4,
+            "y": -8270.09,
+            "z": -4139.14,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        }
+    ]
+}

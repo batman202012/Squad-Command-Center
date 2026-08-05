@@ -1,0 +1,541 @@
+{
+    "map_id": "manicouagan",
+    "layer_name": "Manicouagan_Invasion_v1",
+    "total_flags": 49,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 175544.31,
+            "y": 184992.75,
+            "z": 5624.99,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 1,
+            "x": -80454.92,
+            "y": -49266.51,
+            "z": 34294.35,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A1-Firebase Dmitri",
+                "A1-Trenches",
+                "A1-Lumber Mill",
+                "A1-Antenna Facility"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 1,
+            "x": -54043.79,
+            "y": -53594.82,
+            "z": 34422.04,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B1-Dam Administration",
+                "B1-Underground Dam Outlet"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 1,
+            "x": -44996.65,
+            "y": -113433.5,
+            "z": 24695.14,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C1-Daniel-Johnson Dam",
+                "C1-Dam Maintenance"
+            ]
+        },
+        {
+            "name": "Antenna Facility",
+            "lane": "A",
+            "order": 1,
+            "x": -146761.19,
+            "y": 68811.93,
+            "z": 8399.36,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Trenches",
+            "lane": "A",
+            "order": 1,
+            "x": -114026.47,
+            "y": 40657.48,
+            "z": 5305.1,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Lumber Mill",
+            "lane": "A",
+            "order": 1,
+            "x": -145440.19,
+            "y": -15842.07,
+            "z": 9701.36,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Firebase Dmitri",
+            "lane": "A",
+            "order": 1,
+            "x": -162313.19,
+            "y": -64148.07,
+            "z": 11621.36,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Dam Administration",
+            "lane": "B",
+            "order": 1,
+            "x": -51782.7,
+            "y": -39058.1,
+            "z": 4866.33,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Underground Dam Outlet",
+            "lane": "B",
+            "order": 1,
+            "x": -49141.0,
+            "y": -68201.21,
+            "z": 948.12,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Dam Maintenance",
+            "lane": "C",
+            "order": 1,
+            "x": -40098.36,
+            "y": -106964.52,
+            "z": 4503.5,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Daniel-Johnson Dam",
+            "lane": "C",
+            "order": 1,
+            "x": -30492.5,
+            "y": -119130.54,
+            "z": 10138.76,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 2,
+            "x": -80454.92,
+            "y": -49266.51,
+            "z": 34294.35,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A2-Bay Comeau West",
+                "A2-Fermont"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 2,
+            "x": -33424.81,
+            "y": 3278.41,
+            "z": 34422.04,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B2-Firebase Boris",
+                "B2-Power Station"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 2,
+            "x": 54327.84,
+            "y": -52713.3,
+            "z": 37648.13,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C2-Ridgeline Defenses",
+                "C2-Dieppe"
+            ]
+        },
+        {
+            "name": "Fermont",
+            "lane": "A",
+            "order": 2,
+            "x": -116546.19,
+            "y": 118645.93,
+            "z": 5952.36,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Bay Comeau West",
+            "lane": "A",
+            "order": 2,
+            "x": -56309.19,
+            "y": 60614.93,
+            "z": 5285.51,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Firebase Boris",
+            "lane": "B",
+            "order": 2,
+            "x": -24088.34,
+            "y": 24999.54,
+            "z": 5767.49,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Power Station",
+            "lane": "B",
+            "order": 2,
+            "x": -34222.04,
+            "y": -34296.76,
+            "z": 4514.1,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Ridgeline Defenses",
+            "lane": "C",
+            "order": 2,
+            "x": 51272.34,
+            "y": -36888.12,
+            "z": 12773.1,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Dieppe",
+            "lane": "C",
+            "order": 2,
+            "x": 66345.28,
+            "y": -77052.74,
+            "z": 13610.33,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 3,
+            "x": 42388.7,
+            "y": -22900.91,
+            "z": 35441.56,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A3-Bay Comeau Central",
+                "A3-Crash Site"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 3,
+            "x": 25603.66,
+            "y": 21340.39,
+            "z": 34422.04,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B3-Old Train Station",
+                "B3-Hilltop"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 3,
+            "x": 92989.25,
+            "y": 8261.1,
+            "z": 34422.04,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C3-Checkpoint"
+            ]
+        },
+        {
+            "name": "Bay Comeau Central",
+            "lane": "A",
+            "order": 3,
+            "x": -15927.7,
+            "y": 84440.69,
+            "z": 5657.07,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Crash Site",
+            "lane": "A",
+            "order": 3,
+            "x": -61242.7,
+            "y": 121590.68,
+            "z": 5416.77,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Old Train Station",
+            "lane": "B",
+            "order": 3,
+            "x": 37156.78,
+            "y": 40819.41,
+            "z": 4222.68,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Hilltop",
+            "lane": "B",
+            "order": 3,
+            "x": 15952.09,
+            "y": -3807.12,
+            "z": 8838.59,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Checkpoint",
+            "lane": "C",
+            "order": 3,
+            "x": 87607.14,
+            "y": -1533.21,
+            "z": 10385.39,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 4,
+            "x": 129335.27,
+            "y": 18447.05,
+            "z": 35246.91,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A4-Old Van Doo Garrison",
+                "A4-Bay Comeau East"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 4,
+            "x": 97754.62,
+            "y": 55909.3,
+            "z": 34422.04,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B4-Cannabis Farm"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 4,
+            "x": 123540.0,
+            "y": 24793.46,
+            "z": 34422.04,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C4-Warehouses",
+                "C4-Cannabis Farm"
+            ]
+        },
+        {
+            "name": "Bay Comeau East",
+            "lane": "A",
+            "order": 4,
+            "x": 33988.92,
+            "y": 119886.09,
+            "z": 5620.82,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Old Van Doo Garrison",
+            "lane": "A",
+            "order": 4,
+            "x": -28662.67,
+            "y": 170875.84,
+            "z": 6919.11,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Cannabis Farm",
+            "lane": "B",
+            "order": 4,
+            "x": 97721.3,
+            "y": 54638.71,
+            "z": 8218.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Cannabis Farm",
+            "lane": "C",
+            "order": 4,
+            "x": 97721.3,
+            "y": 54638.71,
+            "z": 8218.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Warehouses",
+            "lane": "C",
+            "order": 4,
+            "x": 143194.17,
+            "y": 9478.19,
+            "z": 8218.11,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 5,
+            "x": 43669.56,
+            "y": 117138.69,
+            "z": 34422.04,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A5-Logistics Center",
+                "A5-Logging Camp"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 5,
+            "x": 133693.58,
+            "y": 93453.95,
+            "z": 34422.04,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B5-Diefenbunker",
+                "B5-Gold Mine"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 5,
+            "x": 133693.58,
+            "y": 93453.95,
+            "z": 34422.04,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C5-Gold Mine"
+            ]
+        },
+        {
+            "name": "Logistics Center",
+            "lane": "A",
+            "order": 5,
+            "x": 101686.45,
+            "y": 141038.05,
+            "z": 6944.04,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Logging Camp",
+            "lane": "A",
+            "order": 5,
+            "x": 60636.04,
+            "y": 184062.89,
+            "z": 8885.33,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Diefenbunker",
+            "lane": "B",
+            "order": 5,
+            "x": 121768.31,
+            "y": 114699.48,
+            "z": 2095.93,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Gold Mine",
+            "lane": "B",
+            "order": 5,
+            "x": 164246.83,
+            "y": 74061.12,
+            "z": 9093.56,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Gold Mine",
+            "lane": "C",
+            "order": 5,
+            "x": 164246.83,
+            "y": 74061.12,
+            "z": 9093.56,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -181252.19,
+            "y": -175180.23,
+            "z": 8238.9,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": -170099.52,
+            "y": -73194.71,
+            "z": 12147.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh",
+            "lane": "Any",
+            "order": -1,
+            "x": -33322.11,
+            "y": -35379.22,
+            "z": 5300.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh2",
+            "lane": "Any",
+            "order": -1,
+            "x": -34046.83,
+            "y": -32674.62,
+            "z": 5300.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        }
+    ]
+}

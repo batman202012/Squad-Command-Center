@@ -1,0 +1,1311 @@
+{
+    "map_id": "maps",
+    "layer_name": "Harju_RAAS_v1",
+    "total_flags": 120,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -127521.44,
+            "y": 96632.22,
+            "z": 545.16,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 1,
+            "x": -116234.5,
+            "y": -48310.78,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A1-Paper Mill",
+                "A1-Waste Treatment",
+                "A1-Trucking Depot"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 1,
+            "x": -91531.5,
+            "y": -23710.78,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B1-Fuel Storage"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 1,
+            "x": -107453.5,
+            "y": 26962.22,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C1-Missile Silos Underground",
+                "C1-N\u00e4kym\u00e4",
+                "C1-Mimi's Marsh"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 1,
+            "x": -82555.5,
+            "y": 27888.22,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D1-N\u00e4kym\u00e4",
+                "D1-Missile Silos Underground"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 1,
+            "x": -58053.5,
+            "y": 55486.22,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E1-Lighthouse"
+            ]
+        },
+        {
+            "name": "Mimi's Marsh",
+            "lane": "C",
+            "order": 1,
+            "x": -122001.34,
+            "y": 16305.56,
+            "z": 819.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Paper Mill",
+            "lane": "A",
+            "order": 1,
+            "x": -134052.88,
+            "y": -30552.6,
+            "z": 937.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Waste Treatment",
+            "lane": "A",
+            "order": 1,
+            "x": -143994.81,
+            "y": -45224.02,
+            "z": -85.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Trucking Depot",
+            "lane": "A",
+            "order": 1,
+            "x": -129328.06,
+            "y": -60827.61,
+            "z": 1415.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "N\u00e4kym\u00e4",
+            "lane": "D",
+            "order": 1,
+            "x": -92604.95,
+            "y": 45634.06,
+            "z": 1606.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lighthouse",
+            "lane": "E",
+            "order": 1,
+            "x": -57113.09,
+            "y": 56548.14,
+            "z": 388.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Missile Silos Underground",
+            "lane": "D",
+            "order": 1,
+            "x": -78099.34,
+            "y": 19153.59,
+            "z": -1093.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "N\u00e4kym\u00e4",
+            "lane": "C",
+            "order": 1,
+            "x": -92604.95,
+            "y": 45634.06,
+            "z": 1606.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Missile Silos Underground",
+            "lane": "C",
+            "order": 1,
+            "x": -78099.34,
+            "y": 19153.59,
+            "z": -1093.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Fuel Storage",
+            "lane": "B",
+            "order": 1,
+            "x": -83313.97,
+            "y": -26829.97,
+            "z": 557.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 2,
+            "x": -82342.81,
+            "y": -111648.42,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A2-Military Apartments",
+                "A2-Ammunition Bunker"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 2,
+            "x": -64676.5,
+            "y": -71606.78,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B2-Military Apartments",
+                "B2-Checkpoint"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 2,
+            "x": -64014.5,
+            "y": -3601.78,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C2-M\u00e4ntyharju",
+                "C2-Fuel Storage"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 2,
+            "x": -29731.5,
+            "y": 2351.22,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D2-K\u00e4py",
+                "D2-Wheat Farm"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 2,
+            "x": -30287.5,
+            "y": 20034.22,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E2-K\u00e4py",
+                "E2-M\u00e4ntyharju"
+            ]
+        },
+        {
+            "name": "Military Apartments",
+            "lane": "A",
+            "order": 2,
+            "x": -73715.4,
+            "y": -83044.05,
+            "z": 1541.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ammunition Bunker",
+            "lane": "A",
+            "order": 2,
+            "x": -91282.98,
+            "y": -135308.19,
+            "z": 2276.97,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Fuel Storage",
+            "lane": "C",
+            "order": 2,
+            "x": -83313.97,
+            "y": -26829.97,
+            "z": 557.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Checkpoint",
+            "lane": "B",
+            "order": 2,
+            "x": -49645.71,
+            "y": -57015.23,
+            "z": 141.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "M\u00e4ntyharju",
+            "lane": "C",
+            "order": 2,
+            "x": -40857.08,
+            "y": 17172.58,
+            "z": 1567.38,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Wheat Farm",
+            "lane": "D",
+            "order": 2,
+            "x": -35617.85,
+            "y": -13638.68,
+            "z": 557.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Military Apartments",
+            "lane": "B",
+            "order": 2,
+            "x": -73715.4,
+            "y": -83044.05,
+            "z": 1541.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "K\u00e4py",
+            "lane": "D",
+            "order": 2,
+            "x": -19346.35,
+            "y": 24586.16,
+            "z": 1917.38,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "K\u00e4py",
+            "lane": "E",
+            "order": 2,
+            "x": -19346.35,
+            "y": 24586.16,
+            "z": 1917.38,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "M\u00e4ntyharju",
+            "lane": "E",
+            "order": 2,
+            "x": -40857.08,
+            "y": 17172.58,
+            "z": 1567.38,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 3,
+            "x": -12944.92,
+            "y": -151604.75,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A3-Castle",
+                "A3-Hangers",
+                "A3-Training Center"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 3,
+            "x": 6184.5,
+            "y": -58328.78,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B3-Forest Industrial"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 3,
+            "x": -34141.5,
+            "y": -21938.78,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C3-Wheat Farm",
+                "C3-K\u00e4py"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 3,
+            "x": 4572.5,
+            "y": -34375.78,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D3-Mets\u00e4kyl\u00e4",
+                "D3-Power Plant"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 3,
+            "x": 15130.5,
+            "y": -15700.78,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E3-Power Plant"
+            ]
+        },
+        {
+            "name": "Hangers",
+            "lane": "A",
+            "order": 3,
+            "x": -46870.37,
+            "y": -109850.38,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Training Center",
+            "lane": "A",
+            "order": 3,
+            "x": -17825.41,
+            "y": -136117.5,
+            "z": 609.98,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Castle",
+            "lane": "A",
+            "order": 3,
+            "x": -47367.21,
+            "y": -158727.66,
+            "z": 4409.96,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Forest Industrial",
+            "lane": "B",
+            "order": 3,
+            "x": -7189.53,
+            "y": -95249.19,
+            "z": 606.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "K\u00e4py",
+            "lane": "C",
+            "order": 3,
+            "x": -19346.35,
+            "y": 24586.16,
+            "z": 1917.38,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Wheat Farm",
+            "lane": "C",
+            "order": 3,
+            "x": -35617.85,
+            "y": -13638.68,
+            "z": 557.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Mets\u00e4kyl\u00e4",
+            "lane": "D",
+            "order": 3,
+            "x": -2753.64,
+            "y": -51166.25,
+            "z": 931.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Power Plant",
+            "lane": "D",
+            "order": 3,
+            "x": 15782.95,
+            "y": -16272.81,
+            "z": 2021.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Power Plant",
+            "lane": "E",
+            "order": 3,
+            "x": 15782.95,
+            "y": -16272.81,
+            "z": 2021.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 4,
+            "x": 14060.22,
+            "y": -145641.06,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A4-Scrapyard"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 4,
+            "x": 45498.5,
+            "y": -112882.78,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B4-Scrapyard",
+                "B4-Construction Site",
+                "B4-BioChem Lab"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 4,
+            "x": 12431.5,
+            "y": -36954.78,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C4-Power Plant",
+                "C4-Logistics Hub",
+                "C4-Mets\u00e4kyl\u00e4"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 4,
+            "x": 37420.5,
+            "y": -73957.78,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D4-Harju Industrial",
+                "D4-Logistics Hub",
+                "D4-Construction Site"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 4,
+            "x": 45849.5,
+            "y": -1580.78,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E4-Customs Office"
+            ]
+        },
+        {
+            "name": "Power Plant",
+            "lane": "C",
+            "order": 4,
+            "x": 15782.95,
+            "y": -16272.81,
+            "z": 2021.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Scrapyard",
+            "lane": "A",
+            "order": 4,
+            "x": 23164.25,
+            "y": -119848.7,
+            "z": 787.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Construction Site",
+            "lane": "B",
+            "order": 4,
+            "x": 30726.74,
+            "y": -92303.57,
+            "z": 1392.38,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "BioChem Lab",
+            "lane": "B",
+            "order": 4,
+            "x": 62920.32,
+            "y": -104465.1,
+            "z": 417.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Mets\u00e4kyl\u00e4",
+            "lane": "C",
+            "order": 4,
+            "x": -2753.64,
+            "y": -51166.25,
+            "z": 931.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Logistics Hub",
+            "lane": "D",
+            "order": 4,
+            "x": 18901.16,
+            "y": -53259.2,
+            "z": 931.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Logistics Hub",
+            "lane": "C",
+            "order": 4,
+            "x": 18901.16,
+            "y": -53259.2,
+            "z": 931.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Scrapyard",
+            "lane": "B",
+            "order": 4,
+            "x": 23164.25,
+            "y": -119848.7,
+            "z": 787.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Harju Industrial",
+            "lane": "D",
+            "order": 4,
+            "x": 62071.5,
+            "y": -66383.3,
+            "z": 552.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Construction Site",
+            "lane": "D",
+            "order": 4,
+            "x": 30726.74,
+            "y": -92303.57,
+            "z": 1392.38,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Customs Office",
+            "lane": "E",
+            "order": 4,
+            "x": 45762.11,
+            "y": -1460.95,
+            "z": 552.4,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 5,
+            "x": 82360.5,
+            "y": -121296.78,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A5-Northern Neighborhood"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 5,
+            "x": 71581.5,
+            "y": -90134.78,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B5-Northern Apartments",
+                "B5-Shopping District",
+                "B5-Town Hall",
+                "B5-Harju Industrial"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 5,
+            "x": 53962.5,
+            "y": -25538.78,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C5-Harju Industrial",
+                "C5-Customs Office"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 5,
+            "x": 87171.5,
+            "y": -49407.78,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D5-Harju Outskirts"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 5,
+            "x": 86885.5,
+            "y": 20230.22,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E5-J\u00e4rvikyl\u00e4"
+            ]
+        },
+        {
+            "name": "Northern Neighborhood",
+            "lane": "A",
+            "order": 5,
+            "x": 85009.55,
+            "y": -120992.0,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Town Hall",
+            "lane": "B",
+            "order": 5,
+            "x": 78932.85,
+            "y": -90640.62,
+            "z": 552.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Shopping District",
+            "lane": "B",
+            "order": 5,
+            "x": 68696.94,
+            "y": -83439.23,
+            "z": 272.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Northern Apartments",
+            "lane": "B",
+            "order": 5,
+            "x": 85003.45,
+            "y": -98552.95,
+            "z": 552.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Harju Industrial",
+            "lane": "B",
+            "order": 5,
+            "x": 62071.5,
+            "y": -66383.3,
+            "z": 552.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Harju Industrial",
+            "lane": "C",
+            "order": 5,
+            "x": 62071.5,
+            "y": -66383.3,
+            "z": 552.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "J\u00e4rvikyl\u00e4",
+            "lane": "E",
+            "order": 5,
+            "x": 86537.48,
+            "y": 20991.54,
+            "z": 865.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Customs Office",
+            "lane": "C",
+            "order": 5,
+            "x": 45762.11,
+            "y": -1460.95,
+            "z": 552.4,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Harju Outskirts",
+            "lane": "D",
+            "order": 5,
+            "x": 86980.5,
+            "y": -50396.95,
+            "z": 552.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 6,
+            "x": 154486.5,
+            "y": -141774.78,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A6-Estate"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 6,
+            "x": 104038.5,
+            "y": -62682.78,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B6-Lumber Yard",
+                "B6-Harju Outskirts",
+                "B6-Bombed Apartments"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 6,
+            "x": 83177.5,
+            "y": -24571.78,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C6-Harju Outskirts",
+                "C6-Warehouse 21"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 6,
+            "x": 96336.5,
+            "y": 3412.22,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D6-Warehouse 21",
+                "D6-Truck Stop"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 6,
+            "x": 40915.5,
+            "y": 51800.22,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E6-Distribution Center",
+                "E6-Factory"
+            ]
+        },
+        {
+            "name": "Factory",
+            "lane": "E",
+            "order": 6,
+            "x": 46559.66,
+            "y": 41344.59,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Truck Stop",
+            "lane": "D",
+            "order": 6,
+            "x": 115329.64,
+            "y": 6874.58,
+            "z": 1981.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Estate",
+            "lane": "A",
+            "order": 6,
+            "x": 157028.08,
+            "y": -145002.53,
+            "z": 2312.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Lumber Yard",
+            "lane": "B",
+            "order": 6,
+            "x": 123229.62,
+            "y": -61397.91,
+            "z": 417.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Warehouse 21",
+            "lane": "C",
+            "order": 6,
+            "x": 82557.88,
+            "y": -3893.54,
+            "z": 865.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Distribution Center",
+            "lane": "E",
+            "order": 6,
+            "x": 29871.79,
+            "y": 48819.25,
+            "z": 265.38,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Bombed Apartments",
+            "lane": "B",
+            "order": 6,
+            "x": 81774.02,
+            "y": -67217.72,
+            "z": 552.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Harju Outskirts",
+            "lane": "B",
+            "order": 6,
+            "x": 86980.5,
+            "y": -50396.95,
+            "z": 552.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Harju Outskirts",
+            "lane": "C",
+            "order": 6,
+            "x": 86980.5,
+            "y": -50396.95,
+            "z": 552.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Warehouse 21",
+            "lane": "D",
+            "order": 6,
+            "x": 82557.88,
+            "y": -3893.54,
+            "z": 865.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 7,
+            "x": 148558.5,
+            "y": -39261.78,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A7-Liminka",
+                "A7-Lumber Yard"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 7,
+            "x": 116571.5,
+            "y": -14211.78,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B7-Warehouse 21",
+                "B7-Liminka"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 7,
+            "x": 129230.5,
+            "y": -13618.78,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C7-Liminka",
+                "C7-Truck Stop"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 7,
+            "x": 126767.5,
+            "y": 37697.22,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D7-Swamp Homestead",
+                "D7-J\u00e4rvikyl\u00e4",
+                "D7-Beach Defenses"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 7,
+            "x": 54567.5,
+            "y": 77978.22,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E7-Pier One"
+            ]
+        },
+        {
+            "name": "Pier One",
+            "lane": "E",
+            "order": 7,
+            "x": 54529.45,
+            "y": 78552.44,
+            "z": 761.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lumber Yard",
+            "lane": "A",
+            "order": 7,
+            "x": 123229.62,
+            "y": -61397.91,
+            "z": 417.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Liminka",
+            "lane": "A",
+            "order": 7,
+            "x": 146216.05,
+            "y": -30691.88,
+            "z": 417.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Swamp Homestead",
+            "lane": "D",
+            "order": 7,
+            "x": 169319.39,
+            "y": -6631.19,
+            "z": 865.4,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "J\u00e4rvikyl\u00e4",
+            "lane": "D",
+            "order": 7,
+            "x": 86537.48,
+            "y": 20991.54,
+            "z": 865.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Liminka",
+            "lane": "B",
+            "order": 7,
+            "x": 146216.05,
+            "y": -30691.88,
+            "z": 417.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Warehouse 21",
+            "lane": "B",
+            "order": 7,
+            "x": 82557.88,
+            "y": -3893.54,
+            "z": 865.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Truck Stop",
+            "lane": "C",
+            "order": 7,
+            "x": 115329.64,
+            "y": 6874.58,
+            "z": 1966.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Liminka",
+            "lane": "C",
+            "order": 7,
+            "x": 146216.05,
+            "y": -30691.88,
+            "z": 417.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Beach Defenses",
+            "lane": "D",
+            "order": 7,
+            "x": 128516.05,
+            "y": 38865.48,
+            "z": 865.4,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 132958.28,
+            "y": 111438.38,
+            "z": 127.97,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "HorizontalFlag8",
+            "lane": "Any",
+            "order": -1,
+            "x": 33094.27,
+            "y": -88780.67,
+            "z": 3985.98,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "HorizontalFlag7",
+            "lane": "Any",
+            "order": -1,
+            "x": -60165.73,
+            "y": 54779.47,
+            "z": 856.04,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_3",
+            "lane": "Any",
+            "order": -1,
+            "x": -60166.42,
+            "y": 54782.28,
+            "z": 261.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead_Angled",
+            "lane": "Any",
+            "order": -1,
+            "x": 149.0,
+            "y": -53458.77,
+            "z": 1119.5,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead_Angled3",
+            "lane": "Any",
+            "order": -1,
+            "x": 110.84,
+            "y": -53468.02,
+            "z": 1158.76,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "HorizontalFlag3",
+            "lane": "Any",
+            "order": -1,
+            "x": -30138.54,
+            "y": -113734.52,
+            "z": 1107.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "HorizontalFlag4",
+            "lane": "Any",
+            "order": -1,
+            "x": -57055.11,
+            "y": -102082.51,
+            "z": 1175.74,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "HorizontalFlag9",
+            "lane": "Any",
+            "order": -1,
+            "x": -30132.83,
+            "y": -113735.54,
+            "z": 476.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead_Angled2",
+            "lane": "Any",
+            "order": -1,
+            "x": 60657.86,
+            "y": -79864.52,
+            "z": 638.96,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "HorizontalFlag5",
+            "lane": "Any",
+            "order": -1,
+            "x": 60622.98,
+            "y": -79879.95,
+            "z": 679.59,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh",
+            "lane": "Any",
+            "order": -1,
+            "x": 69160.72,
+            "y": -90375.8,
+            "z": 154.61,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "HorizontalFlag_InstancedMesh",
+            "lane": "Any",
+            "order": -1,
+            "x": 71324.23,
+            "y": -88866.98,
+            "z": 628.87,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh2",
+            "lane": "Any",
+            "order": -1,
+            "x": 84540.36,
+            "y": -87894.29,
+            "z": 172.2,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "HorizontalFlag_InstancedMesh2",
+            "lane": "Any",
+            "order": -1,
+            "x": 84544.05,
+            "y": -87892.7,
+            "z": 646.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

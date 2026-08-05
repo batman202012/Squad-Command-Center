@@ -1,0 +1,608 @@
+{
+    "map_id": "maps",
+    "layer_name": "AlBasrah_Invasion_v2",
+    "total_flags": 55,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 189769.92,
+            "y": -133434.86,
+            "z": 733.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Al Yawiyah North",
+            "lane": "A",
+            "order": 1,
+            "x": 117229.16,
+            "y": -136578.15,
+            "z": 725.84,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Kibasi NE",
+            "lane": "B",
+            "order": 1,
+            "x": 131805.92,
+            "y": -69429.42,
+            "z": 1066.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Highway 10 North Bridge",
+            "lane": "C",
+            "order": 1,
+            "x": 155683.36,
+            "y": -66618.73,
+            "z": 1066.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Highway 10 North Bridge",
+            "lane": "D",
+            "order": 1,
+            "x": 155683.36,
+            "y": -66618.73,
+            "z": 1066.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Kibasi Police Station",
+            "lane": "B",
+            "order": 2,
+            "x": 122948.1,
+            "y": -39480.9,
+            "z": 482.02,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Highway 10 South Bridge",
+            "lane": "C",
+            "order": 2,
+            "x": 148599.03,
+            "y": 2879.14,
+            "z": 794.83,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Kibasi NW",
+            "lane": "B",
+            "order": 2,
+            "x": 102076.04,
+            "y": -60413.0,
+            "z": 725.84,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Kibasi Market",
+            "lane": "C",
+            "order": 2,
+            "x": 132938.47,
+            "y": -17506.76,
+            "z": 482.02,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Bridge Construction",
+            "lane": "A",
+            "order": 2,
+            "x": 79899.22,
+            "y": -141969.71,
+            "z": 725.84,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Highway 10 South Bridge",
+            "lane": "D",
+            "order": 2,
+            "x": 148599.03,
+            "y": 2879.14,
+            "z": 794.83,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "At Tannuhmah",
+            "lane": "D",
+            "order": 2,
+            "x": 139175.6,
+            "y": 40333.82,
+            "z": 794.83,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Date Orchards",
+            "lane": "C",
+            "order": 3,
+            "x": 107793.35,
+            "y": 22065.62,
+            "z": 6.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Patrol Base",
+            "lane": "B",
+            "order": 3,
+            "x": 89434.3,
+            "y": -31555.47,
+            "z": 410.34,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Highway 6 Interchange",
+            "lane": "A",
+            "order": 3,
+            "x": 30738.64,
+            "y": -139707.94,
+            "z": 725.84,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Al Tuwaisa East",
+            "lane": "C",
+            "order": 4,
+            "x": 76134.02,
+            "y": 44976.46,
+            "z": 328.75,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "The Brick",
+            "lane": "D",
+            "order": 4,
+            "x": 116615.56,
+            "y": 87617.64,
+            "z": 412.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Sinbad Island",
+            "lane": "B",
+            "order": 4,
+            "x": 68203.88,
+            "y": -24330.13,
+            "z": 820.01,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Dur Al Mattar",
+            "lane": "A",
+            "order": 4,
+            "x": -31770.91,
+            "y": -131468.96,
+            "z": 725.84,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Dur Al Mattar",
+            "lane": "A",
+            "order": 4,
+            "x": -26480.94,
+            "y": -116736.2,
+            "z": 725.84,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Island Park",
+            "lane": "C",
+            "order": 4,
+            "x": 68064.02,
+            "y": 21406.46,
+            "z": 328.75,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Kardalan",
+            "lane": "D",
+            "order": 4,
+            "x": 115353.17,
+            "y": 80285.46,
+            "z": 412.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hotel International",
+            "lane": "D",
+            "order": 5,
+            "x": 63728.13,
+            "y": 65119.78,
+            "z": 395.57,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lower Estates",
+            "lane": "D",
+            "order": 5,
+            "x": 63031.77,
+            "y": 82393.33,
+            "z": 885.23,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Refinery",
+            "lane": "B",
+            "order": 5,
+            "x": 49365.09,
+            "y": 5866.02,
+            "z": 410.34,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Mosque",
+            "lane": "C",
+            "order": 5,
+            "x": 34796.35,
+            "y": 28165.16,
+            "z": 410.34,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Shu'Aiba Market",
+            "lane": "A",
+            "order": 5,
+            "x": -57126.73,
+            "y": -127077.13,
+            "z": 725.84,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Garages",
+            "lane": "A",
+            "order": 5,
+            "x": -63678.33,
+            "y": -107174.72,
+            "z": 725.84,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Civilian ATC",
+            "lane": "A",
+            "order": 5,
+            "x": -44263.16,
+            "y": -90432.3,
+            "z": 725.84,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Refinery",
+            "lane": "C",
+            "order": 5,
+            "x": 49365.09,
+            "y": 5866.02,
+            "z": 410.34,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Muftiyah",
+            "lane": "C",
+            "order": 5,
+            "x": 51065.09,
+            "y": 30196.02,
+            "z": 410.34,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Warehouse",
+            "lane": "D",
+            "order": 5,
+            "x": 64561.77,
+            "y": 90153.33,
+            "z": 885.23,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Army HQ",
+            "lane": "D",
+            "order": 5,
+            "x": 79031.74,
+            "y": 125498.1,
+            "z": 885.23,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -168612.19,
+            "y": 150367.31,
+            "z": 1205.96,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "A1_Capture Zone",
+            "lane": "Any",
+            "order": -1,
+            "x": 128320.0,
+            "y": -126550.0,
+            "z": 2710.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A1-Al Yawiyah North"
+            ]
+        },
+        {
+            "name": "A2_Capture Zone",
+            "lane": "Any",
+            "order": -1,
+            "x": 74630.0,
+            "y": -143890.0,
+            "z": 2710.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A2-Bridge Construction"
+            ]
+        },
+        {
+            "name": "A3_Capture Zone",
+            "lane": "Any",
+            "order": -1,
+            "x": 31880.0,
+            "y": -138780.0,
+            "z": 2710.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A3-Highway 6 Interchange"
+            ]
+        },
+        {
+            "name": "A4_Capture Zone",
+            "lane": "Any",
+            "order": -1,
+            "x": -26670.0,
+            "y": -126230.0,
+            "z": 2710.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A4-Dur Al Mattar"
+            ]
+        },
+        {
+            "name": "A5_Capture Zone",
+            "lane": "Any",
+            "order": -1,
+            "x": -55490.0,
+            "y": -108720.0,
+            "z": 2710.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A5-Garages",
+                "A5-Shu'Aiba Market",
+                "A5-Civilian ATC"
+            ]
+        },
+        {
+            "name": "B1_Capture Zone",
+            "lane": "Any",
+            "order": -1,
+            "x": 135100.0,
+            "y": -71480.0,
+            "z": 2710.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B1 - Kibasi NE"
+            ]
+        },
+        {
+            "name": "B2_Capture Zone",
+            "lane": "Any",
+            "order": -1,
+            "x": 111760.0,
+            "y": -47230.0,
+            "z": 2710.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B2-Kibasi Police Station",
+                "B2-Kibasi NW"
+            ]
+        },
+        {
+            "name": "B3_Capture Zone",
+            "lane": "Any",
+            "order": -1,
+            "x": 88260.0,
+            "y": -32060.0,
+            "z": 2710.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B3-Patrol Base"
+            ]
+        },
+        {
+            "name": "B4_Capture Zone",
+            "lane": "Any",
+            "order": -1,
+            "x": 67500.0,
+            "y": -24700.0,
+            "z": 2710.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B4-Sinbad Island"
+            ]
+        },
+        {
+            "name": "B5_Capture Zone",
+            "lane": "Any",
+            "order": -1,
+            "x": 48010.0,
+            "y": 5180.0,
+            "z": 2710.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B5-Refinery"
+            ]
+        },
+        {
+            "name": "C1_Capture Zone",
+            "lane": "Any",
+            "order": -1,
+            "x": 150630.0,
+            "y": -65350.0,
+            "z": 2710.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C1 - Highway 10 North Bridge"
+            ]
+        },
+        {
+            "name": "C2_Capture Zone",
+            "lane": "Any",
+            "order": -1,
+            "x": 140900.0,
+            "y": -10200.0,
+            "z": 2710.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C2 - Kibasi Market",
+                "C2 - Highway 10 South Bridge"
+            ]
+        },
+        {
+            "name": "C3_Capture Zone",
+            "lane": "Any",
+            "order": -1,
+            "x": 106560.0,
+            "y": 28030.0,
+            "z": 2710.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C3-Date Orchards"
+            ]
+        },
+        {
+            "name": "C4_Capture Zone",
+            "lane": "Any",
+            "order": -1,
+            "x": 75100.0,
+            "y": 33340.0,
+            "z": 2710.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C4-Al Tuwaisa East",
+                "C4-Island Park"
+            ]
+        },
+        {
+            "name": "C5_Capture Zone",
+            "lane": "Any",
+            "order": -1,
+            "x": 43910.0,
+            "y": 21400.0,
+            "z": 2710.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C5-Mosque",
+                "C5-Muftiyah",
+                "C5-Refinery"
+            ]
+        },
+        {
+            "name": "D1_Capture Zone",
+            "lane": "Any",
+            "order": -1,
+            "x": 150630.0,
+            "y": -65350.0,
+            "z": 2710.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D1 - Highway 10 North Bridge"
+            ]
+        },
+        {
+            "name": "D2_Capture Zone",
+            "lane": "Any",
+            "order": -1,
+            "x": 140900.0,
+            "y": -10200.0,
+            "z": 2710.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D2 - Highway 10 South Bridge"
+            ]
+        },
+        {
+            "name": "D3_Capture Zone",
+            "lane": "Any",
+            "order": -1,
+            "x": 139890.0,
+            "y": 33780.0,
+            "z": 2710.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D2 - At Tannuhmah"
+            ]
+        },
+        {
+            "name": "D4_Capture Zone",
+            "lane": "Any",
+            "order": -1,
+            "x": 117530.0,
+            "y": 82420.0,
+            "z": 2710.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D4 - Kardalan",
+                "D4 - The Brick"
+            ]
+        },
+        {
+            "name": "D5_Capture Zone",
+            "lane": "Any",
+            "order": -1,
+            "x": 74540.0,
+            "y": 106740.0,
+            "z": 2710.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D5 - Warehouse",
+                "D5 - Hotel International",
+                "D5 - Army HQ",
+                "D5 - Lower Estates"
+            ]
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": 62901.11,
+            "y": 65489.51,
+            "z": 487.93,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

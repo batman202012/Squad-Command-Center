@@ -1,0 +1,77 @@
+{
+    "map_id": "sumari",
+    "layer_name": "Sumari_AAS_v1",
+    "total_flags": 7,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -50712.97,
+            "y": 30413.57,
+            "z": -12774.18,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Compound",
+            "lane": "Any",
+            "order": 1,
+            "x": -13781.0,
+            "y": 18447.0,
+            "z": -12969.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Slums",
+            "lane": "Any",
+            "order": 2,
+            "x": -4523.0,
+            "y": 5415.0,
+            "z": -13418.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Mosque",
+            "lane": "Any",
+            "order": 3,
+            "x": 7334.0,
+            "y": 21967.0,
+            "z": -13152.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Souk",
+            "lane": "Any",
+            "order": 4,
+            "x": 8893.0,
+            "y": 34537.0,
+            "z": -12987.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "School",
+            "lane": "Any",
+            "order": 5,
+            "x": 24261.35,
+            "y": 24635.15,
+            "z": -12691.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 56328.44,
+            "y": 6823.25,
+            "z": -13451.02,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

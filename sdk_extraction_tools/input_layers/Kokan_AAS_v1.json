@@ -1,0 +1,97 @@
+{
+    "map_id": "kokan_valley",
+    "layer_name": "Kokan_AAS_v1",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 68994.65,
+            "y": 78453.05,
+            "z": -24684.38,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "First Stand",
+            "lane": "Any",
+            "order": 1,
+            "x": 46298.0,
+            "y": 38013.0,
+            "z": -24673.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Gran Dell",
+            "lane": "Any",
+            "order": 2,
+            "x": 34266.0,
+            "y": 19585.0,
+            "z": -24669.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Sarak",
+            "lane": "Any",
+            "order": 3,
+            "x": -17692.0,
+            "y": 26414.0,
+            "z": -24671.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Tempest Estate",
+            "lane": "Any",
+            "order": 4,
+            "x": -26827.0,
+            "y": 1087.0,
+            "z": -24690.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Market",
+            "lane": "Any",
+            "order": 5,
+            "x": -18660.0,
+            "y": -36237.0,
+            "z": -24294.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ruins",
+            "lane": "Any",
+            "order": 6,
+            "x": -36126.0,
+            "y": -59378.0,
+            "z": -24674.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Stonebend",
+            "lane": "Any",
+            "order": 7,
+            "x": -8321.0,
+            "y": -77703.0,
+            "z": -24254.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 45448.48,
+            "y": -89422.95,
+            "z": -24684.37,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

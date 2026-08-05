@@ -1,0 +1,177 @@
+{
+    "map_id": "gorodok",
+    "layer_name": "Gorodok_Invasion_v1",
+    "total_flags": 17,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -133114.72,
+            "y": 156661.94,
+            "z": -3468.59,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 1,
+            "x": -137100.0,
+            "y": 166778.0,
+            "z": -3425.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Desna",
+            "lane": "Any",
+            "order": 1,
+            "x": -67825.74,
+            "y": 121451.39,
+            "z": -2175.16,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 2,
+            "x": -137100.0,
+            "y": 166778.0,
+            "z": -3425.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Soloninki",
+            "lane": "Any",
+            "order": 2,
+            "x": -1337.41,
+            "y": 110850.98,
+            "z": -3477.51,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Russian Outpost",
+            "lane": "Any",
+            "order": 2,
+            "x": -99230.74,
+            "y": 75543.39,
+            "z": -2175.16,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 3,
+            "x": -137100.0,
+            "y": 166778.0,
+            "z": -3425.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Train Bridge",
+            "lane": "Any",
+            "order": 3,
+            "x": -2857.31,
+            "y": 52413.28,
+            "z": -4542.02,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone5",
+            "lane": "Any",
+            "order": 4,
+            "x": -137100.0,
+            "y": 166778.0,
+            "z": -3425.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Niva Upper",
+            "lane": "Any",
+            "order": 4,
+            "x": -27921.59,
+            "y": 14971.19,
+            "z": -2385.22,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hilltop Old Bunker",
+            "lane": "Any",
+            "order": 4,
+            "x": -43312.82,
+            "y": -6070.73,
+            "z": -1257.3,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Niva Lower",
+            "lane": "Any",
+            "order": 4,
+            "x": 356.41,
+            "y": 14914.19,
+            "z": -4137.22,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone6",
+            "lane": "Any",
+            "order": 5,
+            "x": -137100.0,
+            "y": 166778.0,
+            "z": -3425.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ambush Hillas",
+            "lane": "Any",
+            "order": 5,
+            "x": -25546.49,
+            "y": -88484.72,
+            "z": -1749.41,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Yard Apartments",
+            "lane": "Any",
+            "order": 5,
+            "x": -18717.43,
+            "y": -118906.19,
+            "z": -3171.06,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Grain Processing",
+            "lane": "Any",
+            "order": 5,
+            "x": -53366.16,
+            "y": -73550.56,
+            "z": -2096.22,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -149204.5,
+            "y": -159322.44,
+            "z": -3567.03,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

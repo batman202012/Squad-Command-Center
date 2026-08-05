@@ -1,0 +1,98 @@
+{
+    "map_id": "maps",
+    "layer_name": "Sanxian_AAS_v2",
+    "total_flags": 7,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 179878.34,
+            "y": -35766.53,
+            "z": 1101.93
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -191277.63,
+            "y": -99924.64,
+            "z": 707.03
+        },
+        {
+            "name": "Logistics Center",
+            "x": 108355.86,
+            "y": -33242.96,
+            "z": 4495.72,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Hilltop Estate",
+            "x": 68007.72,
+            "y": -65651.5,
+            "z": 4032.02,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Power Plant",
+            "x": -22179.89,
+            "y": -32308.72,
+            "z": -1901.79,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Telecom Compound",
+            "x": -90773.3,
+            "y": 1589.7,
+            "z": 1265.53,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Chanwan",
+            "x": -142046.34,
+            "y": -40290.04,
+            "z": 326.04,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1688 @@
+{
+    "map_id": "maps",
+    "layer_name": "Sanxian_RAAS_v3_CL",
+    "total_flags": 153,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 147614.89,
+            "y": 1637.53,
+            "z": 2023.91,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 1,
+            "x": 130366.96,
+            "y": 12790.83,
+            "z": 4620.98,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A1-Cliffside",
+                "A1-FarmingCommunity",
+                "A1-SharkCove"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 1,
+            "x": 125567.75,
+            "y": -21984.49,
+            "z": 5996.04,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C1-TaishanA",
+                "C1-TaishanC",
+                "C1-TaishanB"
+            ]
+        },
+        {
+            "name": "Capture Zone2",
+            "lane": "B",
+            "order": 1,
+            "x": 130366.96,
+            "y": 12790.83,
+            "z": 4620.98,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B1-FarmingCommunity",
+                "B1-Cliffside",
+                "B1-SharkCove"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 1,
+            "x": 104981.37,
+            "y": 5857.02,
+            "z": 4834.24,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D1-PlantationsB",
+                "D1-PlantationsA",
+                "D1-PlantationsC"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 1,
+            "x": 104981.37,
+            "y": 5857.02,
+            "z": 4834.24,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E1-PlantationsA",
+                "E1-PlantationsB",
+                "E1-PlantationsC"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "F",
+            "order": 1,
+            "x": 104981.37,
+            "y": 5857.02,
+            "z": 4834.24,
+            "is_sky_node": true,
+            "linked_flags": [
+                "F1-PlantationsA",
+                "F1-PlantationsF",
+                "F1-PlantationsC"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "G",
+            "order": 1,
+            "x": 146732.14,
+            "y": -40471.67,
+            "z": 7888.15,
+            "is_sky_node": true,
+            "linked_flags": [
+                "G1-TaishanB",
+                "G1-LowerTeishanA",
+                "G1-LowerTeishanB"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "H",
+            "order": 1,
+            "x": 146732.14,
+            "y": -40471.67,
+            "z": 7888.15,
+            "is_sky_node": true,
+            "linked_flags": [
+                "H1-LowerTeishanB",
+                "H1-TeishanHarbour",
+                "H1-LowerTeishanA"
+            ]
+        },
+        {
+            "name": "SharkCove",
+            "lane": "A",
+            "order": 1,
+            "x": 131690.49,
+            "y": 20612.71,
+            "z": 761.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "TaishanA",
+            "lane": "C",
+            "order": 1,
+            "x": 125208.86,
+            "y": -33246.45,
+            "z": 3638.03,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "FarmingCommunity",
+            "lane": "A",
+            "order": 1,
+            "x": 124710.9,
+            "y": 10056.65,
+            "z": 2442.33,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Cliffside",
+            "lane": "A",
+            "order": 1,
+            "x": 139464.05,
+            "y": 18612.16,
+            "z": 2079.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "SharkCove",
+            "lane": "B",
+            "order": 1,
+            "x": 131690.49,
+            "y": 20612.71,
+            "z": 761.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FarmingCommunity",
+            "lane": "B",
+            "order": 1,
+            "x": 124710.9,
+            "y": 10056.65,
+            "z": 2442.33,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Cliffside",
+            "lane": "B",
+            "order": 1,
+            "x": 139464.05,
+            "y": 18612.16,
+            "z": 2079.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "TaishanB",
+            "lane": "C",
+            "order": 1,
+            "x": 128542.58,
+            "y": -23946.34,
+            "z": 3614.8,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "TaishanC",
+            "lane": "C",
+            "order": 1,
+            "x": 119205.33,
+            "y": -26613.8,
+            "z": 3423.04,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "PlantationsA",
+            "lane": "D",
+            "order": 1,
+            "x": 108998.81,
+            "y": 11576.49,
+            "z": 2003.54,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "PlantationsB",
+            "lane": "D",
+            "order": 1,
+            "x": 106095.0,
+            "y": 3081.56,
+            "z": 2136.68,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "PlantationsC",
+            "lane": "D",
+            "order": 1,
+            "x": 118292.4,
+            "y": -11272.22,
+            "z": 2967.12,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "PlantationsA",
+            "lane": "E",
+            "order": 1,
+            "x": 108998.81,
+            "y": 11576.49,
+            "z": 2003.54,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "PlantationsB",
+            "lane": "E",
+            "order": 1,
+            "x": 106095.0,
+            "y": 3081.56,
+            "z": 2136.68,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "PlantationsC",
+            "lane": "E",
+            "order": 1,
+            "x": 118292.4,
+            "y": -11272.22,
+            "z": 2967.12,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "PlantationsA",
+            "lane": "F",
+            "order": 1,
+            "x": 108998.81,
+            "y": 11576.49,
+            "z": 2003.54,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "PlantationsF",
+            "lane": "F",
+            "order": 1,
+            "x": 106095.0,
+            "y": 3081.56,
+            "z": 2136.68,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "PlantationsC",
+            "lane": "F",
+            "order": 1,
+            "x": 118292.4,
+            "y": -11272.22,
+            "z": 2967.12,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "LowerTeishanA",
+            "lane": "G",
+            "order": 1,
+            "x": 139474.87,
+            "y": -40395.63,
+            "z": 1751.68,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "LowerTeishanB",
+            "lane": "G",
+            "order": 1,
+            "x": 145979.83,
+            "y": -33600.11,
+            "z": 545.95,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "TaishanB",
+            "lane": "G",
+            "order": 1,
+            "x": 128542.58,
+            "y": -23946.34,
+            "z": 3614.8,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "LowerTeishanA",
+            "lane": "H",
+            "order": 1,
+            "x": 139474.87,
+            "y": -40395.63,
+            "z": 1751.68,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "LowerTeishanB",
+            "lane": "H",
+            "order": 1,
+            "x": 145979.83,
+            "y": -33600.11,
+            "z": 545.95,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "TeishanHarbour",
+            "lane": "H",
+            "order": 1,
+            "x": 154184.12,
+            "y": -39822.04,
+            "z": 249.99,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 2,
+            "x": 104981.37,
+            "y": 5857.02,
+            "z": 4834.24,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B2-PlantationsA",
+                "B2-PlantationsC",
+                "B2-PlantationsB"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 2,
+            "x": 103385.97,
+            "y": 36001.61,
+            "z": 3834.36,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A2-SmugglersHill",
+                "A2-PrideRock",
+                "A2-WW2Bunkers"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 2,
+            "x": 126732.14,
+            "y": -50471.67,
+            "z": 7888.15,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C2-Shrine",
+                "C2-Hilltop Farm"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 2,
+            "x": 125567.75,
+            "y": -21984.49,
+            "z": 5996.04,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D2-TaishanC",
+                "D2-TaishanB",
+                "D2-TaishanA"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 2,
+            "x": 146732.14,
+            "y": -40471.67,
+            "z": 7888.15,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E2-Hilltop Farm",
+                "E2-TeishanHarbour",
+                "E2-LowerTeishanA",
+                "E2-LowerTeishanB"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "F",
+            "order": 2,
+            "x": 101283.42,
+            "y": -30555.4,
+            "z": 7502.61,
+            "is_sky_node": true,
+            "linked_flags": [
+                "F2-Central EstatesB",
+                "F2-Walled Farm",
+                "F2-Logistics Center",
+                "F2-Central EstatesA"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "G",
+            "order": 2,
+            "x": 148067.77,
+            "y": -60676.85,
+            "z": 7888.15,
+            "is_sky_node": true,
+            "linked_flags": [
+                "G2-Shrine",
+                "G2-FishingDock"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "H",
+            "order": 2,
+            "x": 125567.75,
+            "y": -21984.49,
+            "z": 5996.04,
+            "is_sky_node": true,
+            "linked_flags": [
+                "H2-TaishanC",
+                "H2-TaishanA",
+                "H2-TaishanB"
+            ]
+        },
+        {
+            "name": "Hilltop Farm",
+            "lane": "C",
+            "order": 2,
+            "x": 131464.84,
+            "y": -52858.23,
+            "z": 4635.35,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "PrideRock",
+            "lane": "A",
+            "order": 2,
+            "x": 95503.83,
+            "y": 31172.85,
+            "z": 2582.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "PlantationsA",
+            "lane": "B",
+            "order": 2,
+            "x": 108998.81,
+            "y": 11576.49,
+            "z": 2003.54,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "WW2Bunkers",
+            "lane": "A",
+            "order": 2,
+            "x": 109890.37,
+            "y": 44129.94,
+            "z": 1173.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SmugglersHill",
+            "lane": "A",
+            "order": 2,
+            "x": 107398.28,
+            "y": 33795.18,
+            "z": 1981.86,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "PlantationsB",
+            "lane": "B",
+            "order": 2,
+            "x": 106095.0,
+            "y": 3081.56,
+            "z": 2136.68,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "PlantationsC",
+            "lane": "B",
+            "order": 2,
+            "x": 118292.4,
+            "y": -11272.22,
+            "z": 2967.12,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Shrine",
+            "lane": "C",
+            "order": 2,
+            "x": 137824.41,
+            "y": -61091.64,
+            "z": 5826.64,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "TaishanA",
+            "lane": "D",
+            "order": 2,
+            "x": 125208.86,
+            "y": -33246.45,
+            "z": 3638.03,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "TaishanB",
+            "lane": "D",
+            "order": 2,
+            "x": 128542.58,
+            "y": -23946.34,
+            "z": 3614.8,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "TaishanC",
+            "lane": "D",
+            "order": 2,
+            "x": 119205.33,
+            "y": -26613.8,
+            "z": 3423.04,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Hilltop Farm",
+            "lane": "E",
+            "order": 2,
+            "x": 131464.84,
+            "y": -52858.23,
+            "z": 4635.35,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "LowerTeishanA",
+            "lane": "E",
+            "order": 2,
+            "x": 139474.87,
+            "y": -40395.63,
+            "z": 1751.68,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "LowerTeishanB",
+            "lane": "E",
+            "order": 2,
+            "x": 145979.83,
+            "y": -33600.11,
+            "z": 545.95,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "TeishanHarbour",
+            "lane": "E",
+            "order": 2,
+            "x": 154184.12,
+            "y": -39822.04,
+            "z": 249.99,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Walled Farm",
+            "lane": "F",
+            "order": 2,
+            "x": 90553.38,
+            "y": -35531.42,
+            "z": 4314.83,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Logistics Center",
+            "lane": "F",
+            "order": 2,
+            "x": 108126.53,
+            "y": -34175.18,
+            "z": 4338.88,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Central EstatesA",
+            "lane": "F",
+            "order": 2,
+            "x": 91860.65,
+            "y": -29174.23,
+            "z": 3520.28,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Central EstatesB",
+            "lane": "F",
+            "order": 2,
+            "x": 99118.82,
+            "y": -33830.06,
+            "z": 4209.88,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "FishingDock",
+            "lane": "G",
+            "order": 2,
+            "x": 156551.92,
+            "y": -55363.27,
+            "z": 710.13,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Shrine",
+            "lane": "G",
+            "order": 2,
+            "x": 137824.41,
+            "y": -61091.64,
+            "z": 5826.64,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "TaishanA",
+            "lane": "H",
+            "order": 2,
+            "x": 125208.86,
+            "y": -33246.45,
+            "z": 3638.03,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "TaishanB",
+            "lane": "H",
+            "order": 2,
+            "x": 128542.58,
+            "y": -23946.34,
+            "z": 3614.8,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "TaishanC",
+            "lane": "H",
+            "order": 2,
+            "x": 119205.33,
+            "y": -26613.8,
+            "z": 3423.04,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 3,
+            "x": 83383.69,
+            "y": -11119.34,
+            "z": 6000.25,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A3-Antenna Hill",
+                "A3-HellRidge"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 3,
+            "x": 101283.42,
+            "y": -30555.4,
+            "z": 7502.61,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B3-Central EstatesA",
+                "B3-Walled Farm",
+                "B3-Logistics Center",
+                "B3-Central EstatesB"
+            ]
+        },
+        {
+            "name": "Capture Zone2",
+            "lane": "C",
+            "order": 3,
+            "x": 101283.42,
+            "y": -30555.4,
+            "z": 7502.61,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C3-Logistics Center",
+                "C3-Central EstatesB",
+                "C3-Walled Farm",
+                "C3-Central EstatesA2"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 3,
+            "x": 101283.42,
+            "y": -30555.4,
+            "z": 7502.61,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D3-Walled Farm",
+                "D3-Central EstatesA",
+                "D3-Logistics Center",
+                "D3-Central EstatesB"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 3,
+            "x": 101283.42,
+            "y": -30555.4,
+            "z": 7502.61,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E3-Walled Farm",
+                "E3-Central EstatesA",
+                "E3-Central EstatesB",
+                "E3-Logistics Center"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "F",
+            "order": 3,
+            "x": 90758.09,
+            "y": -73637.28,
+            "z": 7447.74,
+            "is_sky_node": true,
+            "linked_flags": [
+                "F3-RecyclingStation"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "G",
+            "order": 3,
+            "x": 90758.09,
+            "y": -93637.28,
+            "z": 7447.74,
+            "is_sky_node": true,
+            "linked_flags": [
+                "G3-RecyclingStation",
+                "G3-FuelIslandC",
+                "G3-FuelIslandD",
+                "G3-FuelIslandB",
+                "G3-FuelIslandA"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "H",
+            "order": 3,
+            "x": 83383.69,
+            "y": -11119.34,
+            "z": 6000.25,
+            "is_sky_node": true,
+            "linked_flags": [
+                "H3-HellRidge",
+                "H3-Antenna Hill"
+            ]
+        },
+        {
+            "name": "Walled Farm",
+            "lane": "B",
+            "order": 3,
+            "x": 90553.38,
+            "y": -35531.42,
+            "z": 4314.83,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Antenna Hill",
+            "lane": "A",
+            "order": 3,
+            "x": 85446.88,
+            "y": -5693.96,
+            "z": 3653.87,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "HellRidge",
+            "lane": "A",
+            "order": 3,
+            "x": 80911.11,
+            "y": -18486.36,
+            "z": 3968.37,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Logistics Center",
+            "lane": "B",
+            "order": 3,
+            "x": 108126.53,
+            "y": -34175.18,
+            "z": 4338.88,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Central EstatesA",
+            "lane": "B",
+            "order": 3,
+            "x": 91860.65,
+            "y": -29174.23,
+            "z": 3520.28,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Central EstatesB",
+            "lane": "B",
+            "order": 3,
+            "x": 99118.82,
+            "y": -33830.06,
+            "z": 4209.88,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Walled Farm",
+            "lane": "C",
+            "order": 3,
+            "x": 90553.38,
+            "y": -35531.42,
+            "z": 4314.83,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Logistics Center",
+            "lane": "C",
+            "order": 3,
+            "x": 108126.53,
+            "y": -34175.18,
+            "z": 4338.88,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Central EstatesA2",
+            "lane": "C",
+            "order": 3,
+            "x": 91860.65,
+            "y": -29174.23,
+            "z": 3520.28,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Central EstatesB",
+            "lane": "C",
+            "order": 3,
+            "x": 99118.82,
+            "y": -33830.06,
+            "z": 4209.88,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Walled Farm",
+            "lane": "D",
+            "order": 3,
+            "x": 90553.38,
+            "y": -35531.42,
+            "z": 4314.83,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Logistics Center",
+            "lane": "D",
+            "order": 3,
+            "x": 108126.53,
+            "y": -34175.18,
+            "z": 4338.88,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Central EstatesA",
+            "lane": "D",
+            "order": 3,
+            "x": 91860.65,
+            "y": -29174.23,
+            "z": 3520.28,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Central EstatesB",
+            "lane": "D",
+            "order": 3,
+            "x": 99118.82,
+            "y": -33830.06,
+            "z": 4209.88,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Walled Farm",
+            "lane": "E",
+            "order": 3,
+            "x": 90553.38,
+            "y": -35531.42,
+            "z": 4314.83,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Logistics Center",
+            "lane": "E",
+            "order": 3,
+            "x": 108126.53,
+            "y": -34175.18,
+            "z": 4338.88,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Central EstatesA",
+            "lane": "E",
+            "order": 3,
+            "x": 91860.65,
+            "y": -29174.23,
+            "z": 3520.28,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Central EstatesB",
+            "lane": "E",
+            "order": 3,
+            "x": 99118.82,
+            "y": -33830.06,
+            "z": 4209.88,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "RecyclingStation",
+            "lane": "F",
+            "order": 3,
+            "x": 93196.1,
+            "y": -75036.73,
+            "z": 1016.82,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "RecyclingStation",
+            "lane": "G",
+            "order": 3,
+            "x": 93196.1,
+            "y": -75036.73,
+            "z": 1016.82,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FuelIslandA",
+            "lane": "G",
+            "order": 3,
+            "x": 90346.78,
+            "y": -84924.56,
+            "z": 1053.23,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FuelIslandB",
+            "lane": "G",
+            "order": 3,
+            "x": 96899.14,
+            "y": -93287.15,
+            "z": 1782.42,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FuelIslandC",
+            "lane": "G",
+            "order": 3,
+            "x": 87874.22,
+            "y": -94061.87,
+            "z": 948.13,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FuelIslandD",
+            "lane": "G",
+            "order": 3,
+            "x": 78923.97,
+            "y": -90878.88,
+            "z": 1670.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Antenna Hill",
+            "lane": "H",
+            "order": 3,
+            "x": 85446.88,
+            "y": -5693.96,
+            "z": 3653.87,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "HellRidge",
+            "lane": "H",
+            "order": 3,
+            "x": 80911.11,
+            "y": -18486.36,
+            "z": 3968.37,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 4,
+            "x": 63436.37,
+            "y": -47813.34,
+            "z": 5998.6,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B4-AbandonedFarm",
+                "B4-SugarPlantation"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 4,
+            "x": 59643.52,
+            "y": -19783.5,
+            "z": 6354.43,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A4-RiceFarmA",
+                "A4-RiceFarmB"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 4,
+            "x": 71208.8,
+            "y": -57249.92,
+            "z": 8957.22,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C4-Hilltop Estate"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 4,
+            "x": 71208.8,
+            "y": -57249.92,
+            "z": 8957.22,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D4-Hilltop Estate"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 4,
+            "x": 59643.52,
+            "y": -19783.5,
+            "z": 6354.43,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E4-RiceFarmB",
+                "E4-RiceFarmA"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "F",
+            "order": 4,
+            "x": 63436.37,
+            "y": -47813.34,
+            "z": 5998.6,
+            "is_sky_node": true,
+            "linked_flags": [
+                "F4-SugarPlantation",
+                "F4-AbandonedFarm",
+                "F4-Hilltop Estate"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "G",
+            "order": 4,
+            "x": 71208.8,
+            "y": -57249.92,
+            "z": 8957.22,
+            "is_sky_node": true,
+            "linked_flags": [
+                "G4-AbandonedFarm",
+                "G4-Hilltop Estate"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "H",
+            "order": 4,
+            "x": 59643.52,
+            "y": -19783.5,
+            "z": 6354.43,
+            "is_sky_node": true,
+            "linked_flags": [
+                "H4-RiceFarmB",
+                "H4-RiceFarmA"
+            ]
+        },
+        {
+            "name": "RiceFarmB",
+            "lane": "A",
+            "order": 4,
+            "x": 65503.64,
+            "y": -14651.08,
+            "z": 2885.92,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "AbandonedFarm",
+            "lane": "B",
+            "order": 4,
+            "x": 73238.37,
+            "y": -47722.48,
+            "z": 2848.02,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "RiceFarmA",
+            "lane": "A",
+            "order": 4,
+            "x": 59776.18,
+            "y": -24108.37,
+            "z": 2199.98,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Hilltop Estate",
+            "lane": "C",
+            "order": 4,
+            "x": 68264.84,
+            "y": -65258.23,
+            "z": 4635.35,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "SugarPlantation",
+            "lane": "B",
+            "order": 4,
+            "x": 53631.48,
+            "y": -45242.34,
+            "z": 1488.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hilltop Estate",
+            "lane": "D",
+            "order": 4,
+            "x": 68264.84,
+            "y": -65258.23,
+            "z": 4635.35,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "RiceFarmB",
+            "lane": "E",
+            "order": 4,
+            "x": 65503.64,
+            "y": -14651.08,
+            "z": 2885.92,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "RiceFarmA",
+            "lane": "E",
+            "order": 4,
+            "x": 59776.18,
+            "y": -24108.37,
+            "z": 2199.98,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "AbandonedFarm",
+            "lane": "F",
+            "order": 4,
+            "x": 73238.37,
+            "y": -47722.48,
+            "z": 2848.02,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "SugarPlantation",
+            "lane": "F",
+            "order": 4,
+            "x": 53631.48,
+            "y": -45242.34,
+            "z": 1488.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hilltop Estate",
+            "lane": "F",
+            "order": 4,
+            "x": 68264.84,
+            "y": -65258.23,
+            "z": 4635.35,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Hilltop Estate",
+            "lane": "G",
+            "order": 4,
+            "x": 68264.84,
+            "y": -65258.23,
+            "z": 4635.35,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "AbandonedFarm",
+            "lane": "G",
+            "order": 4,
+            "x": 73238.37,
+            "y": -47722.48,
+            "z": 2848.02,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "RiceFarmB",
+            "lane": "H",
+            "order": 4,
+            "x": 65503.64,
+            "y": -14651.08,
+            "z": 2885.92,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "RiceFarmA",
+            "lane": "H",
+            "order": 4,
+            "x": 59776.18,
+            "y": -24108.37,
+            "z": 2199.98,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 5,
+            "x": 43642.51,
+            "y": -3329.37,
+            "z": 3719.1,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A5-Old Estate",
+                "A5-Bridgehead",
+                "A5-RepairShop"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 5,
+            "x": 23564.93,
+            "y": -67345.41,
+            "z": 3999.02,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B5-Canal TownA",
+                "B5-Canal TownC",
+                "B5-Canal TownB",
+                "B5-North Canal"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 5,
+            "x": 38460.38,
+            "y": -34906.06,
+            "z": 4195.2,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C5-Crossroad"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 5,
+            "x": 38460.38,
+            "y": -34906.06,
+            "z": 4195.2,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D5-Crossroad"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 5,
+            "x": 43642.51,
+            "y": -3329.37,
+            "z": 3719.1,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E5-Old Estate",
+                "E5-RepairShop",
+                "E5-Bridgehead"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "F",
+            "order": 5,
+            "x": 43642.51,
+            "y": -3329.37,
+            "z": 3719.1,
+            "is_sky_node": true,
+            "linked_flags": [
+                "F5-RepairShop",
+                "F5-Old Estate",
+                "F5-Bridgehead"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "G",
+            "order": 5,
+            "x": 23564.93,
+            "y": -67345.41,
+            "z": 3999.02,
+            "is_sky_node": true,
+            "linked_flags": [
+                "G5-Canal TownA",
+                "G5-North Canal",
+                "G5-Canal TownC",
+                "G5-Canal TownB"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "H",
+            "order": 5,
+            "x": 43642.51,
+            "y": -3329.37,
+            "z": 3719.1,
+            "is_sky_node": true,
+            "linked_flags": [
+                "H5-Old Estate",
+                "H5-RepairShop",
+                "H5-Bridgehead"
+            ]
+        },
+        {
+            "name": "Old Estate",
+            "lane": "A",
+            "order": 5,
+            "x": 49687.57,
+            "y": -3700.73,
+            "z": 1037.71,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "RepairShop",
+            "lane": "A",
+            "order": 5,
+            "x": 41812.75,
+            "y": -10617.2,
+            "z": 1143.59,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Canal TownB",
+            "lane": "B",
+            "order": 5,
+            "x": 24439.84,
+            "y": -69153.23,
+            "z": 531.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Bridgehead",
+            "lane": "A",
+            "order": 5,
+            "x": 48447.54,
+            "y": 8091.66,
+            "z": 1044.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Canal TownA",
+            "lane": "B",
+            "order": 5,
+            "x": 17184.32,
+            "y": -74396.07,
+            "z": 531.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Canal TownC",
+            "lane": "B",
+            "order": 5,
+            "x": 32136.79,
+            "y": -66504.56,
+            "z": 531.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "North Canal",
+            "lane": "B",
+            "order": 5,
+            "x": 42736.59,
+            "y": -80918.73,
+            "z": 296.86,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Crossroad",
+            "lane": "C",
+            "order": 5,
+            "x": 38456.28,
+            "y": -35217.22,
+            "z": 561.36,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Crossroad",
+            "lane": "D",
+            "order": 5,
+            "x": 38456.28,
+            "y": -35217.22,
+            "z": 561.36,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Old Estate",
+            "lane": "E",
+            "order": 5,
+            "x": 49687.57,
+            "y": -3700.73,
+            "z": 1037.71,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "RepairShop",
+            "lane": "E",
+            "order": 5,
+            "x": 41812.75,
+            "y": -10617.2,
+            "z": 1143.59,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Bridgehead",
+            "lane": "E",
+            "order": 5,
+            "x": 48447.54,
+            "y": 8091.66,
+            "z": 1044.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Old Estate",
+            "lane": "F",
+            "order": 5,
+            "x": 49687.57,
+            "y": -3700.73,
+            "z": 1037.71,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "RepairShop",
+            "lane": "F",
+            "order": 5,
+            "x": 41812.75,
+            "y": -10617.2,
+            "z": 1143.59,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Bridgehead",
+            "lane": "F",
+            "order": 5,
+            "x": 48447.54,
+            "y": 8091.66,
+            "z": 1044.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Canal TownB",
+            "lane": "G",
+            "order": 5,
+            "x": 24439.84,
+            "y": -69153.23,
+            "z": 531.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Canal TownA",
+            "lane": "G",
+            "order": 5,
+            "x": 17184.32,
+            "y": -74396.07,
+            "z": 531.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Canal TownC",
+            "lane": "G",
+            "order": 5,
+            "x": 32136.79,
+            "y": -66504.56,
+            "z": 531.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "North Canal",
+            "lane": "G",
+            "order": 5,
+            "x": 42736.59,
+            "y": -80918.73,
+            "z": 296.86,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Old Estate",
+            "lane": "H",
+            "order": 5,
+            "x": 49687.57,
+            "y": -3700.73,
+            "z": 1037.71,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "RepairShop",
+            "lane": "H",
+            "order": 5,
+            "x": 41812.75,
+            "y": -10617.2,
+            "z": 1143.59,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Bridgehead",
+            "lane": "H",
+            "order": 5,
+            "x": 48447.54,
+            "y": 8091.66,
+            "z": 1044.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -4571.36,
+            "y": -22204.49,
+            "z": 786.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

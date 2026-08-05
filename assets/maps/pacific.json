@@ -1,0 +1,22 @@
+{
+    "id": "pacificprovinggrounds",
+    "name": "Pacific Proving Grounds",
+    "metadata": {
+        "mapExtent": [
+            0,
+            -8192,
+            8192,
+            0
+        ],
+        "physicalSizeMeters": 4032,
+        "physicalSizeMetersX": 4032,
+        "physicalSizeMetersY": 4032,
+        "ueOffsetX": 0,
+        "ueOffsetY": 0,
+        "maxZoom": 5,
+        "minZoom": 1,
+        "tileUrl": "./assets/maps/Pacific/pacific_tiles/{z}/{x}/{y}.png",
+        "heightmapUrl": "./assets/maps/Pacific/pacific_height_map.webp",
+        "heightmapSize": 4096
+    }
+}

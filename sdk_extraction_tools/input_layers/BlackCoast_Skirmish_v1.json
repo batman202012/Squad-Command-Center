@@ -1,0 +1,157 @@
+{
+    "map_id": "maps",
+    "layer_name": "BlackCoast_Skirmish_v1",
+    "total_flags": 15,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -31315.75,
+            "y": -62954.92,
+            "z": 1100.97,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Farmstead",
+            "lane": "Any",
+            "order": 1,
+            "x": -33636.59,
+            "y": -42157.45,
+            "z": 224.87,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Mechanic",
+            "lane": "Any",
+            "order": 2,
+            "x": -45318.03,
+            "y": -13913.66,
+            "z": 688.29,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Heights",
+            "lane": "Any",
+            "order": 3,
+            "x": -53406.55,
+            "y": -395.21,
+            "z": 1581.25,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Train Station",
+            "lane": "Any",
+            "order": 4,
+            "x": -30760.2,
+            "y": 7283.98,
+            "z": 1482.66,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Manor",
+            "lane": "Any",
+            "order": 5,
+            "x": -32796.06,
+            "y": -1710.42,
+            "z": 955.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Suburb",
+            "lane": "Any",
+            "order": 6,
+            "x": -47453.75,
+            "y": 10536.09,
+            "z": 1556.63,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Construction Site",
+            "lane": "Any",
+            "order": 7,
+            "x": -46328.84,
+            "y": 25690.75,
+            "z": 1728.34,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -58458.13,
+            "y": 47860.71,
+            "z": 2025.41,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead",
+            "lane": "Any",
+            "order": -1,
+            "x": 11920.24,
+            "y": -40469.14,
+            "z": 891.66,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead2",
+            "lane": "Any",
+            "order": -1,
+            "x": 11920.24,
+            "y": -40469.14,
+            "z": 1627.19,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead3",
+            "lane": "Any",
+            "order": -1,
+            "x": 64957.38,
+            "y": -23632.21,
+            "z": 5073.71,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead4",
+            "lane": "Any",
+            "order": -1,
+            "x": 64957.38,
+            "y": -23632.2,
+            "z": 5808.99,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead5",
+            "lane": "Any",
+            "order": -1,
+            "x": -2058.19,
+            "y": 83500.22,
+            "z": 887.74,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead6",
+            "lane": "Any",
+            "order": -1,
+            "x": -2058.19,
+            "y": 83500.22,
+            "z": 1176.52,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

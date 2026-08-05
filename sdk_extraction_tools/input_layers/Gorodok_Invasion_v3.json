@@ -1,0 +1,419 @@
+{
+    "map_id": "gorodok",
+    "layer_name": "Gorodok_Invasion_v3",
+    "total_flags": 39,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 185301.98,
+            "y": 164717.69,
+            "z": -2701.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 1,
+            "x": 116906.01,
+            "y": 96181.78,
+            "z": -4114.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 1,
+            "x": 135973.91,
+            "y": 83655.02,
+            "z": -4114.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 1,
+            "x": 50130.84,
+            "y": 145834.89,
+            "z": 11609.31,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C1-Pavlov's Farm"
+            ]
+        },
+        {
+            "name": "Industrial Park",
+            "lane": "A",
+            "order": 1,
+            "x": 134409.83,
+            "y": 112149.98,
+            "z": -3639.35,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Industrial Park",
+            "lane": "B",
+            "order": 1,
+            "x": 134409.83,
+            "y": 112149.98,
+            "z": -3639.35,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Pavlov's Farm",
+            "lane": "C",
+            "order": 1,
+            "x": 43450.24,
+            "y": 141593.73,
+            "z": -2831.79,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 2,
+            "x": 97060.75,
+            "y": 93830.74,
+            "z": -4114.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 2,
+            "x": 115326.99,
+            "y": 54495.78,
+            "z": 8059.63,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B2-Boris' Farmstead"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 2,
+            "x": 8884.04,
+            "y": 143823.69,
+            "z": 11609.31,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C2-Ruins"
+            ]
+        },
+        {
+            "name": "Gas Station",
+            "lane": "A",
+            "order": 2,
+            "x": 103705.52,
+            "y": 104364.3,
+            "z": -2584.92,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Boris' Farmstead",
+            "lane": "B",
+            "order": 2,
+            "x": 102801.48,
+            "y": 54345.66,
+            "z": -654.82,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ruins",
+            "lane": "C",
+            "order": 2,
+            "x": 12470.12,
+            "y": 147847.75,
+            "z": -2831.79,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 3,
+            "x": 78276.4,
+            "y": 64840.65,
+            "z": -4114.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 3,
+            "x": 137234.06,
+            "y": 23388.51,
+            "z": 8059.63,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B3-Tunnel Defenses"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 3,
+            "x": -7237.34,
+            "y": 118673.81,
+            "z": 11609.31,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C3-Soloninki Lower",
+                "C3-Soloninki Upper"
+            ]
+        },
+        {
+            "name": "Fortified Farm",
+            "lane": "A",
+            "order": 3,
+            "x": 65273.29,
+            "y": 81818.6,
+            "z": -2584.92,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Boris' Farmstead",
+            "lane": "A",
+            "order": 3,
+            "x": 102801.48,
+            "y": 54345.66,
+            "z": -654.82,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Tunnel Defenses",
+            "lane": "B",
+            "order": 3,
+            "x": 135515.04,
+            "y": 17593.97,
+            "z": -3062.58,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Soloninki Lower",
+            "lane": "C",
+            "order": 3,
+            "x": 1113.97,
+            "y": 111739.2,
+            "z": -3674.45,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Soloninki Upper",
+            "lane": "C",
+            "order": 3,
+            "x": 7718.53,
+            "y": 104020.97,
+            "z": -3308.9,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 4,
+            "x": 38298.85,
+            "y": 16687.47,
+            "z": -4114.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 4,
+            "x": 98156.92,
+            "y": -29497.06,
+            "z": 8059.63,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B4-Sluda Hamlet",
+                "B4-Butcher's House"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 4,
+            "x": -45380.61,
+            "y": 91489.59,
+            "z": 11609.31,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C4-Desna",
+                "C4-Rail Bridge"
+            ]
+        },
+        {
+            "name": "River Fortifications",
+            "lane": "A",
+            "order": 4,
+            "x": 35941.38,
+            "y": 48462.18,
+            "z": -5560.66,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Radio Tower",
+            "lane": "A",
+            "order": 4,
+            "x": 40418.38,
+            "y": -5006.82,
+            "z": -4913.66,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Butcher's House",
+            "lane": "B",
+            "order": 4,
+            "x": 121357.34,
+            "y": -16703.11,
+            "z": -2901.18,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Sluda Hamlet",
+            "lane": "B",
+            "order": 4,
+            "x": 71939.93,
+            "y": -37676.3,
+            "z": -2901.18,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Desna",
+            "lane": "C",
+            "order": 4,
+            "x": -66472.3,
+            "y": 122460.57,
+            "z": -2663.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Rail Bridge",
+            "lane": "C",
+            "order": 4,
+            "x": -4569.63,
+            "y": 52285.44,
+            "z": -3842.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 5,
+            "x": -15628.69,
+            "y": 14306.38,
+            "z": -4114.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 5,
+            "x": 103910.61,
+            "y": -77158.04,
+            "z": 8059.63,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B5-Akim Lower",
+                "B5-Akim"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 5,
+            "x": -93443.95,
+            "y": 31739.89,
+            "z": 11609.31,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C5-Western Spy Farm"
+            ]
+        },
+        {
+            "name": "Niva Lower",
+            "lane": "A",
+            "order": 5,
+            "x": 521.38,
+            "y": 14542.18,
+            "z": -5281.66,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Niva Upper",
+            "lane": "A",
+            "order": 5,
+            "x": -28825.68,
+            "y": 15827.75,
+            "z": -3256.21,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Akim Lower",
+            "lane": "B",
+            "order": 5,
+            "x": 75274.11,
+            "y": -92522.51,
+            "z": -5123.11,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Akim",
+            "lane": "B",
+            "order": 5,
+            "x": 121812.84,
+            "y": -90809.24,
+            "z": -4335.76,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Western Spy Farm",
+            "lane": "C",
+            "order": 5,
+            "x": -79476.14,
+            "y": 36278.51,
+            "z": -3044.82,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -150866.99,
+            "y": -154390.21,
+            "z": -3853.34,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

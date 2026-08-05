@@ -1,0 +1,510 @@
+{
+    "map_id": "maps",
+    "layer_name": "Harju_Invasion_v4_CL",
+    "total_flags": 41,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 58590.64,
+            "y": -180690.36,
+            "z": 1589.7
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -124805.99,
+            "y": 97837.75,
+            "z": 789.68
+        },
+        {
+            "name": "HorizontalFlag8",
+            "lane": "Any",
+            "order": -1,
+            "x": 33094.27,
+            "y": -88780.67,
+            "z": 3985.98
+        },
+        {
+            "name": "HorizontalFlag7",
+            "lane": "Any",
+            "order": -1,
+            "x": -60165.73,
+            "y": 54779.47,
+            "z": 856.04
+        },
+        {
+            "name": "SM_USA_Flag_3",
+            "lane": "Any",
+            "order": -1,
+            "x": -60166.42,
+            "y": 54782.28,
+            "z": 261.88
+        },
+        {
+            "name": "FlagPole_Ballhead_Angled",
+            "lane": "Any",
+            "order": -1,
+            "x": 149.0,
+            "y": -53458.77,
+            "z": 1119.5
+        },
+        {
+            "name": "FlagPole_Ballhead_Angled3",
+            "lane": "Any",
+            "order": -1,
+            "x": 110.84,
+            "y": -53468.02,
+            "z": 1158.76
+        },
+        {
+            "name": "HorizontalFlag3",
+            "lane": "Any",
+            "order": -1,
+            "x": -30138.54,
+            "y": -113734.52,
+            "z": 1107.62
+        },
+        {
+            "name": "HorizontalFlag4",
+            "lane": "Any",
+            "order": -1,
+            "x": -57055.11,
+            "y": -102082.51,
+            "z": 1175.74
+        },
+        {
+            "name": "HorizontalFlag9",
+            "lane": "Any",
+            "order": -1,
+            "x": -30132.83,
+            "y": -113735.54,
+            "z": 476.81
+        },
+        {
+            "name": "FlagPole_Ballhead_Angled2",
+            "lane": "Any",
+            "order": -1,
+            "x": 60657.86,
+            "y": -79864.52,
+            "z": 638.96
+        },
+        {
+            "name": "HorizontalFlag5",
+            "lane": "Any",
+            "order": -1,
+            "x": 60622.98,
+            "y": -79879.95,
+            "z": 679.59
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh",
+            "lane": "Any",
+            "order": -1,
+            "x": 69160.72,
+            "y": -90375.8,
+            "z": 154.61
+        },
+        {
+            "name": "HorizontalFlag_InstancedMesh",
+            "lane": "Any",
+            "order": -1,
+            "x": 71324.23,
+            "y": -88866.98,
+            "z": 628.87
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh2",
+            "lane": "Any",
+            "order": -1,
+            "x": 84540.36,
+            "y": -87894.29,
+            "z": 172.2
+        },
+        {
+            "name": "HorizontalFlag_InstancedMesh2",
+            "lane": "Any",
+            "order": -1,
+            "x": 84544.05,
+            "y": -87892.7,
+            "z": 646.47
+        },
+        {
+            "name": "Gun Range",
+            "x": -18686.17,
+            "y": -137398.03,
+            "z": 598.96,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Castle",
+            "x": -47017.44,
+            "y": -159343.21,
+            "z": 4354.76,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Scrapyard",
+            "x": 23497.11,
+            "y": -119941.64,
+            "z": 1142.68,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Hangers",
+            "x": -58224.53,
+            "y": -104067.61,
+            "z": 2318.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Military Apartments",
+            "x": -76358.13,
+            "y": -84178.81,
+            "z": 2318.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Military Warehouse",
+            "x": -65304.17,
+            "y": -96231.54,
+            "z": 2318.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Wunda Mart",
+            "x": 65871.57,
+            "y": -84257.27,
+            "z": 772.83,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "Town  Hall",
+            "x": 78495.59,
+            "y": -90952.74,
+            "z": 772.83,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "Riverside Residence",
+            "x": 58346.25,
+            "y": -86256.65,
+            "z": 772.83,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "Trucking Depot",
+            "x": -129366.49,
+            "y": -60524.16,
+            "z": 892.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Waste Treatment",
+            "x": -147040.16,
+            "y": -44772.74,
+            "z": 892.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Waste Treatment Processing",
+            "x": -164572.96,
+            "y": -37312.16,
+            "z": 892.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Paper Mill",
+            "x": -132957.0,
+            "y": -30903.73,
+            "z": 892.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Logistics Hub",
+            "x": 19885.48,
+            "y": -53298.82,
+            "z": 1512.64,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Mets\u00e4kyl\u00e4 Lower",
+            "x": 501.14,
+            "y": -48115.5,
+            "z": 772.83,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Mets\u00e4kyl\u00e4 Upper",
+            "x": -7776.69,
+            "y": -54849.22,
+            "z": 772.83,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Auxiliary Storage",
+            "x": -35410.95,
+            "y": -53693.33,
+            "z": 772.83,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Checkpoint",
+            "x": -49141.81,
+            "y": -57457.49,
+            "z": 772.83,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "River Crossing",
+            "x": -103743.47,
+            "y": 5562.02,
+            "z": 447.15,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "River Overlook",
+            "x": -71033.24,
+            "y": -2092.75,
+            "z": 1257.26,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Fuel Storage",
+            "x": -91170.38,
+            "y": -16747.18,
+            "z": 892.0,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Fuel Storage Processing",
+            "x": -83608.25,
+            "y": -27266.31,
+            "z": 892.0,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "K\u00e4py Lower",
+            "x": -46305.88,
+            "y": 36368.57,
+            "z": 1211.53,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "K\u00e4py",
+            "x": -28662.5,
+            "y": 35274.66,
+            "z": 1970.62,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "K\u00e4py Upper",
+            "x": -3547.9,
+            "y": 10974.59,
+            "z": 434.22,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        }
+    ]
+}

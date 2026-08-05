@@ -1,0 +1,127 @@
+{
+    "map_id": "tallil_outskirts",
+    "layer_name": "Tallil_Seed_v1",
+    "total_flags": 12,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 49325.69,
+            "y": -80677.37,
+            "z": -6950.15,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Riverside Estates",
+            "lane": "Any",
+            "order": 1,
+            "x": 68003.47,
+            "y": -68036.8,
+            "z": -7928.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Water Tower",
+            "lane": "Any",
+            "order": 2,
+            "x": 81260.41,
+            "y": -64706.42,
+            "z": -7943.44,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Amiri's Abode",
+            "lane": "Any",
+            "order": 3,
+            "x": 93332.69,
+            "y": -57087.98,
+            "z": -7839.45,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Riverside Khidhir",
+            "lane": "Any",
+            "order": 4,
+            "x": 104040.62,
+            "y": -64146.06,
+            "z": -7900.98,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Central Apartments",
+            "lane": "Any",
+            "order": 5,
+            "x": 117421.88,
+            "y": -64313.02,
+            "z": -7883.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Highway Edge",
+            "lane": "Any",
+            "order": 6,
+            "x": 124282.34,
+            "y": -51838.43,
+            "z": -7883.4,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 134977.66,
+            "y": -33200.11,
+            "z": -7834.64,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_4",
+            "lane": "Any",
+            "order": -1,
+            "x": -56791.81,
+            "y": 102645.78,
+            "z": -7225.26,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": -59253.03,
+            "y": 109318.96,
+            "z": -7103.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_2",
+            "lane": "Any",
+            "order": -1,
+            "x": -59292.87,
+            "y": 109131.57,
+            "z": -7103.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_3",
+            "lane": "Any",
+            "order": -1,
+            "x": -59334.63,
+            "y": 108935.06,
+            "z": -7103.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "map_id": "sumari",
+    "layer_name": "Sumari_Skirmish_v1",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 54438.09,
+            "y": 6947.48,
+            "z": -13487.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Tri Commons",
+            "lane": "Any",
+            "order": 1,
+            "x": 23022.56,
+            "y": 6257.89,
+            "z": -13296.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Mosque",
+            "lane": "Any",
+            "order": 2,
+            "x": 7267.0,
+            "y": 22049.18,
+            "z": -13296.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Palace",
+            "lane": "Any",
+            "order": 3,
+            "x": 11637.88,
+            "y": 26188.7,
+            "z": -13012.7,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Police Station",
+            "lane": "Any",
+            "order": 4,
+            "x": -6550.73,
+            "y": 19136.21,
+            "z": -13486.25,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Slums",
+            "lane": "Any",
+            "order": 5,
+            "x": -3994.0,
+            "y": 7280.71,
+            "z": -13296.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Souk",
+            "lane": "Any",
+            "order": 6,
+            "x": 8315.81,
+            "y": 35231.2,
+            "z": -13296.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Gas Station",
+            "lane": "Any",
+            "order": 7,
+            "x": -28301.07,
+            "y": 23466.24,
+            "z": -13296.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -51511.27,
+            "y": 29860.0,
+            "z": -13062.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

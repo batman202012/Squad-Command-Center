@@ -1,0 +1,128 @@
+{
+    "map_id": "fools_road",
+    "layer_name": "FoolsRoad_Skirmish_v1",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 36778.09,
+            "y": -48382.52,
+            "z": -5047.89
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -35501.27,
+            "y": -83010.0,
+            "z": -1962.62
+        },
+        {
+            "name": "Homestead",
+            "x": 27903.59,
+            "y": -73442.54,
+            "z": -4146.88,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "FOB Papanov",
+            "x": 13004.16,
+            "y": -115132.6,
+            "z": -5246.88,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Verto North",
+            "x": 12466.37,
+            "y": -91636.8,
+            "z": -5552.7,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Hilltop North",
+            "x": 10054.14,
+            "y": -102992.01,
+            "z": -3876.25,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Hilltop South",
+            "x": 5865.78,
+            "y": -77991.45,
+            "z": -4156.88,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Verto South",
+            "x": 7815.24,
+            "y": -86226.93,
+            "z": -4226.88,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "Intersection",
+            "x": -13068.77,
+            "y": -101457.59,
+            "z": -4566.88,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "7Any"
+            ]
+        }
+    ]
+}

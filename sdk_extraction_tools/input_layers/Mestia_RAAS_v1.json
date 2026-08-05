@@ -1,0 +1,177 @@
+{
+    "map_id": "mestia_green",
+    "layer_name": "Mestia_RAAS_v1",
+    "total_flags": 17,
+    "flags": [
+        {
+            "name": "USA Main",
+            "lane": "Any",
+            "order": 0,
+            "x": 102540.0,
+            "y": 55663.78,
+            "z": -4691.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 1,
+            "x": 48913.92,
+            "y": -2269.08,
+            "z": -5596.73,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Farmstead",
+            "lane": "Any",
+            "order": 1,
+            "x": 59348.0,
+            "y": 27491.0,
+            "z": -6691.77,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Quarry",
+            "lane": "Any",
+            "order": 1,
+            "x": 39437.81,
+            "y": -39931.32,
+            "z": -8946.94,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 2,
+            "x": 30767.0,
+            "y": 11853.0,
+            "z": -4412.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Tunnel Entrance",
+            "lane": "Any",
+            "order": 2,
+            "x": 32589.55,
+            "y": 24278.38,
+            "z": -7978.16,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Crucible Gamma",
+            "lane": "Any",
+            "order": 2,
+            "x": 28854.45,
+            "y": 560.51,
+            "z": -1280.72,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 3,
+            "x": 8587.0,
+            "y": 8914.0,
+            "z": -2495.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 4,
+            "x": -25189.07,
+            "y": 51636.92,
+            "z": -12093.91,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Crucible Alpha",
+            "lane": "Any",
+            "order": 4,
+            "x": 10836.24,
+            "y": -2103.84,
+            "z": -1627.72,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Warehouse",
+            "lane": "Any",
+            "order": 4,
+            "x": -38960.56,
+            "y": 66551.05,
+            "z": -9710.02,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Crucible Bravo",
+            "lane": "Any",
+            "order": 4,
+            "x": 8294.0,
+            "y": 15049.0,
+            "z": -3515.02,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Shtugra Waterfall",
+            "lane": "Any",
+            "order": 4,
+            "x": -12730.74,
+            "y": 37260.31,
+            "z": -11766.24,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 5,
+            "x": -47269.7,
+            "y": 8254.13,
+            "z": -9121.25,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Armory",
+            "lane": "Any",
+            "order": 5,
+            "x": -58508.31,
+            "y": 23924.44,
+            "z": -6764.73,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Fortification",
+            "lane": "Any",
+            "order": 5,
+            "x": -33693.41,
+            "y": -7901.76,
+            "z": -6106.24,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "MIL Main",
+            "lane": "Any",
+            "order": 100,
+            "x": -97554.53,
+            "y": -4619.87,
+            "z": 3281.65,
+            "is_sky_node": true,
+            "linked_flags": []
+        }
+    ]
+}

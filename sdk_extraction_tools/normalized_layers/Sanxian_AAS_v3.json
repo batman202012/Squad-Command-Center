@@ -1,0 +1,98 @@
+{
+    "map_id": "maps",
+    "layer_name": "Sanxian_AAS_v3",
+    "total_flags": 7,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 103274.17,
+            "y": 122314.82,
+            "z": 611.99
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 179878.34,
+            "y": -35766.53,
+            "z": 1101.93
+        },
+        {
+            "name": "Radar Station",
+            "x": -284.14,
+            "y": 125356.35,
+            "z": 1076.04,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Lagoon",
+            "x": -147902.85,
+            "y": 104992.48,
+            "z": 1265.55,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Harbour",
+            "x": -119533.88,
+            "y": 26097.55,
+            "z": 716.89,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Rentang",
+            "x": -91203.24,
+            "y": -96210.02,
+            "z": 615.03,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Canal Town",
+            "x": 24373.78,
+            "y": -69474.37,
+            "z": 517.72,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

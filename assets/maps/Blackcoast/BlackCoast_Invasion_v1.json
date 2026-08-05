@@ -1,0 +1,206 @@
+{
+    "map_id": "maps",
+    "layer_name": "BlackCoast_Invasion_v1",
+    "total_flags": 17,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 13704.86,
+            "y": 223249.34,
+            "z": -2576.85
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 109545.12,
+            "y": -182665.09,
+            "z": 7789.22
+        },
+        {
+            "name": "FlagPole_Ballhead",
+            "lane": "Any",
+            "order": -1,
+            "x": 11920.24,
+            "y": -40469.14,
+            "z": 891.66
+        },
+        {
+            "name": "FlagPole_Ballhead2",
+            "lane": "Any",
+            "order": -1,
+            "x": 11920.24,
+            "y": -40469.14,
+            "z": 1627.19
+        },
+        {
+            "name": "FlagPole_Ballhead3",
+            "lane": "Any",
+            "order": -1,
+            "x": 64957.38,
+            "y": -23632.21,
+            "z": 5073.71
+        },
+        {
+            "name": "FlagPole_Ballhead4",
+            "lane": "Any",
+            "order": -1,
+            "x": 64957.38,
+            "y": -23632.2,
+            "z": 5808.99
+        },
+        {
+            "name": "FlagPole_Ballhead5",
+            "lane": "Any",
+            "order": -1,
+            "x": -2058.19,
+            "y": 83500.22,
+            "z": 887.74
+        },
+        {
+            "name": "FlagPole_Ballhead6",
+            "lane": "Any",
+            "order": -1,
+            "x": -2058.19,
+            "y": 83500.22,
+            "z": 1176.52
+        },
+        {
+            "name": "Landing Zone",
+            "x": -40303.28,
+            "y": 141688.36,
+            "z": 234.14,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Pipeline",
+            "x": -92085.78,
+            "y": 114263.89,
+            "z": 1014.33,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Paseka",
+            "x": -44923.48,
+            "y": 106140.91,
+            "z": 1791.14,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Fort",
+            "x": -25969.61,
+            "y": 131507.33,
+            "z": 1984.91,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Sablya Outskirts",
+            "x": -54116.2,
+            "y": 47924.5,
+            "z": 1669.99,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Torpedo Factory",
+            "x": -36413.83,
+            "y": 50798.45,
+            "z": 2309.53,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Sablya",
+            "x": -51780.32,
+            "y": -386.56,
+            "z": 1311.97,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Train Station",
+            "x": -28259.56,
+            "y": 9216.33,
+            "z": 1157.96,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Kalinovka",
+            "x": -40381.84,
+            "y": -62309.77,
+            "z": 899.67,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

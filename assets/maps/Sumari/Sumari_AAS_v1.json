@@ -1,0 +1,98 @@
+{
+    "map_id": "sumari",
+    "layer_name": "Sumari_AAS_v1",
+    "total_flags": 7,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -50712.97,
+            "y": 30413.57,
+            "z": -12774.18
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 56328.44,
+            "y": 6823.25,
+            "z": -13451.02
+        },
+        {
+            "name": "Compound",
+            "x": -13781.0,
+            "y": 18447.0,
+            "z": -12969.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Slums",
+            "x": -4523.0,
+            "y": 5415.0,
+            "z": -13418.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Mosque",
+            "x": 7334.0,
+            "y": 21967.0,
+            "z": -13152.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Souk",
+            "x": 8893.0,
+            "y": 34537.0,
+            "z": -12987.0,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "School",
+            "x": 24261.35,
+            "y": 24635.15,
+            "z": -12691.0,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "map_id": "mutaha",
+    "layer_name": "Mutaha_TC_v1",
+    "total_flags": 2,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -48348.0,
+            "y": -104668.62,
+            "z": -349.82,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 156342.3,
+            "y": 158878.08,
+            "z": -631.98,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

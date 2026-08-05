@@ -1,0 +1,117 @@
+{
+    "map_id": "jensens_range",
+    "layer_name": "Jensens_Range_USMC-GFI",
+    "total_flags": 11,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 5897.81,
+            "y": -27913.25,
+            "z": -45.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Jensen's Test Track",
+            "lane": "Any",
+            "order": 1,
+            "x": 60950.96,
+            "y": -95946.69,
+            "z": -582.92,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 8052.36,
+            "y": -26500.67,
+            "z": -346.71,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead1",
+            "lane": "Any",
+            "order": -1,
+            "x": 6674.17,
+            "y": -19008.2,
+            "z": 235.91,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "USMC",
+            "lane": "Any",
+            "order": -1,
+            "x": 6674.44,
+            "y": -19008.84,
+            "z": 599.52,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead2",
+            "lane": "Any",
+            "order": -1,
+            "x": 6663.34,
+            "y": -16996.31,
+            "z": 224.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "MEA",
+            "lane": "Any",
+            "order": -1,
+            "x": 6663.6,
+            "y": -16996.95,
+            "z": 599.52,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "MEA_Rallypoint",
+            "lane": "Any",
+            "order": -1,
+            "x": 6733.33,
+            "y": -17854.69,
+            "z": -45.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "USMC_Rallypoint",
+            "lane": "Any",
+            "order": -1,
+            "x": 6726.35,
+            "y": -18171.69,
+            "z": -50.56,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "US RallyPoint",
+            "lane": "Any",
+            "order": -1,
+            "x": 6751.49,
+            "y": -17852.61,
+            "z": -45.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "INS Rallypoint",
+            "lane": "Any",
+            "order": -1,
+            "x": 6734.92,
+            "y": -18167.88,
+            "z": -45.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

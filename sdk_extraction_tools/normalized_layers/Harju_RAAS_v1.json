@@ -1,0 +1,910 @@
+{
+    "map_id": "maps",
+    "layer_name": "Harju_RAAS_v1",
+    "total_flags": 59,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -127521.44,
+            "y": 96632.22,
+            "z": 545.16
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 132958.28,
+            "y": 111438.38,
+            "z": 127.97
+        },
+        {
+            "name": "HorizontalFlag8",
+            "lane": "Any",
+            "order": -1,
+            "x": 33094.27,
+            "y": -88780.67,
+            "z": 3985.98
+        },
+        {
+            "name": "HorizontalFlag7",
+            "lane": "Any",
+            "order": -1,
+            "x": -60165.73,
+            "y": 54779.47,
+            "z": 856.04
+        },
+        {
+            "name": "SM_USA_Flag_3",
+            "lane": "Any",
+            "order": -1,
+            "x": -60166.42,
+            "y": 54782.28,
+            "z": 261.88
+        },
+        {
+            "name": "FlagPole_Ballhead_Angled",
+            "lane": "Any",
+            "order": -1,
+            "x": 149.0,
+            "y": -53458.77,
+            "z": 1119.5
+        },
+        {
+            "name": "FlagPole_Ballhead_Angled3",
+            "lane": "Any",
+            "order": -1,
+            "x": 110.84,
+            "y": -53468.02,
+            "z": 1158.76
+        },
+        {
+            "name": "HorizontalFlag3",
+            "lane": "Any",
+            "order": -1,
+            "x": -30138.54,
+            "y": -113734.52,
+            "z": 1107.62
+        },
+        {
+            "name": "HorizontalFlag4",
+            "lane": "Any",
+            "order": -1,
+            "x": -57055.11,
+            "y": -102082.51,
+            "z": 1175.74
+        },
+        {
+            "name": "HorizontalFlag9",
+            "lane": "Any",
+            "order": -1,
+            "x": -30132.83,
+            "y": -113735.54,
+            "z": 476.81
+        },
+        {
+            "name": "FlagPole_Ballhead_Angled2",
+            "lane": "Any",
+            "order": -1,
+            "x": 60657.86,
+            "y": -79864.52,
+            "z": 638.96
+        },
+        {
+            "name": "HorizontalFlag5",
+            "lane": "Any",
+            "order": -1,
+            "x": 60622.98,
+            "y": -79879.95,
+            "z": 679.59
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh",
+            "lane": "Any",
+            "order": -1,
+            "x": 69160.72,
+            "y": -90375.8,
+            "z": 154.61
+        },
+        {
+            "name": "HorizontalFlag_InstancedMesh",
+            "lane": "Any",
+            "order": -1,
+            "x": 71324.23,
+            "y": -88866.98,
+            "z": 628.87
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh2",
+            "lane": "Any",
+            "order": -1,
+            "x": 84540.36,
+            "y": -87894.29,
+            "z": 172.2
+        },
+        {
+            "name": "HorizontalFlag_InstancedMesh2",
+            "lane": "Any",
+            "order": -1,
+            "x": 84544.05,
+            "y": -87892.7,
+            "z": 646.47
+        },
+        {
+            "name": "Mimi's Marsh",
+            "x": -122001.34,
+            "y": 16305.56,
+            "z": 819.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "1C"
+            ]
+        },
+        {
+            "name": "Paper Mill",
+            "x": -134052.88,
+            "y": -30552.6,
+            "z": 937.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "1A"
+            ]
+        },
+        {
+            "name": "Waste Treatment",
+            "x": -143994.81,
+            "y": -45224.02,
+            "z": -85.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "1A"
+            ]
+        },
+        {
+            "name": "Trucking Depot",
+            "x": -129328.06,
+            "y": -60827.61,
+            "z": 1415.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "1A"
+            ]
+        },
+        {
+            "name": "N\u00e4kym\u00e4",
+            "x": -92604.95,
+            "y": 45634.06,
+            "z": 1606.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "D"
+                },
+                {
+                    "order": 1,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "1D",
+                "1C"
+            ]
+        },
+        {
+            "name": "Lighthouse",
+            "x": -57113.09,
+            "y": 56548.14,
+            "z": 388.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "1E"
+            ]
+        },
+        {
+            "name": "Missile Silos Underground",
+            "x": -78099.34,
+            "y": 19153.59,
+            "z": -1093.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "D"
+                },
+                {
+                    "order": 1,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "1D",
+                "1C"
+            ]
+        },
+        {
+            "name": "Fuel Storage",
+            "x": -83313.97,
+            "y": -26829.97,
+            "z": 557.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "B"
+                },
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "1B",
+                "2C"
+            ]
+        },
+        {
+            "name": "Military Apartments",
+            "x": -73715.4,
+            "y": -83044.05,
+            "z": 1541.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                },
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2A",
+                "2B"
+            ]
+        },
+        {
+            "name": "Ammunition Bunker",
+            "x": -91282.98,
+            "y": -135308.19,
+            "z": 2276.97,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Checkpoint",
+            "x": -49645.71,
+            "y": -57015.23,
+            "z": 141.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "M\u00e4ntyharju",
+            "x": -40857.08,
+            "y": 17172.58,
+            "z": 1567.38,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                },
+                {
+                    "order": 2,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "2C",
+                "2E"
+            ]
+        },
+        {
+            "name": "Wheat Farm",
+            "x": -35617.85,
+            "y": -13638.68,
+            "z": 557.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "D"
+                },
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2D",
+                "3C"
+            ]
+        },
+        {
+            "name": "K\u00e4py",
+            "x": -19346.35,
+            "y": 24586.16,
+            "z": 1917.38,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "D"
+                },
+                {
+                    "order": 2,
+                    "lane": "E"
+                },
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2D",
+                "2E",
+                "3C"
+            ]
+        },
+        {
+            "name": "Hangers",
+            "x": -46870.37,
+            "y": -109850.38,
+            "z": 6941.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Training Center",
+            "x": -17825.41,
+            "y": -136117.5,
+            "z": 609.98,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Castle",
+            "x": -47367.21,
+            "y": -158727.66,
+            "z": 4409.96,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Forest Industrial",
+            "x": -7189.53,
+            "y": -95249.19,
+            "z": 606.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Mets\u00e4kyl\u00e4",
+            "x": -2753.64,
+            "y": -51166.25,
+            "z": 931.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "D"
+                },
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3D",
+                "4C"
+            ]
+        },
+        {
+            "name": "Power Plant",
+            "x": 15782.95,
+            "y": -16272.81,
+            "z": 2021.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "D"
+                },
+                {
+                    "order": 3,
+                    "lane": "E"
+                },
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3D",
+                "3E",
+                "4C"
+            ]
+        },
+        {
+            "name": "Scrapyard",
+            "x": 23164.25,
+            "y": -119848.7,
+            "z": 787.0,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                },
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4A",
+                "4B"
+            ]
+        },
+        {
+            "name": "Construction Site",
+            "x": 30726.74,
+            "y": -92303.57,
+            "z": 1392.38,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                },
+                {
+                    "order": 4,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "4B",
+                "4D"
+            ]
+        },
+        {
+            "name": "BioChem Lab",
+            "x": 62920.32,
+            "y": -104465.1,
+            "z": 417.39,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Logistics Hub",
+            "x": 18901.16,
+            "y": -53259.2,
+            "z": 931.0,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "D"
+                },
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4D",
+                "4C"
+            ]
+        },
+        {
+            "name": "Harju Industrial",
+            "x": 62071.5,
+            "y": -66383.3,
+            "z": 552.39,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "D"
+                },
+                {
+                    "order": 5,
+                    "lane": "B"
+                },
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4D",
+                "5B",
+                "5C"
+            ]
+        },
+        {
+            "name": "Customs Office",
+            "x": 45762.11,
+            "y": -1460.95,
+            "z": 552.4,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "E"
+                },
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4E",
+                "5C"
+            ]
+        },
+        {
+            "name": "Northern Neighborhood",
+            "x": 85009.55,
+            "y": -120992.0,
+            "z": 6941.0,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Town Hall",
+            "x": 78932.85,
+            "y": -90640.62,
+            "z": 552.39,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "Shopping District",
+            "x": 68696.94,
+            "y": -83439.23,
+            "z": 272.39,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "Northern Apartments",
+            "x": 85003.45,
+            "y": -98552.95,
+            "z": 552.39,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "J\u00e4rvikyl\u00e4",
+            "x": 86537.48,
+            "y": 20991.54,
+            "z": 865.39,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "E"
+                },
+                {
+                    "order": 7,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "5E",
+                "7D"
+            ]
+        },
+        {
+            "name": "Harju Outskirts",
+            "x": 86980.5,
+            "y": -50396.95,
+            "z": 552.39,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "D"
+                },
+                {
+                    "order": 6,
+                    "lane": "B"
+                },
+                {
+                    "order": 6,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5D",
+                "6B",
+                "6C"
+            ]
+        },
+        {
+            "name": "Factory",
+            "x": 46559.66,
+            "y": 41344.59,
+            "z": 6941.0,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "6E"
+            ]
+        },
+        {
+            "name": "Truck Stop",
+            "x": 115329.64,
+            "y": 6874.58,
+            "z": 1981.0,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "D"
+                },
+                {
+                    "order": 7,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "6D",
+                "7C"
+            ]
+        },
+        {
+            "name": "Estate",
+            "x": 157028.08,
+            "y": -145002.53,
+            "z": 2312.0,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "Lumber Yard",
+            "x": 123229.62,
+            "y": -61397.91,
+            "z": 417.39,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "B"
+                },
+                {
+                    "order": 7,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6B",
+                "7A"
+            ]
+        },
+        {
+            "name": "Warehouse",
+            "x": 82557.88,
+            "y": -3893.54,
+            "z": 865.39,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "C"
+                },
+                {
+                    "order": 6,
+                    "lane": "D"
+                },
+                {
+                    "order": 7,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "6C",
+                "6D",
+                "7B"
+            ]
+        },
+        {
+            "name": "Distribution Center",
+            "x": 29871.79,
+            "y": 48819.25,
+            "z": 265.38,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "6E"
+            ]
+        },
+        {
+            "name": "Bombed Apartments",
+            "x": 81774.02,
+            "y": -67217.72,
+            "z": 552.39,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "6B"
+            ]
+        },
+        {
+            "name": "Pier One",
+            "x": 54529.45,
+            "y": 78552.44,
+            "z": 761.0,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "7E"
+            ]
+        },
+        {
+            "name": "Liminka",
+            "x": 146216.05,
+            "y": -30691.88,
+            "z": 417.39,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "A"
+                },
+                {
+                    "order": 7,
+                    "lane": "B"
+                },
+                {
+                    "order": 7,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "7A",
+                "7B",
+                "7C"
+            ]
+        },
+        {
+            "name": "Swamp Homestead",
+            "x": 169319.39,
+            "y": -6631.19,
+            "z": 865.4,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "7D"
+            ]
+        },
+        {
+            "name": "Beach Defenses",
+            "x": 128516.05,
+            "y": 38865.48,
+            "z": 865.4,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "7D"
+            ]
+        }
+    ]
+}

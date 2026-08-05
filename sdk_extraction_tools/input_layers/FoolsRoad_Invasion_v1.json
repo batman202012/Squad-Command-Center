@@ -1,0 +1,137 @@
+{
+    "map_id": "fools_road",
+    "layer_name": "FoolsRoad_Invasion_v1",
+    "total_flags": 13,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -87566.08,
+            "y": 16135.58,
+            "z": -5368.72,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 1,
+            "x": -83315.12,
+            "y": -9432.81,
+            "z": -2655.61,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Mine Entrance",
+            "lane": "Any",
+            "order": 1,
+            "x": -33942.49,
+            "y": -13813.01,
+            "z": -5209.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 2,
+            "x": -24830.12,
+            "y": -26296.03,
+            "z": -3837.49,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ammo Hill",
+            "lane": "Any",
+            "order": 2,
+            "x": -52508.0,
+            "y": -52880.0,
+            "z": -1758.98,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 3,
+            "x": -52614.91,
+            "y": -53499.7,
+            "z": -2057.26,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hilltop Encampment",
+            "lane": "Any",
+            "order": 3,
+            "x": -33619.0,
+            "y": -79333.0,
+            "z": -1742.35,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "OP Fortress",
+            "lane": "Any",
+            "order": 3,
+            "x": -93587.0,
+            "y": -45833.0,
+            "z": -2938.64,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 4,
+            "x": -23907.41,
+            "y": -78221.38,
+            "z": -4544.9,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Homestead",
+            "lane": "Any",
+            "order": 4,
+            "x": -72538.0,
+            "y": -81428.0,
+            "z": -5381.64,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 5,
+            "x": -95015.41,
+            "y": -114470.38,
+            "z": -4544.9,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Fortress",
+            "lane": "Any",
+            "order": 5,
+            "x": -99173.42,
+            "y": -99763.7,
+            "z": -5044.05,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 11722.73,
+            "y": -118342.66,
+            "z": -4479.91,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

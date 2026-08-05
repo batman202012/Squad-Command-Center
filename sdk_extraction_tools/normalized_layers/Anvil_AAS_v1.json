@@ -1,0 +1,98 @@
+{
+    "map_id": "anvil",
+    "layer_name": "Anvil_AAS_v1",
+    "total_flags": 7,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -160541.94,
+            "y": -183808.38,
+            "z": -4465.36
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 74664.64,
+            "y": -2700.3,
+            "z": -5830.42
+        },
+        {
+            "name": "Vineyard",
+            "x": -109266.0,
+            "y": -97320.0,
+            "z": -6046.69,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Orchard",
+            "x": -71027.0,
+            "y": -59005.0,
+            "z": -6547.69,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Lavender Farm",
+            "x": -32345.0,
+            "y": -46515.0,
+            "z": -5512.69,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Qalat",
+            "x": 7980.0,
+            "y": -66750.0,
+            "z": -5789.69,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Poppy Farms",
+            "x": 57067.0,
+            "y": -49081.0,
+            "z": -5266.69,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,167 @@
+{
+    "map_id": "sumari",
+    "layer_name": "Sumari_Invasion_v1",
+    "total_flags": 16,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -51947.55,
+            "y": 29424.0,
+            "z": -13221.86,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 1,
+            "x": -35041.0,
+            "y": 32298.0,
+            "z": -13496.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Checkpoint",
+            "lane": "Any",
+            "order": 1,
+            "x": -35435.0,
+            "y": 36754.0,
+            "z": -13483.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 2,
+            "x": -19564.0,
+            "y": 28439.0,
+            "z": -13487.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Two Story",
+            "lane": "Any",
+            "order": 2,
+            "x": -30972.0,
+            "y": 28761.0,
+            "z": -13499.77,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Gas Station",
+            "lane": "Any",
+            "order": 2,
+            "x": -28569.58,
+            "y": 23730.19,
+            "z": -13224.46,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 3,
+            "x": -11203.0,
+            "y": 16126.0,
+            "z": -13486.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Brickworks",
+            "lane": "Any",
+            "order": 3,
+            "x": -18566.0,
+            "y": 31640.0,
+            "z": -13472.78,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Courtyard",
+            "lane": "Any",
+            "order": 3,
+            "x": -20389.0,
+            "y": 26108.0,
+            "z": -13336.72,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Market",
+            "lane": "Any",
+            "order": 3,
+            "x": -16420.0,
+            "y": 13735.0,
+            "z": -13485.54,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 4,
+            "x": 6991.0,
+            "y": 26945.0,
+            "z": -13201.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Police Station",
+            "lane": "Any",
+            "order": 4,
+            "x": -6562.0,
+            "y": 19558.0,
+            "z": -13485.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 5,
+            "x": 22582.0,
+            "y": 29591.0,
+            "z": -13488.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Mosque",
+            "lane": "Any",
+            "order": 5,
+            "x": 7347.0,
+            "y": 21882.0,
+            "z": -13152.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Palace",
+            "lane": "Any",
+            "order": 5,
+            "x": 11606.0,
+            "y": 26208.0,
+            "z": -13471.72,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 52342.28,
+            "y": 33220.29,
+            "z": -13166.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

@@ -1,0 +1,598 @@
+{
+    "map_id": "kamdesh_highlands",
+    "layer_name": "Kamdesh_RAAS_v1",
+    "total_flags": 38,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 37110.69,
+            "y": -124255.27,
+            "z": 3922.38
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -2488.39,
+            "y": 141934.11,
+            "z": 8445.57
+        },
+        {
+            "name": "Nuristan",
+            "x": 115967.74,
+            "y": -113566.0,
+            "z": 9494.56,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "1C"
+            ]
+        },
+        {
+            "name": "Shako",
+            "x": 75823.27,
+            "y": -96394.33,
+            "z": 6989.8,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "1C"
+            ]
+        },
+        {
+            "name": "Mandagal",
+            "x": -11103.89,
+            "y": -121600.72,
+            "z": 5368.53,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                },
+                {
+                    "order": 1,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1A",
+                "1B"
+            ]
+        },
+        {
+            "name": "Manyal",
+            "x": 19499.24,
+            "y": -67754.22,
+            "z": 5742.23,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "Matal",
+            "x": 136594.98,
+            "y": -79090.56,
+            "z": 9294.11,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "Kushtoz",
+            "x": -115502.19,
+            "y": -114380.19,
+            "z": 5254.96,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Storage Bunker",
+            "x": 106870.17,
+            "y": -50358.25,
+            "z": 11285.66,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "Agasi",
+            "x": -73606.91,
+            "y": -96572.09,
+            "z": 5308.02,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "OP Leeks",
+            "x": -33134.89,
+            "y": -71336.72,
+            "z": 4937.53,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                },
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2A",
+                "2B"
+            ]
+        },
+        {
+            "name": "Paprok",
+            "x": -18200.67,
+            "y": -42970.75,
+            "z": 4783.89,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Nilaw",
+            "x": 58104.55,
+            "y": -45736.71,
+            "z": 6818.43,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Hemp Farm",
+            "x": 119741.34,
+            "y": -12293.74,
+            "z": 8978.36,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "Parun",
+            "x": -74220.43,
+            "y": -48267.38,
+            "z": 4182.43,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Agro",
+            "x": -113565.38,
+            "y": -53891.42,
+            "z": 6458.83,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Nahrain",
+            "x": -18939.03,
+            "y": 10691.4,
+            "z": 5740.88,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Godri",
+            "x": 62522.88,
+            "y": 8636.53,
+            "z": 5203.47,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                },
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4B",
+                "4C"
+            ]
+        },
+        {
+            "name": "Sao",
+            "x": -93765.16,
+            "y": 12279.1,
+            "z": 4633.29,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Smuggler's Den",
+            "x": -51321.44,
+            "y": -12649.45,
+            "z": 5272.92,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Urmul",
+            "x": -139115.73,
+            "y": -23549.99,
+            "z": 6799.83,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Capo",
+            "x": 29790.53,
+            "y": 28878.32,
+            "z": 5692.23,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Badeen",
+            "x": 137861.59,
+            "y": 28243.13,
+            "z": 8681.1,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "Khail",
+            "x": 38580.64,
+            "y": -10990.34,
+            "z": 4256.48,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "FOB Grace",
+            "x": -153664.75,
+            "y": 40373.92,
+            "z": 6556.79,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "OP Chaxton",
+            "x": -52556.58,
+            "y": 43349.08,
+            "z": 4490.11,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "OP Sokolov",
+            "x": 51719.31,
+            "y": 44654.55,
+            "z": 6456.53,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "Tatar",
+            "x": 78213.31,
+            "y": 44346.02,
+            "z": 6077.11,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                },
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5B",
+                "5C"
+            ]
+        },
+        {
+            "name": "Darin",
+            "x": -13588.4,
+            "y": 76786.31,
+            "z": 5771.87,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                },
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5B",
+                "6A"
+            ]
+        },
+        {
+            "name": "Kotal",
+            "x": 132835.3,
+            "y": 120699.81,
+            "z": 9761.66,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "6C"
+            ]
+        },
+        {
+            "name": "Khune",
+            "x": 7655.61,
+            "y": 98151.97,
+            "z": 7061.54,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "6B"
+            ]
+        },
+        {
+            "name": "Carpenter's Guild",
+            "x": -85761.23,
+            "y": 87649.81,
+            "z": 9663.03,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "Toba",
+            "x": -116445.56,
+            "y": 110414.59,
+            "z": 8051.65,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "Kaga",
+            "x": 103869.62,
+            "y": 90348.12,
+            "z": 7698.95,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "6C"
+            ]
+        },
+        {
+            "name": "Alingal",
+            "x": 47515.66,
+            "y": 102286.75,
+            "z": 8939.73,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "B"
+                },
+                {
+                    "order": 7,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "6B",
+                "7C"
+            ]
+        },
+        {
+            "name": "Larnaw",
+            "x": -80889.7,
+            "y": 120104.56,
+            "z": 9775.05,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "7A"
+            ]
+        },
+        {
+            "name": "Aringshah",
+            "x": -46006.62,
+            "y": 112346.73,
+            "z": 7830.86,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "7A"
+            ]
+        },
+        {
+            "name": "Deraki",
+            "x": 57603.68,
+            "y": 139826.23,
+            "z": 10001.38,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "B"
+                },
+                {
+                    "order": 7,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "7B",
+                "7C"
+            ]
+        }
+    ]
+}

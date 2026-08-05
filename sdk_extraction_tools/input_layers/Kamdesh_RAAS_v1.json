@@ -1,0 +1,731 @@
+{
+    "map_id": "kamdesh_highlands",
+    "layer_name": "Kamdesh_RAAS_v1",
+    "total_flags": 66,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 37110.69,
+            "y": -124255.27,
+            "z": 3922.38,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 1,
+            "x": -11643.78,
+            "y": -119221.38,
+            "z": 15276.25,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A1-Mandagal"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 1,
+            "x": -11643.78,
+            "y": -119221.38,
+            "z": 15276.25,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B1-Mandagal"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 1,
+            "x": 16750.22,
+            "y": -72200.38,
+            "z": 15276.25,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C1-Nuristan",
+                "C1-Shako"
+            ]
+        },
+        {
+            "name": "Nuristan",
+            "lane": "C",
+            "order": 1,
+            "x": 115967.74,
+            "y": -113566.0,
+            "z": 9494.56,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Shako",
+            "lane": "C",
+            "order": 1,
+            "x": 75823.27,
+            "y": -96394.33,
+            "z": 6989.8,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Mandagal",
+            "lane": "A",
+            "order": 1,
+            "x": -11103.89,
+            "y": -121600.72,
+            "z": 5368.53,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Mandagal",
+            "lane": "B",
+            "order": 1,
+            "x": -11103.89,
+            "y": -121600.72,
+            "z": 5368.53,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 2,
+            "x": -71587.78,
+            "y": -85861.38,
+            "z": 15276.25,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A2-Kushtoz",
+                "A2-OP Leeks",
+                "A2-Agasi"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 2,
+            "x": -6252.78,
+            "y": -69669.38,
+            "z": 15276.25,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B2-OP Leeks",
+                "B2-Manyal"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 2,
+            "x": 110551.22,
+            "y": -71120.38,
+            "z": 15276.25,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C2-Storage Bunker",
+                "C2-Matal"
+            ]
+        },
+        {
+            "name": "Manyal",
+            "lane": "B",
+            "order": 2,
+            "x": 19499.24,
+            "y": -67754.22,
+            "z": 5742.23,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Matal",
+            "lane": "C",
+            "order": 2,
+            "x": 136594.98,
+            "y": -79090.56,
+            "z": 9294.11,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Kushtoz",
+            "lane": "A",
+            "order": 2,
+            "x": -115502.19,
+            "y": -114380.19,
+            "z": 5254.96,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Storage Bunker",
+            "lane": "C",
+            "order": 2,
+            "x": 106870.17,
+            "y": -50358.25,
+            "z": 11285.66,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Agasi",
+            "lane": "A",
+            "order": 2,
+            "x": -73606.91,
+            "y": -96572.09,
+            "z": 5308.02,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "OP Leeks",
+            "lane": "A",
+            "order": 2,
+            "x": -33134.89,
+            "y": -71336.72,
+            "z": 4937.53,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "OP Leeks",
+            "lane": "B",
+            "order": 2,
+            "x": -33134.89,
+            "y": -71336.72,
+            "z": 4937.53,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 3,
+            "x": -91251.78,
+            "y": -51556.38,
+            "z": 15276.25,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A3-Agro",
+                "A3-Parun"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 3,
+            "x": 16536.22,
+            "y": -44006.38,
+            "z": 15276.25,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B3-Paprok",
+                "B3-Nilaw"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 3,
+            "x": 114123.22,
+            "y": -15936.38,
+            "z": 15276.25,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C3-Hemp Farm"
+            ]
+        },
+        {
+            "name": "Paprok",
+            "lane": "B",
+            "order": 3,
+            "x": -18200.67,
+            "y": -42970.75,
+            "z": 4783.89,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Nilaw",
+            "lane": "B",
+            "order": 3,
+            "x": 58104.55,
+            "y": -45736.71,
+            "z": 6818.43,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Hemp Farm",
+            "lane": "C",
+            "order": 3,
+            "x": 119741.34,
+            "y": -12293.74,
+            "z": 8978.36,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Parun",
+            "lane": "A",
+            "order": 3,
+            "x": -74220.43,
+            "y": -48267.38,
+            "z": 4182.43,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Agro",
+            "lane": "A",
+            "order": 3,
+            "x": -113565.38,
+            "y": -53891.42,
+            "z": 6458.83,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 4,
+            "x": -97827.78,
+            "y": -16370.38,
+            "z": 15276.25,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A4-Urmul",
+                "A4-Sao",
+                "A4-Smuggler's Den"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 4,
+            "x": 18999.22,
+            "y": 6264.62,
+            "z": 15276.25,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B4-Capo",
+                "B4-Nahrain",
+                "B4-Khail",
+                "B4-Godri"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 4,
+            "x": 103743.22,
+            "y": 7841.62,
+            "z": 15276.25,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C4-Badeen",
+                "C4-Godri"
+            ]
+        },
+        {
+            "name": "Nahrain",
+            "lane": "B",
+            "order": 4,
+            "x": -18939.03,
+            "y": 10691.4,
+            "z": 5740.88,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Godri",
+            "lane": "B",
+            "order": 4,
+            "x": 62522.88,
+            "y": 8636.53,
+            "z": 5203.47,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Sao",
+            "lane": "A",
+            "order": 4,
+            "x": -93765.16,
+            "y": 12279.1,
+            "z": 4633.29,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Smuggler's Den",
+            "lane": "A",
+            "order": 4,
+            "x": -51321.44,
+            "y": -12649.45,
+            "z": 5272.92,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Urmul",
+            "lane": "A",
+            "order": 4,
+            "x": -139115.73,
+            "y": -23549.99,
+            "z": 6799.83,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capo",
+            "lane": "B",
+            "order": 4,
+            "x": 29790.53,
+            "y": 28878.32,
+            "z": 5692.23,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Badeen",
+            "lane": "C",
+            "order": 4,
+            "x": 137861.59,
+            "y": 28243.13,
+            "z": 8681.1,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Khail",
+            "lane": "B",
+            "order": 4,
+            "x": 38580.64,
+            "y": -10990.34,
+            "z": 4256.48,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Godri",
+            "lane": "C",
+            "order": 4,
+            "x": 62522.88,
+            "y": 8636.53,
+            "z": 5203.47,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 5,
+            "x": -103136.78,
+            "y": 45812.62,
+            "z": 15276.25,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A5-OP Chaxton",
+                "A5-FOB Grace"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 5,
+            "x": 34308.22,
+            "y": 61889.62,
+            "z": 15276.25,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B5-Darin",
+                "B5-OP Sokolov",
+                "B5-Tatar"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 5,
+            "x": 108903.22,
+            "y": 77084.62,
+            "z": 15276.25,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C5-Tatar"
+            ]
+        },
+        {
+            "name": "FOB Grace",
+            "lane": "A",
+            "order": 5,
+            "x": -153664.75,
+            "y": 40373.92,
+            "z": 6556.79,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "OP Chaxton",
+            "lane": "A",
+            "order": 5,
+            "x": -52556.58,
+            "y": 43349.08,
+            "z": 4490.11,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "OP Sokolov",
+            "lane": "B",
+            "order": 5,
+            "x": 51719.31,
+            "y": 44654.55,
+            "z": 6456.53,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Tatar",
+            "lane": "B",
+            "order": 5,
+            "x": 78213.31,
+            "y": 44346.02,
+            "z": 6077.11,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Darin",
+            "lane": "B",
+            "order": 5,
+            "x": -13588.4,
+            "y": 76786.31,
+            "z": 5771.87,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Tatar",
+            "lane": "C",
+            "order": 5,
+            "x": 78213.31,
+            "y": 44346.02,
+            "z": 6077.11,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 6,
+            "x": -80018.78,
+            "y": 78600.62,
+            "z": 15276.25,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A6-Darin",
+                "A6-Carpenter's Guild",
+                "A6-Toba"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 6,
+            "x": 28144.22,
+            "y": 100263.62,
+            "z": 15276.25,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B6-Alingal",
+                "B6-Khune"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 6,
+            "x": 85780.22,
+            "y": 106219.62,
+            "z": 15276.25,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C6-Kotal",
+                "C6-Kaga"
+            ]
+        },
+        {
+            "name": "Darin",
+            "lane": "A",
+            "order": 6,
+            "x": -13588.4,
+            "y": 76786.31,
+            "z": 5771.87,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Kotal",
+            "lane": "C",
+            "order": 6,
+            "x": 132835.3,
+            "y": 120699.81,
+            "z": 9761.66,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Khune",
+            "lane": "B",
+            "order": 6,
+            "x": 7655.61,
+            "y": 98151.97,
+            "z": 7061.54,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Carpenter's Guild",
+            "lane": "A",
+            "order": 6,
+            "x": -85761.23,
+            "y": 87649.81,
+            "z": 9663.03,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Toba",
+            "lane": "A",
+            "order": 6,
+            "x": -116445.56,
+            "y": 110414.59,
+            "z": 8051.65,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Kaga",
+            "lane": "C",
+            "order": 6,
+            "x": 103869.62,
+            "y": 90348.12,
+            "z": 7698.95,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Alingal",
+            "lane": "B",
+            "order": 6,
+            "x": 47515.66,
+            "y": 102286.75,
+            "z": 8939.73,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 7,
+            "x": -63220.78,
+            "y": 116034.62,
+            "z": 15276.25,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A7-Larnaw",
+                "A7-Aringshah"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 7,
+            "x": 56927.22,
+            "y": 138238.62,
+            "z": 15276.25,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B7-Deraki"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 7,
+            "x": 57353.22,
+            "y": 134132.62,
+            "z": 15276.25,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C7-Deraki",
+                "C7-Alingal"
+            ]
+        },
+        {
+            "name": "Larnaw",
+            "lane": "A",
+            "order": 7,
+            "x": -80889.7,
+            "y": 120104.56,
+            "z": 9775.05,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Aringshah",
+            "lane": "A",
+            "order": 7,
+            "x": -46006.62,
+            "y": 112346.73,
+            "z": 7830.86,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Deraki",
+            "lane": "B",
+            "order": 7,
+            "x": 57603.68,
+            "y": 139826.23,
+            "z": 10001.38,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Alingal",
+            "lane": "C",
+            "order": 7,
+            "x": 47515.66,
+            "y": 102286.75,
+            "z": 8939.73,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Deraki",
+            "lane": "C",
+            "order": 7,
+            "x": 57603.68,
+            "y": 139826.23,
+            "z": 10001.38,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -2488.39,
+            "y": 141934.11,
+            "z": 8445.57,
+            "is_sky_node": true,
+            "linked_flags": []
+        }
+    ]
+}

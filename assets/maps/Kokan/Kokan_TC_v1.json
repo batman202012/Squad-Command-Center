@@ -1,0 +1,23 @@
+{
+    "map_id": "kokan_valley",
+    "layer_name": "Kokan_TC_v1",
+    "total_flags": 2,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 68343.44,
+            "y": 77930.09,
+            "z": -24673.91
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 46047.46,
+            "y": -89794.97,
+            "z": -24684.38
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "map_id": "narva",
+    "layer_name": "Narva_AAS_v2",
+    "total_flags": 8,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -118948.04,
+            "y": -80889.05,
+            "z": 1420.17,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Radio Station",
+            "lane": "Any",
+            "order": 1,
+            "x": -54447.24,
+            "y": -78119.7,
+            "z": 1937.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Old Barracks",
+            "lane": "Any",
+            "order": 2,
+            "x": -10034.25,
+            "y": -70823.98,
+            "z": 1303.48,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Old Hospital",
+            "lane": "Any",
+            "order": 3,
+            "x": -13707.25,
+            "y": -33756.98,
+            "z": 1303.48,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Oru Village",
+            "lane": "Any",
+            "order": 4,
+            "x": -31531.16,
+            "y": 15196.23,
+            "z": 495.57,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Kanepi Rd",
+            "lane": "Any",
+            "order": 5,
+            "x": -4627.44,
+            "y": 40009.0,
+            "z": 660.66,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Power Plant",
+            "lane": "Any",
+            "order": 6,
+            "x": 45297.31,
+            "y": 57687.69,
+            "z": 1477.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 127752.34,
+            "y": 32691.81,
+            "z": 299.99,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

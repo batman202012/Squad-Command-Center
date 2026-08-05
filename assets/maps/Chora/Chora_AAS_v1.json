@@ -1,0 +1,113 @@
+{
+    "map_id": "chora",
+    "layer_name": "Chora_AAS_v1",
+    "total_flags": 8,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 42656.42,
+            "y": -89315.09,
+            "z": -76234.36
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -187371.92,
+            "y": 4637.83,
+            "z": -77248.7
+        },
+        {
+            "name": "Gas Station",
+            "x": 3243.74,
+            "y": -86485.22,
+            "z": -76528.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Hemp Farm",
+            "x": -33140.53,
+            "y": -92744.97,
+            "z": -76574.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Radio Station",
+            "x": -59007.0,
+            "y": -45726.0,
+            "z": -76795.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Upper Orchard",
+            "x": -103848.0,
+            "y": -82539.0,
+            "z": -76472.26,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Nursery",
+            "x": -125821.37,
+            "y": -15046.28,
+            "z": -76674.9,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Monolith",
+            "x": -161670.16,
+            "y": -32061.95,
+            "z": -76872.0,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        }
+    ]
+}

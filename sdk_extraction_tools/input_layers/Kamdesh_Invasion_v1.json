@@ -1,0 +1,181 @@
+{
+    "map_id": "kamdesh_highlands",
+    "layer_name": "Kamdesh_Invasion_v1",
+    "total_flags": 16,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -153539.0,
+            "y": 42571.55,
+            "z": 6916.02,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 1,
+            "x": -151636.0,
+            "y": 37504.0,
+            "z": 6856.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "01-Toba",
+                "01-Sao"
+            ]
+        },
+        {
+            "name": "Toba",
+            "lane": "Any",
+            "order": 1,
+            "x": -115802.84,
+            "y": 109935.63,
+            "z": 7675.23,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Sao",
+            "lane": "Any",
+            "order": 1,
+            "x": -94762.44,
+            "y": 12622.98,
+            "z": 6380.79,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 2,
+            "x": -151636.0,
+            "y": 37504.0,
+            "z": 6856.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "02-Carpenter's Guild"
+            ]
+        },
+        {
+            "name": "Carpenter's Guild",
+            "lane": "Any",
+            "order": 2,
+            "x": -84773.44,
+            "y": 84769.98,
+            "z": 6380.79,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 3,
+            "x": -151636.0,
+            "y": 37504.0,
+            "z": 6856.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "03-Aringshah",
+                "03-OP Chaxton"
+            ]
+        },
+        {
+            "name": "Aringshah",
+            "lane": "Any",
+            "order": 3,
+            "x": -44745.27,
+            "y": 110201.33,
+            "z": 7818.25,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "OP Chaxton",
+            "lane": "Any",
+            "order": 3,
+            "x": -52546.44,
+            "y": 43873.04,
+            "z": 4884.89,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 4,
+            "x": -151636.0,
+            "y": 37504.0,
+            "z": 6856.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "04-Darin"
+            ]
+        },
+        {
+            "name": "Darin",
+            "lane": "Any",
+            "order": 4,
+            "x": -15277.14,
+            "y": 77117.51,
+            "z": 5054.07,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 5,
+            "x": -151636.0,
+            "y": 37504.0,
+            "z": 6856.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "05-Tatar",
+                "05-Nahrain",
+                "05-Capo"
+            ]
+        },
+        {
+            "name": "Nahrain",
+            "lane": "Any",
+            "order": 5,
+            "x": -18825.14,
+            "y": 9458.51,
+            "z": 5645.07,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capo",
+            "lane": "Any",
+            "order": 5,
+            "x": 29021.86,
+            "y": 29033.51,
+            "z": 6340.07,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Tatar",
+            "lane": "Any",
+            "order": 5,
+            "x": 77233.86,
+            "y": 45958.51,
+            "z": 6340.07,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 121873.38,
+            "y": -113934.12,
+            "z": 9547.95,
+            "is_sky_node": true,
+            "linked_flags": []
+        }
+    ]
+}

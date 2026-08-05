@@ -1,0 +1,173 @@
+{
+    "map_id": "chora",
+    "layer_name": "Chora_Invasion_v2",
+    "total_flags": 12,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 72864.0,
+            "y": -152238.0,
+            "z": -76311.99
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -208701.41,
+            "y": -31815.02,
+            "z": -77152.14
+        },
+        {
+            "name": "Mosque",
+            "x": 16127.0,
+            "y": -85540.0,
+            "z": -76451.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Compound Abrams",
+            "x": -21574.09,
+            "y": -113074.05,
+            "z": -76418.73,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Naan Market",
+            "x": -11605.19,
+            "y": -61369.02,
+            "z": -76440.62,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Hemp Farm",
+            "x": -33137.0,
+            "y": -93485.0,
+            "z": -76595.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Lavender Estate",
+            "x": -28439.42,
+            "y": -68435.27,
+            "z": -76595.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Poppy Farm",
+            "x": -74972.0,
+            "y": -74394.0,
+            "z": -76741.0,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Radio Station",
+            "x": -55612.3,
+            "y": -44023.89,
+            "z": -76662.5,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Market",
+            "x": -61759.67,
+            "y": -47869.14,
+            "z": -76810.28,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Island Farm",
+            "x": -98056.1,
+            "y": -48867.8,
+            "z": -76994.42,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Upper Orchard",
+            "x": -104380.1,
+            "y": -82567.8,
+            "z": -75771.42,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

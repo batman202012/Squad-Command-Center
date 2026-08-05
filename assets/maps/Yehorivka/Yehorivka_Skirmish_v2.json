@@ -1,0 +1,128 @@
+{
+    "map_id": "yehorivka",
+    "layer_name": "Yehorivka_Skirmish_v2",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 61052.17,
+            "y": 53903.45,
+            "z": 11258.04
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -41982.33,
+            "y": 72203.18,
+            "z": 7018.66
+        },
+        {
+            "name": "Novo Farm",
+            "x": 41592.82,
+            "y": 62371.04,
+            "z": 12474.23,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "East Novo",
+            "x": 19812.6,
+            "y": 61970.91,
+            "z": 10072.29,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "South Novo",
+            "x": 938.87,
+            "y": 75850.29,
+            "z": 10779.32,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Novo",
+            "x": 7471.71,
+            "y": 62039.6,
+            "z": 10382.76,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "North Novo",
+            "x": 13017.45,
+            "y": 54416.48,
+            "z": 9749.52,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "West Novo",
+            "x": -378.19,
+            "y": 62253.36,
+            "z": 10986.13,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "Novo Outskirt",
+            "x": -17939.71,
+            "y": 58045.7,
+            "z": 9937.42,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "7Any"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,128 @@
+{
+    "map_id": "narva",
+    "layer_name": "Narva_Skirmish_v1",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -31901.91,
+            "y": -48032.52,
+            "z": 896.24
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 58268.73,
+            "y": 10370.0,
+            "z": 771.38
+        },
+        {
+            "name": "Old Hospital",
+            "x": -12932.05,
+            "y": -31437.36,
+            "z": -440.38,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Geneva Apartments",
+            "x": 10131.58,
+            "y": -24397.64,
+            "z": 1730.15,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Shopping Center",
+            "x": 14299.98,
+            "y": -39891.13,
+            "z": -337.19,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Storefronts",
+            "x": 25716.23,
+            "y": -26841.18,
+            "z": 271.63,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Bridgeview Apartments",
+            "x": 12034.27,
+            "y": -7785.92,
+            "z": 1562.81,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Train Depot",
+            "x": 25211.62,
+            "y": -5309.66,
+            "z": -158.49,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "Narva Castle",
+            "x": 48964.7,
+            "y": -17490.93,
+            "z": 1410.85,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "7Any"
+            ]
+        }
+    ]
+}

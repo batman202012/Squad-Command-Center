@@ -1,0 +1,98 @@
+{
+    "map_id": "fools_road",
+    "layer_name": "FoolsRoad_AAS_v1",
+    "total_flags": 7,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 12391.0,
+            "y": -117662.0,
+            "z": -4665.0
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 28865.72,
+            "y": 39009.67,
+            "z": -2324.61
+        },
+        {
+            "name": "Hilltop Encampment",
+            "x": -33172.0,
+            "y": -78790.0,
+            "z": -1745.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Fortress",
+            "x": -100034.0,
+            "y": -101913.0,
+            "z": -2089.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Ammo Hill",
+            "x": -52486.0,
+            "y": -47876.0,
+            "z": -1905.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Train Station",
+            "x": -86352.0,
+            "y": 18793.0,
+            "z": -4770.0,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Mine Entrance",
+            "x": -32974.0,
+            "y": -12067.0,
+            "z": -4450.0,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

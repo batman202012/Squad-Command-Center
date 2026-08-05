@@ -1,0 +1,23 @@
+{
+    "map_id": "pacificprovinggrounds",
+    "layer_name": "PacificProvingGrounds_USMC-PLA",
+    "total_flags": 2,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 56369.0,
+            "y": 30945.4,
+            "z": 117.98
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -26974.08,
+            "y": 7197.35,
+            "z": 1347.13
+        }
+    ]
+}

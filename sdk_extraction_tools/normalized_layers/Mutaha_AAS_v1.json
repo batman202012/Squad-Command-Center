@@ -1,0 +1,91 @@
+{
+    "map_id": "mutaha",
+    "layer_name": "Mutaha_AAS_v1",
+    "total_flags": 7,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -49578.69,
+            "y": -103890.98,
+            "z": -314.07
+        },
+        {
+            "name": "Main Street Blockade",
+            "lane": "Any",
+            "order": 2,
+            "x": -26919.18,
+            "y": 4412.57,
+            "z": 363.51
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 157325.86,
+            "y": 157755.52,
+            "z": -632.19
+        },
+        {
+            "name": "Compound",
+            "x": -30230.56,
+            "y": -22534.66,
+            "z": -100.16,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Police Station",
+            "x": 24896.05,
+            "y": 39487.5,
+            "z": -66.37,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "School",
+            "x": 80451.02,
+            "y": 39086.32,
+            "z": 542.54,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Vineyard",
+            "x": 134202.67,
+            "y": 70254.29,
+            "z": -64.54,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "map_id": "maps",
+    "layer_name": "Sanxian_AAS_v3",
+    "total_flags": 7,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 103274.17,
+            "y": 122314.82,
+            "z": 611.99,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Radar Station",
+            "lane": "Any",
+            "order": 1,
+            "x": -284.14,
+            "y": 125356.35,
+            "z": 1076.04,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lagoon",
+            "lane": "Any",
+            "order": 2,
+            "x": -147902.85,
+            "y": 104992.48,
+            "z": 1265.55,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Harbour",
+            "lane": "Any",
+            "order": 3,
+            "x": -119533.88,
+            "y": 26097.55,
+            "z": 716.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Rentang",
+            "lane": "Any",
+            "order": 4,
+            "x": -91203.24,
+            "y": -96210.02,
+            "z": 615.03,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Canal Town",
+            "lane": "Any",
+            "order": 5,
+            "x": 24373.78,
+            "y": -69474.37,
+            "z": 517.72,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 179878.34,
+            "y": -35766.53,
+            "z": 1101.93,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

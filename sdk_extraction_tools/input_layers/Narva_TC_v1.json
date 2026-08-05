@@ -1,0 +1,27 @@
+{
+    "map_id": "narva",
+    "layer_name": "Narva_TC_v1",
+    "total_flags": 2,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -118665.77,
+            "y": -80923.49,
+            "z": 1425.16,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 127535.4,
+            "y": 33502.47,
+            "z": 309.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

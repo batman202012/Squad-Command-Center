@@ -1,0 +1,128 @@
+{
+    "map_id": "yehorivka",
+    "layer_name": "Yehorivka_AAS_v1",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 2582.33,
+            "y": 212239.7,
+            "z": 5662.53
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 36798.73,
+            "y": -237573.88,
+            "z": 9403.91
+        },
+        {
+            "name": "West Novo",
+            "x": -5201.42,
+            "y": 60439.87,
+            "z": 9384.37,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "East Novo",
+            "x": 29695.91,
+            "y": 58823.05,
+            "z": 10578.08,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "West Stepne",
+            "x": 97011.92,
+            "y": -26357.22,
+            "z": 5012.01,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Yevhinivka",
+            "x": 75001.35,
+            "y": -58782.03,
+            "z": 4734.23,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Lower Petrivka",
+            "x": 22669.46,
+            "y": -59885.17,
+            "z": 5896.41,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "West Petrivka",
+            "x": -20449.0,
+            "y": -71836.16,
+            "z": 6343.63,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "Upper Petrivka",
+            "x": 16326.11,
+            "y": -91782.01,
+            "z": 6336.88,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "7Any"
+            ]
+        }
+    ]
+}

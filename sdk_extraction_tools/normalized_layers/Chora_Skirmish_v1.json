@@ -1,0 +1,128 @@
+{
+    "map_id": "chora",
+    "layer_name": "Chora_Skirmish_v1",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -11255.88,
+            "y": -62129.7,
+            "z": -76531.27
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -115581.81,
+            "y": -68221.94,
+            "z": -76660.26
+        },
+        {
+            "name": "Opium Blackmarket",
+            "x": -29050.38,
+            "y": -49137.82,
+            "z": -76233.27,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Radio Tower",
+            "x": -56109.33,
+            "y": -45053.96,
+            "z": -76265.88,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Ruins",
+            "x": -69873.16,
+            "y": -28252.06,
+            "z": -75442.01,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Bridge",
+            "x": -66282.49,
+            "y": -60811.72,
+            "z": -76425.16,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Poppy Farm",
+            "x": -75303.56,
+            "y": -73791.54,
+            "z": -76372.58,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Irrigation",
+            "x": -54912.17,
+            "y": -95222.23,
+            "z": -76726.74,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "Orchard",
+            "x": -100665.77,
+            "y": -67557.68,
+            "z": -75347.62,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "7Any"
+            ]
+        }
+    ]
+}

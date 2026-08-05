@@ -1,0 +1,1000 @@
+{
+    "map_id": "maps",
+    "layer_name": "BlackCoast_RAAS_v2",
+    "total_flags": 91,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 183075.55,
+            "y": 170691.5,
+            "z": 676.97,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 1,
+            "x": 70686.01,
+            "y": 116578.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A1-Monastery"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 1,
+            "x": 138643.0,
+            "y": 103794.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B1-Monastery"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 1,
+            "x": 137512.0,
+            "y": 109464.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C1-Monastery"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 1,
+            "x": 35586.0,
+            "y": 149734.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D1-Pond Junction"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 1,
+            "x": 136880.0,
+            "y": 108622.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E1-VLF Array"
+            ]
+        },
+        {
+            "name": "Monastery",
+            "lane": "A",
+            "order": 1,
+            "x": 70838.14,
+            "y": 115108.5,
+            "z": 4731.28,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Monastery",
+            "lane": "B",
+            "order": 1,
+            "x": 70838.14,
+            "y": 115108.5,
+            "z": 4731.28,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "VLF Array",
+            "lane": "E",
+            "order": 1,
+            "x": 136270.12,
+            "y": 110476.5,
+            "z": 4731.28,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Monastery",
+            "lane": "C",
+            "order": 1,
+            "x": 70838.14,
+            "y": 115108.5,
+            "z": 4731.28,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Pond Junction",
+            "lane": "D",
+            "order": 1,
+            "x": 38403.14,
+            "y": 148031.5,
+            "z": 1007.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 2,
+            "x": -59338.99,
+            "y": 117307.0,
+            "z": 18828.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A2-Paseka",
+                "A2-Fortress"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 2,
+            "x": 70775.01,
+            "y": 105547.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B3-Chernikov Electric",
+                "B3-Chernikov Central"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 2,
+            "x": 1947.01,
+            "y": 85960.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B3-Chernikov Bridge",
+                "B3-Chernikov Shoreline"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 2,
+            "x": -26223.0,
+            "y": 138016.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D2-Fortress"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 2,
+            "x": 70252.0,
+            "y": 113342.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E2-Monastery",
+                "E2-Pond Junction2"
+            ]
+        },
+        {
+            "name": "Fortress",
+            "lane": "A",
+            "order": 2,
+            "x": -25827.86,
+            "y": 131906.5,
+            "z": 1829.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Paseka",
+            "lane": "A",
+            "order": 2,
+            "x": -44772.18,
+            "y": 106215.58,
+            "z": 1829.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Fortress",
+            "lane": "D",
+            "order": 2,
+            "x": -25827.86,
+            "y": 131906.5,
+            "z": 1829.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Monastery",
+            "lane": "E",
+            "order": 2,
+            "x": 70838.14,
+            "y": 115108.5,
+            "z": 4731.28,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Pond Junction2",
+            "lane": "E",
+            "order": 2,
+            "x": 38403.14,
+            "y": 148031.5,
+            "z": 1007.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 3,
+            "x": -39692.99,
+            "y": 49698.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A3-Pipeline"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 3,
+            "x": 26388.01,
+            "y": 73207.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B3-Chernikov Bridge"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 3,
+            "x": 26745.01,
+            "y": 69189.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C3-Chernikov Electric"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 3,
+            "x": -7796.0,
+            "y": 94426.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D3-Chernikov Bridge",
+                "D3-Torpedo Factory"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 3,
+            "x": 34322.0,
+            "y": 66952.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E3-Chernikov Central",
+                "E3-Chernikov Electric"
+            ]
+        },
+        {
+            "name": "Chernikov Shoreline",
+            "lane": "B",
+            "order": 3,
+            "x": 16021.33,
+            "y": 84061.98,
+            "z": 1829.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Chernikov Central",
+            "lane": "B",
+            "order": 3,
+            "x": 25890.54,
+            "y": 67646.09,
+            "z": 1829.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Chernikov Electric",
+            "lane": "B",
+            "order": 3,
+            "x": 44604.54,
+            "y": 64461.09,
+            "z": 1829.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Chernikov Electric",
+            "lane": "C",
+            "order": 3,
+            "x": 44604.54,
+            "y": 64461.09,
+            "z": 1829.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Chernikov Bridge",
+            "lane": "B",
+            "order": 3,
+            "x": -7287.64,
+            "y": 84038.49,
+            "z": 1829.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Pipeline",
+            "lane": "A",
+            "order": 3,
+            "x": -91419.88,
+            "y": 114373.58,
+            "z": 1829.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Chernikov Bridge",
+            "lane": "B",
+            "order": 3,
+            "x": -7287.64,
+            "y": 84038.49,
+            "z": 1829.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Chernikov Bridge",
+            "lane": "D",
+            "order": 3,
+            "x": -7287.64,
+            "y": 84038.49,
+            "z": 1829.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Chernikov Central",
+            "lane": "D",
+            "order": 3,
+            "x": 25890.54,
+            "y": 67646.09,
+            "z": 1829.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Chernikov Electric",
+            "lane": "D",
+            "order": 3,
+            "x": 44604.54,
+            "y": 64461.09,
+            "z": 1829.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Chernikov Central",
+            "lane": "E",
+            "order": 3,
+            "x": 25890.54,
+            "y": 67646.09,
+            "z": 1829.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Chernikov Electric",
+            "lane": "E",
+            "order": 3,
+            "x": 44604.54,
+            "y": 64461.09,
+            "z": 1829.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Torpedo Factory",
+            "lane": "D",
+            "order": 3,
+            "x": -34622.13,
+            "y": 49822.44,
+            "z": 1829.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 4,
+            "x": -65260.99,
+            "y": 6833.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A4-Farming Village",
+                "A4-Western Ridge"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 4,
+            "x": -44274.99,
+            "y": 42718.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B4-Torpedo West",
+                "B4-Torpedo Factory"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 4,
+            "x": 36712.01,
+            "y": -13626.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C4-Hill 324",
+                "C4-Old Barracks"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 4,
+            "x": 34258.0,
+            "y": 68877.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D3-Chernikov Central",
+                "D3-Chernikov Electric"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 4,
+            "x": 114643.0,
+            "y": 46697.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E4-Quarry",
+                "E4-Quarry North"
+            ]
+        },
+        {
+            "name": "Farming Village",
+            "lane": "A",
+            "order": 4,
+            "x": -133726.88,
+            "y": 62499.5,
+            "z": 1697.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hill 324",
+            "lane": "C",
+            "order": 4,
+            "x": 22294.13,
+            "y": -4236.5,
+            "z": 2712.28,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Torpedo Factory",
+            "lane": "B",
+            "order": 4,
+            "x": -34622.13,
+            "y": 49822.44,
+            "z": 1829.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Quarry",
+            "lane": "E",
+            "order": 4,
+            "x": 115683.14,
+            "y": 45963.5,
+            "z": 8179.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Old Barracks",
+            "lane": "C",
+            "order": 4,
+            "x": 52959.61,
+            "y": -25370.31,
+            "z": 1829.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Torpedo West",
+            "lane": "B",
+            "order": 4,
+            "x": -57284.41,
+            "y": 44993.06,
+            "z": 1829.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Western Ridge",
+            "lane": "A",
+            "order": 4,
+            "x": -85645.88,
+            "y": 55910.5,
+            "z": 3224.28,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Hill 324",
+            "lane": "D",
+            "order": 4,
+            "x": 22294.13,
+            "y": -4236.5,
+            "z": 2712.28,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Quarry North",
+            "lane": "E",
+            "order": 4,
+            "x": 91871.14,
+            "y": 14789.5,
+            "z": 8179.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 5,
+            "x": -64342.99,
+            "y": -49140.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A5-Old Train Yard"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 5,
+            "x": -41704.99,
+            "y": 7908.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B5-Sablya",
+                "B5-Train Station"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 5,
+            "x": -11119.99,
+            "y": -72822.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C5-Derevnya"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 5,
+            "x": 35961.0,
+            "y": -14512.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D4-Hill 324"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 5,
+            "x": 53818.0,
+            "y": -23156.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E5-Hill 324",
+                "E5-Old Barracks"
+            ]
+        },
+        {
+            "name": "Old Train Yard",
+            "lane": "A",
+            "order": 5,
+            "x": -108407.26,
+            "y": -6286.38,
+            "z": 1829.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Train Station",
+            "lane": "B",
+            "order": 5,
+            "x": -28331.26,
+            "y": 9040.08,
+            "z": 1829.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Kalinovka",
+            "lane": "C",
+            "order": 5,
+            "x": -40489.85,
+            "y": -61822.51,
+            "z": 1829.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Derevnya",
+            "lane": "C",
+            "order": 5,
+            "x": 13213.13,
+            "y": -96581.5,
+            "z": 2712.28,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Sablya",
+            "lane": "B",
+            "order": 5,
+            "x": -52080.87,
+            "y": -326.5,
+            "z": 1697.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Derevnya",
+            "lane": "D",
+            "order": 5,
+            "x": 13213.13,
+            "y": -96581.5,
+            "z": 2712.28,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Old Barracks",
+            "lane": "E",
+            "order": 5,
+            "x": 52959.61,
+            "y": -25370.31,
+            "z": 1829.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hill 324",
+            "lane": "E",
+            "order": 5,
+            "x": 22294.13,
+            "y": -4236.5,
+            "z": 2712.28,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 6,
+            "x": -70562.99,
+            "y": -119867.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A6-Fortified Farm"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 6,
+            "x": -41866.99,
+            "y": -61558.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B6-Kalinovka"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 6,
+            "x": -69080.99,
+            "y": -120131.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C5-Kalinovka"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 6,
+            "x": 15716.0,
+            "y": -101811.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D5-Derevnya"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 6,
+            "x": 12778.0,
+            "y": -95765.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E6-Derevnya"
+            ]
+        },
+        {
+            "name": "Fortified Farm",
+            "lane": "A",
+            "order": 6,
+            "x": -91793.2,
+            "y": -50353.39,
+            "z": 1829.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Kalinovka",
+            "lane": "B",
+            "order": 6,
+            "x": -40489.85,
+            "y": -61822.52,
+            "z": 1829.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Pig Farm",
+            "lane": "C",
+            "order": 6,
+            "x": -69160.87,
+            "y": -123786.5,
+            "z": 1697.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Derevnya",
+            "lane": "E",
+            "order": 6,
+            "x": 13213.13,
+            "y": -96581.5,
+            "z": 2712.28,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 7,
+            "x": -70562.99,
+            "y": -119867.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B7-Pig Farm"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 7,
+            "x": -70562.99,
+            "y": -119867.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A7-Pig Farm"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 7,
+            "x": -69080.99,
+            "y": -120131.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C6-Pig Farm"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 7,
+            "x": -70908.0,
+            "y": -130518.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D7-Pig Farm"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 7,
+            "x": -70273.0,
+            "y": -121381.0,
+            "z": 14347.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E7-Pig Farm"
+            ]
+        },
+        {
+            "name": "Pig Farm",
+            "lane": "A",
+            "order": 7,
+            "x": -69160.87,
+            "y": -123786.5,
+            "z": 1697.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Pig Farm",
+            "lane": "B",
+            "order": 7,
+            "x": -69160.87,
+            "y": -123786.5,
+            "z": 1697.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Pig Farm",
+            "lane": "D",
+            "order": 7,
+            "x": -69160.87,
+            "y": -123786.5,
+            "z": 1697.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Pig Farm",
+            "lane": "E",
+            "order": 7,
+            "x": -69160.87,
+            "y": -123786.5,
+            "z": 1697.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -119859.6,
+            "y": -169363.86,
+            "z": 2125.31,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead",
+            "lane": "Any",
+            "order": -1,
+            "x": 11920.24,
+            "y": -40469.14,
+            "z": 891.66,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead2",
+            "lane": "Any",
+            "order": -1,
+            "x": 11920.24,
+            "y": -40469.14,
+            "z": 1627.19,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead3",
+            "lane": "Any",
+            "order": -1,
+            "x": 64957.38,
+            "y": -23632.21,
+            "z": 5073.71,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead4",
+            "lane": "Any",
+            "order": -1,
+            "x": 64957.38,
+            "y": -23632.2,
+            "z": 5808.99,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead5",
+            "lane": "Any",
+            "order": -1,
+            "x": -2058.19,
+            "y": 83500.22,
+            "z": 887.74,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead6",
+            "lane": "Any",
+            "order": -1,
+            "x": -2058.19,
+            "y": 83500.22,
+            "z": 1176.52,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

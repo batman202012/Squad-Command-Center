@@ -1,0 +1,98 @@
+{
+    "map_id": "sumari",
+    "layer_name": "Sumari_Seed_v1",
+    "total_flags": 7,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 56820.77,
+            "y": 7170.03,
+            "z": -13376.36
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -52025.86,
+            "y": 29755.9,
+            "z": -13039.8
+        },
+        {
+            "name": "Tri Commons",
+            "x": 21341.77,
+            "y": 8328.26,
+            "z": -13296.88,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Abdel's Farm",
+            "x": 16076.57,
+            "y": -4802.45,
+            "z": -13012.7,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Walled Courts",
+            "x": 1019.27,
+            "y": 13856.21,
+            "z": -13486.25,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Market",
+            "x": -16855.38,
+            "y": 13837.32,
+            "z": -13398.3,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Gas Station",
+            "x": -28632.29,
+            "y": 22824.59,
+            "z": -13485.55,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

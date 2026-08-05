@@ -1,0 +1,181 @@
+{
+    "map_id": "mestia_green",
+    "layer_name": "Mestia_Invasion_v1",
+    "total_flags": 16,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -97621.82,
+            "y": -4560.24,
+            "z": 3588.8,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 1,
+            "x": -95692.0,
+            "y": 800.0,
+            "z": 3848.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "01-Armory"
+            ]
+        },
+        {
+            "name": "Armory",
+            "lane": "Any",
+            "order": 1,
+            "x": -59456.0,
+            "y": 24312.07,
+            "z": -6702.97,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Fortification",
+            "lane": "Any",
+            "order": 1,
+            "x": -33772.19,
+            "y": -8284.06,
+            "z": -5485.25,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 2,
+            "x": -95692.0,
+            "y": 800.0,
+            "z": 3848.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "01-Fortification",
+                "02-Warehouse"
+            ]
+        },
+        {
+            "name": "Warehouse",
+            "lane": "Any",
+            "order": 2,
+            "x": -39383.23,
+            "y": 65502.77,
+            "z": -9553.96,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 3,
+            "x": -95692.0,
+            "y": 800.0,
+            "z": 3848.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "03-Crucible Alpha",
+                "03-Crucible Bravo"
+            ]
+        },
+        {
+            "name": "Crucible Bravo",
+            "lane": "Any",
+            "order": 3,
+            "x": 7703.02,
+            "y": 14936.44,
+            "z": -2903.82,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Crucible Alpha",
+            "lane": "Any",
+            "order": 3,
+            "x": 10871.84,
+            "y": -2175.6,
+            "z": -1774.7,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Crucible Gamma",
+            "lane": "Any",
+            "order": 3,
+            "x": 28878.67,
+            "y": 350.2,
+            "z": -1935.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 4,
+            "x": -95692.0,
+            "y": 800.0,
+            "z": 3848.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "03-Crucible Gamma",
+                "04-Quarry",
+                "04-TrainBridge"
+            ]
+        },
+        {
+            "name": "Quarry",
+            "lane": "Any",
+            "order": 4,
+            "x": 39423.2,
+            "y": -39847.65,
+            "z": -7413.66,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "TrainBridge",
+            "lane": "Any",
+            "order": 4,
+            "x": 18449.8,
+            "y": 49584.22,
+            "z": -8313.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 5,
+            "x": -95692.0,
+            "y": 800.0,
+            "z": 3848.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "05-Farmstead"
+            ]
+        },
+        {
+            "name": "Farmstead",
+            "lane": "Any",
+            "order": 5,
+            "x": 59419.59,
+            "y": 27679.77,
+            "z": -6762.5,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 102548.06,
+            "y": 55206.57,
+            "z": -4584.64,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

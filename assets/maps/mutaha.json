@@ -1,0 +1,22 @@
+{
+    "id": "mutaha",
+    "name": "Mutaha",
+    "metadata": {
+        "mapExtent": [
+            0,
+            -8192,
+            8192,
+            0
+        ],
+        "physicalSizeMeters": 2753,
+        "physicalSizeMetersX": 2753,
+        "physicalSizeMetersY": 2753,
+        "ueOffsetX": -442,
+        "ueOffsetY": -238,
+        "maxZoom": 5,
+        "minZoom": 1,
+        "tileUrl": "./assets/maps/Mutaha/mutaha_tiles/{z}/{x}/{y}.png",
+        "heightmapUrl": "./assets/maps/Mutaha/mutaha_height_map.webp",
+        "heightmapSize": 4096
+    }
+}

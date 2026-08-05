@@ -1,0 +1,77 @@
+{
+    "map_id": "forest",
+    "layer_name": "Forest_Skirmish_v1",
+    "total_flags": 7,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -34632.16,
+            "y": -3523.64,
+            "z": 1227.74,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "RailDocs",
+            "lane": "Any",
+            "order": 1,
+            "x": -32360.12,
+            "y": -31068.71,
+            "z": -174.92,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Nilrem Village",
+            "lane": "Any",
+            "order": 2,
+            "x": -64162.88,
+            "y": -23062.31,
+            "z": -546.53,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "StorageSite",
+            "lane": "Any",
+            "order": 3,
+            "x": -73075.03,
+            "y": -47195.26,
+            "z": -54.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "TheCastle",
+            "lane": "Any",
+            "order": 4,
+            "x": -58645.19,
+            "y": -75827.81,
+            "z": 147.79,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "RailroadVillage",
+            "lane": "Any",
+            "order": 5,
+            "x": -23008.87,
+            "y": -65243.59,
+            "z": -552.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -26317.31,
+            "y": -97859.84,
+            "z": 1649.52,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

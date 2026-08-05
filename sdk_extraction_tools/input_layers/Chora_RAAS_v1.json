@@ -1,0 +1,467 @@
+{
+    "map_id": "chora",
+    "layer_name": "Chora_RAAS_v1",
+    "total_flags": 46,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 42387.03,
+            "y": -89086.74,
+            "z": -76238.16,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 1,
+            "x": -6185.64,
+            "y": -99756.02,
+            "z": -76841.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 1,
+            "x": 9744.79,
+            "y": -80413.45,
+            "z": -76841.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 1,
+            "x": 7338.83,
+            "y": -95089.22,
+            "z": -76866.02,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Gas Station",
+            "lane": "C",
+            "order": 1,
+            "x": 3574.41,
+            "y": -86429.18,
+            "z": -76528.1,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Mosque",
+            "lane": "C",
+            "order": 1,
+            "x": 16379.35,
+            "y": -86443.0,
+            "z": -76528.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Compound Abrams",
+            "lane": "A",
+            "order": 1,
+            "x": -21266.85,
+            "y": -113229.39,
+            "z": -76528.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Compound Zulu",
+            "lane": "C",
+            "order": 1,
+            "x": 7702.46,
+            "y": -70025.22,
+            "z": -76528.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Gas Station",
+            "lane": "B",
+            "order": 1,
+            "x": 3585.0,
+            "y": -86422.0,
+            "z": -76528.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Mosque",
+            "lane": "B",
+            "order": 1,
+            "x": 16359.35,
+            "y": -86471.0,
+            "z": -76528.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 2,
+            "x": -38324.16,
+            "y": -90135.77,
+            "z": -76609.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 2,
+            "x": -25222.38,
+            "y": -58663.47,
+            "z": -76740.64,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 2,
+            "x": -31100.0,
+            "y": -82431.0,
+            "z": -76841.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Opium Blackmarket",
+            "lane": "C",
+            "order": 2,
+            "x": -29489.36,
+            "y": -48330.42,
+            "z": -76659.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Naan Merchant",
+            "lane": "C",
+            "order": 2,
+            "x": -11937.46,
+            "y": -60617.83,
+            "z": -76659.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lavender Estate",
+            "lane": "B",
+            "order": 2,
+            "x": -27694.0,
+            "y": -68252.0,
+            "z": -76659.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hemp Farm",
+            "lane": "A",
+            "order": 2,
+            "x": -32978.0,
+            "y": -93857.0,
+            "z": -76574.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 3,
+            "x": -77159.89,
+            "y": -81666.28,
+            "z": -76849.99,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 3,
+            "x": -49107.91,
+            "y": -42769.98,
+            "z": -76790.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 3,
+            "x": -66581.69,
+            "y": -58567.32,
+            "z": -76790.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Vineyard",
+            "lane": "A",
+            "order": 3,
+            "x": -74524.52,
+            "y": -90672.8,
+            "z": -76693.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Poppy Farm",
+            "lane": "A",
+            "order": 3,
+            "x": -75092.42,
+            "y": -74122.94,
+            "z": -76741.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hemp Processor",
+            "lane": "A",
+            "order": 3,
+            "x": -41625.04,
+            "y": -90767.82,
+            "z": -76528.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Radio Station",
+            "lane": "C",
+            "order": 3,
+            "x": -55295.67,
+            "y": -43967.09,
+            "z": -76826.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Market",
+            "lane": "B",
+            "order": 3,
+            "x": -61295.4,
+            "y": -47421.45,
+            "z": -76790.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Butcher",
+            "lane": "C",
+            "order": 3,
+            "x": -45092.52,
+            "y": -33543.18,
+            "z": -76490.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 4,
+            "x": -107060.77,
+            "y": -70774.6,
+            "z": -76835.97,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 4,
+            "x": -77629.88,
+            "y": -23554.55,
+            "z": -76589.05,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 4,
+            "x": -97530.69,
+            "y": -42222.61,
+            "z": -77166.52,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Central Orchard",
+            "lane": "A",
+            "order": 4,
+            "x": -100541.23,
+            "y": -62908.73,
+            "z": -76813.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lower Orchard",
+            "lane": "C",
+            "order": 4,
+            "x": -91012.25,
+            "y": -25465.27,
+            "z": -76153.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Upper Orchard",
+            "lane": "A",
+            "order": 4,
+            "x": -103848.0,
+            "y": -82681.36,
+            "z": -75790.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Abdul's Farm",
+            "lane": "A",
+            "order": 4,
+            "x": -115073.82,
+            "y": -67752.46,
+            "z": -76693.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lower Orchard2",
+            "lane": "C",
+            "order": 4,
+            "x": -69280.41,
+            "y": -28161.63,
+            "z": -76711.91,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lower Orchard3",
+            "lane": "C",
+            "order": 4,
+            "x": -61951.15,
+            "y": -21618.87,
+            "z": -76428.12,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Island Farm",
+            "lane": "B",
+            "order": 4,
+            "x": -98105.46,
+            "y": -49227.23,
+            "z": -77011.92,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 5,
+            "x": -142955.0,
+            "y": -52342.0,
+            "z": -77050.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 5,
+            "x": -125009.83,
+            "y": -17092.38,
+            "z": -76396.23,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 5,
+            "x": -127315.96,
+            "y": -31657.59,
+            "z": -76877.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Monolith",
+            "lane": "B",
+            "order": 5,
+            "x": -162055.29,
+            "y": -32037.93,
+            "z": -76872.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "River Estate",
+            "lane": "A",
+            "order": 5,
+            "x": -134366.79,
+            "y": -49936.65,
+            "z": -77044.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Small Mosque",
+            "lane": "A",
+            "order": 5,
+            "x": -154368.0,
+            "y": -57698.0,
+            "z": -76391.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Nursery",
+            "lane": "C",
+            "order": 5,
+            "x": -121558.59,
+            "y": -12708.53,
+            "z": -76693.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hemp Nursery",
+            "lane": "C",
+            "order": 5,
+            "x": -129737.43,
+            "y": -14567.73,
+            "z": -76701.51,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -189010.58,
+            "y": 3800.79,
+            "z": -77287.5,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "A1Checkpoint",
+            "lane": "Any",
+            "order": -1,
+            "x": -3121.73,
+            "y": -112913.22,
+            "z": -76528.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "map_id": "maps",
+    "layer_name": "Sanxian_AAS_v2",
+    "total_flags": 7,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 179878.34,
+            "y": -35766.53,
+            "z": 1101.93,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Logistics Center",
+            "lane": "Any",
+            "order": 1,
+            "x": 108355.86,
+            "y": -33242.96,
+            "z": 4495.72,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Hilltop Estate",
+            "lane": "Any",
+            "order": 2,
+            "x": 68007.72,
+            "y": -65651.5,
+            "z": 4032.02,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Power Plant",
+            "lane": "Any",
+            "order": 3,
+            "x": -22179.89,
+            "y": -32308.72,
+            "z": -1901.79,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Telecom Compound",
+            "lane": "Any",
+            "order": 4,
+            "x": -90773.3,
+            "y": 1589.7,
+            "z": 1265.53,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Chanwan",
+            "lane": "Any",
+            "order": 5,
+            "x": -142046.34,
+            "y": -40290.04,
+            "z": 326.04,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -191277.63,
+            "y": -99924.64,
+            "z": 707.03,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

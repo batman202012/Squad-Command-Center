@@ -1,0 +1,1006 @@
+{
+    "map_id": "kohat",
+    "layer_name": "Kohat_RAAS_v1",
+    "total_flags": 91,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 175133.41,
+            "y": -138279.0,
+            "z": 24698.63,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 1,
+            "x": 98604.87,
+            "y": -40778.79,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A1-Upper Nasrat"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 1,
+            "x": 98604.87,
+            "y": -40778.79,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B1-Upper Nasrat"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 1,
+            "x": 98604.87,
+            "y": -40778.79,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C1-Upper Nasrat"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 1,
+            "x": 103104.86,
+            "y": -37328.79,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D1-Upper Nasrat"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 1,
+            "x": 148754.86,
+            "y": 121.21,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E1-FOB Connolly"
+            ]
+        },
+        {
+            "name": "Upper Nasrat",
+            "lane": "A",
+            "order": 1,
+            "x": 96554.22,
+            "y": -39058.06,
+            "z": 7482.5,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "FOB Connolly",
+            "lane": "E",
+            "order": 1,
+            "x": 149635.03,
+            "y": -340.16,
+            "z": 8670.35,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Upper Nasrat",
+            "lane": "B",
+            "order": 1,
+            "x": 96554.22,
+            "y": -39058.06,
+            "z": 7482.5,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Upper Nasrat",
+            "lane": "C",
+            "order": 1,
+            "x": 96554.22,
+            "y": -39058.06,
+            "z": 7482.5,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Upper Nasrat",
+            "lane": "D",
+            "order": 1,
+            "x": 96554.22,
+            "y": -39058.06,
+            "z": 7482.5,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 2,
+            "x": 32464.87,
+            "y": -46138.79,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A2-Upper Thira",
+                "A2-Lower Thira"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 2,
+            "x": 38364.87,
+            "y": -34678.79,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B2-Lower Thira"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 2,
+            "x": 89804.87,
+            "y": -11578.79,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C2-Nasrat Proper"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 2,
+            "x": 93254.86,
+            "y": -8428.79,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D2-Nasrat Proper"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 2,
+            "x": 100304.86,
+            "y": 24521.21,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E2-Lower Nasrat"
+            ]
+        },
+        {
+            "name": "Nasrat Proper",
+            "lane": "C",
+            "order": 2,
+            "x": 91181.22,
+            "y": -11052.06,
+            "z": 5705.94,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Lower Thira",
+            "lane": "A",
+            "order": 2,
+            "x": 41500.66,
+            "y": -36229.62,
+            "z": 6070.31,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Upper Thira",
+            "lane": "A",
+            "order": 2,
+            "x": 20610.84,
+            "y": -59250.42,
+            "z": 7370.64,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Lower Thira",
+            "lane": "B",
+            "order": 2,
+            "x": 41500.66,
+            "y": -36229.62,
+            "z": 6070.31,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Nasrat Proper",
+            "lane": "D",
+            "order": 2,
+            "x": 91181.22,
+            "y": -11052.06,
+            "z": 5705.94,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Lower Nasrat",
+            "lane": "E",
+            "order": 2,
+            "x": 100352.35,
+            "y": 19607.62,
+            "z": 4549.47,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Hangu Orchard",
+            "lane": "E",
+            "order": 2,
+            "x": 131352.34,
+            "y": 59407.62,
+            "z": 2449.47,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 3,
+            "x": -19445.13,
+            "y": -60048.79,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A3-Chakar Kot"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 3,
+            "x": 994.87,
+            "y": -13818.79,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B3-Ali Abad"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 3,
+            "x": 49504.87,
+            "y": 22821.21,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C3-Khadizai Radio Tower",
+                "C3-Upper Khadizai",
+                "C3-Lower Khadizai"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 3,
+            "x": 82354.86,
+            "y": 18621.21,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D3-Lower Nasrat",
+                "D3-Lower Khadizai"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 3,
+            "x": 130204.86,
+            "y": 63721.21,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E2-Hangu Orchard"
+            ]
+        },
+        {
+            "name": "Khadizai Radio Tower",
+            "lane": "C",
+            "order": 3,
+            "x": 31830.73,
+            "y": 12669.17,
+            "z": 8159.68,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Ali Abad",
+            "lane": "B",
+            "order": 3,
+            "x": -1325.25,
+            "y": -14979.42,
+            "z": 3533.38,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Chakar Kot",
+            "lane": "A",
+            "order": 3,
+            "x": -15956.34,
+            "y": -58435.62,
+            "z": 6042.19,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Lower Khadizai",
+            "lane": "C",
+            "order": 3,
+            "x": 63521.66,
+            "y": 20333.38,
+            "z": 2758.91,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Lower Nasrat",
+            "lane": "D",
+            "order": 3,
+            "x": 100352.35,
+            "y": 19607.62,
+            "z": 4549.47,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Upper Khadizai",
+            "lane": "C",
+            "order": 3,
+            "x": 56302.35,
+            "y": -4542.38,
+            "z": 3499.47,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Lower Khadizai",
+            "lane": "D",
+            "order": 3,
+            "x": 63521.66,
+            "y": 20433.38,
+            "z": 2758.91,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 4,
+            "x": -123535.13,
+            "y": -76908.79,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A4-Modi Khel",
+                "A4-Lodi Khel",
+                "A4-Suni Khel"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 4,
+            "x": -13155.13,
+            "y": 20981.21,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B4-Malak Abad",
+                "B4-Syed Abad"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 4,
+            "x": 38704.87,
+            "y": 50921.21,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C4-Ambar Banda"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 4,
+            "x": 74004.86,
+            "y": 67471.21,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D4-Lower Jouzara",
+                "D4-Jouzara Proper"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 4,
+            "x": 113004.86,
+            "y": 90471.21,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E4-Hangu Proper"
+            ]
+        },
+        {
+            "name": "Syed Abad",
+            "lane": "B",
+            "order": 4,
+            "x": -6139.16,
+            "y": 32236.69,
+            "z": 2254.44,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Jouzara Proper",
+            "lane": "D",
+            "order": 4,
+            "x": 84565.67,
+            "y": 60324.33,
+            "z": 2090.22,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Lower Jouzara",
+            "lane": "D",
+            "order": 4,
+            "x": 66714.66,
+            "y": 73417.38,
+            "z": 2283.06,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Ambar Banda",
+            "lane": "C",
+            "order": 4,
+            "x": 40276.66,
+            "y": 49421.38,
+            "z": 3450.66,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Hangu Proper",
+            "lane": "E",
+            "order": 4,
+            "x": 114800.22,
+            "y": 89502.94,
+            "z": 2757.86,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Malak Abad",
+            "lane": "B",
+            "order": 4,
+            "x": -14166.16,
+            "y": 7958.69,
+            "z": 3429.79,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Suni Khel",
+            "lane": "A",
+            "order": 4,
+            "x": -89855.28,
+            "y": -74522.17,
+            "z": 7322.41,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Lodi Khel",
+            "lane": "A",
+            "order": 4,
+            "x": -148629.03,
+            "y": -68876.02,
+            "z": 9778.52,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Modi Khel",
+            "lane": "A",
+            "order": 4,
+            "x": -116852.16,
+            "y": -72234.62,
+            "z": 7018.41,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 5,
+            "x": -169305.12,
+            "y": -5718.79,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A5-Lower Sarozai",
+                "A5-Upper Sarozai2",
+                "A5-Upper Sarozai"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 5,
+            "x": -58655.13,
+            "y": 37881.21,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B5-Darbond Hill",
+                "B5-Bahadur Agriculture",
+                "B5-Darbond"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 5,
+            "x": -18695.13,
+            "y": 63521.21,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C5-Mohd Zai",
+                "C5-Lower Mohd Zai"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 5,
+            "x": -17895.14,
+            "y": 62271.21,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D5-Mohd Zai",
+                "D5-Lower Mohd Zai"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 5,
+            "x": 62354.86,
+            "y": 120271.21,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E5-Lakay Pass",
+                "E5-Hangu South",
+                "E5-Hangu Agriculture"
+            ]
+        },
+        {
+            "name": "Mohd Zai",
+            "lane": "C",
+            "order": 5,
+            "x": -19663.47,
+            "y": 53106.94,
+            "z": 1681.18,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Bahadur Agriculture",
+            "lane": "B",
+            "order": 5,
+            "x": -75091.58,
+            "y": 17108.73,
+            "z": 4644.16,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Darbond Hill",
+            "lane": "B",
+            "order": 5,
+            "x": -41347.58,
+            "y": 49648.73,
+            "z": 6773.09,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Darbond",
+            "lane": "B",
+            "order": 5,
+            "x": -51424.58,
+            "y": 63605.75,
+            "z": 6149.56,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Lower Mohd Zai",
+            "lane": "C",
+            "order": 5,
+            "x": -18262.47,
+            "y": 69906.94,
+            "z": 2036.19,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Hangu South",
+            "lane": "E",
+            "order": 5,
+            "x": 90140.45,
+            "y": 110839.77,
+            "z": 2699.02,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Lakay Pass",
+            "lane": "E",
+            "order": 5,
+            "x": 27415.27,
+            "y": 100869.28,
+            "z": 9259.42,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Hangu Agriculture",
+            "lane": "E",
+            "order": 5,
+            "x": 62553.83,
+            "y": 119416.77,
+            "z": 2880.02,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Upper Sarozai",
+            "lane": "A",
+            "order": 5,
+            "x": -166011.34,
+            "y": -18676.5,
+            "z": 6189.83,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Lower Sarozai",
+            "lane": "A",
+            "order": 5,
+            "x": -174495.28,
+            "y": -2263.17,
+            "z": 6066.38,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Upper Sarozai2",
+            "lane": "A",
+            "order": 5,
+            "x": -159811.34,
+            "y": -15316.5,
+            "z": 6189.83,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Mohd Zai",
+            "lane": "D",
+            "order": 5,
+            "x": -19663.47,
+            "y": 53106.94,
+            "z": 1681.18,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lower Mohd Zai",
+            "lane": "D",
+            "order": 5,
+            "x": -18262.47,
+            "y": 69906.94,
+            "z": 2036.19,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 6,
+            "x": -126905.12,
+            "y": 33251.21,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A6-Bahadur Hill",
+                "A6-Sarozai Highlands",
+                "A6-Bahadur West"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 6,
+            "x": -80605.13,
+            "y": 53731.21,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B6-Bahadur"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 6,
+            "x": -63645.13,
+            "y": 57371.21,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C6-Bahadur"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 6,
+            "x": -69995.14,
+            "y": 55171.21,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D6-Bahadur"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 6,
+            "x": 10154.86,
+            "y": 169071.22,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E6-Bannu Rd",
+                "E6-Attock"
+            ]
+        },
+        {
+            "name": "Sarozai Highlands",
+            "lane": "A",
+            "order": 6,
+            "x": -157165.59,
+            "y": 25528.36,
+            "z": 8675.22,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Bahadur Hill",
+            "lane": "A",
+            "order": 6,
+            "x": -84964.58,
+            "y": 27964.73,
+            "z": 5920.84,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Bahadur",
+            "lane": "B",
+            "order": 6,
+            "x": -81181.58,
+            "y": 43166.73,
+            "z": 5280.86,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Bannu Rd",
+            "lane": "E",
+            "order": 6,
+            "x": 20479.73,
+            "y": 160989.66,
+            "z": 3302.53,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Bahadur West",
+            "lane": "A",
+            "order": 6,
+            "x": -103644.58,
+            "y": 10954.73,
+            "z": 6130.84,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Bahadur",
+            "lane": "C",
+            "order": 6,
+            "x": -81181.58,
+            "y": 43166.73,
+            "z": 5280.86,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Bahadur",
+            "lane": "D",
+            "order": 6,
+            "x": -81181.58,
+            "y": 43166.73,
+            "z": 5280.86,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Attock",
+            "lane": "E",
+            "order": 6,
+            "x": 2250.75,
+            "y": 166311.09,
+            "z": 3649.47,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 7,
+            "x": -137065.12,
+            "y": 74211.21,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A7-Togh Sarai"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 7,
+            "x": -137055.12,
+            "y": 72431.21,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B7-Togh Sarai"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 7,
+            "x": -115895.13,
+            "y": 75021.21,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C7-Togh Sarai"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 7,
+            "x": -125595.14,
+            "y": 79071.21,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D7-Togh Sarai"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 7,
+            "x": -57695.14,
+            "y": 173471.22,
+            "z": 23580.71,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E7-Kamardhand"
+            ]
+        },
+        {
+            "name": "Togh Sarai",
+            "lane": "A",
+            "order": 7,
+            "x": -136233.28,
+            "y": 73084.84,
+            "z": 12126.16,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Togh Sarai",
+            "lane": "B",
+            "order": 7,
+            "x": -136233.28,
+            "y": 73084.84,
+            "z": 12126.16,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Togh Sarai",
+            "lane": "C",
+            "order": 7,
+            "x": -136233.28,
+            "y": 73084.84,
+            "z": 12126.16,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Togh Sarai",
+            "lane": "D",
+            "order": 7,
+            "x": -136233.28,
+            "y": 73084.84,
+            "z": 12126.16,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Kamardhand",
+            "lane": "E",
+            "order": 7,
+            "x": -51920.27,
+            "y": 173289.66,
+            "z": 6652.53,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -154961.83,
+            "y": 159288.5,
+            "z": 19138.98,
+            "is_sky_node": true,
+            "linked_flags": []
+        }
+    ]
+}

@@ -1,0 +1,128 @@
+{
+    "map_id": "skorpo",
+    "layer_name": "Skorpo_Skirmish_v1",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 41248.09,
+            "y": 17897.48,
+            "z": -27570.32
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 122308.73,
+            "y": -32610.0,
+            "z": -25310.21
+        },
+        {
+            "name": "Cottages",
+            "x": 46824.87,
+            "y": 288.36,
+            "z": -29185.99,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Helgheim",
+            "x": 71684.2,
+            "y": -2154.64,
+            "z": -29002.81,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Lumberyard",
+            "x": 70309.27,
+            "y": -19434.37,
+            "z": -28813.63,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Radio Tower",
+            "x": 92819.26,
+            "y": 1377.76,
+            "z": -25981.69,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Warehouse",
+            "x": 81257.49,
+            "y": -11497.39,
+            "z": -28308.26,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Uskedalen",
+            "x": 87935.87,
+            "y": -24081.3,
+            "z": -28205.42,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "EB Petrol",
+            "x": 98186.49,
+            "y": -32018.72,
+            "z": -28244.4,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "7Any"
+            ]
+        }
+    ]
+}

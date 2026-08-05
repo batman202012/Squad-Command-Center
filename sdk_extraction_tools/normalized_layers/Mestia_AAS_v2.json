@@ -1,0 +1,98 @@
+{
+    "map_id": "mestia_green",
+    "layer_name": "Mestia_AAS_v2",
+    "total_flags": 7,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 102202.64,
+            "y": 55308.79,
+            "z": -4853.75
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -97659.37,
+            "y": -4265.36,
+            "z": 3290.3
+        },
+        {
+            "name": "Quarry",
+            "x": 39594.51,
+            "y": -39976.54,
+            "z": -8768.02,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Tunnel Entrance",
+            "x": 32969.55,
+            "y": 26835.21,
+            "z": -8369.64,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Bridge Outpost",
+            "x": 11312.61,
+            "y": 68508.88,
+            "z": -9012.5,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Warehouse",
+            "x": -37759.18,
+            "y": 64957.84,
+            "z": -9438.27,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Armory",
+            "x": -60424.0,
+            "y": 21742.0,
+            "z": -7715.0,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

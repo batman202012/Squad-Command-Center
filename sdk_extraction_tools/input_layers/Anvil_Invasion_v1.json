@@ -1,0 +1,181 @@
+{
+    "map_id": "anvil",
+    "layer_name": "Anvil_Invasion_v1",
+    "total_flags": 16,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -160172.71,
+            "y": -183452.84,
+            "z": -4590.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 1,
+            "x": 5225.01,
+            "y": -124605.0,
+            "z": 4486.31,
+            "is_sky_node": true,
+            "linked_flags": [
+                "01-Lavender Farm",
+                "01-Holdout"
+            ]
+        },
+        {
+            "name": "Holdout",
+            "lane": "Any",
+            "order": 1,
+            "x": -41797.0,
+            "y": -24105.0,
+            "z": 4486.31,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Lavender Farm",
+            "lane": "Any",
+            "order": 1,
+            "x": -31601.0,
+            "y": -45494.0,
+            "z": -6053.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 2,
+            "x": 7630.01,
+            "y": -59405.0,
+            "z": 4486.31,
+            "is_sky_node": true,
+            "linked_flags": [
+                "02-Orchard",
+                "02-Police Station"
+            ]
+        },
+        {
+            "name": "Orchard",
+            "lane": "Any",
+            "order": 2,
+            "x": -71027.0,
+            "y": -59005.0,
+            "z": 0.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Police Station",
+            "lane": "Any",
+            "order": 2,
+            "x": -78217.0,
+            "y": -42525.0,
+            "z": 0.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 3,
+            "x": -81174.99,
+            "y": -53330.0,
+            "z": 4486.31,
+            "is_sky_node": true,
+            "linked_flags": [
+                "03-Market",
+                "03-Vineyard"
+            ]
+        },
+        {
+            "name": "Vineyard",
+            "lane": "Any",
+            "order": 3,
+            "x": -109824.0,
+            "y": -97165.0,
+            "z": 4486.31,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Market",
+            "lane": "Any",
+            "order": 3,
+            "x": -114700.12,
+            "y": -82510.9,
+            "z": 4486.31,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 4,
+            "x": -116354.99,
+            "y": -92405.0,
+            "z": 4486.31,
+            "is_sky_node": true,
+            "linked_flags": [
+                "04-Interchange"
+            ]
+        },
+        {
+            "name": "Interchange",
+            "lane": "Any",
+            "order": 4,
+            "x": -142442.0,
+            "y": -86100.0,
+            "z": 4486.31,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 5,
+            "x": -170629.99,
+            "y": -111650.0,
+            "z": 4486.31,
+            "is_sky_node": true,
+            "linked_flags": [
+                "05-Urban South 1",
+                "05-Urban South 2"
+            ]
+        },
+        {
+            "name": "Urban South 1",
+            "lane": "Any",
+            "order": 5,
+            "x": -157123.99,
+            "y": -112631.0,
+            "z": -5997.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Urban South 2",
+            "lane": "Any",
+            "order": 5,
+            "x": -174121.13,
+            "y": -121490.72,
+            "z": -5962.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 77569.07,
+            "y": -2823.38,
+            "z": -5568.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

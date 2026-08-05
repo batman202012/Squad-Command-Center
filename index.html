@@ -1,0 +1,1757 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Squad Command & Control Center</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@geoman-io/leaflet-geoman-free@2.14.2/dist/leaflet-geoman.css" />
+    
+    <style>
+        body, html { 
+            margin: 0; padding: 0; height: 100%; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background-color: #1e1e1e; color: white; 
+            display: flex; flex-direction: column; 
+            overflow: hidden;
+        }
+        
+        /* Navigation Bar */
+        .tab-bar { 
+            display: flex; background: #252526; padding: 10px; border-bottom: 2px solid #333; align-items: center;
+        }
+        .tab-btn { 
+            background: #333; border: none; color: #ccc; 
+            padding: 10px 20px; margin-right: 10px; cursor: pointer; 
+            border-radius: 4px; font-weight: bold; transition: 0.2s;
+        }
+        .tab-btn:hover { background: #444; color: white; }
+        .tab-btn.active { background: #d7b500; color: black; }
+
+        /* View Containers */
+        .view-container { flex-grow: 1; display: none; width: 100%; height: 100%; }
+        
+        /* Active States for each specific tab */
+        #map-view.active { display: flex; position: relative; }
+        #meta-view.active { display: block; }
+        #uniform-view.active { display: flex; flex-direction: row; height: 100%; }
+        #browser-view.active { display: block; }
+        #settings-view.active { display: block; padding: 30px; }
+        
+        /* 4-Up Grid Layout */
+        #armor-view.active { 
+            display: grid; 
+            grid-template-columns: 1fr 1fr; 
+            grid-template-rows: 1fr 1fr;    
+            gap: 4px;                       
+            background-color: #000;         
+        }
+        
+        #map { width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                background: #111;
+         }
+        #map-style-toggle {
+            position: absolute;
+            top: 10px;
+            left: 300px;
+            z-index: 1000;
+            display: flex;
+            background: rgba(20, 20, 20, 0.9);
+            border: 1px solid #444;
+            border-radius: 4px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.7);
+            overflow: hidden;
+        }
+        .map-style-btn {
+            background: transparent;
+            color: #ccc;
+            border: none;
+            border-right: 1px solid #444;
+            padding: 6px 12px;
+            font-size: 13px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.2s ease;
+        }
+
+        .map-style-btn:last-child { border-right: none; }
+        .map-style-btn:hover { background: #444; color: white; }
+        .map-style-btn.active { background: #d7b500; color: #000; }
+        /* --- TACTICAL SIDEBAR STYLES --- */
+        #sidebar {
+            width: 250px; 
+            background-color: #252526;
+            border-right: 1px solid #333; 
+            padding: 20px;
+            display: flex; 
+            flex-direction: column; 
+            gap: 15px;
+            overflow-y: auto;
+        }
+        #sidebar h2 { margin: 0; font-size: 1.2rem; border-bottom: 1px solid #444; padding-bottom: 10px; }
+        .tool-group h3 { font-size: 0.9rem; color: #aaaaaa; margin-bottom: 8px; text-transform: uppercase; }
+        .tac-btn {
+            background-color: #333333; color: white; border: 1px solid #555;
+            padding: 8px 12px; cursor: pointer; text-align: left;
+            border-radius: 4px; transition: background 0.2s; width: 100%; margin-bottom: 5px;
+        }
+        .tac-btn:hover { background-color: #505050; }
+        /* Active States for Geoman Tools */
+        .tac-btn.active-tool-edit {
+            background-color: #0056b3 !important;
+            border-color: #80bdff !important;
+            color: white !important;
+        }
+        .tac-btn.active-tool-delete {
+            background-color: #c82333 !important;
+            border-color: #f5c6cb !important;
+            color: white !important;
+        }
+        
+        /* --- Quadrant and Maximize Logic --- */
+        .quadrant { position: relative; width: 100%; height: 100%; }
+        .quadrant iframe { width: 100%; height: 100%; border: none; }
+        
+        .max-btn {
+            position: absolute; top: 10px; right: 10px;
+            background: #252526; color: #ccc; border: 1px solid #555;
+            padding: 5px 15px; cursor: pointer; border-radius: 4px; font-weight: bold;
+            z-index: 10; opacity: 0.7; transition: 0.2s;
+        }
+        .max-btn:hover { background: #d7b500; color: black; opacity: 1; }
+
+        /* When the main armor view goes into maximized mode... */
+        #armor-view.has-maximized .quadrant { display: none; } /* Hide everything */
+        #armor-view.has-maximized .quadrant.maximized { 
+            display: block; /* Show only the target quadrant */
+            grid-column: 1 / -1; /* Stretch across all columns */
+            grid-row: 1 / -1;    /* Stretch across all rows */
+        }
+
+        /* --- CONTEXT MENU STYLING --- */
+        #squad-context-menu {
+            position: absolute;
+            z-index: 9999;
+            display: none; /* Hidden by default */
+            pointer-events: none; /* Let the container pass clicks through */
+        }
+        #squad-context-menu:not(.hidden) {
+            display: block;
+        }
+
+        .menu-quadrant {
+            position: absolute;
+            background: rgba(20, 20, 20, 0.9);
+            border: 1px solid #444;
+            border-radius: 4px;
+            padding: 5px;
+            pointer-events: auto; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.7);
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            
+            /* Bumped width to give text more room */
+            min-width: 160px; 
+        }
+
+        /* --- BULLETPROOF 6-WAY RADIAL SPACING --- */
+
+        /* Center Columns (Pushed up/down slightly) */
+        .quad-top { 
+            bottom: 45px; 
+            left: 50%; 
+            transform: translateX(-50%); 
+        }
+        .quad-bottom { 
+            top: 45px; 
+            left: 50%; 
+            transform: translateX(-50%); 
+        }
+
+        /* Middle Wings (Pushed wide left/right to clear the center columns) */
+        .quad-left { 
+            right: 100px; 
+            top: 50%; 
+            transform: translateY(-50%); 
+        }
+        .quad-right { 
+            left: 100px; 
+            top: 50%; 
+            transform: translateY(-50%); 
+        }
+
+        /* Diagonal Wings (Pushed furthest out on BOTH axis to avoid all other boxes) */
+        .quad-top-left { 
+            right: 120px; 
+            bottom: 80px; 
+        }
+        .quad-top-right { 
+            left: 120px; 
+            bottom: 80px; 
+        }
+
+        /* Squad 3x3 Grid Flyout */
+        .squad-grid {
+            display: none;
+            position: absolute;
+            top: -5px;
+            left: 100%;
+            background: rgba(20, 20, 20, 0.95);
+            border: 1px solid #555;
+            border-radius: 4px;
+            padding: 5px;
+            width: 100px;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 4px;
+        }
+        .marker-category:hover .squad-grid { display: grid; }
+
+        /* Center the numbers inside the grid */
+        .squad-grid button {
+            text-align: center !important;
+            font-weight: bold;
+            padding: 8px 0 !important;
+        }
+
+        /* Category & Flyout Dropdown Logic */
+        .marker-category {
+            position: relative;
+            padding: 6px 10px;
+            color: #eee;
+            font-size: 14px;
+            cursor: pointer;
+            background: #2a2a2a;
+            border-radius: 3px;
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+        }
+        .marker-category:hover { background: #444; }
+
+        .marker-category .sub-menu {
+            display: none;
+            position: absolute;
+            top: -5px;
+            left: 100%; 
+            background: rgba(20, 20, 20, 0.95);
+            border: 1px solid #555;
+            border-radius: 4px;
+            padding: 5px;
+            min-width: 150px;
+            
+            margin-left: 0; 
+            
+            flex-direction: column;
+            gap: 4px;
+        }
+        .marker-category:hover .sub-menu { display: flex; }
+
+        /* This creates an invisible box sticking out to the right of the category button.
+        It catches your mouse early and holds the menu open even if you move diagonally! */
+        .marker-category::after {
+            content: '';
+            position: absolute;
+            top: -10px;
+            right: -20px;
+            width: 20px;
+            height: calc(100% + 20px);
+            background: transparent; 
+        }
+
+        /* Buttons inside the menus */
+        #squad-context-menu button {
+            background: transparent;
+            color: #fff;
+            border: none;
+            padding: 6px 10px;
+            text-align: left;
+            cursor: pointer;
+            border-radius: 3px;
+            font-size: 13px;
+            
+            /* Forces text to stay on one line to prevent awkward wrapping */
+            white-space: nowrap; 
+        }
+        #squad-context-menu button:hover {
+            background: #555;
+        }
+        /* Force the squad grid to drop straight down, avoiding the right menu entirely */
+        .quad-bottom .squad-grid {
+            top: 100%;
+            left: 0;
+            margin-top: 4px;
+        }
+
+        /* Adjust the invisible hover bridge for the bottom menu to point downwards */
+        .quad-bottom .marker-category::after {
+            top: 100%;
+            left: 0;
+            width: 100%;
+            height: 15px;
+        }
+        /* --- MODE OVERLAY --- */
+        #mode-overlay {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            padding: 10px 15px;
+            border-radius: 4px;
+            font-weight: bold;
+            color: white;
+            pointer-events: none; /* Allows you to click the map through it */
+            box-shadow: 0 4px 10px rgba(0,0,0,0.7);
+            transition: background-color 0.2s, border-color 0.2s;
+        }
+        .mode-friendly { background-color: rgba(0, 102, 204, 0.8); border: 2px solid #0066cc; }
+        .mode-enemy { background-color: rgba(204, 0, 0, 0.8); border: 2px solid #cc0000; }
+
+        /* --- SMART EDGE REVERSAL LOGIC --- */
+        /* Reverses right-side flyouts inward if clicked near the right edge */
+        #squad-context-menu.edge-right .quad-right .marker-category .sub-menu {
+            left: auto;
+            right: 100%;
+        }
+        #squad-context-menu.edge-right .quad-right .marker-category::after {
+            left: -20px;
+            right: auto;
+        }
+
+        /* Reverses category dropdowns to expand UPWARDS if clicked near the bottom edge */
+        #squad-context-menu.edge-bottom .marker-category .sub-menu {
+            top: auto;
+            bottom: -5px;
+        }
+
+        /* Forces the Squad Number grid to pop UP above the Movement Arrow button */
+        #squad-context-menu.edge-bottom .quad-bottom .squad-grid {
+            top: auto;
+            bottom: 100%;
+            margin-top: 0;
+            margin-bottom: 4px;
+        }
+
+        /* Adjusts the invisible hover bridge for the upward squad grid */
+        #squad-context-menu.edge-bottom .quad-bottom .marker-category::after {
+            top: auto;
+            bottom: 100%;
+            height: 15px; 
+        }
+
+        /* --- CONTEXT MENU AUTO-HIDING LOGIC --- */
+        /* If the menu is in friendly mode, completely hide the enemy buttons (and vice versa) */
+        #squad-context-menu.friendly-mode .enemy-only { display: none !important; }
+        #squad-context-menu.enemy-mode .friendly-only { display: none !important; }
+
+        /* --- TEAM MARKER HALOS --- */
+        /* Applies a glowing colored shadow to your transparent PNGs on the map */
+        .icon-friendly { filter: drop-shadow(0px 0px 4px #0066cc); }
+        .icon-enemy { filter: drop-shadow(0px 0px 4px #cc0000); }
+        /* --- MORTAR CALCULATOR UI --- */
+        .mortar-target-label {
+            color: #fff;
+            text-align: center;
+            font-size: 13px;
+            font-weight: bold;
+            /* Heavy black text-outline so it's readable on any terrain */
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+            line-height: 1.2;
+            pointer-events: none; /* Lets clicks pass through to the splash zone */
+        }
+
+        /* Make the button glow orange when active so you know you are in target mode */
+        #mortar-calc-btn.active-tool {
+            background-color: #e68a00;
+            border-color: #ffcc00;
+            color: #000;
+        }
+
+        #toggle-hab-btn.active-tool {
+            background-color: #4caf50 !important;
+            border-color: #81c784 !important;
+            color: #fff !important;
+        }
+
+        /* --- LAYER SELECTOR UI --- */
+        #layer-selector-container {
+            position: absolute;
+            top: 15px; /* Safely clears the top edge of the map container */
+            right: 20px;
+            z-index: 1000;
+            /* ... keep the rest of your existing #layer-selector-container styling ... */
+            background: rgba(20, 20, 20, 0.9);
+            border: 1px solid #444;
+            padding: 10px;
+            border-radius: 4px;
+            color: white;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.7);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        #squad-layer-select {
+            background: #333;
+            color: #fff;
+            border: 1px solid #555;
+            padding: 5px 10px;
+            border-radius: 3px;
+            cursor: pointer;
+            outline: none;
+        }
+        #squad-layer-select:hover { background: #444; }
+
+        /* --- CSS CAPTURE POINT FLAGS --- */
+        .squad-flag-marker {
+            border: 2px solid #ccc;
+            color: #fff;
+            text-align: center;
+            border-radius: 50%;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 10px rgba(0,0,0,0.8);
+            font-size: 14px;
+            transition: all 0.2s ease;
+        }
+
+        /* Dynamic RAAS States */
+        .flag-locked { background-color: #189b18; border-color: #fff; box-shadow: 0 0 15px #189b18; cursor: pointer;}
+        .flag-next { background-color: #0066cc; border-color: #fff; box-shadow: 0 0 15px #0066cc; cursor: pointer; transform: scale(1.1); }
+        .flag-future { background-color: #333; border-color: #666; opacity: 0.6; }
+
+        .squad-flag-label {
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-top: 5px;
+            color: white;
+            font-weight: bold;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+            white-space: nowrap;
+            pointer-events: none;
+        }
+        /* --- CONTOUR OVERLAY LABELS --- */
+        .contour-elevation-label {
+            color: #d2b48c; /* Tan/Brown topographic map aesthetic */
+            font-size: 10px;
+            font-weight: bold;
+            text-align: center;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+            pointer-events: none;
+        }
+
+        #contour-toggle-btn.active-tool {
+            background-color: #8b5a2b;
+            border-color: #d2b48c;
+            color: #fff;
+        }
+        .topo-legend-panel {
+            position: absolute;
+            top: 100px;
+            right: 20px;
+            background: rgba(20, 20, 20, 0.9);
+            border: 1px solid #d2b48c;
+            color: #f4e8c1;
+            padding: 10px 14px;
+            border-radius: 6px;
+            font-size: 11px;
+            z-index: 1000;
+            box-shadow: 0 0 10px rgba(0,0,0,0.7);
+            pointer-events: none;
+        }
+
+        .topo-legend-panel h4 {
+            margin: 0 0 6px 0;
+            font-size: 12px;
+            text-transform: uppercase;
+            border-bottom: 1px solid #444;
+            padding-bottom: 4px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 4px;
+        }
+
+        .color-box {
+            width: 14px;
+            height: 14px;
+            display: inline-block;
+            margin-right: 8px;
+            border: 1px solid #fff;
+            border-radius: 2px;
+        }
+
+        /* Tactical Grid Display Overlay */
+        .squad-grid-tracker {
+            background: rgba(15, 20, 25, 0.9);
+            border: 1px solid #e1b12c;
+            color: #e1b12c;
+            padding: 8px 12px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 4px;
+            box-shadow: 0 0 8px rgba(225, 177, 44, 0.4);
+            pointer-events: none;
+            z-index: 1000;
+            margin-top: 10px !important;
+            bottom: 60px;
+        }
+
+        /* 300m Grid Edge Labels (A, B, C... 1, 2, 3...) */
+        .grid-edge-label {
+            color: #e1b12c; /* Squad Yellow */
+            font-family: 'Arial', sans-serif;
+            font-size: 18px;
+            font-weight: 900;
+            /* Clean, hard black stroke for visibility on all map colors */
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            pointer-events: none;
+        }
+
+        /* HAB Legend UI */
+        .hab-legend-control {
+            background: rgba(15, 20, 25, 0.9);
+            border: 1px solid #34495e;
+            color: #ecf0f1;
+            padding: 10px;
+            font-family: 'Arial', sans-serif;
+            border-radius: 4px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+            pointer-events: auto; /* Allow clicks on the legend if needed */
+        }
+
+        .hab-legend-control h4 {
+            margin: 0 0 8px 0;
+            font-size: 12px;
+            color: #e1b12c;
+            text-align: center;
+            border-bottom: 1px solid #4a6278;
+            padding-bottom: 4px;
+        }
+
+        .hab-legend-control .legend-item {
+            font-size: 12px;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+        }
+
+        .hab-legend-control .legend-item span {
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            margin-right: 8px;
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+
+        /* MATCH PROMPT MODAL */
+        #match-prompt {
+            display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
+            background: #2d2d30; padding: 30px; border: 2px solid #d7b500; border-radius: 8px; text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.8); z-index: 10000; color: white;
+        }
+        .btn-group { display: flex; gap: 20px; justify-content: center; margin-top: 20px; }
+        .btn-win { background: #28a745; color: white; border: none; padding: 10px 25px; border-radius: 4px; cursor: pointer; font-weight: bold; font-size: 16px; }
+        .btn-win:hover { background: #218838; }
+        .btn-loss { background: #dc3545; color: white; border: none; padding: 10px 25px; border-radius: 4px; cursor: pointer; font-weight: bold; font-size: 16px; }
+        .btn-loss:hover { background: #c82333; }
+        /* Faction Modal Styles */
+        #faction-selector-modal {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background-color: rgba(0, 0, 0, 0.85); /* Dark semi-transparent background */
+            z-index: 9999; /* Always on top */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .faction-modal-content {
+            background-color: #1e1e1e;
+            border: 2px solid #4caf50; /* Tactical green border */
+            padding: 30px;
+            border-radius: 8px;
+            text-align: center;
+            color: white;
+            min-width: 400px;
+            box-shadow: 0 0 20px rgba(76, 175, 80, 0.3);
+        }
+
+        .faction-buttons {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 25px;
+        }
+
+        .faction-btn {
+            background-color: #333;
+            color: white;
+            border: 1px solid #666;
+            padding: 15px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: all 0.2s ease;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .faction-btn:hover {
+            background-color: #4caf50; /* Highlights green on hover */
+            border-color: #4caf50;
+        }
+
+        /* --- NO-FLY ZONE SVG PATTERN --- */
+        /* Forces the browser to handle the pattern, bypassing Leaflet's buggy JS color-recycling */
+        .nofly-pattern-css {
+            fill: url(#nofly-thatch) !important;
+            fill-opacity: 0.65 !important;
+        }
+
+        .coffee-link {
+            color: #888;
+            text-decoration: none;
+            font-family: monospace;
+            font-size: 12px;
+            padding: 6px 12px;
+            border: 1px solid rgba(255, 255, 255, 0.15); /* Subtle transparent border */
+            border-radius: 20px; /* Makes it a pill shape */
+            background-color: rgba(0, 0, 0, 0.3); /* Slight darkening of the background */
+            transition: all 0.2s ease-in-out;
+            display: inline-block;
+        }
+
+        .coffee-link:hover {
+            color: #ff9800; /* Amber/Orange text */
+            border-color: #ff9800; /* Border lights up */
+            background-color: rgba(255, 152, 0, 0.1); /* Very faint orange glow inside */
+            box-shadow: 0px 0px 8px rgba(255, 152, 0, 0.2); /* Slight outer glow */
+            text-decoration: none; 
+        }
+    </style>
+</head>
+<body>
+    <!-- INVISIBLE SVG DICTIONARY FOR MAP PATTERNS -->
+    <svg style="width: 0; height: 0; position: absolute;" aria-hidden="true">
+        <defs>
+            <!-- Black and White Diagonal Thatch -->
+            <pattern id="nofly-thatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+                <!-- The white background stripe -->
+                <rect width="12" height="12" fill="#ffffff" />
+                <!-- The black foreground stripe -->
+                <rect width="6" height="12" fill="#000000" />
+            </pattern>
+        </defs>
+    </svg>
+
+    <div id="topo-legend" class="topo-legend-panel" style="display: none;">
+    <h4>Elevation Legend</h4>
+    <div class="legend-item"><span class="color-box" style="background: rgba(34, 139, 34, 0.4);"></span> Lowlands / Valleys (&lt; 80m)</div>
+    <div class="legend-item"><span class="color-box" style="background: rgba(154, 205, 50, 0.4);"></span> Low Hills (80m – 130m)</div>
+    <div class="legend-item"><span class="color-box" style="background: rgba(218, 165, 32, 0.4);"></span> Mid Elevations (130m – 180m)</div>
+    <div class="legend-item"><span class="color-box" style="background: rgba(205, 133, 63, 0.4);"></span> High Ridges (180m – 230m)</div>
+    <div class="legend-item"><span class="color-box" style="background: rgba(139, 69, 19, 0.5);"></span> Mountain Peaks (&gt; 230m)</div>
+    </div>
+
+    <!-- MODE OVERLAY -->
+    <div id="mode-overlay" class="mode-friendly">
+        Mode: FRIENDLY (Press 'Q' to swap)
+    </div>
+
+    <!-- SQUAD-STYLE RADIAL CONTEXT MENU -->
+    <div id="squad-context-menu" class="hidden friendly-mode">
+        <!-- TOP-LEFT QUADRANT: Logistics & Requests -->
+        <div class="menu-quadrant quad-top-left">
+            <button class="context-marker-btn" data-name="Req-Ammo" data-img="req_ammo.webp">📦 Ammo Request</button>
+            <button class="context-marker-btn" data-name="Req-Build" data-img="req_build.webp">🏗️ Build Request</button>
+            <button class="context-marker-btn" data-name="Req-Reinforce" data-img="req_reinforce.png">🪖 Reinforcements</button>
+            <button class="context-marker-btn" data-name="Req-Pickup" data-img="req_pickup.png">🚁 Pick-up Order</button>
+            <button class="context-marker-btn" data-name="Req-Firemission" data-img="req_firemission.png">💥 Fire Mission</button>
+        </div>
+
+        <!-- TOP-RIGHT QUADRANT: Troop Formations -->
+        <div class="menu-quadrant quad-top-right">
+            <button class="context-marker-btn" data-name="Form-Line" data-img="line.png">➖ Line Formation</button>
+            <button class="context-marker-btn" data-name="Form-Column" data-img="column.png">⏸️ Column Formation</button>
+            <button class="context-marker-btn" data-name="Form-Staggered-Column" data-img="staggered_column.png">Staggered Column Formation</button>
+            <button class="context-marker-btn" data-name="Form-Wedge" data-img="wedge.png">🔺 Wedge Formation</button>
+            <button class="context-marker-btn" data-name="Form-Vee" data-img="vee.png">🔻 Vee Formation</button>
+            <button class="context-marker-btn" data-name="Form-Echelon" data-img="echelon.png">⋱ Echelon Formation</button>
+            <button class="context-marker-btn" data-name="Form-360" data-img="360.png">⛯ 360 Formation</button>
+        </div>
+        
+        <!-- TOP QUADRANT: Frontlines -->
+        <div class="menu-quadrant quad-top">
+            <button class="context-draw-btn friendly-only" data-style="frontline-friendly">🟦 Friendly Frontline</button>
+            <button class="context-draw-btn enemy-only" data-style="frontline-enemy">🟥 Enemy Frontline</button>
+        </div>
+
+        <!-- LEFT QUADRANT: Zones -->
+        <div class="menu-quadrant quad-left">
+            <button class="context-draw-btn friendly-only" data-style="zone-friendly">🟦 Friendly Zone</button>
+            <button class="context-draw-btn enemy-only" data-style="zone-enemy">🟥 Enemy Zone</button>
+            <button class="context-draw-btn" data-style="zone-contested">🟨 Contested Zone</button>
+            <button class="context-draw-btn" data-style="zone-nofly">🚫 No-Fly Zone</button> 
+        </div>
+
+        <!-- BOTTOM QUADRANT: Movement Vectors -->
+        <div class="menu-quadrant quad-bottom">
+            <div class="marker-category">
+                <button class="context-draw-btn" data-style="movement-unlabeled" style="width: 100%;">➡️ Movement Arrow</button>
+                <div class="squad-grid">
+                    <button class="context-draw-btn" data-style="movement-squad" data-squad="1">1</button>
+                    <button class="context-draw-btn" data-style="movement-squad" data-squad="2">2</button>
+                    <button class="context-draw-btn" data-style="movement-squad" data-squad="3">3</button>
+                    <button class="context-draw-btn" data-style="movement-squad" data-squad="4">4</button>
+                    <button class="context-draw-btn" data-style="movement-squad" data-squad="5">5</button>
+                    <button class="context-draw-btn" data-style="movement-squad" data-squad="6">6</button>
+                    <button class="context-draw-btn" data-style="movement-squad" data-squad="7">7</button>
+                    <button class="context-draw-btn" data-style="movement-squad" data-squad="8">8</button>
+                    <button class="context-draw-btn" data-style="movement-squad" data-squad="9">9</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- RIGHT QUADRANT: Categorized Markers -->
+        <div class="menu-quadrant quad-right">
+            
+            <!-- INFANTRY -->
+            <div class="marker-category">
+                <span><button class="context-marker-btn" data-name="Infantry" data-img="helmet.png">Infantry 🪖</button></span>
+                <div class="sub-menu">
+                    <button class="context-marker-btn" data-name="Infantry" data-img="helmet.png">Helmet (Standard)</button>
+                    <button class="context-marker-btn" data-name="LAT" data-img="lat.webp">LAT</button>
+                    <button class="context-marker-btn" data-name="HAT" data-img="hat.webp">HAT</button>
+                    <button class="context-marker-btn" data-name="MG" data-img="mg.webp">Machine Gunner</button>
+                    <button class="context-marker-btn" data-name="Sniper" data-img="sniper.webp">Sniper</button>
+                    <button class="context-marker-btn" data-name="Sapper" data-img="sapper.webp">Sapper</button>
+                </div>
+            </div>
+
+            <!-- ARMOR -->
+            <div class="marker-category">
+                <span>Armor 🛡️</span>
+                <div class="sub-menu">
+                    <button class="context-marker-btn" data-name="light_wheeled" data-img="light_wheeled.webp">Light Wheeled</button>
+                    <button class="context-marker-btn" data-name="wheeled_APC" data-img="wheeled_apc.webp">Wheeled APC</button>
+                    <button class="context-marker-btn" data-name="tracked_APC" data-img="tracked_apc.webp">Tracked APC</button>
+                    <button class="context-marker-btn" data-name="IFV" data-img="wheeled_ifv.webp">Wheeled IFV</button>
+                    <button class="context-marker-btn" data-name="IFV" data-img="tracked_ifv.webp">Tracked IFV</button>
+                    <button class="context-marker-btn" data-name="Aatruck" data-img="aatruck.webp">AA Truck</button>
+                    <button class="context-marker-btn" data-name="Aatracked" data-img="aatracked.webp">AA Tracked</button>
+                    <button class="context-marker-btn" data-name="MBT" data-img="mbt.webp">MBT</button>
+                    <button class="context-marker-btn" data-name="CAS" data-img="cas.webp">CAS</button>
+                    <button class="context-marker-btn" data-name="Artillery" data-img="artillery.webp">Artillery</button>
+                </div>
+            </div>
+
+            <!-- LOGISTICS -->
+            <div class="marker-category">
+                <span>Logistics 🚛</span>
+                <div class="sub-menu">
+                    <button class="context-marker-btn" data-name="Logi" data-img="logistics.webp">Logi Truck</button>
+                    <button class="context-marker-btn" data-name="Logijeep" data-img="logisticsjeep.webp">Logi Jeep</button>
+                    <button class="context-marker-btn" data-name="Transport" data-img="transport.webp">Transport</button>
+                    <button class="context-marker-btn" data-name="Transportlight" data-img="transportjeep.webp">Transport Jeep</button>
+                    <button class="context-marker-btn" data-name="Heli" data-img="heli.webp">Helicopter</button>
+                    <button class="context-marker-btn" data-name="Drone" data-img="drone.webp">Drone</button>
+                    <button class="context-marker-btn" data-name="Boat" data-img="boat.webp">Boat</button>
+                </div>
+            </div>
+            
+            <!-- STRUCTURES -->
+            <div class="marker-category">
+                <span>Structures ⛺</span>
+                <div class="sub-menu">
+                    <!-- Tagged the radios to hide based on mode -->
+                    <button class="context-marker-btn friendly-only" data-name="FOB-Friendly" data-img="fob.webp">🟦 Friendly Radio</button>
+                    <button class="context-marker-btn enemy-only" data-name="FOB-Enemy" data-img="fob.webp">🟥 Enemy Radio</button>
+                    
+                    <!-- MORTARS -->
+                    <button class="context-marker-btn friendly-only" data-name="Mortar-Friendly" data-img="mortar.webp">🟦 Friendly Mortar</button>
+                    <button class="context-marker-btn enemy-only" data-name="Mortar-Enemy" data-img="mortar.webp">🟥 Enemy Mortar</button>
+
+                    <button class="context-marker-btn" data-name="HAB" data-img="hab.webp">HAB</button>
+                    <button class="context-marker-btn" data-name="Repair" data-img="repair.webp">Repair Station</button>
+                    <button class="context-marker-btn" data-name="Ammocrate" data-img="ammocrate.webp">Ammo Crate</button>
+                    <button class="context-marker-btn" data-name="Tow" data-img="tow.webp">TOW</button>
+                    <button class="context-marker-btn" data-name="Machinegun" data-img="machinegun.webp">Machine Gun</button>
+                    <button class="context-marker-btn" data-name="AA" data-img="aa.webp">AA</button>
+                    <button class="context-marker-btn" data-name="Observe" data-img="obtower.webp">Observation Tower</button>
+                    <button class="context-marker-btn" data-name="Fireshelter" data-img="fireshelter.webp">Fire Shelter</button>
+                    <button class="context-marker-btn" data-name="Mine" data-img="mine.png">Mine</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-bar">
+        <button id="button-map-view" class="tab-btn active" onclick="switchTab('map-view', this)">[1] Tactical Map</button>
+        <button id="button-armor-view" class="tab-btn" onclick="switchTab('armor-view', this)">[2] Armor Bay</button>
+        <button id="button-meta-view" class="tab-btn" onclick="switchTab('meta-view', this)">[3] Faction Meta</button>
+        <button id="button-uniform-view" class="tab-btn" onclick="switchTab('uniform-view', this)">[4] Uniform Ref</button>
+        <button id="button-browser-view" class="tab-btn" onclick="switchTab('browser-view', this)">[5] Server Browser</button>
+        <button id="button-settings-view" class="tab-btn" onclick="switchTab('settings-view', this)" style="margin-left: auto;">[9] Settings</button>
+        
+        <select id="faction-sync" onchange="syncArmorWindows(this.value)" style="display: none; margin-left: auto; padding: 5px; background: #333; color: white; border: 1px solid #555;">
+            <option value="">Select Global Faction...</option>
+            <option value="ADF">Australian Defence Force</option>
+            <option value="AFU">Armed Forces of Ukraine</option>
+            <option value="BAF">British Armed Forces</option>
+            <option value="CAF">Canadian Armed Forces</option>
+            <option value="CRF">Canadian Resistance Forces</option>
+            <option value="GFI">Ground Forces of Iran</option>
+            <option value="IMF">Irregular Military Forces</option>
+            <option value="MEI">Middle Eastern Insurgents</option>
+            <option value="PLA">People's Liberation Army</option>
+            <option value="PLAAGF">PLA Amphibious Ground Forces</option>
+            <option value="PLANMC">PLA Navy Marine Corps</option>
+            <option value="RGF">Russian Ground Forces</option>
+            <option value="TLF">Turkish Land Forces</option>
+            <option value="USA">United States Army</option>
+            <option value="USMC">United States Marine Corps</option>
+            <option value="USMC_Coop">USMC_Coop</option>
+            <option value="VDV">Russian Airborne Forces</option>
+            <option value="WPMC">Western Private Military Contractors</option>
+            <option value="WPMC_CoOp">WPMC_Coop</option>
+        </select>
+    </div>
+
+    <div id="map-view" class="view-container active">
+        <!-- Tactical Sidebar -->
+    <div id="sidebar">
+        <h2>Command Tools</h2>
+        
+        <div class="tool-group">
+            <button id="contour-toggle-btn" class="tac-btn action-btn" onclick="toggleContourOverlay()">⛰️ Toggle Contours</button>
+            <button id="los-toggle-btn" class="tac-btn action-btn">🎯 Toggle LOS Laser</button>
+            <button id="mortar-calc-btn" class="tac-btn action-btn">🧮 Toggle Mortar Calc</button>
+            <button id="toggle-layer-btn" class="tac-btn action-btn" title="Toggle Layer Objects (Flags/Mains)">LYR</button>
+            
+            <button id="toggle-hab-btn" class="tac-btn action-btn" onclick="toggleHabOverlay()">🏠 Toggle Indoor HABs</button>
+            
+            <button id="toggle-team-btn" class="tac-btn action-btn" style="border-left: 4px solid #0066cc; margin-top: 10px;">🟦 Deploying As: Team 1</button>
+            
+            <h3 style="margin-top: 15px;">Tactical Graphics</h3>
+            <button class="tac-btn action-btn" data-action="Edit">✏️ Edit Shapes</button>
+            <button class="tac-btn action-btn" data-action="Remove">🗑️ Delete Shapes</button>
+        </div>
+    </div>
+        <div id="map"></div>
+        <div id="map-style-toggle">
+            <button class="map-style-btn active" data-style="base" onclick="setMapStyle('base')">Standard</button>
+            <button class="map-style-btn" data-style="topo" onclick="setMapStyle('topo')">Topographic</button>
+            <button class="map-style-btn" data-style="terrain" onclick="setMapStyle('terrain')">Terrain</button>
+        </div>
+        <!-- SQUAD LAYER SELECTOR -->
+        <div id="layer-selector-container">
+            <label for="squad-map-select">🌍 Map:</label>
+            <select id="squad-map-select">
+            <option value="" disabled selected>Select Map...</option>
+            <option value="albasrah">Al Basrah</option>
+            <option value="anvil">Anvil</option>
+            <option value="belaya">Belaya Pass</option>
+            <option value="blackcoast">Black Coast</option>
+            <option value="chora">Chora</option>
+            <option value="fallujah">Fallujah</option>
+            <option value="foolsroad">Fool's Road</option>
+            <option value="goosebay">Goose Bay</option>
+            <option value="gorodok">Gorodok</option>
+            <option value="harju">Harju</option>
+            <option value="jensen">Jensen's Range</option>
+            <option value="kamdesh">Kamdesh Highlands</option>
+            <option value="kohat">Kohat Toi</option>
+            <option value="kokan">Kokan</option>
+            <option value="lashkar">Lashkar Valley</option>
+            <option value="logar">Logar Valley</option>
+            <option value="manicouagan">Manicouagan</option>
+            <option value="mestia">Mestia</option>
+            <option value="mutaha">Mutaha</option>
+            <option value="narva">Narva</option>
+            <option value="pacific">Pacific Proving Grounds</option>
+            <option value="sanxian">Sanxian Islands</option>
+            <option value="skorpo">Skorpo</option>
+            <option value="sumari">Sumari Bala</option>
+            <option value="tallil">Tallil Outskirts</option>
+            <option value="yehorivka">Yehorivka</option>
+        </select>
+
+            <label for="squad-layer-select" style="margin-left: 10px;">🗺️ Layer:</label>
+            <select id="squad-layer-select">
+                <option value="none">-- Blank Map --</option>
+                <!-- Populated dynamically via layer-engine.js -->
+            </select>
+        </div>
+    </div>
+
+    <div id="armor-view" class="view-container">
+        
+        <div class="quadrant" id="quad-1">
+            <button class="max-btn" onclick="toggleMaximize('quad-1')">Maximize</button>
+            <iframe src="https://squad-armor.com/vehicles"></iframe>
+        </div>
+        
+        <div class="quadrant" id="quad-2">
+            <button class="max-btn" onclick="toggleMaximize('quad-2')">Maximize</button>
+            <iframe src="https://squad-armor.com/vehicles"></iframe>
+        </div>
+        
+        <div class="quadrant" id="quad-3">
+            <button class="max-btn" onclick="toggleMaximize('quad-3')">Maximize</button>
+            <iframe src="https://squad-armor.com/vehicles"></iframe>
+        </div>
+        
+        <div class="quadrant" id="quad-4">
+            <button class="max-btn" onclick="toggleMaximize('quad-4')">Maximize</button>
+            <iframe src="https://squad-armor.com/vehicles"></iframe>
+        </div>
+
+    </div>
+
+    <!-- META ANALYSIS TAB -->
+    <div id="meta-view" class="view-container" style="padding: 30px; overflow-y: auto;">
+        <h1 style="color: #4caf50; margin-top: 0;">Tactical Meta</h1>
+        <p style="color: #aaa;">Review historical win rates, fetch map-specific counter-picks, and analyze global server telemetry.</p>
+        
+        <div style="background: #1a1a1a; padding: 20px; border: 1px solid #d7b500; border-radius: 8px; margin-bottom: 25px; display: flex; gap: 15px; align-items: flex-end; box-shadow: 0 4px 10px rgba(0,0,0,0.5);">
+            
+            <div style="flex: 1;">
+                <label style="font-size: 13px; color: #d7b500; font-weight: bold; text-transform: uppercase;">Map:</label>
+                <select id="meta-map-select" style="width: 100%; box-sizing: border-box; background: #252526; color: white; padding: 10px; margin-top: 8px; border: 1px solid #555; border-radius: 4px; font-size: 14px;">
+                    <option value="" selected>-- Pick a Map --</option>
+                    <option value="albasrah">Al Basrah</option>
+                    <option value="anvil">Anvil</option>
+                    <option value="belaya">Belaya Pass</option>
+                    <option value="blackcoast">Black Coast</option>
+                    <option value="chora">Chora</option>
+                    <option value="fallujah">Fallujah</option>
+                    <option value="foolsroad">Fool's Road</option>
+                    <option value="goosebay">Goose Bay</option>
+                    <option value="gorodok">Gorodok</option>
+                    <option value="harju">Harju</option>
+                    <option value="jensen">Jensen's Range</option>
+                    <option value="kamdesh">Kamdesh Highlands</option>
+                    <option value="kohat">Kohat Toi</option>
+                    <option value="kokan">Kokan</option>
+                    <option value="lashkar">Lashkar Valley</option>
+                    <option value="logar">Logar Valley</option>
+                    <option value="manicouagan">Manicouagan</option>
+                    <option value="mestia">Mestia</option>
+                    <option value="mutaha">Mutaha</option>
+                    <option value="narva">Narva</option>
+                    <option value="pacific">Pacific Proving Grounds</option>
+                    <option value="sanxian">Sanxian Islands</option>
+                    <option value="skorpo">Skorpo</option>
+                    <option value="sumari">Sumari Bala</option>
+                    <option value="tallil">Tallil Outskirts</option>
+                    <option value="yehorivka">Yehorivka</option>
+                </select>
+            </div>
+
+            <div style="flex: 1.5;">
+                <label style="font-size: 13px; color: #d7b500; font-weight: bold; text-transform: uppercase;">Voting Layer:</label>
+                <select id="manual-layer-select" style="width: 100%; box-sizing: border-box; background: #252526; color: white; padding: 10px; margin-top: 8px; border: 1px solid #555; border-radius: 4px; font-size: 14px;">
+                    <option value="">-- Select Map First --</option>
+                </select>
+            </div>
+
+            <div style="flex: 2; display: flex; gap: 10px;">
+                <div style="flex: 1;">
+                    <label style="font-size: 13px; color: #d7b500; font-weight: bold; text-transform: uppercase;">Enemy Faction:</label>
+                    <select id="enemy-faction-select" style="width: 100%; box-sizing: border-box; background: #252526; color: white; padding: 10px; margin-top: 8px; border: 1px solid #555; border-radius: 4px; font-size: 14px;">
+                        <option value="">-- Blind (Unknown) --</option>
+                        <option value="RGF">RGF (Russia)</option>
+                        <option value="USMC">USMC</option>
+                        <option value="USA">USA</option>
+                        <option value="AFU">AFU</option>
+                        <option value="PLA">PLA (China)</option>
+                        <option value="PLANMC">PLANMC</option>
+                        <option value="VDV">VDV</option>
+                        <option value="MEA">MEA</option>
+                        <option value="INS">INS</option>
+                        <option value="MIL">MIL</option>
+                        <option value="BAF">BAF (Britain)</option>
+                        <option value="CAF">CAF (Canada)</option>
+                        <option value="ADF">ADF (Australia)</option>
+                        <option value="TLF">TLF (Turkey)</option>
+                        <option value="WPMC">WPMC</option>
+                    </select>
+                </div>
+                <div style="flex: 1;">
+                    <label style="font-size: 13px; color: #d7b500; font-weight: bold; text-transform: uppercase;">Division:</label>
+                    <select id="enemy-division-select" style="width: 100%; box-sizing: border-box; background: #252526; color: white; padding: 10px; margin-top: 8px; border: 1px solid #555; border-radius: 4px; font-size: 14px;">
+                        <option value="">-- Any --</option>
+                        <option value="Combined Arms">Combined Arms</option>
+                        <option value="Light Infantry">Light Infantry</option>
+                        <option value="Mechanized">Mechanized</option>
+                        <option value="Motorized">Motorized</option>
+                        <option value="Armored">Armored</option>
+                        <option value="Air Assault">Air Assault</option>
+                        <option value="Amphibious">Amphibious</option>
+                        <option value="Support">Support</option>
+                    </select>
+                </div>
+            </div>
+
+            <div style="flex: 1;">
+                <label style="font-size: 13px; color: #d7b500; font-weight: bold; text-transform: uppercase;">Enemy Role (Invasion):</label>
+                <select id="manual-enemy-role" style="width: 100%; box-sizing: border-box; background: #252526; color: white; padding: 10px; margin-top: 8px; border: 1px solid #555; border-radius: 4px; font-size: 14px;">
+                    <option value="">-- N/A (RAAS/AAS) --</option>
+                    <option value="1">Defender (Team 1)</option>
+                    <option value="2">Attacker (Team 2)</option>
+                </select>
+            </div>
+
+            <div>
+                <button id="btn-fetch-intel" style="background: #252526; color: #d7b500; border: 2px solid #d7b500; padding: 10px 20px; border-radius: 4px; cursor: pointer; font-weight: bold; font-size: 14px; transition: 0.2s;">📡 Request Intel</button>
+            </div>
+        </div>
+        
+        <div id="voting-intel-container" style="margin-top: 20px; padding: 15px; background: #1a1a1a; border: 1px solid #333; border-radius: 6px; min-height: 80px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.5);">
+                <span style="color: #888; font-size: 13px; font-style: italic;">Intel results will appear here...</span>
+        </div>
+
+        <div id="meta-stats-container"></div>
+
+        <hr style="border-color: #333; margin: 30px 0;">
+
+        <h2 style="color: #fff; font-size: 18px; margin-top: 0; text-transform: uppercase;">Global Server Telemetry</h2>
+        <div id="meta-dashboard-content">
+        </div>
+    </div>
+
+    <div id="uniform-view" class="view-container">
+        <div style="flex: 1; border-right: 2px solid #333; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px;">
+            <h2 id="uniform-friendly-title" style="color: #0066cc;">Friendly Forces</h2>
+            <div id="uniform-friendly-img" style="width: 80%; height: 60%; background: #333; border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+                [Friendly Uniform Image Pending Telemetry]
+            </div>
+        </div>
+        <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px;">
+            <h2 id="uniform-enemy-title" style="color: #cc0000;">Enemy Forces</h2>
+            <div id="uniform-enemy-img" style="width: 80%; height: 60%; background: #333; border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+                [Enemy Uniform Image Pending Telemetry]
+            </div>
+        </div>
+    </div>
+
+    <div id="browser-view" class="view-container">
+        <iframe src="https://squadbrowser.app/" style="width: 100%; height: 100%; border: none;"></iframe>
+    </div>
+
+    <div id="settings-view" class="view-container">
+        <h2>Application Settings</h2>
+        <hr style="border-color: #333; margin-bottom: 20px;">
+        
+        <div>
+            <h3>Squad Collaboration (Steam P2P)</h3>
+            <p style="color: #aaa; font-size: 13px;">Host a session to share tactical markers with your squad in real-time. Traffic is masked via Steam Datagram Relay (No IPs exposed).</p>
+            
+            <div style="display: flex; gap: 15px; margin-bottom: 20px;">
+                <button id="btn-host-lobby" class="action-btn" style="background: #0066cc; color: white; padding: 10px 20px; border: none; border-radius: 4px; font-weight: bold; cursor: pointer;">🌐 Host Lobby</button>
+                <button id="btn-invite-friends" class="action-btn" style="display: none; background: #28a745; color: white; padding: 10px 20px; border: none; border-radius: 4px; font-weight: bold; cursor: pointer;">+ Invite via Steam</button>
+                <button id="btn-resync-map" class="action-btn" style="display: none; background: #17a2b8; color: white; padding: 10px 20px; border: none; border-radius: 4px; font-weight: bold; cursor: pointer;">🔄 Resync Map</button>
+            </div>
+
+            <div id="lobby-status-container" style="display: none; background: #252526; padding: 15px; border: 1px solid #d7b500; border-radius: 6px;">
+                <h4 style="margin-top: 0; color: #d7b500;">Active Lobby Members</h4>
+                <ul id="lobby-members-list" style="list-style: none; padding: 0; margin: 0;">
+                    </ul>
+            </div>
+        </div>
+
+        <div style="margin-top: 30px;">
+            <h3>Map Preferences</h3>
+            <label for="grid-opacity-slider" style="display: block; margin-bottom: 8px;">Grid Line Opacity</label>
+            <input type="range" id="grid-opacity-slider" min="0" max="1" step="0.05" value="0.80" style="width: 90%;">
+        </div>
+        <div style="position:absolute; bottom: 15px; left: 15px; font-family:monospace; font-size:12px; color:#666;">Squad Tactical Map v1.0.3</div>
+        <!-- Minimal Donation Link -->
+        <div style="position: absolute; bottom: 70px; right: 15px;">
+            <a href="#" onclick="openCoffeeLink(event)" class="coffee-link" style="color: #666; text-decoration: none; font-family: monospace; transition: color 0.2s;">
+                ☕ Buy me a coffee
+            </a>
+        </div>
+    </div>
+
+    <!-- AFTER ACTION REPORT MODAL -->
+    <div id="match-prompt" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: #2d2d30; padding: 30px; border: 2px solid #d7b500; border-radius: 8px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.8); z-index: 10000; color: white; min-width: 300px;">
+        <h2 id="prompt-layer-text" style="margin-top: 0;">Match Ended</h2>
+        <p id="prompt-faction-text" style="color: #aaa; margin-bottom: 10px;">USMC vs MEI</p>
+        <h1 id="prompt-outcome-text" style="margin: 10px 0; font-size: 32px;">VICTORY</h1>
+        <p id="prompt-tickets-text" style="font-size: 20px; font-weight: bold; margin-bottom: 20px;">38 - 0</p>
+        
+        <button onclick="document.getElementById('match-prompt').style.display='none'" style="background: #333; color: white; border: 1px solid #666; padding: 10px 30px; border-radius: 4px; cursor: pointer; font-weight: bold; transition: 0.2s;">Dismiss</button>
+    </div>
+
+    <!-- FACTION SELECTION MODAL -->
+    <div id="faction-selector-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.85); z-index: 9999; justify-content: center; align-items: center;">
+        <div style="background-color: #1e1e1e; border: 2px solid #4caf50; padding: 30px; border-radius: 8px; text-align: center; min-width: 400px; box-shadow: 0 0 20px rgba(76, 175, 80, 0.3);">
+            <h2 style="margin-top: 0; color: #4caf50;">Match Detected</h2>
+            <p style="font-size: 16px;">Select your deployment faction:</p>
+            <div style="display: flex; justify-content: space-around; margin-top: 25px;">
+                <button id="btn-team1" style="background: #333; color: white; border: 1px solid #666; padding: 15px 30px; font-size: 16px; cursor: pointer; border-radius: 4px; font-weight: bold;">Team 1</button>
+                <button id="btn-team2" style="background: #333; color: white; border: 1px solid #666; padding: 15px 30px; font-size: 16px; cursor: pointer; border-radius: 4px; font-weight: bold;">Team 2</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/@geoman-io/leaflet-geoman-free@2.14.2/dist/leaflet-geoman.min.js"></script>
+    
+    <script src="https://unpkg.com/leaflet-polylinedecorator@1.6.0/dist/leaflet.polylineDecorator.js"></script>
+    <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
+    <!-- SQUAD TACTICAL MAP SCRIPTS -->
+    <script src="./js/globals.js"></script>
+    <script src="./js/map-core.js"></script> 
+    
+    <script src="./js/grid-tracker.js"></script>
+    <script src="./js/hab-layer.js"></script>
+    <script src="./js/layer-engine.js"></script>
+    <script src="./js/mortar-calc.js"></script>
+    <script src="./js/los-engine.js"></script>
+    <script src="./js/ruler-engine.js"></script>
+    
+    <script src="./js/tactical-menu.js"></script>
+    <script src="./js/ui-controls.js"></script>
+    <script src="./js/contour-engine.js"></script>
+    <script>
+        const electronRenderer = require('electron').ipcRenderer;
+
+        const factionModal = document.getElementById('faction-selector-modal');
+        const btnTeam1 = document.getElementById('btn-team1');
+        const btnTeam2 = document.getElementById('btn-team2');
+
+        electronRenderer.on('require-faction-selection', (event, data) => {
+            console.log("Match detected! Opening faction selector...", data);
+            
+            // Auto-dismiss the end-of-match screen if it was left open
+            document.getElementById('match-prompt').style.display = 'none';
+
+            // Update button text to show the detected factions
+            btnTeam1.innerText = `Team 1: ${data.team1}`;
+            btnTeam2.innerText = `Team 2: ${data.team2}`;
+            
+            // Display the modal
+            factionModal.style.display = 'flex';
+            
+            // Send the user's choice back to main.js when clicked
+            btnTeam1.onclick = () => {
+                electronRenderer.send('user-selected-faction', data.team1);
+                factionModal.style.display = 'none';
+            };
+            
+            btnTeam2.onclick = () => {
+                electronRenderer.send('user-selected-faction', data.team2);
+                factionModal.style.display = 'none';
+            };
+        });
+
+        // Hide modals and Auto-Populate UI when the match officially starts
+        electronRenderer.on('match-started', (event, matchData) => {
+            factionModal.style.display = 'none';
+            document.getElementById('match-prompt').style.display = 'none'; // Auto-dismisses the end-of-match screen
+            
+            console.log("[UI] Auto-configuring interface for match:", matchData);
+
+            // ==========================================
+            // 1. SYNC TEAM COLORS (BLUE VS RED)
+            // ==========================================
+            if (matchData.playerFaction && matchData.team1 && matchData.team2) {
+                // Determine if the player picked Team 1 or Team 2
+                window.playerTeamIndex = (matchData.playerFaction === matchData.team1) ? 1 : 2;
+                
+                // Update the sidebar toggle button text so the UI matches the engine
+                const toggleTeamBtn = document.getElementById('toggle-team-btn');
+                if (toggleTeamBtn) {
+                    toggleTeamBtn.innerText = `🟦 Deploying As: Team ${window.playerTeamIndex}`;
+                }
+            }
+
+            // ==========================================
+            // 2. SET THE TACTICAL MAP & LAYER
+            // ==========================================
+            if (matchData.layer) {
+                // Extract map name (e.g., 'Gorodok' from 'Gorodok_RAAS_v1')
+                let mapName = matchData.layer.split('_')[0].toLowerCase();
+                if (mapName === 'jensensrange') mapName = 'jensen'; // Catch the specific edge case for Jensen's
+
+                const mapSelect = document.getElementById('squad-map-select');
+                if (mapSelect && mapSelect.querySelector(`option[value="${mapName}"]`)) {
+                    mapSelect.value = mapName;
+                    
+                    // Force the map-core.js loadMap() function to fire
+                    mapSelect.dispatchEvent(new Event('change')); 
+
+                    // Wait 500ms for map-core and layer-engine to load the new map's JSON arrays
+                    setTimeout(() => {
+                        const layerSelect = document.getElementById('squad-layer-select');
+                        if (layerSelect) {
+                            // Find the option that matches the full layer string (e.g. Gorodok_RAAS_v1)
+                            const targetLayer = Array.from(layerSelect.options).find(opt => opt.value === matchData.layer);
+                            if (targetLayer) {
+                                layerSelect.value = targetLayer.value;
+                                layerSelect.dispatchEvent(new Event('change')); // Triggers RAAS/Main drawing
+                            }
+                        }
+                    }, 500); 
+                }
+            }
+
+            // ==========================================
+            // 3. SET THE ARMOR BAY FACTION
+            // ==========================================
+            if (matchData.enemyFaction) {
+                const factionSync = document.getElementById('faction-sync');
+                if (factionSync) {
+                    const targetFaction = Array.from(factionSync.options).find(opt => opt.value === matchData.enemyFaction);
+                    if (targetFaction) {
+                        factionSync.value = targetFaction.value;
+                        
+                        // Force the syncArmorWindows() function to fire and load the iframes
+                        factionSync.dispatchEvent(new Event('change')); 
+                    }
+                }
+            }
+            
+            // ==========================================
+            // 4. SET THE META ANALYSIS DROPDOWNS
+            // ==========================================
+            if (matchData.layer) {
+                let metaMapName = matchData.layer.split('_')[0].toLowerCase();
+                if (metaMapName === 'jensensrange') metaMapName = 'jensen';
+
+                const metaMapSelect = document.getElementById('meta-map-select');
+                if (metaMapSelect && metaMapSelect.querySelector(`option[value="${metaMapName}"]`)) {
+                    metaMapSelect.value = metaMapName;
+                    metaMapSelect.dispatchEvent(new Event('change')); // Triggers the backend folder scan
+                    
+                    // Wait for the backend IPC reply to populate the specific layer list
+                    setTimeout(() => {
+                        const metaLayerSelect = document.getElementById('manual-layer-select');
+                        if (metaLayerSelect && Array.from(metaLayerSelect.options).find(o => o.value === matchData.layer)) {
+                            metaLayerSelect.value = matchData.layer;
+                        }
+                        
+                        const metaEnemySelect = document.getElementById('manual-enemy-select');
+                        if (metaEnemySelect && matchData.enemyFaction) {
+                            metaEnemySelect.value = matchData.enemyFaction;
+                        }
+                    }, 500);
+                }
+            }
+
+            // ==========================================
+            // 5. SET THE UNIFORM REFERENCE IMAGES
+            // ==========================================
+            if (matchData.playerFaction) {
+                const friendlyTitle = document.getElementById('uniform-friendly-title');
+                const friendlyImgContainer = document.getElementById('uniform-friendly-img');
+                
+                // Update the title with the faction name
+                friendlyTitle.innerText = `Friendly Forces (${matchData.playerFaction})`;
+                
+                // Clear the dark placeholder background
+                friendlyImgContainer.style.background = 'transparent'; 
+                
+                // Inject the image. If the image doesn't exist, the 'onerror' gracefully handles it.
+                friendlyImgContainer.innerHTML = `<img src="https://maps.tpun.online/uniforms/${matchData.playerFaction}.png" alt="${matchData.playerFaction}" style="max-width: 100%; max-height: 100%; object-fit: contain; filter: drop-shadow(0px 0px 8px #0066cc);" onerror="this.outerHTML='<span style=\\'color: #888; background: #333; padding: 20px; border-radius: 8px;\\'>Uniform image not found for ${matchData.playerFaction}</span>'">`;
+            }
+
+            if (matchData.enemyFaction) {
+                const enemyTitle = document.getElementById('uniform-enemy-title');
+                const enemyImgContainer = document.getElementById('uniform-enemy-img');
+                
+                // Update the title with the faction name
+                enemyTitle.innerText = `Enemy Forces (${matchData.enemyFaction})`;
+                
+                // Clear the dark placeholder background
+                enemyImgContainer.style.background = 'transparent'; 
+                
+                // Inject the image. 
+                enemyImgContainer.innerHTML = `<img src="https://maps.tpun.online/uniforms/${matchData.enemyFaction}.png" alt="${matchData.enemyFaction}" style="max-width: 100%; max-height: 100%; object-fit: contain; filter: drop-shadow(0px 0px 8px #cc0000);" onerror="this.outerHTML='<span style=\\'color: #888; background: #333; padding: 20px; border-radius: 8px;\\'>Uniform image not found for ${matchData.enemyFaction}</span>'">`;
+            }
+        });
+
+        // --- META DATABASE: DYNAMIC LAYER POPULATION (FROM FILE SYSTEM) ---
+        // Listens for a Map selection, then asks the Electron backend to read the folder contents
+        document.getElementById('meta-map-select').addEventListener('change', (event) => {
+            const mapId = event.target.value;
+            const layerSelect = document.getElementById('manual-layer-select');
+            
+            if (!mapId) {
+                layerSelect.innerHTML = '<option value="">-- Select Map First --</option>';
+                return;
+            }
+
+            // Show a loading state while the backend accesses the hard drive
+            layerSelect.innerHTML = '<option value="">-- Scanning Folder... --</option>';
+            
+            // Send the request to main.js
+            electronRenderer.send('request-map-layers', mapId);
+        });
+
+        // --- HANDLE INCOMING LAYER LIST FROM BACKEND ---
+        electronRenderer.on('map-layers-response', (event, data) => {
+            const layerSelect = document.getElementById('manual-layer-select');
+            
+            if (data.success && data.layers.length > 0) {
+                layerSelect.innerHTML = '<option value="">-- Select a Layer --</option>';
+                
+                // Alphabetize the layers for easier scanning
+                data.layers.sort();
+                
+                // Populate the dropdown with the exact filenames found in the folder
+                data.layers.forEach(layerName => {
+                    const opt = document.createElement('option');
+                    opt.value = layerName; 
+                    opt.text = layerName; // e.g., "AlBasrah_RAAS_v1"
+                    layerSelect.appendChild(opt);
+                });
+            } else {
+                layerSelect.innerHTML = '<option value="">-- Error: No Layer Files Found --</option>';
+                console.warn("[C2 Engine] Ensure your map folders are capitalized (e.g., /assets/maps/Albasrah/)");
+            }
+        });
+
+     // --- MANUAL INTEL FETCHING ---
+        document.getElementById('btn-fetch-intel').addEventListener('click', () => {
+            
+            // Pull from the split dropdowns
+            const baseFaction = document.getElementById('enemy-faction-select').value;
+            const division = document.getElementById('enemy-division-select').value;
+            
+            // Stitch them together if both exist, otherwise just use the base faction
+            let enemy = baseFaction;
+            if (baseFaction && division !== "") {
+                enemy = `${baseFaction} ${division}`;
+            }
+
+            const enemyTeam = document.getElementById('manual-enemy-role').value;
+            let layer = document.getElementById('manual-layer-select').value;
+            
+            // Fallback: If they didn't use the manual dropdowns, see if the Tactical Map is currently loaded into a layer
+            if (!layer || layer === "") {
+                const activeMapLayerSelect = document.getElementById('squad-layer-select');
+                if (activeMapLayerSelect && activeMapLayerSelect.value !== 'none') {
+                    layer = activeMapLayerSelect.value;
+                }
+            }
+            
+            if (layer) {
+                // Send request to main.js to fetch the intel
+                electronRenderer.send('request-manual-intel', { layer, enemy, enemyTeam });
+                
+                // Button visual feedback
+                const btn = document.getElementById('btn-fetch-intel');
+                btn.innerText = "⏳ Fetching...";
+                btn.style.background = "#d7b500";
+                btn.style.color = "#000";
+                setTimeout(() => {
+                    btn.innerText = "📡 Request Intel";
+                    btn.style.background = "#252526";
+                    btn.style.color = "#d7b500";
+                }, 1000);
+            } else {
+                // Flash the dropdown borders to remind them they need to specify a map layer
+                const layerSelect = document.getElementById('manual-layer-select');
+                const mapSelect = document.getElementById('meta-map-select');
+                
+                layerSelect.style.borderColor = "#f44336";
+                mapSelect.style.borderColor = "#f44336";
+                setTimeout(() => {
+                    layerSelect.style.borderColor = "#555";
+                    mapSelect.style.borderColor = "#555";
+                }, 2000);
+            }
+        });
+
+        // --- HANDLE AUTOMATED MATCH CONCLUSION (AFTER ACTION REPORT) ---
+        electronRenderer.on('match-ended-auto', (event, matchData) => {
+            console.log("Telemetry Received: Match Auto-Saved", matchData);
+            
+            // 1. Color and set Outcome Text
+            const outcomeText = document.getElementById('prompt-outcome-text');
+            outcomeText.innerText = matchData.outcome.toUpperCase();
+            outcomeText.style.color = matchData.outcome === "Victory" ? "#4caf50" : "#f44336";
+
+            // 2. Set Stats
+            document.getElementById('prompt-layer-text').innerText = `After Action Report: ${matchData.layer}`;
+            document.getElementById('prompt-faction-text').innerText = `${matchData.playerFaction || 'Unknown'} vs ${matchData.enemyFaction || 'Unknown'}`;
+            document.getElementById('prompt-tickets-text').innerText = `Tickets: ${matchData.ticketsFriendly} - ${matchData.ticketsEnemy}`;
+
+            // 3. Display the automated prompt
+            document.getElementById('match-prompt').style.display = 'block';
+        });
+
+        // --- HANDLE INCOMING DYNAMIC VOTING INTEL ---
+        //  Listen for the correct event name sent by main.js
+        electronRenderer.on('voting-intel-result', (event, intel) => {
+            console.log("Frontend received tactical intel:", intel);
+            
+            // Target the correct visual container
+            const statsContainer = document.getElementById('voting-intel-container');
+            if(!statsContainer) return;
+
+            // Handle server errors gracefully
+            if (intel.error) {
+                statsContainer.innerHTML = `<span style="color:#f44336; font-weight: bold;">Error: ${intel.error}</span>`;
+                return;
+            }
+
+            let html = `<div style="background: #252526; padding: 20px; border-radius: 8px; border: 1px solid #444; box-shadow: 0 4px 6px rgba(0,0,0,0.3); margin-top: 10px;">`;
+
+            // SCENARIO A: Map Only (Blind Pick)
+            //  Match the correct type string ('map-baseline')
+            if (intel.type === 'map-baseline') {
+                html += `<h3 style="margin: 0 0 15px 0; color: #03a9f4; text-transform: uppercase;">🗺️ Top Performing Factions on ${intel.layer}</h3>`;
+                html += `<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px;">`;
+                
+                intel.topFactions.forEach((f, index) => {
+                    const winColor = f.winRate >= 50 ? '#4caf50' : '#f44336';
+                    html += `<div style="background: #1a1a1a; padding: 15px; border-radius: 6px; border-left: 4px solid ${winColor};">
+                                <span style="font-size: 14px; color: #aaa;">Rank ${index + 1}</span><br>
+                                <span style="font-size: 20px; font-weight: bold; color: white;">${f.name}</span><br>
+                                <span style="font-size: 16px; color: ${winColor}; font-weight: bold;">${f.winRate}% Win Rate</span>
+                             </div>`;
+                });
+                html += `</div>`;
+            } 
+            
+            // SCENARIO B: Counter-Pick (Enemy Known)
+            else if (intel.type === 'counter-pick') {
+                html += `<h3 style="margin: 0 0 15px 0; color: #ff5722; text-transform: uppercase;">⚔️ Best Counter-Picks vs ${intel.enemyFaction} on ${intel.layer}</h3>`;
+                html += `<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px;">`;
+                
+                intel.counters.forEach((f, index) => {
+                    const winColor = f.winRate >= 50 ? '#4caf50' : '#f44336';
+                    html += `<div style="background: #1a1a1a; padding: 15px; border-radius: 6px; border-left: 4px solid ${winColor};">
+                                <span style="font-size: 14px; color: #aaa;">Rank ${index + 1}</span><br>
+                                <span style="font-size: 20px; font-weight: bold; color: white;">${f.name}</span><br>
+                                <span style="font-size: 16px; color: ${winColor}; font-weight: bold;">${f.winRate}% Win Rate</span>
+                             </div>`;
+                });
+                html += `</div>`;
+            }
+
+            // Always show the AI/Tactical Note if one exists
+            if (intel.tacticalNote) {
+                html += `<p style="margin: 15px 0 0 0; font-size: 13px; font-style: italic; color: #888; border-top: 1px solid #444; padding-top: 10px;">Tactical AI Note: "${intel.tacticalNote}"</p>`;
+            }
+
+            html += `</div>`;
+            statsContainer.innerHTML = html;
+        });
+
+        // --- HANDLE INCOMING DASHBOARD DATA ---
+        electronRenderer.on('meta-dashboard-update', (event, data) => {
+            const container = document.getElementById('meta-dashboard-content');
+            
+            // Handle offline server gracefully
+            if (data.error) {
+                container.innerHTML = `<div style="color: #f44336; padding: 15px; background: #333; border-radius: 5px; border-left: 4px solid #f44336;">⚠️ <b>Connection Error:</b> ${data.error}</div>`;
+                return;
+            }
+
+            // Build the HTML Dashboard
+            let html = `
+                <div style="display: flex; gap: 20px; margin-bottom: 20px;">
+                    <div style="background: #252526; padding: 20px; border-radius: 8px; flex: 1; border: 1px solid #333; box-shadow: 0 4px 6px rgba(0,0,0,0.3);">
+                        <h3 style="margin: 0 0 10px 0; color: #ff9800; font-size: 14px; text-transform: uppercase;">Total Matches Logged</h3>
+                        <p style="font-size: 32px; margin: 0; font-weight: bold;">${data.totalMatches}</p>
+                    </div>
+                    
+                    <div style="background: #252526; padding: 20px; border-radius: 8px; flex: 1; border: 1px solid #333; box-shadow: 0 4px 6px rgba(0,0,0,0.3);">
+                        <h3 style="margin: 0 0 10px 0; color: #4caf50; font-size: 14px; text-transform: uppercase;">Top Performing Faction</h3>
+                        <p style="font-size: 32px; margin: 0; font-weight: bold;">${data.bestFaction.name} <span style="font-size: 18px; color: #aaa;">(${data.bestFaction.winRate}% Win)</span></p>
+                    </div>
+
+                    <div style="background: #252526; padding: 20px; border-radius: 8px; flex: 1; border: 1px solid #333; box-shadow: 0 4px 6px rgba(0,0,0,0.3);">
+                        <h3 style="margin: 0 0 10px 0; color: #03a9f4; font-size: 14px; text-transform: uppercase;">Deadliest Map Layer</h3>
+                        <p style="font-size: 20px; margin: 0; font-weight: bold; line-height: 1.2;">${data.deadliestLayer.name} <br><span style="font-size: 14px; color: #aaa;">Avg Ticket Diff: ${data.deadliestLayer.avgTicketDiff}</span></p>
+                    </div>
+                </div>
+
+                <h3 style="margin: 25px 0 10px 0; color: #fff; font-size: 16px;">RECENT MATCH HISTORY</h3>
+                <table style="width: 100%; border-collapse: collapse; background: #252526; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.3);">
+                    <tr style="background: #1a1a1a; text-align: left; font-size: 14px; color: #888;">
+                        <th style="padding: 12px 15px; border-bottom: 2px solid #333;">Map Layer</th>
+                        <th style="padding: 12px 15px; border-bottom: 2px solid #333;">Matchup</th>
+                        <th style="padding: 12px 15px; border-bottom: 2px solid #333;">Uploader's Faction</th>
+                        <th style="padding: 12px 15px; border-bottom: 2px solid #333;">Role</th> <th style="padding: 12px 15px; border-bottom: 2px solid #333;">Outcome</th>
+                        <th style="padding: 12px 15px; border-bottom: 2px solid #333;">Ticket Diff</th>
+                    </tr>
+            `;
+
+            // Loop through the recent matches array and build table rows
+            data.recentMatches.forEach(match => {
+                const isVictory = match.outcome === 'Victory';
+                const outcomeColor = isVictory ? '#4caf50' : '#f44336';
+                const roleBadge = match.playerRole !== 'N/A' ? match.playerRole : '-';
+                
+                html += `
+                    <tr style="border-bottom: 1px solid #333; font-size: 14px;">
+                        <td style="padding: 12px 15px;">${match.layer}</td>
+                        <td style="padding: 12px 15px;">${match.team1} vs ${match.team2}</td>
+                        <td style="padding: 12px 15px; font-weight: bold;">${match.playerFaction}</td>
+                        <td style="padding: 12px 15px; color: #d7b500;">${roleBadge}</td> <td style="padding: 12px 15px; color: ${outcomeColor}; font-weight: bold;">${match.outcome}</td>
+                        <td style="padding: 12px 15px; color: ${isVictory ? '#aaa' : '#f44336'};">${match.ticketsFriendly} - ${match.ticketsEnemy}</td>
+                    </tr>
+                `;
+            });
+
+            html += `</table>`;
+            container.innerHTML = html;
+        });
+
+        // ==========================================
+        // --- STEAMWORKS LOBBY UI UPDATES ---
+        // ==========================================
+        let isLocalHost = false; 
+
+        electronRenderer.on('steam-lobby-joined', (event, lobbyId) => {
+            const statusContainer = document.getElementById('lobby-status-container');
+            const inviteBtn = document.getElementById('btn-invite-friends');
+            const hostBtn = document.getElementById('btn-host-lobby');
+
+            if (statusContainer) statusContainer.style.display = 'block';
+            if (inviteBtn) inviteBtn.style.display = 'inline-block';
+            if (hostBtn) hostBtn.style.display = 'none'; 
+
+            const header = statusContainer.querySelector('h4');
+            // If we are not the host, we are in the waiting room until approved
+            if (header) {
+                const statusBadge = isLocalHost ? '🟢 Host Active' : '🟡 Waiting for Approval...';
+                const statusColor = isLocalHost ? '#4caf50' : '#ffc107';
+                header.innerHTML = `Active Lobby Members <span id="lobby-connection-badge" style="float: right; color: ${statusColor}; font-size: 13px;">${statusBadge}</span>`;
+            }
+        });
+
+        // Triggered when Host clicks "Approve"
+        electronRenderer.on('p2p-approved', () => {
+            
+            // SILENT WIPE! We lock the 'isApplyingRemote' boolean so the 
+            // map deletes our local graphics without broadcasting 'delete' packets to the Host!
+            window.isApplyingRemote = true;
+            if (typeof window.clearTacticalBoard === 'function') window.clearTacticalBoard();
+            window.isApplyingRemote = false;
+
+            const badge = document.getElementById('lobby-connection-badge');
+            if (badge) {
+                badge.innerHTML = '🟢 Connected & Syncing';
+                badge.style.color = '#4caf50';
+            }
+            
+            // Reveal the Resync Button for Clients
+            const resyncBtn = document.getElementById('btn-resync-map');
+            if (resyncBtn && !isLocalHost) resyncBtn.style.display = 'inline-block';
+        });
+
+        // Triggered when Host clicks "Kick"
+        electronRenderer.on('p2p-kicked', () => {
+            const statusContainer = document.getElementById('lobby-status-container');
+            const inviteBtn = document.getElementById('btn-invite-friends');
+            const hostBtn = document.getElementById('btn-host-lobby');
+            const resyncBtn = document.getElementById('btn-resync-map'); // Grab resync
+            const list = document.getElementById('lobby-members-list');
+            const badge = document.getElementById('lobby-connection-badge');
+
+            if (inviteBtn) inviteBtn.style.display = 'none';
+            if (resyncBtn) resyncBtn.style.display = 'none'; // Hide resync
+            if (hostBtn) {
+                hostBtn.style.display = 'inline-block';
+                hostBtn.innerText = "🌐 Host Lobby";
+            }
+            if (badge) {
+                badge.innerHTML = '🔴 Connection Terminated';
+                badge.style.color = '#f44336';
+            }
+            if (list) list.innerHTML = '';
+            
+            // WIPE ONLY TACTICAL SHAPES
+            window.isApplyingRemote = true;
+            if (typeof window.clearTacticalBoard === 'function') window.clearTacticalBoard();
+            window.isApplyingRemote = false;
+        });
+
+        // --- BIND THE RESYNC BUTTON ---
+        const btnResyncMap = document.getElementById('btn-resync-map');
+        if (btnResyncMap) {
+            btnResyncMap.addEventListener('click', () => {
+                // 1. Silently wipe the local board
+                window.isApplyingRemote = true;
+                if (typeof window.clearTacticalBoard === 'function') window.clearTacticalBoard();
+                window.isApplyingRemote = false;
+
+                // 2. Ask the backend to request a sync from the Host
+                electronRenderer.send('steam-request-resync');
+
+                // 3. Visual UI feedback
+                const origText = btnResyncMap.innerText;
+                btnResyncMap.innerText = "⏳ Syncing...";
+                setTimeout(() => btnResyncMap.innerText = origText, 2000);
+            });
+        }
+
+        // STATE CATCHUP: The host is asking us to dump our current map state to send to a new player
+        electronRenderer.on('p2p-request-catchup-sync', (event, newPeerId) => {
+            if (!window.map) return;
+            
+            console.log(`[Sync] Gathering map state to catch up new peer: ${newPeerId}`);
+            
+            // Loop through your drawn layers and send them as individual packets
+            window.map.eachLayer(layer => {
+                // If this is a Geoman shape or Marker that needs syncing:
+                if (layer.pm && layer.pm._shape) {
+                    const geoJson = layer.toGeoJSON();
+                    electronRenderer.send('p2p-send-catchup-sync', {
+                        targetId: newPeerId,
+                        stateData: { 
+                            action: 'draw-shape', 
+                            styleType: layer.options.styleType || 'default', 
+                            geoJson: geoJson 
+                        }
+                    });
+                } else if (layer instanceof L.Marker && layer.options.icon && layer.options.markerName) {
+                    // Example for contextual markers
+                    electronRenderer.send('p2p-send-catchup-sync', {
+                        targetId: newPeerId,
+                        stateData: { 
+                            action: 'draw-marker', 
+                            name: layer.options.markerName, 
+                            latlng: layer.getLatLng() 
+                        }
+                    });
+                }
+            });
+        });
+
+        // Populate Member List & Action Buttons
+        electronRenderer.on('steam-lobby-members', (event, members) => {
+            const statusContainer = document.getElementById('lobby-status-container');
+            const list = document.getElementById('lobby-members-list');
+            
+            if (statusContainer && list) {
+                statusContainer.style.display = 'block'; 
+                list.innerHTML = ''; 
+                
+                members.forEach(member => {
+                    const li = document.createElement('li');
+                    li.style.padding = '8px 10px';
+                    li.style.borderBottom = '1px solid #444';
+                    li.style.display = 'flex';
+                    li.style.justifyContent = 'space-between';
+                    li.style.alignItems = 'center';
+                    li.style.boxSizing = 'border-box';
+                    li.style.width = '100%';
+                    
+                    let label = `🎮 ${member.name}`;
+                    if (member.isHost) label += ' <span style="color: #d7b500; font-size: 12px; margin-left: 5px;">(Host)</span>';
+                    if (member.isPending && !member.isHost) label += ' <span style="color: #ffc107; font-size: 12px; margin-left: 5px;">(Waiting Room)</span>';
+                    
+                    const leftDiv = document.createElement('div');
+                    leftDiv.innerHTML = label;
+                    
+                    const rightDiv = document.createElement('div');
+                    rightDiv.style.display = 'flex';
+                    rightDiv.style.alignItems = 'center';
+                    rightDiv.style.gap = '10px'; // Tightened gap slightly
+                    
+                    const idSpan = document.createElement('span');
+                    idSpan.style.color = '#666';
+                    idSpan.style.fontSize = '11px';
+                    idSpan.innerText = member.id;
+                    rightDiv.appendChild(idSpan);
+
+                    // HOST CONTROLS (Approve / Kick)
+                    if (isLocalHost && !member.isHost) {
+                        
+                        if (member.isPending) {
+                            const approveBtn = document.createElement('button');
+                            approveBtn.innerText = 'Approve';
+                            approveBtn.style.background = '#28a745';
+                            approveBtn.style.color = 'white';
+                            approveBtn.style.border = '1px solid #1e7e34';
+                            approveBtn.style.padding = '3px 8px';
+                            approveBtn.style.borderRadius = '3px';
+                            approveBtn.style.cursor = 'pointer';
+                            approveBtn.style.fontSize = '11px';
+                            approveBtn.style.fontWeight = 'bold';
+                            
+                            approveBtn.onclick = () => {
+                                electronRenderer.send('steam-approve-user', member.id);
+                            };
+                            rightDiv.appendChild(approveBtn);
+                        }
+
+                        const kickBtn = document.createElement('button');
+                        kickBtn.innerText = 'Kick';
+                        kickBtn.style.background = '#dc3545';
+                        kickBtn.style.color = 'white';
+                        kickBtn.style.border = '1px solid #a71d2a';
+                        kickBtn.style.padding = '3px 8px';
+                        kickBtn.style.borderRadius = '3px';
+                        kickBtn.style.cursor = 'pointer';
+                        kickBtn.style.fontSize = '11px';
+                        kickBtn.style.fontWeight = 'bold';
+                        
+                        kickBtn.onclick = () => {
+                            electronRenderer.send('steam-kick-user', member.id);
+                        };
+                        rightDiv.appendChild(kickBtn);
+                    }
+
+                    li.appendChild(leftDiv);
+                    li.appendChild(rightDiv);
+                    list.appendChild(li);
+                });
+            }
+        });
+
+        const btnHostLobby = document.getElementById('btn-host-lobby');
+        if (btnHostLobby) {
+            btnHostLobby.addEventListener('click', async () => {
+                btnHostLobby.innerText = "⏳ Creating...";
+                const result = await electronRenderer.invoke('steam-host-lobby');
+                if (result.success) {
+                    isLocalHost = true; 
+                    electronRenderer.emit('steam-lobby-joined', null, result.lobbyId);
+                } else {
+                    btnHostLobby.innerText = "❌ Failed";
+                    setTimeout(() => btnHostLobby.innerText = "🌐 Host Lobby", 2000);
+                }
+            });
+        }
+
+        const btnInviteFriends = document.getElementById('btn-invite-friends');
+        if (btnInviteFriends) {
+            btnInviteFriends.addEventListener('click', () => {
+                electronRenderer.send('steam-invite-friends');
+            });
+        }
+
+        window.openCoffeeLink = function(event) {
+        // Prevent the default link behavior
+        event.preventDefault(); 
+        
+        // Use Electron's shell to open the user's default desktop web browser
+        const { shell } = require('electron');
+        
+        shell.openExternal('https://ko-fi.com/nado0'); 
+    };
+    </script>
+</body>
+</html>

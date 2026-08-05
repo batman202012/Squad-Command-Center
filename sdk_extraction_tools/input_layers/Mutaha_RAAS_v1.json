@@ -1,0 +1,654 @@
+{
+    "map_id": "mutaha",
+    "layer_name": "Mutaha_RAAS_v1",
+    "total_flags": 59,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -46984.38,
+            "y": -105397.19,
+            "z": -575.44,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 1,
+            "x": -16985.38,
+            "y": -60389.58,
+            "z": 3215.83,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A1-North Orchard"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 1,
+            "x": -3105.38,
+            "y": -45149.58,
+            "z": 3215.83,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B1-North Market"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 1,
+            "x": -32265.38,
+            "y": -38729.58,
+            "z": 3215.83,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C1-Zatar Compound"
+            ]
+        },
+        {
+            "name": "Zatar Compound",
+            "lane": "C",
+            "order": 1,
+            "x": -30213.81,
+            "y": -22430.68,
+            "z": -100.18,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "North Market",
+            "lane": "B",
+            "order": 1,
+            "x": -15021.95,
+            "y": -36723.64,
+            "z": 251.44,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "North Orchard",
+            "lane": "A",
+            "order": 1,
+            "x": -17741.95,
+            "y": -51403.64,
+            "z": 251.44,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 2,
+            "x": 26954.62,
+            "y": -49419.58,
+            "z": 3215.83,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A2-Hydro Station"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 2,
+            "x": -7585.38,
+            "y": -16339.58,
+            "z": 3215.83,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B2-West Suburb"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 2,
+            "x": -29285.38,
+            "y": -3939.58,
+            "z": 3215.83,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C2-Baraka Road North",
+                "C2-Baraka Market",
+                "C2-Baraka Road Blockade",
+                "C2-Baraka Suburbs"
+            ]
+        },
+        {
+            "name": "Baraka Road Blockade",
+            "lane": "C",
+            "order": 2,
+            "x": -26204.48,
+            "y": 4532.6,
+            "z": -89.12,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hydro Station",
+            "lane": "A",
+            "order": 2,
+            "x": 32690.55,
+            "y": -47858.84,
+            "z": 130.79,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "West Suburb",
+            "lane": "B",
+            "order": 2,
+            "x": -2518.98,
+            "y": -14293.09,
+            "z": 208.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Baraka Suburbs",
+            "lane": "C",
+            "order": 2,
+            "x": -8547.73,
+            "y": 9939.84,
+            "z": 220.78,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Baraka Market",
+            "lane": "C",
+            "order": 2,
+            "x": -35384.48,
+            "y": 8582.6,
+            "z": -89.12,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Baraka Road North",
+            "lane": "C",
+            "order": 2,
+            "x": -18274.48,
+            "y": -707.4,
+            "z": -89.12,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 3,
+            "x": 51874.62,
+            "y": -36779.58,
+            "z": 3215.83,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A3-Shamal Compound",
+                "A3-HVT Compound"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 3,
+            "x": 10884.62,
+            "y": -2289.58,
+            "z": 3215.83,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B3-Baraka Suburbs",
+                "B3-HVT Compound"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 3,
+            "x": -20255.38,
+            "y": 26160.42,
+            "z": 3215.83,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C3-Crash Site"
+            ]
+        },
+        {
+            "name": "Crash Site",
+            "lane": "C",
+            "order": 3,
+            "x": -28078.22,
+            "y": 24568.28,
+            "z": -100.17,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Baraka Suburbs",
+            "lane": "B",
+            "order": 3,
+            "x": -8547.73,
+            "y": 9939.84,
+            "z": 220.78,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Shamal Compound",
+            "lane": "A",
+            "order": 3,
+            "x": 71905.91,
+            "y": -50793.8,
+            "z": -525.46,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "HVT Compound",
+            "lane": "A",
+            "order": 3,
+            "x": 32793.55,
+            "y": -16804.84,
+            "z": -4.21,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "HVT Compound",
+            "lane": "B",
+            "order": 3,
+            "x": 32793.55,
+            "y": -16804.84,
+            "z": -4.21,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 4,
+            "x": 91754.62,
+            "y": -32929.58,
+            "z": 3215.83,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A4-Communication Outpost"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 4,
+            "x": 32764.62,
+            "y": 19780.42,
+            "z": 3215.83,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B4-Police Station",
+                "B4-Intersection",
+                "B4-Ammo Warehouse"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 4,
+            "x": -2245.38,
+            "y": 53610.42,
+            "z": 3215.83,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C4-Drying House",
+                "C4-Four Points",
+                "C4-Overgrown Village"
+            ]
+        },
+        {
+            "name": "Intersection",
+            "lane": "B",
+            "order": 4,
+            "x": 33263.97,
+            "y": 23000.6,
+            "z": -55.29,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ammo Warehouse",
+            "lane": "B",
+            "order": 4,
+            "x": 41230.86,
+            "y": 14600.83,
+            "z": 99.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Police Station",
+            "lane": "B",
+            "order": 4,
+            "x": 27073.84,
+            "y": 37170.62,
+            "z": -63.46,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Communication Outpost",
+            "lane": "A",
+            "order": 4,
+            "x": 92041.27,
+            "y": -29854.79,
+            "z": 601.01,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Drying House",
+            "lane": "C",
+            "order": 4,
+            "x": 17585.91,
+            "y": 54642.2,
+            "z": -488.46,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Overgrown Village",
+            "lane": "C",
+            "order": 4,
+            "x": -5830.09,
+            "y": 65308.2,
+            "z": -319.46,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Four Points",
+            "lane": "C",
+            "order": 4,
+            "x": -19132.09,
+            "y": 56460.2,
+            "z": -374.46,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 5,
+            "x": 87114.62,
+            "y": 100.42,
+            "z": 3215.83,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A5-East Mosque",
+                "A5-NE Outskirts"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 5,
+            "x": 55384.62,
+            "y": 44540.42,
+            "z": 3215.83,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B5-Highway Farm",
+                "B5-School"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 5,
+            "x": 47304.62,
+            "y": 65210.42,
+            "z": 3215.83,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C5-Highway Farm",
+                "C5-Highway South Bridges"
+            ]
+        },
+        {
+            "name": "School",
+            "lane": "B",
+            "order": 5,
+            "x": 79635.46,
+            "y": 38239.54,
+            "z": 542.54,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "East Mosque",
+            "lane": "A",
+            "order": 5,
+            "x": 79591.97,
+            "y": 5759.49,
+            "z": 268.71,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Highway Farm",
+            "lane": "B",
+            "order": 5,
+            "x": 41271.97,
+            "y": 64827.49,
+            "z": 268.71,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Highway South Bridges",
+            "lane": "C",
+            "order": 5,
+            "x": 45611.97,
+            "y": 80257.49,
+            "z": 268.71,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "NE Outskirts",
+            "lane": "A",
+            "order": 5,
+            "x": 88211.97,
+            "y": -6820.51,
+            "z": 268.71,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Highway Farm",
+            "lane": "C",
+            "order": 5,
+            "x": 41271.97,
+            "y": 64827.49,
+            "z": 268.71,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 6,
+            "x": 98214.62,
+            "y": 27660.42,
+            "z": 3215.83,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A6-East Suburb",
+                "A6-Chop Shop",
+                "A6-Slums"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 6,
+            "x": 68644.62,
+            "y": 69540.42,
+            "z": 3215.83,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B6-Orchard"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 6,
+            "x": 62024.62,
+            "y": 88030.42,
+            "z": 3215.83,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C6-South Village",
+                "C6-Orchard"
+            ]
+        },
+        {
+            "name": "Chop Shop",
+            "lane": "A",
+            "order": 6,
+            "x": 101641.02,
+            "y": 49576.91,
+            "z": 208.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "South Village",
+            "lane": "C",
+            "order": 6,
+            "x": 45187.97,
+            "y": 104510.5,
+            "z": -229.29,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Orchard",
+            "lane": "B",
+            "order": 6,
+            "x": 68533.97,
+            "y": 71897.49,
+            "z": -374.29,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "East Suburb",
+            "lane": "A",
+            "order": 6,
+            "x": 101671.02,
+            "y": 32446.91,
+            "z": 208.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Slums",
+            "lane": "A",
+            "order": 6,
+            "x": 125911.02,
+            "y": 26966.91,
+            "z": 208.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Orchard",
+            "lane": "C",
+            "order": 6,
+            "x": 68533.97,
+            "y": 71897.49,
+            "z": -374.29,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 7,
+            "x": 127994.62,
+            "y": 67910.42,
+            "z": 3215.83,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A7-Vineyard"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 7,
+            "x": 95044.62,
+            "y": 90580.42,
+            "z": 3215.83,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B7-South Farm"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 7,
+            "x": 96414.62,
+            "y": 92000.42,
+            "z": 3215.83,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C7-South Farm"
+            ]
+        },
+        {
+            "name": "South Farm",
+            "lane": "B",
+            "order": 7,
+            "x": 94654.01,
+            "y": 93227.77,
+            "z": -558.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Vineyard",
+            "lane": "A",
+            "order": 7,
+            "x": 134172.66,
+            "y": 72695.23,
+            "z": 31.53,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "South Farm",
+            "lane": "C",
+            "order": 7,
+            "x": 94654.01,
+            "y": 93227.77,
+            "z": -558.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 156168.41,
+            "y": 158452.3,
+            "z": -1061.9,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

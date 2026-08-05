@@ -1,0 +1,203 @@
+{
+    "map_id": "skorpo",
+    "layer_name": "Skorpo_Invasion_v3",
+    "total_flags": 14,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 129550.78,
+            "y": -147628.62,
+            "z": -28248.56
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -3982.58,
+            "y": 146438.39,
+            "z": -9487.17
+        },
+        {
+            "name": "Korsneset",
+            "x": 168521.01,
+            "y": -122974.52,
+            "z": -26238.81,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Halsatoppen",
+            "x": 143194.34,
+            "y": -58608.4,
+            "z": -18241.4,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Halsane",
+            "x": 124599.76,
+            "y": -40470.63,
+            "z": -25176.51,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "EB Petrol",
+            "x": 97088.22,
+            "y": -31301.6,
+            "z": -27346.49,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Neset",
+            "x": 77303.82,
+            "y": -47049.31,
+            "z": -27955.73,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Marina",
+            "x": 46736.76,
+            "y": -4701.14,
+            "z": -29137.84,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Helgheim",
+            "x": 69274.74,
+            "y": 472.26,
+            "z": -28944.54,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Captain's Farm",
+            "x": 66273.17,
+            "y": 24053.77,
+            "z": -28658.65,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Radio Hill",
+            "x": 92486.75,
+            "y": 721.49,
+            "z": -25441.82,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Borneset Shipyard East",
+            "x": -51182.83,
+            "y": -9499.25,
+            "z": -31154.6,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Borneset Shipyard West",
+            "x": -72481.07,
+            "y": -20574.59,
+            "z": -31154.6,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Eik",
+            "x": -2940.12,
+            "y": 28043.25,
+            "z": -24902.5,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        }
+    ]
+}

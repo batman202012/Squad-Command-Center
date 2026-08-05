@@ -1,0 +1,128 @@
+{
+    "map_id": "mestia_green",
+    "layer_name": "Mestia_AAS_v1",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 102487.45,
+            "y": 55444.87,
+            "z": -4853.76
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -97655.59,
+            "y": -4029.72,
+            "z": 3279.9
+        },
+        {
+            "name": "Farmstead",
+            "x": 59351.0,
+            "y": 27493.0,
+            "z": -6763.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Crucible Gamma",
+            "x": 28828.79,
+            "y": 69.49,
+            "z": -1910.92,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Quarry",
+            "x": 39594.51,
+            "y": -39976.54,
+            "z": -8768.02,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Crucible",
+            "x": 8938.24,
+            "y": 6970.16,
+            "z": -2438.97,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Warehouse",
+            "x": -37759.18,
+            "y": 64957.84,
+            "z": -9438.27,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Fortification",
+            "x": -34207.39,
+            "y": -7668.59,
+            "z": -5539.64,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "Armory",
+            "x": -60424.0,
+            "y": 21742.0,
+            "z": -7715.0,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "7Any"
+            ]
+        }
+    ]
+}

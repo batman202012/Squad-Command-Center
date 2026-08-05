@@ -1,0 +1,107 @@
+{
+    "map_id": "logar_valley",
+    "layer_name": "Logar_AAS_v1",
+    "total_flags": 10,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -73463.57,
+            "y": -15392.59,
+            "z": 4923.09,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Bend",
+            "lane": "Any",
+            "order": 1,
+            "x": -58130.0,
+            "y": 5604.0,
+            "z": 5847.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Akhtar's Compound",
+            "lane": "Any",
+            "order": 2,
+            "x": -42979.0,
+            "y": 19756.0,
+            "z": 3923.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Lower DC",
+            "lane": "Any",
+            "order": 3,
+            "x": -19770.0,
+            "y": -2032.0,
+            "z": 3506.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Central DC 2",
+            "lane": "Any",
+            "order": 4,
+            "x": -10935.0,
+            "y": -12419.0,
+            "z": 3327.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Central DC 1",
+            "lane": "Any",
+            "order": 5,
+            "x": -8027.0,
+            "y": -22902.0,
+            "z": 3421.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Upper DC",
+            "lane": "Any",
+            "order": 6,
+            "x": -2505.0,
+            "y": -31976.0,
+            "z": 3735.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Residence",
+            "lane": "Any",
+            "order": 7,
+            "x": 34621.0,
+            "y": -44095.0,
+            "z": 4751.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Farm",
+            "lane": "Any",
+            "order": 8,
+            "x": 55574.0,
+            "y": -42432.0,
+            "z": 4853.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 68739.42,
+            "y": -43115.65,
+            "z": 4551.27,
+            "is_sky_node": true,
+            "linked_flags": []
+        }
+    ]
+}

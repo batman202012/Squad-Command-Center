@@ -1,0 +1,237 @@
+{
+    "map_id": "maps",
+    "layer_name": "BlackCoast_Invasion_v2",
+    "total_flags": 23,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -121642.91,
+            "y": -167572.44,
+            "z": 2524.32,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 1,
+            "x": -72259.16,
+            "y": -123350.88,
+            "z": 437.56,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Pig Farm",
+            "lane": "Any",
+            "order": 1,
+            "x": -72259.16,
+            "y": -123350.88,
+            "z": 437.56,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 2,
+            "x": -65954.45,
+            "y": -57094.0,
+            "z": 90.11,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Kalinovka",
+            "lane": "Any",
+            "order": 2,
+            "x": -39989.25,
+            "y": -64016.75,
+            "z": 946.23,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Fortified Farm",
+            "lane": "Any",
+            "order": 2,
+            "x": -91919.66,
+            "y": -50171.27,
+            "z": -766.01,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 3,
+            "x": -62883.95,
+            "y": 738.95,
+            "z": -196.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Sablya",
+            "lane": "Any",
+            "order": 3,
+            "x": -51969.56,
+            "y": -366.8,
+            "z": 946.23,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Old Train Yard",
+            "lane": "Any",
+            "order": 3,
+            "x": -108422.09,
+            "y": -6379.16,
+            "z": -767.7,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 4,
+            "x": -39689.16,
+            "y": 77989.25,
+            "z": 1193.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Sablya Outskirts",
+            "lane": "Any",
+            "order": 4,
+            "x": -54415.91,
+            "y": 45554.32,
+            "z": -767.7,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Torpedo Factory",
+            "lane": "Any",
+            "order": 4,
+            "x": -34531.84,
+            "y": 49829.49,
+            "z": 1928.25,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 5,
+            "x": 28654.78,
+            "y": 71844.73,
+            "z": 1928.25,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Chernikov Shoreline",
+            "lane": "Any",
+            "order": 5,
+            "x": 16009.31,
+            "y": 83906.78,
+            "z": 1928.25,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Chernikov Central",
+            "lane": "Any",
+            "order": 5,
+            "x": 25400.01,
+            "y": 67288.7,
+            "z": 1928.25,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Old Fort",
+            "lane": "Any",
+            "order": 5,
+            "x": -25958.71,
+            "y": 131609.16,
+            "z": 2307.59,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 179423.02,
+            "y": 175432.47,
+            "z": 989.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead",
+            "lane": "Any",
+            "order": -1,
+            "x": 11920.24,
+            "y": -40469.14,
+            "z": 891.66,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead2",
+            "lane": "Any",
+            "order": -1,
+            "x": 11920.24,
+            "y": -40469.14,
+            "z": 1627.19,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead3",
+            "lane": "Any",
+            "order": -1,
+            "x": 64957.38,
+            "y": -23632.21,
+            "z": 5073.71,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead4",
+            "lane": "Any",
+            "order": -1,
+            "x": 64957.38,
+            "y": -23632.2,
+            "z": 5808.99,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead5",
+            "lane": "Any",
+            "order": -1,
+            "x": -2058.19,
+            "y": 83500.22,
+            "z": 887.74,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead6",
+            "lane": "Any",
+            "order": -1,
+            "x": -2058.19,
+            "y": 83500.22,
+            "z": 1176.52,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

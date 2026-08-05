@@ -1,0 +1,17 @@
+{
+    "id": "yehorivka",
+    "name": "Yehorivka",
+    "metadata": {
+        "mapExtent": [0.0, -8192.0, 8192.0, 0.0],
+        "physicalSizeMeters": 6349,
+        "physicalSizeMetersX": 6352, 
+        "physicalSizeMetersY": 6349,
+        "ueOffsetX": 127,
+        "ueOffsetY": 128,
+        "maxZoom": 5,
+        "minZoom": 0,
+        "tileUrl": "./assets/maps/Yehorivka/yehorivka_tiles/{z}/{x}/{y}.png",
+        "heightmapUrl": "./assets/maps/Yehorivka/yehorivka_height_map.webp",
+        "heightmapSize": 4096
+    }
+}

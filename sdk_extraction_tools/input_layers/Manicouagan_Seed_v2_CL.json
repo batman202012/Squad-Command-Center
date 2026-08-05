@@ -1,0 +1,107 @@
+{
+    "map_id": "manicouagan",
+    "layer_name": "Manicouagan_Seed_v2_CL",
+    "total_flags": 10,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 145762.61,
+            "y": -101902.8,
+            "z": 12165.08,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Dieppe Bridge",
+            "lane": "Any",
+            "order": 1,
+            "x": 85195.39,
+            "y": -69170.02,
+            "z": 12834.59,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Dieppe East",
+            "lane": "Any",
+            "order": 2,
+            "x": 71005.6,
+            "y": -80693.18,
+            "z": 13287.06,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Dieppe Central",
+            "lane": "Any",
+            "order": 3,
+            "x": 58001.22,
+            "y": -69045.28,
+            "z": 14481.43,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Dieppe West",
+            "lane": "Any",
+            "order": 4,
+            "x": 56017.43,
+            "y": -83989.44,
+            "z": 13336.25,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Dam Gatehouse",
+            "lane": "Any",
+            "order": 5,
+            "x": 42974.77,
+            "y": -91326.63,
+            "z": 11912.82,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -9786.56,
+            "y": -70090.3,
+            "z": 5644.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": -170099.52,
+            "y": -73194.71,
+            "z": 12147.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh",
+            "lane": "Any",
+            "order": -1,
+            "x": -33322.11,
+            "y": -35379.22,
+            "z": 5300.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh2",
+            "lane": "Any",
+            "order": -1,
+            "x": -34046.83,
+            "y": -32674.62,
+            "z": 5300.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        }
+    ]
+}

@@ -1,0 +1,137 @@
+{
+    "map_id": "maps",
+    "layer_name": "BlackCoast_AAS_v1",
+    "total_flags": 13,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 42958.6,
+            "y": 95530.84,
+            "z": 1071.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Torpedo Factory",
+            "lane": "Any",
+            "order": 1,
+            "x": -34492.56,
+            "y": 49664.27,
+            "z": 392.97,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Train Station",
+            "lane": "Any",
+            "order": 2,
+            "x": -28850.23,
+            "y": 8808.45,
+            "z": 1513.97,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Sub Pen",
+            "lane": "Any",
+            "order": 3,
+            "x": 19321.11,
+            "y": -5509.43,
+            "z": -823.76,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Kalinovka",
+            "lane": "Any",
+            "order": 4,
+            "x": -40679.68,
+            "y": -61918.43,
+            "z": 1513.97,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Derevnya",
+            "lane": "Any",
+            "order": 5,
+            "x": 13119.69,
+            "y": -96265.27,
+            "z": 1513.97,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 100478.31,
+            "y": -122290.08,
+            "z": 3861.48,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead",
+            "lane": "Any",
+            "order": -1,
+            "x": 11920.24,
+            "y": -40469.14,
+            "z": 891.66,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead2",
+            "lane": "Any",
+            "order": -1,
+            "x": 11920.24,
+            "y": -40469.14,
+            "z": 1627.19,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead3",
+            "lane": "Any",
+            "order": -1,
+            "x": 64957.38,
+            "y": -23632.21,
+            "z": 5073.71,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead4",
+            "lane": "Any",
+            "order": -1,
+            "x": 64957.38,
+            "y": -23632.2,
+            "z": 5808.99,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead5",
+            "lane": "Any",
+            "order": -1,
+            "x": -2058.19,
+            "y": 83500.22,
+            "z": 887.74,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead6",
+            "lane": "Any",
+            "order": -1,
+            "x": -2058.19,
+            "y": 83500.22,
+            "z": 1176.52,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

@@ -1,0 +1,587 @@
+{
+    "map_id": "belaya_pass",
+    "layer_name": "Belaya_RAAS_v1",
+    "total_flags": 58,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -137184.79,
+            "y": 115432.24,
+            "z": -29493.73,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 1,
+            "x": -106217.3,
+            "y": 84040.09,
+            "z": -21740.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 1,
+            "x": -94480.3,
+            "y": 93776.09,
+            "z": -21740.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 1,
+            "x": -12490.3,
+            "y": 129793.09,
+            "z": -21740.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Kolbasa",
+            "lane": "A",
+            "order": 1,
+            "x": -105381.66,
+            "y": 82504.58,
+            "z": -30255.27,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Kagat",
+            "lane": "B",
+            "order": 1,
+            "x": -84905.17,
+            "y": 105592.95,
+            "z": -30316.73,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Aniva",
+            "lane": "C",
+            "order": 1,
+            "x": -14520.72,
+            "y": 134609.83,
+            "z": -29969.44,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Kolbasa",
+            "lane": "B",
+            "order": 1,
+            "x": -105381.66,
+            "y": 82504.58,
+            "z": -30255.27,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 2,
+            "x": -79448.3,
+            "y": 28823.09,
+            "z": -21740.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 2,
+            "x": -71914.3,
+            "y": 79614.09,
+            "z": -21740.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 2,
+            "x": 18130.7,
+            "y": 92274.09,
+            "z": -21740.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Depot",
+            "lane": "A",
+            "order": 2,
+            "x": -82730.58,
+            "y": 35897.08,
+            "z": -30188.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Babenki",
+            "lane": "C",
+            "order": 2,
+            "x": 41607.81,
+            "y": 108294.08,
+            "z": -30353.82,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Musy",
+            "lane": "B",
+            "order": 2,
+            "x": -58833.94,
+            "y": 101149.55,
+            "z": -29898.15,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Kulushevo",
+            "lane": "C",
+            "order": 2,
+            "x": -6155.34,
+            "y": 83167.16,
+            "z": -30029.73,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Depot",
+            "lane": "B",
+            "order": 2,
+            "x": -82730.58,
+            "y": 35897.08,
+            "z": -30188.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 3,
+            "x": -110547.3,
+            "y": -18795.91,
+            "z": -21740.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 3,
+            "x": -35757.3,
+            "y": 52626.09,
+            "z": -21740.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 3,
+            "x": 25235.7,
+            "y": 48436.09,
+            "z": -21740.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Outpost",
+            "lane": "B",
+            "order": 3,
+            "x": -16581.25,
+            "y": 63392.84,
+            "z": -28584.37,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Industrial Yard",
+            "lane": "A",
+            "order": 3,
+            "x": -110389.61,
+            "y": -18415.58,
+            "z": -30663.7,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Krasny Kut",
+            "lane": "B",
+            "order": 3,
+            "x": -41385.02,
+            "y": 70802.55,
+            "z": -29702.22,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Radio Station",
+            "lane": "B",
+            "order": 3,
+            "x": -53229.75,
+            "y": 40786.43,
+            "z": -28426.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Homestead",
+            "lane": "C",
+            "order": 3,
+            "x": 23405.65,
+            "y": 51761.77,
+            "z": -30169.34,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 4,
+            "x": -47905.3,
+            "y": -77691.91,
+            "z": -21740.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 4,
+            "x": -22532.3,
+            "y": -852.91,
+            "z": -21740.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 4,
+            "x": 33648.7,
+            "y": 1561.09,
+            "z": -21740.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Train Tunnel",
+            "lane": "A",
+            "order": 4,
+            "x": -49753.54,
+            "y": -69809.8,
+            "z": -28225.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Karakul",
+            "lane": "C",
+            "order": 4,
+            "x": 30983.05,
+            "y": 2930.04,
+            "z": -29998.48,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Nikola East",
+            "lane": "B",
+            "order": 4,
+            "x": -18389.75,
+            "y": 5378.43,
+            "z": -30096.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Nikola Central",
+            "lane": "B",
+            "order": 4,
+            "x": -24660.75,
+            "y": -211.57,
+            "z": -30359.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Nikola West",
+            "lane": "B",
+            "order": 4,
+            "x": -33066.75,
+            "y": -6592.57,
+            "z": -30417.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Nikola Outskirts",
+            "lane": "B",
+            "order": 4,
+            "x": -37957.75,
+            "y": -13778.57,
+            "z": -29859.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Nikola East Intersection",
+            "lane": "B",
+            "order": 4,
+            "x": -1738.75,
+            "y": 10527.43,
+            "z": -29656.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 5,
+            "x": -30133.3,
+            "y": -142053.91,
+            "z": -21740.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 5,
+            "x": 6701.7,
+            "y": -25425.91,
+            "z": -21740.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 5,
+            "x": 35983.7,
+            "y": -27566.91,
+            "z": -21740.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Tire Factory",
+            "lane": "A",
+            "order": 5,
+            "x": -31634.88,
+            "y": -137122.19,
+            "z": -30261.01,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hill 84",
+            "lane": "B",
+            "order": 5,
+            "x": -20993.5,
+            "y": -46852.44,
+            "z": -27227.13,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Nikola Hills",
+            "lane": "B",
+            "order": 5,
+            "x": -11680.95,
+            "y": -25822.96,
+            "z": -28599.48,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Gabukay",
+            "lane": "C",
+            "order": 5,
+            "x": 27621.31,
+            "y": -32232.03,
+            "z": -30624.94,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 6,
+            "x": -5476.3,
+            "y": -157064.91,
+            "z": -21740.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 6,
+            "x": 35250.7,
+            "y": -35499.91,
+            "z": -21740.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 6,
+            "x": 86747.7,
+            "y": -34141.91,
+            "z": -21740.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Coal Mine",
+            "lane": "C",
+            "order": 6,
+            "x": 85646.84,
+            "y": -32858.85,
+            "z": -29963.46,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Gabukay",
+            "lane": "B",
+            "order": 6,
+            "x": 27621.31,
+            "y": -32232.03,
+            "z": -30624.94,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Velino Outskirts",
+            "lane": "A",
+            "order": 6,
+            "x": -18137.28,
+            "y": -169825.72,
+            "z": -30466.3,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Velino Gas Station",
+            "lane": "A",
+            "order": 6,
+            "x": 7230.72,
+            "y": -148054.72,
+            "z": -30466.3,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Velino South",
+            "lane": "A",
+            "order": 6,
+            "x": 2864.72,
+            "y": -127015.72,
+            "z": -30663.3,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 7,
+            "x": 30630.7,
+            "y": -169444.91,
+            "z": -21740.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 7,
+            "x": 48576.7,
+            "y": -98703.91,
+            "z": -21740.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 7,
+            "x": 88670.7,
+            "y": -104653.91,
+            "z": -21740.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lumber Yard",
+            "lane": "B",
+            "order": 7,
+            "x": 83561.95,
+            "y": -100107.95,
+            "z": -30056.55,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Velino Central",
+            "lane": "A",
+            "order": 7,
+            "x": 26084.72,
+            "y": -166115.72,
+            "z": -30775.3,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Velino North",
+            "lane": "A",
+            "order": 7,
+            "x": 10430.72,
+            "y": -185870.72,
+            "z": -30775.3,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Swamp",
+            "lane": "B",
+            "order": 7,
+            "x": 29507.95,
+            "y": -110916.95,
+            "z": -29600.55,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lumber Yard",
+            "lane": "C",
+            "order": 7,
+            "x": 83561.95,
+            "y": -100107.95,
+            "z": -30056.55,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 93194.86,
+            "y": -152423.16,
+            "z": -30179.09,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

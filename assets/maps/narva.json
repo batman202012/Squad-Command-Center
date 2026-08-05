@@ -1,0 +1,22 @@
+{
+    "id": "narva",
+    "name": "Narva",
+    "metadata": {
+        "mapExtent": [
+            0,
+            -8192,
+            8192,
+            0
+        ],
+        "physicalSizeMeters": 2800,
+        "physicalSizeMetersX": 2800,
+        "physicalSizeMetersY": 2800,
+        "ueOffsetX": -10,
+        "ueOffsetY": 2,
+        "maxZoom": 5,
+        "minZoom": 1,
+        "tileUrl": "./assets/maps/Narva/narva_tiles/{z}/{x}/{y}.png",
+        "heightmapUrl": "./assets/maps/Narva/narva_height_map.webp",
+        "heightmapSize": 4096
+    }
+}

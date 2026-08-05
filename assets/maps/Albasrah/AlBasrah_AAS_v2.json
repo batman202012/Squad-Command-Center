@@ -1,0 +1,87 @@
+{
+    "map_id": "maps",
+    "layer_name": "AlBasrah_AAS_v2",
+    "total_flags": 10,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 25090.23,
+            "y": -177832.05,
+            "z": 433.86
+        },
+        {
+            "name": "Cloverleaf",
+            "lane": "Any",
+            "order": 1,
+            "x": 31268.39,
+            "y": -138808.93,
+            "z": 634.37
+        },
+        {
+            "name": "Riverside Farms",
+            "lane": "Any",
+            "order": 2,
+            "x": 44933.95,
+            "y": -78422.4,
+            "z": 691.23
+        },
+        {
+            "name": "Highway 6 Bridge",
+            "lane": "Any",
+            "order": 3,
+            "x": 41585.13,
+            "y": -38701.37,
+            "z": 720.71
+        },
+        {
+            "name": "VCP",
+            "lane": "Any",
+            "order": 4,
+            "x": -2267.45,
+            "y": -10681.14,
+            "z": 807.36
+        },
+        {
+            "name": "Refinery",
+            "lane": "Any",
+            "order": 5,
+            "x": 48706.27,
+            "y": 12208.21,
+            "z": 2425.16
+        },
+        {
+            "name": "Alleys",
+            "lane": "Any",
+            "order": 6,
+            "x": 19946.17,
+            "y": 35304.48,
+            "z": 356.55
+        },
+        {
+            "name": "Hotel International",
+            "lane": "Any",
+            "order": 7,
+            "x": 63018.87,
+            "y": 64176.86,
+            "z": 394.84
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 66197.11,
+            "y": 90057.35,
+            "z": 420.32
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": 62901.11,
+            "y": 65489.51,
+            "z": 487.93
+        }
+    ]
+}

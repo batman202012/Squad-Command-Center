@@ -1,0 +1,1025 @@
+{
+    "map_id": "fallujah_city",
+    "layer_name": "Fallujah_RAAS_v1",
+    "total_flags": 93,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 22936.41,
+            "y": -127262.31,
+            "z": -4014.54,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 1,
+            "x": 32657.19,
+            "y": -72723.25,
+            "z": 11406.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A1-Cement Plant"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 1,
+            "x": 32657.19,
+            "y": -72723.25,
+            "z": 11406.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B1-Cement Plant"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 1,
+            "x": -38802.81,
+            "y": -89703.25,
+            "z": 11406.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C1-Train Station"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 1,
+            "x": -38802.81,
+            "y": -89703.25,
+            "z": 11406.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D1-Train Station"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 1,
+            "x": -38802.81,
+            "y": -89703.25,
+            "z": 11406.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E1-Train Station"
+            ]
+        },
+        {
+            "name": "Cement Plant",
+            "lane": "A",
+            "order": 1,
+            "x": 29257.95,
+            "y": -73183.99,
+            "z": -4424.3,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Cement Plant",
+            "lane": "B",
+            "order": 1,
+            "x": 29257.95,
+            "y": -73183.99,
+            "z": -4424.3,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Train Station",
+            "lane": "C",
+            "order": 1,
+            "x": -36983.96,
+            "y": -90542.81,
+            "z": -3947.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Train Station",
+            "lane": "D",
+            "order": 1,
+            "x": -36983.96,
+            "y": -90542.81,
+            "z": -3947.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Train Station",
+            "lane": "E",
+            "order": 1,
+            "x": -36983.96,
+            "y": -90542.81,
+            "z": -3947.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 2,
+            "x": 76029.67,
+            "y": -71977.53,
+            "z": 5130.66,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A2-Askari Slums"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 2,
+            "x": 37707.19,
+            "y": -52553.25,
+            "z": 11406.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B2-West T",
+                "B2-East T",
+                "B2-Sheik's Compound"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 2,
+            "x": -28052.81,
+            "y": -66643.25,
+            "z": 11406.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C2-Refugee Camp East",
+                "C2-Refugee Camp West"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 2,
+            "x": -46982.81,
+            "y": -61133.25,
+            "z": 11406.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D2-Refugee Camp West",
+                "D2-Crash Site"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 2,
+            "x": -78522.81,
+            "y": -58663.25,
+            "z": 11406.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E2-Crash Site",
+                "E2-Checkpoint"
+            ]
+        },
+        {
+            "name": "Askari Slums",
+            "lane": "A",
+            "order": 2,
+            "x": 76144.66,
+            "y": -63947.2,
+            "z": -4090.2,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Refugee Camp West",
+            "lane": "C",
+            "order": 2,
+            "x": -29091.17,
+            "y": -70758.62,
+            "z": -3947.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "West T",
+            "lane": "B",
+            "order": 2,
+            "x": 29564.41,
+            "y": -48484.7,
+            "z": -4424.3,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "East T",
+            "lane": "B",
+            "order": 2,
+            "x": 37255.47,
+            "y": -49424.21,
+            "z": -4424.3,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Sheik's Compound",
+            "lane": "B",
+            "order": 2,
+            "x": 44814.34,
+            "y": -50103.92,
+            "z": -4424.3,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Refugee Camp East",
+            "lane": "C",
+            "order": 2,
+            "x": -17190.71,
+            "y": -65396.02,
+            "z": -3947.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Crash Site",
+            "lane": "D",
+            "order": 2,
+            "x": -60006.25,
+            "y": -50503.92,
+            "z": -4317.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Refugee Camp West",
+            "lane": "D",
+            "order": 2,
+            "x": -29091.17,
+            "y": -70758.62,
+            "z": -3947.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Crash Site",
+            "lane": "E",
+            "order": 2,
+            "x": -60006.25,
+            "y": -50503.92,
+            "z": -4317.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Checkpoint",
+            "lane": "E",
+            "order": 2,
+            "x": -94721.57,
+            "y": -56311.35,
+            "z": -4137.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 3,
+            "x": 76019.67,
+            "y": -41093.53,
+            "z": 5130.66,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A3-Askari Hill",
+                "A3-Cloverleaf"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 3,
+            "x": 34577.19,
+            "y": -29343.25,
+            "z": 11406.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B3-Blue Mosque"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 3,
+            "x": -13682.81,
+            "y": -41393.25,
+            "z": 11406.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C3-Police Station",
+                "C3-Muallimin"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 3,
+            "x": -36592.81,
+            "y": -28403.25,
+            "z": 11406.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D3-Police Station",
+                "D3-Bus Terminal"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 3,
+            "x": -66712.81,
+            "y": -18553.25,
+            "z": 11406.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E3-Old Town"
+            ]
+        },
+        {
+            "name": "Blue Mosque",
+            "lane": "B",
+            "order": 3,
+            "x": 36423.18,
+            "y": -29712.11,
+            "z": -3372.25,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Muallimin",
+            "lane": "C",
+            "order": 3,
+            "x": 184.99,
+            "y": -49796.69,
+            "z": -3823.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Police Station",
+            "lane": "C",
+            "order": 3,
+            "x": -22732.6,
+            "y": -34670.77,
+            "z": -3550.38,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Askari Hill",
+            "lane": "A",
+            "order": 3,
+            "x": 76484.66,
+            "y": -35087.2,
+            "z": -3510.2,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Bus Terminal",
+            "lane": "D",
+            "order": 3,
+            "x": -46726.79,
+            "y": -29601.4,
+            "z": -4317.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Old Town",
+            "lane": "E",
+            "order": 3,
+            "x": -65050.28,
+            "y": -15998.14,
+            "z": -4197.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Police Station",
+            "lane": "D",
+            "order": 3,
+            "x": -22732.6,
+            "y": -34670.77,
+            "z": -3550.38,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Cloverleaf",
+            "lane": "A",
+            "order": 3,
+            "x": 119624.66,
+            "y": -27447.2,
+            "z": -3680.2,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 4,
+            "x": 63842.67,
+            "y": -18494.53,
+            "z": 5130.66,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A4-Construction Compound",
+                "A4-Market"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 4,
+            "x": 32587.19,
+            "y": -12633.25,
+            "z": 11406.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B4-Bazaar West",
+                "B4-Bazaar East"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 4,
+            "x": 3867.19,
+            "y": -22893.25,
+            "z": 11406.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C4-Commercial District West",
+                "C4-Commercial District East"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 4,
+            "x": -30242.81,
+            "y": -7793.25,
+            "z": 11406.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D4-Cross Roads NE",
+                "D4-Cross Roads NW",
+                "D4-Monument Park Apartments"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 4,
+            "x": -49642.81,
+            "y": 166.75,
+            "z": 11406.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E4-Cemetary"
+            ]
+        },
+        {
+            "name": "Bazaar East",
+            "lane": "B",
+            "order": 4,
+            "x": 34715.52,
+            "y": -13995.06,
+            "z": -4426.42,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Commercial District West",
+            "lane": "C",
+            "order": 4,
+            "x": 3964.39,
+            "y": -21933.2,
+            "z": -3140.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Cross Roads NW",
+            "lane": "D",
+            "order": 4,
+            "x": -33439.89,
+            "y": -9887.36,
+            "z": -3343.54,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Market",
+            "lane": "A",
+            "order": 4,
+            "x": 71144.66,
+            "y": -13777.2,
+            "z": -3510.2,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Construction Compound",
+            "lane": "A",
+            "order": 4,
+            "x": 59734.66,
+            "y": -16887.2,
+            "z": -4310.2,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Bazaar West",
+            "lane": "B",
+            "order": 4,
+            "x": 28492.62,
+            "y": -12833.16,
+            "z": -4616.42,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Commercial District East",
+            "lane": "C",
+            "order": 4,
+            "x": 13750.45,
+            "y": -28409.62,
+            "z": -3140.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Cross Roads NE",
+            "lane": "D",
+            "order": 4,
+            "x": -24762.1,
+            "y": -13176.98,
+            "z": -3343.54,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Monument Park Apartments",
+            "lane": "D",
+            "order": 4,
+            "x": -14732.46,
+            "y": -20155.66,
+            "z": -4317.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Cemetary",
+            "lane": "E",
+            "order": 4,
+            "x": -48688.69,
+            "y": -3088.0,
+            "z": -4317.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 5,
+            "x": 43106.67,
+            "y": 17403.47,
+            "z": 5130.66,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A5-Factory",
+                "A5-Mullah's Compound"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 5,
+            "x": 39687.19,
+            "y": 21456.75,
+            "z": 11406.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B5-Factory",
+                "B5-Green Zone"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 5,
+            "x": 2807.19,
+            "y": -6083.25,
+            "z": 11406.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C5-Commericial District South",
+                "C5-Hotel"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 5,
+            "x": -19272.81,
+            "y": 7566.75,
+            "z": 11406.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D5-TV Station",
+                "D5-Warehouse",
+                "D5-Crossroads SE"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 5,
+            "x": -27302.81,
+            "y": 27346.75,
+            "z": 11406.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D5-Risala"
+            ]
+        },
+        {
+            "name": "Green Zone",
+            "lane": "B",
+            "order": 5,
+            "x": 11188.12,
+            "y": 22101.45,
+            "z": -3134.74,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Commericial District South",
+            "lane": "C",
+            "order": 5,
+            "x": 4140.18,
+            "y": -10846.32,
+            "z": -3257.04,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hotel",
+            "lane": "C",
+            "order": 5,
+            "x": 12314.77,
+            "y": -13372.51,
+            "z": -3255.26,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Factory",
+            "lane": "A",
+            "order": 5,
+            "x": 42504.66,
+            "y": 22392.8,
+            "z": -3510.2,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Factory",
+            "lane": "B",
+            "order": 5,
+            "x": 42504.66,
+            "y": 22392.8,
+            "z": -3510.2,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Crossroads SE",
+            "lane": "D",
+            "order": 5,
+            "x": -19334.22,
+            "y": -874.33,
+            "z": -3140.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "TV Station",
+            "lane": "D",
+            "order": 5,
+            "x": -14330.85,
+            "y": -8022.61,
+            "z": -3590.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Warehouse",
+            "lane": "D",
+            "order": 5,
+            "x": -3721.65,
+            "y": 8444.23,
+            "z": -4317.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Risala",
+            "lane": "D",
+            "order": 5,
+            "x": -25140.97,
+            "y": 23554.94,
+            "z": -4216.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Mullah's Compound",
+            "lane": "A",
+            "order": 5,
+            "x": 48884.66,
+            "y": 9812.8,
+            "z": -4220.2,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 6,
+            "x": 15476.67,
+            "y": 54803.47,
+            "z": 5130.66,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A6-Communications Towers"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 6,
+            "x": 20467.19,
+            "y": 54856.75,
+            "z": 11406.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B6-Communications Towers"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 6,
+            "x": 10317.19,
+            "y": 25176.75,
+            "z": 11406.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C6-Green Zone"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 6,
+            "x": -23992.81,
+            "y": 27736.75,
+            "z": 11406.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D6-Risala"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 6,
+            "x": -46462.81,
+            "y": 47086.75,
+            "z": 11406.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E6-Jubai"
+            ]
+        },
+        {
+            "name": "Risala",
+            "lane": "D",
+            "order": 6,
+            "x": -25140.97,
+            "y": 23554.94,
+            "z": -4216.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Jubai",
+            "lane": "E",
+            "order": 6,
+            "x": -46035.66,
+            "y": 43845.59,
+            "z": -4371.37,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Communications Towers",
+            "lane": "A",
+            "order": 6,
+            "x": 18934.66,
+            "y": 60035.7,
+            "z": -1768.63,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Communications Towers",
+            "lane": "B",
+            "order": 6,
+            "x": 18934.66,
+            "y": 60035.7,
+            "z": -1768.63,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Green Zone",
+            "lane": "C",
+            "order": 6,
+            "x": 11188.12,
+            "y": 22101.45,
+            "z": -3134.74,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 7,
+            "x": -10103.33,
+            "y": 66143.47,
+            "z": 5130.66,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A7-Al-Khadra"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 7,
+            "x": -9172.81,
+            "y": 64746.75,
+            "z": 11406.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B7-Al-Khadra"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 7,
+            "x": -10962.81,
+            "y": 62236.75,
+            "z": 11406.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C7-Al-Khadra"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 7,
+            "x": -9532.81,
+            "y": 65396.75,
+            "z": 11406.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D7-Al-Khadra"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "E",
+            "order": 7,
+            "x": -10842.81,
+            "y": 63406.75,
+            "z": 11406.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "E7-Al-Khadra"
+            ]
+        },
+        {
+            "name": "Al-Khadra",
+            "lane": "A",
+            "order": 7,
+            "x": -10911.57,
+            "y": 61324.21,
+            "z": -4193.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Al-Khadra",
+            "lane": "B",
+            "order": 7,
+            "x": -10911.57,
+            "y": 61324.21,
+            "z": -4193.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Al-Khadra",
+            "lane": "C",
+            "order": 7,
+            "x": -10911.57,
+            "y": 61324.21,
+            "z": -4193.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Al-Khadra",
+            "lane": "D",
+            "order": 7,
+            "x": -10911.57,
+            "y": 61324.21,
+            "z": -4193.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Al-Khadra",
+            "lane": "E",
+            "order": 7,
+            "x": -10911.57,
+            "y": 61324.21,
+            "z": -4193.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -43503.05,
+            "y": 86800.23,
+            "z": -3410.53,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_2",
+            "lane": "Any",
+            "order": -1,
+            "x": -27127.36,
+            "y": -36929.61,
+            "z": -3818.97,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": -37129.02,
+            "y": 80872.95,
+            "z": -2988.29,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_3",
+            "lane": "Any",
+            "order": -1,
+            "x": 13294.93,
+            "y": 43220.02,
+            "z": -4412.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

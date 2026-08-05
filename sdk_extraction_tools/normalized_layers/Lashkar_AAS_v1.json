@@ -1,0 +1,128 @@
+{
+    "map_id": "lashkar_valley",
+    "layer_name": "Lashkar_AAS_v1",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 2110.47,
+            "y": 154995.03,
+            "z": 1133.85
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 154951.17,
+            "y": -158445.89,
+            "z": 1782.4
+        },
+        {
+            "name": "Sheena",
+            "x": -753.28,
+            "y": 113577.48,
+            "z": 740.18,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Soviet Outpost",
+            "x": 102864.94,
+            "y": 86808.64,
+            "z": 9851.78,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Ghawchak Village",
+            "x": 113870.12,
+            "y": 41053.98,
+            "z": 3640.87,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Gulestan",
+            "x": 81499.5,
+            "y": 3124.11,
+            "z": 3235.21,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Marjah",
+            "x": 151206.42,
+            "y": 2294.8,
+            "z": 2961.63,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Takur Ghar",
+            "x": 74101.02,
+            "y": -63124.89,
+            "z": 3470.25,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "Kanju",
+            "x": 144425.3,
+            "y": -70717.8,
+            "z": 3743.5,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "7Any"
+            ]
+        }
+    ]
+}

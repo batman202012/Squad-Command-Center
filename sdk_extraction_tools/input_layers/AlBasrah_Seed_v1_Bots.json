@@ -1,0 +1,67 @@
+{
+    "map_id": "maps",
+    "layer_name": "AlBasrah_Seed_v1_Bots",
+    "total_flags": 6,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 71838.4,
+            "y": -8173.14,
+            "z": 809.91,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Blue House",
+            "lane": "Any",
+            "order": 1,
+            "x": 66232.75,
+            "y": -18222.83,
+            "z": 625.03,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Riverview Villa",
+            "lane": "Any",
+            "order": 2,
+            "x": 72127.32,
+            "y": -29075.45,
+            "z": 299.99,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Crossroads",
+            "lane": "Any",
+            "order": 3,
+            "x": 63054.27,
+            "y": -36934.67,
+            "z": 350.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 66177.27,
+            "y": -53193.75,
+            "z": 299.99,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": 62901.11,
+            "y": 65489.51,
+            "z": 487.93,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

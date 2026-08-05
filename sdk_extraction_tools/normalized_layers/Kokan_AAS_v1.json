@@ -1,0 +1,128 @@
+{
+    "map_id": "kokan_valley",
+    "layer_name": "Kokan_AAS_v1",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 68994.65,
+            "y": 78453.05,
+            "z": -24684.38
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 45448.48,
+            "y": -89422.95,
+            "z": -24684.37
+        },
+        {
+            "name": "First Stand",
+            "x": 46298.0,
+            "y": 38013.0,
+            "z": -24673.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Gran Dell",
+            "x": 34266.0,
+            "y": 19585.0,
+            "z": -24669.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Sarak",
+            "x": -17692.0,
+            "y": 26414.0,
+            "z": -24671.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Tempest Estate",
+            "x": -26827.0,
+            "y": 1087.0,
+            "z": -24690.0,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Market",
+            "x": -18660.0,
+            "y": -36237.0,
+            "z": -24294.0,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Ruins",
+            "x": -36126.0,
+            "y": -59378.0,
+            "z": -24674.0,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "Stonebend",
+            "x": -8321.0,
+            "y": -77703.0,
+            "z": -24254.0,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "7Any"
+            ]
+        }
+    ]
+}

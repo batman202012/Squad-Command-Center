@@ -1,0 +1,1090 @@
+{
+    "map_id": "tallil_outskirts",
+    "layer_name": "Tallil_RAAS_v1",
+    "total_flags": 99,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -167670.28,
+            "y": 197123.62,
+            "z": -6704.35,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 1,
+            "x": -85985.8,
+            "y": 160243.58,
+            "z": 7241.65,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A1-Eridu"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 1,
+            "x": -85985.8,
+            "y": 160243.58,
+            "z": 7241.65,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B1-Eridu"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 1,
+            "x": -85985.8,
+            "y": 160243.58,
+            "z": 7241.65,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C1-Eridu"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 1,
+            "x": -85985.8,
+            "y": 160243.58,
+            "z": 7241.65,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D1-Eridu"
+            ]
+        },
+        {
+            "name": "Eridu",
+            "lane": "A",
+            "order": 1,
+            "x": -84947.11,
+            "y": 161504.02,
+            "z": -7022.7,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Eridu",
+            "lane": "B",
+            "order": 1,
+            "x": -84947.11,
+            "y": 161504.02,
+            "z": -7022.7,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Eridu",
+            "lane": "C",
+            "order": 1,
+            "x": -84947.11,
+            "y": 161504.02,
+            "z": -7022.7,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Eridu",
+            "lane": "D",
+            "order": 1,
+            "x": -84947.11,
+            "y": 161504.02,
+            "z": -7022.7,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 2,
+            "x": -34615.8,
+            "y": 125663.58,
+            "z": 7241.65,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A2-Ali Billet",
+                "A2-Ali Hangars 3 & 4",
+                "A2-Ali Service Area",
+                "A2-Ali Hangar 1"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 2,
+            "x": 48504.2,
+            "y": 151063.58,
+            "z": 7241.65,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B2-Mahatt Ur"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 2,
+            "x": 48504.2,
+            "y": 151063.58,
+            "z": 7241.65,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C2-Mahatt Ur"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 2,
+            "x": -24435.8,
+            "y": 111923.58,
+            "z": 7241.65,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D2-Ali Service Area",
+                "D2-Ali Hangars 3 & 4",
+                "D2-Ali Hangar 1"
+            ]
+        },
+        {
+            "name": "Ali Billet",
+            "lane": "A",
+            "order": 2,
+            "x": -53432.32,
+            "y": 105147.27,
+            "z": -7213.27,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Mahatt Ur",
+            "lane": "B",
+            "order": 2,
+            "x": 43936.39,
+            "y": 151053.72,
+            "z": -7532.46,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ali Hangars 3 & 4",
+            "lane": "A",
+            "order": 2,
+            "x": -36193.61,
+            "y": 106276.2,
+            "z": -7232.82,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ali Service Area",
+            "lane": "A",
+            "order": 2,
+            "x": -34264.22,
+            "y": 122571.91,
+            "z": -7232.82,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ali Hangar 1",
+            "lane": "A",
+            "order": 2,
+            "x": -14171.29,
+            "y": 104223.37,
+            "z": -7232.06,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Mahatt Ur",
+            "lane": "C",
+            "order": 2,
+            "x": 43936.39,
+            "y": 151053.72,
+            "z": -7532.46,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ali Service Area",
+            "lane": "D",
+            "order": 2,
+            "x": -34264.22,
+            "y": 122571.91,
+            "z": -7232.82,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ali Hangars 3 & 4",
+            "lane": "D",
+            "order": 2,
+            "x": -36193.61,
+            "y": 106276.2,
+            "z": -7232.82,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ali Hangar 1",
+            "lane": "D",
+            "order": 2,
+            "x": -14171.29,
+            "y": 104223.37,
+            "z": -7232.06,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 3,
+            "x": -42865.8,
+            "y": 100033.58,
+            "z": 7241.65,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A3-Ali Airbase NW",
+                "A3-Ali Hangar 7",
+                "A3-Ali Hangar 6"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 3,
+            "x": 106164.2,
+            "y": 78083.58,
+            "z": 7241.65,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B3-Gas Town"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 3,
+            "x": -28665.8,
+            "y": 96583.58,
+            "z": 7241.65,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C3-Ali Hangars 3 & 4",
+                "C3-Ali Hangar 1",
+                "C3-Ali Hangar 6"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 3,
+            "x": 49004.2,
+            "y": 148063.58,
+            "z": 7241.65,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D3-Mahatt Ur"
+            ]
+        },
+        {
+            "name": "Gas Town",
+            "lane": "B",
+            "order": 3,
+            "x": 107354.14,
+            "y": 77420.77,
+            "z": -7175.49,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ali Airbase NW",
+            "lane": "A",
+            "order": 3,
+            "x": -67547.57,
+            "y": 79526.78,
+            "z": -7232.06,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ali Hangar 6",
+            "lane": "A",
+            "order": 3,
+            "x": -33553.99,
+            "y": 80957.49,
+            "z": -7232.06,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ali Hangar 7",
+            "lane": "A",
+            "order": 3,
+            "x": -46871.32,
+            "y": 79360.12,
+            "z": -7232.06,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ali Hangars 3 & 4",
+            "lane": "C",
+            "order": 3,
+            "x": -36193.61,
+            "y": 106276.2,
+            "z": -7232.82,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ali Hangar 6",
+            "lane": "C",
+            "order": 3,
+            "x": -33553.99,
+            "y": 80957.49,
+            "z": -7232.06,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ali Hangar 1",
+            "lane": "C",
+            "order": 3,
+            "x": -14171.29,
+            "y": 104223.37,
+            "z": -7232.06,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Mahatt Ur",
+            "lane": "D",
+            "order": 3,
+            "x": 43936.39,
+            "y": 151053.72,
+            "z": -7532.46,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 4,
+            "x": -67925.8,
+            "y": 23933.58,
+            "z": 7241.65,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A4-Airfield Outpost",
+                "A4-Fortified ATC",
+                "A4-Fortified ATC2"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 4,
+            "x": 11034.2,
+            "y": 11293.58,
+            "z": 7241.65,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B4-Abandoned Soviet Base W",
+                "B4-Abandoned Service Hangars",
+                "B4-Abandoned Soviet Base E"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 4,
+            "x": -14045.8,
+            "y": 33883.58,
+            "z": 7241.65,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C4-Fortified ATC",
+                "C4-Abandoned Soviet Base W",
+                "C4-Abandoned Soviet Base E"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 4,
+            "x": 108254.2,
+            "y": 72243.58,
+            "z": 7241.65,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D4-Gas Town"
+            ]
+        },
+        {
+            "name": "Abandoned Soviet Base W",
+            "lane": "B",
+            "order": 4,
+            "x": 13235.09,
+            "y": 10424.75,
+            "z": -7216.18,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Abandoned Service Hangars",
+            "lane": "B",
+            "order": 4,
+            "x": -11196.62,
+            "y": -1809.06,
+            "z": -7239.02,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Abandoned Soviet Base E",
+            "lane": "B",
+            "order": 4,
+            "x": 25864.64,
+            "y": 19612.7,
+            "z": -7217.58,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Fortified ATC",
+            "lane": "A",
+            "order": 4,
+            "x": -48615.86,
+            "y": 31140.77,
+            "z": -7175.49,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Airfield Outpost",
+            "lane": "A",
+            "order": 4,
+            "x": -83635.86,
+            "y": 10450.77,
+            "z": -7535.49,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Fortified ATC",
+            "lane": "C",
+            "order": 4,
+            "x": -48615.86,
+            "y": 31140.77,
+            "z": -7175.49,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Abandoned Soviet Base W",
+            "lane": "C",
+            "order": 4,
+            "x": 13235.09,
+            "y": 10424.75,
+            "z": -7216.18,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Abandoned Soviet Base E",
+            "lane": "C",
+            "order": 4,
+            "x": 25864.64,
+            "y": 19612.7,
+            "z": -7217.58,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Gas Town",
+            "lane": "D",
+            "order": 4,
+            "x": 107354.14,
+            "y": 77420.77,
+            "z": -7175.49,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Fortified ATC2",
+            "lane": "A",
+            "order": 4,
+            "x": -48615.86,
+            "y": 31140.77,
+            "z": -7175.49,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 5,
+            "x": -49105.8,
+            "y": -17196.42,
+            "z": 7241.65,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A5-Iraqi Hangars 25 & 26",
+                "A5-Iraqi Hangars 23 & 24",
+                "A5-Iraqi Hangars 12 & 13"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 5,
+            "x": -49105.8,
+            "y": -17196.42,
+            "z": 7241.65,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A5-Iraqi Hangars 25 & 26",
+                "A5-Iraqi Hangars 23 & 24",
+                "A5-Iraqi Hangars 12 & 13"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 5,
+            "x": -13515.8,
+            "y": -5856.42,
+            "z": 7241.65,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C5-Abandoned Service Hangars"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 5,
+            "x": 110224.2,
+            "y": 3113.58,
+            "z": 7241.65,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D5-Abandoned Soviet Base E",
+                "D5-Overpass Ridge"
+            ]
+        },
+        {
+            "name": "Iraqi Hangars 23 & 24",
+            "lane": "A",
+            "order": 5,
+            "x": -55387.91,
+            "y": -19275.2,
+            "z": -7222.66,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Iraqi Hangars 25 & 26",
+            "lane": "A",
+            "order": 5,
+            "x": -41288.46,
+            "y": -11297.41,
+            "z": -7222.66,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Iraqi Hangars 12 & 13",
+            "lane": "A",
+            "order": 5,
+            "x": -34955.03,
+            "y": -29526.48,
+            "z": -7232.05,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Iraqi Hangars 23 & 24",
+            "lane": "A",
+            "order": 5,
+            "x": -55387.91,
+            "y": -19275.2,
+            "z": -7222.66,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Iraqi Hangars 25 & 26",
+            "lane": "A",
+            "order": 5,
+            "x": -41288.46,
+            "y": -11297.41,
+            "z": -7222.66,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Iraqi Hangars 12 & 13",
+            "lane": "A",
+            "order": 5,
+            "x": -34955.03,
+            "y": -29526.48,
+            "z": -7232.05,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Abandoned Service Hangars",
+            "lane": "C",
+            "order": 5,
+            "x": -11196.62,
+            "y": -1809.06,
+            "z": -7239.02,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Overpass Ridge",
+            "lane": "D",
+            "order": 5,
+            "x": 118144.14,
+            "y": 2920.77,
+            "z": -7615.49,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Abandoned Soviet Base E",
+            "lane": "D",
+            "order": 5,
+            "x": 25864.65,
+            "y": 19612.7,
+            "z": -7217.58,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 6,
+            "x": -76985.8,
+            "y": -41246.42,
+            "z": 7241.65,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A6-Iraqi Hangars 18 & 19",
+                "A6-Iraqi Hangars 16 & 17",
+                "A6-Iraqi Hangars 21 & 22"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 6,
+            "x": -76985.8,
+            "y": -41246.42,
+            "z": 7241.65,
+            "is_sky_node": true,
+            "linked_flags": [
+                "- Batha",
+                "B6-East Batha",
+                "B6-North Batha",
+                "B6-West Batha"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 6,
+            "x": 52554.2,
+            "y": -22476.42,
+            "z": 7241.65,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C6-Refueling Area"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 6,
+            "x": 68214.2,
+            "y": -37286.42,
+            "z": 7241.65,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D6-North Al-Khidhir",
+                "D6-West Al-Khidhir",
+                "D6-Refueling Area"
+            ]
+        },
+        {
+            "name": "Iraqi Hangars 21 & 22",
+            "lane": "A",
+            "order": 6,
+            "x": -69755.29,
+            "y": -35991.14,
+            "z": -7232.05,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Iraqi Hangars 16 & 17",
+            "lane": "A",
+            "order": 6,
+            "x": -70210.09,
+            "y": -49682.2,
+            "z": -7232.05,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Iraqi Hangars 18 & 19",
+            "lane": "A",
+            "order": 6,
+            "x": -87603.48,
+            "y": -43801.68,
+            "z": -7232.05,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "East Batha",
+            "lane": "B",
+            "order": 6,
+            "x": 24831.14,
+            "y": -131429.25,
+            "z": -7798.45,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "North Batha",
+            "lane": "B",
+            "order": 6,
+            "x": 5371.14,
+            "y": -147629.25,
+            "z": -7798.45,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "West Batha",
+            "lane": "B",
+            "order": 6,
+            "x": 731.14,
+            "y": -134029.25,
+            "z": -7798.45,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Refueling Area",
+            "lane": "C",
+            "order": 6,
+            "x": 54005.9,
+            "y": -22972.31,
+            "z": -7929.36,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "West Al-Khidhir",
+            "lane": "D",
+            "order": 6,
+            "x": 75809.27,
+            "y": -56852.43,
+            "z": -7969.27,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Refueling Area",
+            "lane": "D",
+            "order": 6,
+            "x": 54005.9,
+            "y": -22972.31,
+            "z": -7929.36,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "North Al-Khidhir",
+            "lane": "D",
+            "order": 6,
+            "x": 84760.88,
+            "y": -66991.02,
+            "z": -7969.27,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 7,
+            "x": 10304.2,
+            "y": -133846.42,
+            "z": 7241.65,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A7-West Batha",
+                "A7-South Batha",
+                "A7-North Batha",
+                "A7-East Batha"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 7,
+            "x": 10304.2,
+            "y": -133846.42,
+            "z": 7241.65,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B7-West Al-Khidhir",
+                "B7-East Al-Khidhir",
+                "B7-Sympathizer's Compound",
+                "B7-North Al-Khidhir"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 7,
+            "x": 94364.2,
+            "y": -65536.42,
+            "z": 7241.65,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C7-West Al-Khidhir",
+                "C7-North Al-Khidhir",
+                "C7-East Al-Khidhir",
+                "C7-Sympathizer's Compound"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 7,
+            "x": 113964.2,
+            "y": -69536.42,
+            "z": 7241.65,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D7-East Al-Khidhir",
+                "D7-Sympathizer's Compound"
+            ]
+        },
+        {
+            "name": "South Batha",
+            "lane": "A",
+            "order": 7,
+            "x": 7331.14,
+            "y": -125419.25,
+            "z": -7798.45,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "East Al-Khidhir",
+            "lane": "C",
+            "order": 7,
+            "x": 110093.12,
+            "y": -60496.09,
+            "z": -7929.36,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "West Al-Khidhir",
+            "lane": "C",
+            "order": 7,
+            "x": 75809.27,
+            "y": -56852.43,
+            "z": -7969.27,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "East Batha",
+            "lane": "A",
+            "order": 7,
+            "x": 24831.14,
+            "y": -131429.25,
+            "z": -7798.45,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "North Batha",
+            "lane": "A",
+            "order": 7,
+            "x": 5371.14,
+            "y": -147629.25,
+            "z": -7798.45,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "West Batha",
+            "lane": "A",
+            "order": 7,
+            "x": 731.14,
+            "y": -134029.25,
+            "z": -7798.45,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Sympathizer's Compound",
+            "lane": "C",
+            "order": 7,
+            "x": 102473.16,
+            "y": -68966.12,
+            "z": -7929.36,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "North Al-Khidhir",
+            "lane": "C",
+            "order": 7,
+            "x": 84760.88,
+            "y": -66991.02,
+            "z": -7969.27,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "East Al-Khidhir",
+            "lane": "D",
+            "order": 7,
+            "x": 110093.12,
+            "y": -60496.09,
+            "z": -7929.36,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Sympathizer's Compound",
+            "lane": "D",
+            "order": 7,
+            "x": 102473.16,
+            "y": -68966.12,
+            "z": -7929.36,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "East Al-Khidhir",
+            "lane": "B",
+            "order": 7,
+            "x": 110093.12,
+            "y": -60496.09,
+            "z": -7929.36,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "West Al-Khidhir",
+            "lane": "B",
+            "order": 7,
+            "x": 75809.27,
+            "y": -56852.43,
+            "z": -7969.27,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Sympathizer's Compound",
+            "lane": "B",
+            "order": 7,
+            "x": 102473.16,
+            "y": -68966.12,
+            "z": -7929.36,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "North Al-Khidhir",
+            "lane": "B",
+            "order": 7,
+            "x": 84760.88,
+            "y": -66991.02,
+            "z": -7969.27,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 146970.17,
+            "y": -196973.12,
+            "z": -6852.64,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Batha",
+            "lane": "Any",
+            "order": -1,
+            "x": 7331.14,
+            "y": -125419.25,
+            "z": -7798.45,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_4",
+            "lane": "Any",
+            "order": -1,
+            "x": -56791.81,
+            "y": 102645.78,
+            "z": -7225.26,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": -59253.03,
+            "y": 109318.96,
+            "z": -7103.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_2",
+            "lane": "Any",
+            "order": -1,
+            "x": -59292.87,
+            "y": 109131.57,
+            "z": -7103.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_3",
+            "lane": "Any",
+            "order": -1,
+            "x": -59334.63,
+            "y": 108935.06,
+            "z": -7103.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

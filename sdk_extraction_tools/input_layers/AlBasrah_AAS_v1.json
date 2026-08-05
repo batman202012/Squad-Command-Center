@@ -1,0 +1,107 @@
+{
+    "map_id": "maps",
+    "layer_name": "AlBasrah_AAS_v1",
+    "total_flags": 10,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -129354.5,
+            "y": -147783.99,
+            "z": 360.08,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Shu'Aiba",
+            "lane": "Any",
+            "order": 1,
+            "x": -57095.68,
+            "y": -126662.33,
+            "z": 904.58,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Military Airbase",
+            "lane": "Any",
+            "order": 2,
+            "x": -122747.45,
+            "y": -49634.71,
+            "z": 592.19,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Airport Terminal",
+            "lane": "Any",
+            "order": 3,
+            "x": -53290.84,
+            "y": -57268.06,
+            "z": 1290.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Al Khora",
+            "lane": "Any",
+            "order": 4,
+            "x": -48420.74,
+            "y": 13822.02,
+            "z": 592.64,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Gas Station",
+            "lane": "Any",
+            "order": 5,
+            "x": -472.48,
+            "y": 50957.83,
+            "z": 1689.99,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Mosque",
+            "lane": "Any",
+            "order": 6,
+            "x": 34850.21,
+            "y": 28142.69,
+            "z": 590.55,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hotel International",
+            "lane": "Any",
+            "order": 7,
+            "x": 63855.96,
+            "y": 64688.16,
+            "z": 642.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 51721.37,
+            "y": 138128.5,
+            "z": 1065.64,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": 62901.11,
+            "y": 65489.51,
+            "z": 487.93,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

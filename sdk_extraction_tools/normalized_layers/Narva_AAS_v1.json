@@ -1,0 +1,113 @@
+{
+    "map_id": "narva",
+    "layer_name": "Narva_AAS_v1",
+    "total_flags": 8,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -119568.92,
+            "y": -81703.48,
+            "z": 1417.17
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 127528.06,
+            "y": 33131.69,
+            "z": 305.95
+        },
+        {
+            "name": "Radio Station",
+            "x": -54447.24,
+            "y": -78119.7,
+            "z": 1937.47,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Church",
+            "x": -26513.25,
+            "y": -56709.98,
+            "z": 1303.48,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Geneva Apts",
+            "x": 7295.57,
+            "y": -27466.0,
+            "z": 942.41,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Train Depot",
+            "x": 25752.88,
+            "y": -5873.2,
+            "z": 1488.27,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Shipping Yard",
+            "x": 23009.77,
+            "y": 31471.14,
+            "z": 655.47,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Power Plant",
+            "x": 45297.31,
+            "y": 57687.69,
+            "z": 1477.89,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        }
+    ]
+}

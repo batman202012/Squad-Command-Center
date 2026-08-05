@@ -1,0 +1,97 @@
+{
+    "map_id": "mutaha",
+    "layer_name": "Mutaha_Skirmish_v1",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -18571.91,
+            "y": 57067.48,
+            "z": -443.76,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Crash Site",
+            "lane": "Any",
+            "order": 1,
+            "x": -27886.45,
+            "y": 24504.4,
+            "z": -440.38,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Baraka Central",
+            "lane": "Any",
+            "order": 2,
+            "x": -26500.16,
+            "y": 8615.02,
+            "z": -249.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Baraka East",
+            "lane": "Any",
+            "order": 3,
+            "x": -16024.63,
+            "y": 425.49,
+            "z": -1147.19,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Baraka Market",
+            "lane": "Any",
+            "order": 4,
+            "x": -35328.47,
+            "y": 8993.22,
+            "z": 671.63,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Baraka Suburbs",
+            "lane": "Any",
+            "order": 5,
+            "x": -3721.61,
+            "y": 3860.53,
+            "z": -1057.19,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Baraka West",
+            "lane": "Any",
+            "order": 6,
+            "x": -30008.89,
+            "y": 425.44,
+            "z": 1761.51,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Zatar Compound",
+            "lane": "Any",
+            "order": 7,
+            "x": -30065.3,
+            "y": -22600.93,
+            "z": -589.15,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -23991.27,
+            "y": -46080.0,
+            "z": -98.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "map_id": "narva",
+    "layer_name": "Narva_Skirmish_v1",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -31901.91,
+            "y": -48032.52,
+            "z": 896.24,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Old Hospital",
+            "lane": "Any",
+            "order": 1,
+            "x": -12932.05,
+            "y": -31437.36,
+            "z": -440.38,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Geneva Apartments",
+            "lane": "Any",
+            "order": 2,
+            "x": 10131.58,
+            "y": -24397.64,
+            "z": 1730.15,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Shopping Center",
+            "lane": "Any",
+            "order": 3,
+            "x": 14299.98,
+            "y": -39891.13,
+            "z": -337.19,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Storefronts",
+            "lane": "Any",
+            "order": 4,
+            "x": 25716.23,
+            "y": -26841.18,
+            "z": 271.63,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Bridgeview Apartments",
+            "lane": "Any",
+            "order": 5,
+            "x": 12034.27,
+            "y": -7785.92,
+            "z": 1562.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Train Depot",
+            "lane": "Any",
+            "order": 6,
+            "x": 25211.62,
+            "y": -5309.66,
+            "z": -158.49,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Narva Castle",
+            "lane": "Any",
+            "order": 7,
+            "x": 48964.7,
+            "y": -17490.93,
+            "z": 1410.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 58268.73,
+            "y": 10370.0,
+            "z": 771.38,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

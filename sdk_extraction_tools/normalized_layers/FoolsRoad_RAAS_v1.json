@@ -1,0 +1,248 @@
+{
+    "map_id": "fools_road",
+    "layer_name": "FoolsRoad_RAAS_v1",
+    "total_flags": 15,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -87566.08,
+            "y": 16391.02,
+            "z": -4661.44
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 11722.73,
+            "y": -118342.65,
+            "z": -4479.91
+        },
+        {
+            "name": "Hill",
+            "x": -87168.84,
+            "y": -14341.57,
+            "z": -2356.94,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                },
+                {
+                    "order": 2,
+                    "lane": "C"
+                },
+                {
+                    "order": 3,
+                    "lane": "E"
+                },
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "1Any",
+                "2C",
+                "3E",
+                "4C"
+            ]
+        },
+        {
+            "name": "Mine Entrance",
+            "x": -33808.0,
+            "y": -16000.0,
+            "z": -5904.97,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "C"
+                },
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1C",
+                "2B"
+            ]
+        },
+        {
+            "name": "OP Fortress",
+            "x": -92127.01,
+            "y": -46837.05,
+            "z": -3425.65,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                },
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2A",
+                "2B"
+            ]
+        },
+        {
+            "name": "Ridgeline",
+            "x": -106151.47,
+            "y": -29199.43,
+            "z": -1298.69,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Dylym",
+            "x": 30064.0,
+            "y": -12951.0,
+            "z": -4931.24,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "3E"
+            ]
+        },
+        {
+            "name": "Logger's Homestead",
+            "x": -72538.0,
+            "y": -81428.0,
+            "z": -5381.64,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Fortress",
+            "x": -99173.42,
+            "y": -99763.7,
+            "z": -5044.05,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Ammo Hill",
+            "x": -52508.0,
+            "y": -47868.0,
+            "z": -1758.98,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Taxi Homestead",
+            "x": -86339.44,
+            "y": -81428.0,
+            "z": -5381.64,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Hilltop Encampment",
+            "x": -33079.0,
+            "y": -78406.0,
+            "z": -1742.35,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                },
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4A",
+                "4B"
+            ]
+        },
+        {
+            "name": "Springwater Homestead",
+            "x": -18434.63,
+            "y": -77162.87,
+            "z": -7105.68,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "North Road Pass",
+            "x": -57025.2,
+            "y": -112911.54,
+            "z": -4697.93,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Verto",
+            "x": 8842.0,
+            "y": -88304.03,
+            "z": -5189.86,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

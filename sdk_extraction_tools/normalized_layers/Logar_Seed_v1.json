@@ -1,0 +1,98 @@
+{
+    "map_id": "logar_valley",
+    "layer_name": "Logar_Seed_v1",
+    "total_flags": 7,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -31854.83,
+            "y": 16313.53,
+            "z": 3638.65
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 4513.63,
+            "y": -39426.91,
+            "z": 3739.32
+        },
+        {
+            "name": "Lower DC",
+            "x": -12554.0,
+            "y": 3276.0,
+            "z": 3551.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "East DC",
+            "x": -3546.0,
+            "y": -10330.0,
+            "z": 3357.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Central DC",
+            "x": -11087.58,
+            "y": -12569.55,
+            "z": 3326.7,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "West DC",
+            "x": -21020.0,
+            "y": -18315.0,
+            "z": 3799.0,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Upper DC",
+            "x": -11935.0,
+            "y": -33402.0,
+            "z": 3461.0,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

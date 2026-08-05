@@ -1,0 +1,137 @@
+{
+    "map_id": "tallil_outskirts",
+    "layer_name": "Tallil_AAS_v1",
+    "total_flags": 13,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 147605.06,
+            "y": 182929.86,
+            "z": -7372.87,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Eridu",
+            "lane": "Any",
+            "order": 1,
+            "x": -84947.11,
+            "y": 161504.02,
+            "z": -7022.7,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ali Air Base",
+            "lane": "Any",
+            "order": 2,
+            "x": -40196.59,
+            "y": 105261.62,
+            "z": -7258.42,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Gas Town",
+            "lane": "Any",
+            "order": 3,
+            "x": 108498.34,
+            "y": 77491.45,
+            "z": -7175.49,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Abandoned Soviet Base",
+            "lane": "Any",
+            "order": 4,
+            "x": 23729.78,
+            "y": 16195.84,
+            "z": -7257.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Destroyed Hangars",
+            "lane": "Any",
+            "order": 5,
+            "x": -48112.73,
+            "y": -16481.61,
+            "z": -7184.83,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "West Al-Khidhir",
+            "lane": "Any",
+            "order": 6,
+            "x": 81024.66,
+            "y": -59940.41,
+            "z": -7969.27,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Batha",
+            "lane": "Any",
+            "order": 7,
+            "x": 10941.14,
+            "y": -136555.41,
+            "z": -7798.45,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -132440.25,
+            "y": -194539.89,
+            "z": -7101.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_4",
+            "lane": "Any",
+            "order": -1,
+            "x": -56791.81,
+            "y": 102645.78,
+            "z": -7225.26,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": -59253.03,
+            "y": 109318.96,
+            "z": -7103.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_2",
+            "lane": "Any",
+            "order": -1,
+            "x": -59292.87,
+            "y": 109131.57,
+            "z": -7103.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_3",
+            "lane": "Any",
+            "order": -1,
+            "x": -59334.63,
+            "y": 108935.06,
+            "z": -7103.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

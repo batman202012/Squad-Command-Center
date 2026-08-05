@@ -1,0 +1,197 @@
+{
+    "map_id": "manicouagan",
+    "layer_name": "Manicouagan_Invasion_v2",
+    "total_flags": 14,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -181252.19,
+            "y": -175180.23,
+            "z": 8238.9
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 163271.38,
+            "y": -181329.64,
+            "z": 14006.57
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": -170099.52,
+            "y": -73194.71,
+            "z": 12147.0
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh",
+            "lane": "Any",
+            "order": -1,
+            "x": -33322.11,
+            "y": -35379.22,
+            "z": 5300.0
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh2",
+            "lane": "Any",
+            "order": -1,
+            "x": -34046.83,
+            "y": -32674.62,
+            "z": 5300.0
+        },
+        {
+            "name": "Firebase Anna",
+            "x": -113549.92,
+            "y": -100273.08,
+            "z": 12088.99,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Alma",
+            "x": -121042.92,
+            "y": -72901.32,
+            "z": 7530.97,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                },
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any",
+                "1Any"
+            ]
+        },
+        {
+            "name": "Telecom Facility",
+            "x": -106523.63,
+            "y": -42066.75,
+            "z": 7049.84,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                },
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any",
+                "1Any"
+            ]
+        },
+        {
+            "name": "Dam Administration",
+            "x": -55022.7,
+            "y": -40742.82,
+            "z": 4600.95,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                },
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any",
+                "2Any"
+            ]
+        },
+        {
+            "name": "Power Station",
+            "x": -32256.89,
+            "y": -32597.74,
+            "z": 4351.04,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Dam Storage",
+            "x": -9665.61,
+            "y": -71548.2,
+            "z": 4964.35,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Hilltop",
+            "x": 12131.54,
+            "y": -3424.68,
+            "z": 8602.5,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Ridgeline Defenses",
+            "x": 52204.1,
+            "y": -34356.95,
+            "z": 14302.58,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Dieppe",
+            "x": 65347.53,
+            "y": -77506.26,
+            "z": 13523.92,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

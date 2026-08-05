@@ -1,0 +1,97 @@
+{
+    "map_id": "yehorivka",
+    "layer_name": "Yehorivka_Skirmish_v2",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 61052.17,
+            "y": 53903.45,
+            "z": 11258.04,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Novo Farm",
+            "lane": "Any",
+            "order": 1,
+            "x": 41592.82,
+            "y": 62371.04,
+            "z": 12474.23,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "East Novo",
+            "lane": "Any",
+            "order": 2,
+            "x": 19812.6,
+            "y": 61970.91,
+            "z": 10072.29,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "South Novo",
+            "lane": "Any",
+            "order": 3,
+            "x": 938.87,
+            "y": 75850.29,
+            "z": 10779.32,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Novo",
+            "lane": "Any",
+            "order": 4,
+            "x": 7471.71,
+            "y": 62039.6,
+            "z": 10382.76,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "North Novo",
+            "lane": "Any",
+            "order": 5,
+            "x": 13017.45,
+            "y": 54416.48,
+            "z": 9749.52,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "West Novo",
+            "lane": "Any",
+            "order": 6,
+            "x": -378.19,
+            "y": 62253.36,
+            "z": 10986.13,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Novo Outskirt",
+            "lane": "Any",
+            "order": 7,
+            "x": -17939.71,
+            "y": 58045.7,
+            "z": 9937.42,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -41982.33,
+            "y": 72203.18,
+            "z": 7018.66,
+            "is_sky_node": true,
+            "linked_flags": []
+        }
+    ]
+}

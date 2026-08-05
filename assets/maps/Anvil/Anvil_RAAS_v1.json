@@ -1,0 +1,533 @@
+{
+    "map_id": "anvil",
+    "layer_name": "Anvil_RAAS_v1",
+    "total_flags": 35,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 55272.17,
+            "y": -161518.45,
+            "z": -3413.36
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -166006.38,
+            "y": 46202.02,
+            "z": -1070.48
+        },
+        {
+            "name": "Upper Poppy Farms",
+            "x": -5820.0,
+            "y": -130750.0,
+            "z": 4486.31,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                },
+                {
+                    "order": 1,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1A",
+                "1B"
+            ]
+        },
+        {
+            "name": "Insurgent Hideout",
+            "x": 49770.0,
+            "y": -84672.0,
+            "z": -5739.69,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "1C"
+            ]
+        },
+        {
+            "name": "Canyon Exit NE",
+            "x": 62193.0,
+            "y": -93902.0,
+            "z": -3345.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "1C"
+            ]
+        },
+        {
+            "name": "Plateau Village",
+            "x": -36133.14,
+            "y": -130599.41,
+            "z": -1969.69,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "1A"
+            ]
+        },
+        {
+            "name": "Eastern Poppy Farms",
+            "x": 57027.39,
+            "y": -49495.25,
+            "z": -5739.69,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "1C"
+            ]
+        },
+        {
+            "name": "Compound",
+            "x": 364.0,
+            "y": -89014.0,
+            "z": -5082.69,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "Lower Poppy Farms",
+            "x": -12434.05,
+            "y": -96726.4,
+            "z": -5924.69,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "Qalat",
+            "x": 8159.0,
+            "y": -66760.0,
+            "z": -6046.69,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "Riverside",
+            "x": 8948.0,
+            "y": -48715.0,
+            "z": 4486.31,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "Village",
+            "x": 15778.0,
+            "y": -39000.0,
+            "z": 4486.31,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "Radio Station North",
+            "x": -66449.15,
+            "y": -117595.91,
+            "z": -871.69,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Central Mansion",
+            "x": -18002.0,
+            "y": -61425.0,
+            "z": 4486.31,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Vineyard",
+            "x": -109824.0,
+            "y": -97165.0,
+            "z": 4486.31,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                },
+                {
+                    "order": 7,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3A",
+                "7B"
+            ]
+        },
+        {
+            "name": "Bridge Hold East",
+            "x": -12514.0,
+            "y": -36988.0,
+            "z": -6317.69,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "Hemp",
+            "x": -16667.0,
+            "y": -24665.0,
+            "z": 4486.31,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "Lavender Farm",
+            "x": -32327.0,
+            "y": -44935.0,
+            "z": 4486.31,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Holdout",
+            "x": -41797.0,
+            "y": -24105.0,
+            "z": 4486.31,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Urban North",
+            "x": -154378.89,
+            "y": -146877.94,
+            "z": -5811.69,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Ancient Ruins",
+            "x": -133324.33,
+            "y": -143456.38,
+            "z": -5811.69,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Leader Compound",
+            "x": 788.21,
+            "y": 11291.83,
+            "z": -4058.69,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "Urban South",
+            "x": -157689.77,
+            "y": -112480.6,
+            "z": -5811.69,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Ammo Cache",
+            "x": -53099.0,
+            "y": -60000.0,
+            "z": -5320.69,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "Orchard",
+            "x": -71027.0,
+            "y": -59005.0,
+            "z": 4486.31,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "Police Station",
+            "x": -78217.0,
+            "y": -42525.0,
+            "z": 4486.31,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "Soviet Radio Station",
+            "x": -46743.4,
+            "y": 53675.09,
+            "z": 176.31,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C"
+            ]
+        },
+        {
+            "name": "Bridge Hold West",
+            "x": -93547.12,
+            "y": -66341.9,
+            "z": 4486.31,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "6B"
+            ]
+        },
+        {
+            "name": "Canyon Choke Point",
+            "x": -103132.12,
+            "y": -56012.9,
+            "z": 4486.31,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "6B"
+            ]
+        },
+        {
+            "name": "Urban Outskirts",
+            "x": -167206.0,
+            "y": -87488.0,
+            "z": -6173.69,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "Intersection Homes",
+            "x": -140617.55,
+            "y": -85974.6,
+            "z": -6046.69,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                },
+                {
+                    "order": 7,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "6A",
+                "7B"
+            ]
+        },
+        {
+            "name": "Canyon Chokepoint",
+            "x": -78541.13,
+            "y": -10524.11,
+            "z": -4725.69,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "6C"
+            ]
+        },
+        {
+            "name": "Market",
+            "x": -115426.13,
+            "y": -81681.9,
+            "z": -5970.69,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "7B"
+            ]
+        },
+        {
+            "name": "Checkpoint",
+            "x": -165074.1,
+            "y": -35334.32,
+            "z": -4128.69,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "7A"
+            ]
+        },
+        {
+            "name": "Imam's Residence",
+            "x": -120300.78,
+            "y": 43415.52,
+            "z": -96.69,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "7C"
+            ]
+        }
+    ]
+}

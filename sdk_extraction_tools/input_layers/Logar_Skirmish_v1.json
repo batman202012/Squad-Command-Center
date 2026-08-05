@@ -1,0 +1,97 @@
+{
+    "map_id": "logar_valley",
+    "layer_name": "Logar_Skirmish_v1",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 37318.09,
+            "y": -6702.52,
+            "z": 5839.47,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Farm Housing",
+            "lane": "Any",
+            "order": 1,
+            "x": 7109.72,
+            "y": -25205.88,
+            "z": 3009.62,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Elder's Compound",
+            "lane": "Any",
+            "order": 2,
+            "x": -2615.37,
+            "y": -33940.19,
+            "z": 3190.15,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Central Compound",
+            "lane": "Any",
+            "order": 3,
+            "x": -7654.99,
+            "y": -22831.54,
+            "z": 1292.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "District Center",
+            "lane": "Any",
+            "order": 4,
+            "x": -11053.55,
+            "y": -12632.24,
+            "z": 2171.63,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Mosque",
+            "lane": "Any",
+            "order": 5,
+            "x": -5512.36,
+            "y": -3197.07,
+            "z": 1932.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "School",
+            "lane": "Any",
+            "order": 6,
+            "x": -17428.1,
+            "y": 2610.44,
+            "z": 1501.51,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Warlord Compound",
+            "lane": "Any",
+            "order": 7,
+            "x": -28438.44,
+            "y": -19311.85,
+            "z": 2790.85,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -54041.27,
+            "y": -23390.0,
+            "z": 6451.93,
+            "is_sky_node": true,
+            "linked_flags": []
+        }
+    ]
+}

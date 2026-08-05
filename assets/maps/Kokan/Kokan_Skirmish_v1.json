@@ -1,0 +1,128 @@
+{
+    "map_id": "kokan_valley",
+    "layer_name": "Kokan_Skirmish_v1",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -17291.91,
+            "y": 61487.48,
+            "z": -24680.53
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -34291.27,
+            "y": -53780.0,
+            "z": -24588.07
+        },
+        {
+            "name": "Sarak",
+            "x": -17995.52,
+            "y": 26572.16,
+            "z": -24680.38,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Tempest Central",
+            "x": -26263.41,
+            "y": 1157.72,
+            "z": -24689.85,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Slums",
+            "x": -47351.26,
+            "y": -6161.2,
+            "z": -24817.19,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Shura Compound",
+            "x": -685.17,
+            "y": 4546.1,
+            "z": -24598.37,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Tempest East",
+            "x": -21307.85,
+            "y": -2274.46,
+            "z": -24817.19,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Elder's Compound",
+            "x": -30357.27,
+            "y": 7000.23,
+            "z": -24638.49,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "Market",
+            "x": -21436.27,
+            "y": -32113.94,
+            "z": -24669.15,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "7Any"
+            ]
+        }
+    ]
+}

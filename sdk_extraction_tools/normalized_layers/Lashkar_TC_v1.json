@@ -1,0 +1,23 @@
+{
+    "map_id": "lashkar_valley",
+    "layer_name": "Lashkar_TC_v1",
+    "total_flags": 2,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 2377.39,
+            "y": 155284.77,
+            "z": 1179.51
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 155380.92,
+            "y": -157957.09,
+            "z": 1016.41
+        }
+    ]
+}

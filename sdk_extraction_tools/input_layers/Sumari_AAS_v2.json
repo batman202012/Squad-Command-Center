@@ -1,0 +1,77 @@
+{
+    "map_id": "sumari",
+    "layer_name": "Sumari_AAS_v2",
+    "total_flags": 7,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -51875.88,
+            "y": 29679.06,
+            "z": -12774.18,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Checkpoint",
+            "lane": "Any",
+            "order": 1,
+            "x": -35737.0,
+            "y": 36598.0,
+            "z": -12969.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Rooftop House",
+            "lane": "Any",
+            "order": 2,
+            "x": -12843.0,
+            "y": 27522.0,
+            "z": -13418.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Materials Site",
+            "lane": "Any",
+            "order": 3,
+            "x": 2439.0,
+            "y": 30098.0,
+            "z": -13152.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Bakery",
+            "lane": "Any",
+            "order": 4,
+            "x": 20102.0,
+            "y": 34267.0,
+            "z": -12987.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Training Camp",
+            "lane": "Any",
+            "order": 5,
+            "x": 37070.35,
+            "y": 15449.15,
+            "z": -13478.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 56319.98,
+            "y": 6636.68,
+            "z": -13223.43,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

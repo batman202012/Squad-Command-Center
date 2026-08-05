@@ -1,0 +1,291 @@
+{
+    "map_id": "maps",
+    "layer_name": "Sanxian_Invasion_v3",
+    "total_flags": 26,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -34603.68,
+            "y": 170312.57,
+            "z": 2374.15,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 1,
+            "x": -70308.44,
+            "y": 103401.65,
+            "z": 4752.7,
+            "is_sky_node": true,
+            "linked_flags": [
+                "01-Landing Zone"
+            ]
+        },
+        {
+            "name": "Landing Zone",
+            "lane": "Any",
+            "order": 1,
+            "x": -67927.28,
+            "y": 130261.34,
+            "z": 952.3,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 2,
+            "x": 27190.64,
+            "y": 67399.2,
+            "z": 8383.95,
+            "is_sky_node": true,
+            "linked_flags": [
+                "2-Radar Station"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 2,
+            "x": -147044.95,
+            "y": 99577.46,
+            "z": 8383.95,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B2-Lagoon"
+            ]
+        },
+        {
+            "name": "Radar Station",
+            "lane": "Any",
+            "order": 2,
+            "x": 82.07,
+            "y": 124946.21,
+            "z": 936.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lagoon",
+            "lane": "B",
+            "order": 2,
+            "x": -148523.72,
+            "y": 104542.45,
+            "z": 842.07,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 3,
+            "x": -23150.14,
+            "y": -32923.45,
+            "z": 15587.53,
+            "is_sky_node": true,
+            "linked_flags": [
+                "3-Navy Port",
+                "3-Duwu"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 3,
+            "x": -159936.3,
+            "y": 58748.81,
+            "z": 8383.95,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B3-Lower Plantation",
+                "B3-Sanbai"
+            ]
+        },
+        {
+            "name": "Navy Port",
+            "lane": "Any",
+            "order": 3,
+            "x": -13983.9,
+            "y": 56666.59,
+            "z": 944.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Duwu",
+            "lane": "Any",
+            "order": 3,
+            "x": 14242.98,
+            "y": 57736.55,
+            "z": 588.92,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Sanbai",
+            "lane": "B",
+            "order": 3,
+            "x": -152691.61,
+            "y": 60931.66,
+            "z": 842.07,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lower Plantation",
+            "lane": "B",
+            "order": 3,
+            "x": -167610.56,
+            "y": 49331.19,
+            "z": 842.07,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 4,
+            "x": -54542.27,
+            "y": -84902.27,
+            "z": 9878.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "4-Dacun Waterfront"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 4,
+            "x": -122626.77,
+            "y": 28366.2,
+            "z": 8383.95,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B4-Harbour Town",
+                "B4-Shipwreck Cove"
+            ]
+        },
+        {
+            "name": "Dacun Waterfront",
+            "lane": "Any",
+            "order": 4,
+            "x": 29527.99,
+            "y": 11214.06,
+            "z": 944.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Harbour Town",
+            "lane": "B",
+            "order": 4,
+            "x": -121810.18,
+            "y": 25216.67,
+            "z": 362.7,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Shipwreck Cove",
+            "lane": "B",
+            "order": 4,
+            "x": -153145.56,
+            "y": -855.81,
+            "z": 59.05,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 5,
+            "x": -22075.27,
+            "y": -35824.27,
+            "z": 9878.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "5-Power Plant"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 5,
+            "x": -115942.05,
+            "y": -21005.25,
+            "z": 10708.91,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B5-Chanwan Warehouse",
+                "B5-Telecom Facility",
+                "B5-Chanwan",
+                "B5-Yunbo Docks"
+            ]
+        },
+        {
+            "name": "Power Plant",
+            "lane": "Any",
+            "order": 5,
+            "x": -22571.9,
+            "y": -32296.14,
+            "z": 642.22,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Chanwan",
+            "lane": "B",
+            "order": 5,
+            "x": -141674.77,
+            "y": -42911.5,
+            "z": 320.51,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Chanwan Warehouse",
+            "lane": "B",
+            "order": 5,
+            "x": -108644.36,
+            "y": -30590.02,
+            "z": 1216.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Yunbo Docks",
+            "lane": "B",
+            "order": 5,
+            "x": -82746.26,
+            "y": -11426.55,
+            "z": 306.34,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Telecom Facility",
+            "lane": "B",
+            "order": 5,
+            "x": -91815.57,
+            "y": 801.95,
+            "z": 1361.63,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -190394.12,
+            "y": -99275.31,
+            "z": 368.01,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

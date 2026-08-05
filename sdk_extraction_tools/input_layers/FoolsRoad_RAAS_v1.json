@@ -1,0 +1,337 @@
+{
+    "map_id": "fools_road",
+    "layer_name": "FoolsRoad_RAAS_v1",
+    "total_flags": 33,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -87566.08,
+            "y": 16391.02,
+            "z": -4661.44,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 1,
+            "x": -83315.12,
+            "y": -9432.81,
+            "z": -2655.61,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 1,
+            "x": -43033.12,
+            "y": -10444.81,
+            "z": -2655.61,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hill 24",
+            "lane": "Any",
+            "order": 1,
+            "x": -87168.84,
+            "y": -14341.57,
+            "z": -2356.94,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Mine Entrance",
+            "lane": "C",
+            "order": 1,
+            "x": -33808.0,
+            "y": -16000.0,
+            "z": -5904.97,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 2,
+            "x": -70370.69,
+            "y": -31309.5,
+            "z": -2277.3,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 2,
+            "x": -24830.12,
+            "y": -26296.04,
+            "z": -3837.49,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 2,
+            "x": -98806.41,
+            "y": -35492.09,
+            "z": 1.73,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "OP Fortress",
+            "lane": "A",
+            "order": 2,
+            "x": -92127.01,
+            "y": -46837.05,
+            "z": -3425.65,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hill 13",
+            "lane": "C",
+            "order": 2,
+            "x": -14221.0,
+            "y": -33884.0,
+            "z": 1130.1,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ridgeline",
+            "lane": "A",
+            "order": 2,
+            "x": -106151.47,
+            "y": -29199.43,
+            "z": -1298.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Mine Entrance",
+            "lane": "B",
+            "order": 2,
+            "x": -33808.0,
+            "y": -16000.0,
+            "z": -5904.97,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "OP Fortress",
+            "lane": "B",
+            "order": 2,
+            "x": -92127.01,
+            "y": -46837.05,
+            "z": -3425.65,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 3,
+            "x": -52614.91,
+            "y": -53499.7,
+            "z": -2057.26,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 3,
+            "x": 28029.27,
+            "y": -23096.0,
+            "z": -2057.22,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 3,
+            "x": -88777.03,
+            "y": -79266.01,
+            "z": -2057.23,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Dylym",
+            "lane": "E",
+            "order": 3,
+            "x": 30064.0,
+            "y": -12951.0,
+            "z": -4931.24,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hill 11",
+            "lane": "E",
+            "order": 3,
+            "x": 21611.0,
+            "y": -33328.0,
+            "z": 0.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Logger's Homestead",
+            "lane": "A",
+            "order": 3,
+            "x": -72538.0,
+            "y": -81428.0,
+            "z": -5381.64,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Fortress",
+            "lane": "A",
+            "order": 3,
+            "x": -99173.42,
+            "y": -99763.7,
+            "z": -5044.05,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ammo Hill",
+            "lane": "B",
+            "order": 3,
+            "x": -52508.0,
+            "y": -47868.0,
+            "z": -1758.98,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Taxi Homestead",
+            "lane": "A",
+            "order": 3,
+            "x": -86339.44,
+            "y": -81428.0,
+            "z": -5381.64,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 4,
+            "x": -23907.41,
+            "y": -78221.37,
+            "z": -4544.9,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 4,
+            "x": -32998.75,
+            "y": -82295.59,
+            "z": -4544.9,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 4,
+            "x": 14132.75,
+            "y": -67662.5,
+            "z": -4544.9,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hilltop Encampment",
+            "lane": "A",
+            "order": 4,
+            "x": -33079.0,
+            "y": -78406.0,
+            "z": -1742.35,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hill 123",
+            "lane": "C",
+            "order": 4,
+            "x": 24785.09,
+            "y": -68137.93,
+            "z": -3689.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hilltop Encampment",
+            "lane": "B",
+            "order": 4,
+            "x": -33079.0,
+            "y": -78406.0,
+            "z": -1742.35,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Springwater Homestead",
+            "lane": "B",
+            "order": 4,
+            "x": -18434.63,
+            "y": -77162.87,
+            "z": -7105.68,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "North Road Pass",
+            "lane": "A",
+            "order": 4,
+            "x": -57025.2,
+            "y": -112911.54,
+            "z": -4697.93,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 5,
+            "x": 12278.89,
+            "y": -91932.32,
+            "z": -4544.9,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Verto",
+            "lane": "Any",
+            "order": 5,
+            "x": 8842.0,
+            "y": -88304.03,
+            "z": -5189.86,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 11722.73,
+            "y": -118342.65,
+            "z": -4479.91,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

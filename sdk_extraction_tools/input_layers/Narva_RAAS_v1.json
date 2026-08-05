@@ -1,0 +1,1017 @@
+{
+    "map_id": "narva",
+    "layer_name": "Narva_RAAS_v1",
+    "total_flags": 92,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -117217.09,
+            "y": -83417.95,
+            "z": 1423.34,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 1,
+            "x": -78476.47,
+            "y": -62694.98,
+            "z": 6910.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A1-Airfield"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 1,
+            "x": -65196.47,
+            "y": -43444.98,
+            "z": 6910.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B1-Airfield"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 1,
+            "x": -85446.47,
+            "y": -36074.98,
+            "z": 6910.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C1-Farmstead"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 1,
+            "x": -96486.47,
+            "y": -21144.98,
+            "z": 6910.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D1-Farmstead"
+            ]
+        },
+        {
+            "name": "Farmstead",
+            "lane": "C",
+            "order": 1,
+            "x": -94346.72,
+            "y": -37589.42,
+            "z": 1025.64,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Airfield",
+            "lane": "A",
+            "order": 1,
+            "x": -77605.44,
+            "y": -61275.83,
+            "z": 1516.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Airfield",
+            "lane": "B",
+            "order": 1,
+            "x": -77605.44,
+            "y": -61275.83,
+            "z": 1516.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Farmstead",
+            "lane": "D",
+            "order": 1,
+            "x": -94346.72,
+            "y": -37589.42,
+            "z": 1025.64,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 2,
+            "x": -55346.47,
+            "y": -84354.98,
+            "z": 6910.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A2-Church",
+                "A2-Radio Station"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 2,
+            "x": -42026.47,
+            "y": -34104.98,
+            "z": 6910.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B2-Church",
+                "B2-Shanty Marina"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 2,
+            "x": -58656.47,
+            "y": -11934.98,
+            "z": 6910.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C2-Ring Road South",
+                "C2-Ring Road North"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 2,
+            "x": -67756.47,
+            "y": -7764.98,
+            "z": 6910.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D2-Ring Road South",
+                "D2-Ring Road North"
+            ]
+        },
+        {
+            "name": "Ring Road North",
+            "lane": "C",
+            "order": 2,
+            "x": -66189.53,
+            "y": -13258.99,
+            "z": 684.37,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Radio Station",
+            "lane": "A",
+            "order": 2,
+            "x": -54447.22,
+            "y": -78119.7,
+            "z": 1959.2,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Church",
+            "lane": "A",
+            "order": 2,
+            "x": -26586.56,
+            "y": -57810.38,
+            "z": 768.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ring Road South",
+            "lane": "C",
+            "order": 2,
+            "x": -57276.78,
+            "y": -5303.76,
+            "z": 684.36,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Shanty Marina",
+            "lane": "B",
+            "order": 2,
+            "x": -48720.22,
+            "y": -16827.54,
+            "z": 685.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Church",
+            "lane": "B",
+            "order": 2,
+            "x": -26586.56,
+            "y": -57810.38,
+            "z": 768.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ring Road North",
+            "lane": "D",
+            "order": 2,
+            "x": -66189.53,
+            "y": -13258.99,
+            "z": 684.37,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ring Road South",
+            "lane": "D",
+            "order": 2,
+            "x": -57276.78,
+            "y": -5303.76,
+            "z": 684.36,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 3,
+            "x": -1706.47,
+            "y": -65564.98,
+            "z": 6910.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A3-Factory",
+                "A3-Old Barracks",
+                "A3-Student Apartments"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 3,
+            "x": -20286.47,
+            "y": -28504.98,
+            "z": 6910.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B3-Old Hospital",
+                "B3-Narova East",
+                "B3-Council Towers"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 3,
+            "x": -31506.47,
+            "y": 11315.02,
+            "z": 6910.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C3-Oru Village West",
+                "C3-Oru Village East",
+                "C3-Narova Abandoned",
+                "C3-Narova East",
+                "C3-Narova Ruins"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 3,
+            "x": -56306.47,
+            "y": 17775.02,
+            "z": 6910.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D3-Oru Village East",
+                "D3-Fuel Storage North",
+                "D3-Oru Village West",
+                "D3-Fuel Storage South"
+            ]
+        },
+        {
+            "name": "Council Towers",
+            "lane": "B",
+            "order": 3,
+            "x": -22969.33,
+            "y": -36943.94,
+            "z": 696.09,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Narova East",
+            "lane": "C",
+            "order": 3,
+            "x": -23577.52,
+            "y": -14906.88,
+            "z": 710.15,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Fuel Storage North",
+            "lane": "D",
+            "order": 3,
+            "x": -56384.25,
+            "y": 24821.54,
+            "z": 99.95,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Oru Village West",
+            "lane": "C",
+            "order": 3,
+            "x": -36964.66,
+            "y": 11825.85,
+            "z": 1113.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Old Hospital",
+            "lane": "B",
+            "order": 3,
+            "x": -12517.78,
+            "y": -33132.99,
+            "z": 811.73,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Student Apartments",
+            "lane": "A",
+            "order": 3,
+            "x": 1448.49,
+            "y": -51738.04,
+            "z": 207.02,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Old Barracks",
+            "lane": "A",
+            "order": 3,
+            "x": -7822.8,
+            "y": -73763.78,
+            "z": 1494.58,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Factory",
+            "lane": "A",
+            "order": 3,
+            "x": -6484.98,
+            "y": -51905.65,
+            "z": 207.01,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Oru Village East",
+            "lane": "C",
+            "order": 3,
+            "x": -24614.08,
+            "y": 12346.04,
+            "z": 1113.84,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Fuel Storage South",
+            "lane": "D",
+            "order": 3,
+            "x": -69330.45,
+            "y": 30730.22,
+            "z": 99.96,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Narova East",
+            "lane": "B",
+            "order": 3,
+            "x": -23577.52,
+            "y": -14906.88,
+            "z": 710.15,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Narova Abandoned",
+            "lane": "C",
+            "order": 3,
+            "x": -35084.95,
+            "y": -20999.56,
+            "z": 710.15,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Narova Ruins",
+            "lane": "C",
+            "order": 3,
+            "x": -32932.44,
+            "y": -11659.85,
+            "z": 710.15,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Oru Village West",
+            "lane": "D",
+            "order": 3,
+            "x": -36964.66,
+            "y": 11825.85,
+            "z": 1113.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Oru Village East",
+            "lane": "D",
+            "order": 3,
+            "x": -24614.08,
+            "y": 12346.04,
+            "z": 1113.84,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 4,
+            "x": 13303.53,
+            "y": -43094.98,
+            "z": 6910.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A4-Fama Apartments",
+                "A4-Shopping Center",
+                "A4-University"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 4,
+            "x": 5243.53,
+            "y": -16984.98,
+            "z": 6910.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B4-Central Narva",
+                "B4-Geneva Apartments"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 4,
+            "x": 4983.53,
+            "y": 4745.02,
+            "z": 6910.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C4-Bridgeview Apartments",
+                "C4-Uuskula Apartments"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 4,
+            "x": -24866.47,
+            "y": 49635.02,
+            "z": 6910.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D4-Foundry",
+                "D4-Quarry"
+            ]
+        },
+        {
+            "name": "Quarry",
+            "lane": "D",
+            "order": 4,
+            "x": -21878.2,
+            "y": 60400.66,
+            "z": 424.08,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Geneva Apartments",
+            "lane": "B",
+            "order": 4,
+            "x": 7223.41,
+            "y": -27283.88,
+            "z": 689.12,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Foundry",
+            "lane": "D",
+            "order": 4,
+            "x": -26686.56,
+            "y": 34921.87,
+            "z": 99.98,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "University",
+            "lane": "A",
+            "order": 4,
+            "x": 19729.45,
+            "y": -54823.8,
+            "z": 207.02,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Shopping Center",
+            "lane": "A",
+            "order": 4,
+            "x": 14266.14,
+            "y": -39506.7,
+            "z": 686.72,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Uuskula Apartments",
+            "lane": "C",
+            "order": 4,
+            "x": 3640.23,
+            "y": 17656.46,
+            "z": 1335.95,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Fama Apartments",
+            "lane": "A",
+            "order": 4,
+            "x": 7582.17,
+            "y": -39342.62,
+            "z": 686.72,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Central Narva",
+            "lane": "B",
+            "order": 4,
+            "x": 1073.41,
+            "y": -16223.88,
+            "z": 689.12,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Bridgeview Apartments",
+            "lane": "C",
+            "order": 4,
+            "x": 13904.59,
+            "y": -6005.23,
+            "z": 1520.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 5,
+            "x": 26943.53,
+            "y": -33774.98,
+            "z": 6910.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A5-Downtown Storefronts",
+                "A5-Dog Park Apartments"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 5,
+            "x": 19853.53,
+            "y": -3744.98,
+            "z": 6910.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B5-Bridgeview Apartments",
+                "B5-Train Depot"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 5,
+            "x": 30113.53,
+            "y": 16345.02,
+            "z": 6910.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C5-Narva Station",
+                "C5-Warehouse",
+                "C5-Kanda Court"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 5,
+            "x": 3403.53,
+            "y": 46155.02,
+            "z": 6910.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D5-Uuskula Towers",
+                "D5-Kanepi North",
+                "D5-Orchard",
+                "D5-Kanepi South"
+            ]
+        },
+        {
+            "name": "Train Depot",
+            "lane": "B",
+            "order": 5,
+            "x": 25242.62,
+            "y": -5990.87,
+            "z": 1520.63,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Kanda Court",
+            "lane": "C",
+            "order": 5,
+            "x": 22122.36,
+            "y": 17777.77,
+            "z": 655.46,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Bridgeview Apartments",
+            "lane": "B",
+            "order": 5,
+            "x": 13904.59,
+            "y": -6005.23,
+            "z": 1520.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Orchard",
+            "lane": "D",
+            "order": 5,
+            "x": 10158.58,
+            "y": 59177.2,
+            "z": 1431.93,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Warehouse",
+            "lane": "C",
+            "order": 5,
+            "x": 33979.84,
+            "y": 22731.92,
+            "z": 1468.13,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Uuskula Towers",
+            "lane": "D",
+            "order": 5,
+            "x": -2820.51,
+            "y": 29237.26,
+            "z": 1335.96,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Downtown Storefronts",
+            "lane": "A",
+            "order": 5,
+            "x": 25699.04,
+            "y": -26628.57,
+            "z": 689.83,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Dog Park Apartments",
+            "lane": "A",
+            "order": 5,
+            "x": 30506.65,
+            "y": -37856.39,
+            "z": 686.71,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Kanepi North",
+            "lane": "D",
+            "order": 5,
+            "x": -6145.11,
+            "y": 37953.38,
+            "z": 937.66,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Kanepi South",
+            "lane": "D",
+            "order": 5,
+            "x": 4396.15,
+            "y": 46410.09,
+            "z": 782.23,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Narva Station",
+            "lane": "C",
+            "order": 5,
+            "x": 35703.23,
+            "y": 9737.94,
+            "z": 1520.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 6,
+            "x": 51333.53,
+            "y": -27184.98,
+            "z": 6910.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A6-Narva Heights",
+                "A6-Narva Castle"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 6,
+            "x": 38853.53,
+            "y": 3105.02,
+            "z": 6910.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B6-Castleview Apartments",
+                "B6-Narva Station"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 6,
+            "x": 56683.53,
+            "y": 24095.02,
+            "z": 6910.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C6-Turu Apartments",
+                "C6-Kiriku",
+                "C6-Train Inspection"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 6,
+            "x": 37293.53,
+            "y": 58465.02,
+            "z": 6910.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D6-Marina",
+                "D6-Turu Apartments",
+                "D6-Power Plant"
+            ]
+        },
+        {
+            "name": "Narva Castle",
+            "lane": "A",
+            "order": 6,
+            "x": 50642.22,
+            "y": -16551.68,
+            "z": 1478.9,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Narva Heights",
+            "lane": "A",
+            "order": 6,
+            "x": 49477.43,
+            "y": -36180.29,
+            "z": 1253.42,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Narva Station",
+            "lane": "B",
+            "order": 6,
+            "x": 35703.23,
+            "y": 9737.94,
+            "z": 1520.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Train Inspection",
+            "lane": "C",
+            "order": 6,
+            "x": 50564.17,
+            "y": 25843.17,
+            "z": 1468.17,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Turu Apartments",
+            "lane": "D",
+            "order": 6,
+            "x": 50080.1,
+            "y": 34559.68,
+            "z": 1468.17,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Castleview Apartments",
+            "lane": "B",
+            "order": 6,
+            "x": 38570.25,
+            "y": -6056.45,
+            "z": 685.15,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Turu Apartments",
+            "lane": "C",
+            "order": 6,
+            "x": 50065.98,
+            "y": 34560.15,
+            "z": 1468.16,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Marina",
+            "lane": "D",
+            "order": 6,
+            "x": 27293.75,
+            "y": 84202.34,
+            "z": -39.44,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Power Plant",
+            "lane": "D",
+            "order": 6,
+            "x": 45297.31,
+            "y": 57687.69,
+            "z": 1477.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Kiriku",
+            "lane": "C",
+            "order": 6,
+            "x": 60938.58,
+            "y": 10023.01,
+            "z": 685.91,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 7,
+            "x": 77993.53,
+            "y": -20814.98,
+            "z": 6910.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A7-Russian Border Checkpoint",
+                "A7-Ivangorod Outskirts"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 7,
+            "x": 62323.53,
+            "y": 10155.02,
+            "z": 6910.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B7-Kiriku"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 7,
+            "x": 82493.53,
+            "y": 45315.02,
+            "z": 6910.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C7-Parusinka"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "D",
+            "order": 7,
+            "x": 86043.53,
+            "y": 43885.02,
+            "z": 6910.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "D7-Parusinka"
+            ]
+        },
+        {
+            "name": "Kiriku",
+            "lane": "B",
+            "order": 7,
+            "x": 60938.58,
+            "y": 10023.01,
+            "z": 685.91,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Russian Border Checkpoint",
+            "lane": "A",
+            "order": 7,
+            "x": 74107.44,
+            "y": -21030.29,
+            "z": 1153.42,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ivangorod Outskirts",
+            "lane": "A",
+            "order": 7,
+            "x": 94027.44,
+            "y": -23300.29,
+            "z": 473.42,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Parusinka",
+            "lane": "C",
+            "order": 7,
+            "x": 81258.58,
+            "y": 49153.01,
+            "z": 475.91,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Parusinka",
+            "lane": "D",
+            "order": 7,
+            "x": 81258.58,
+            "y": 49153.01,
+            "z": 475.91,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 127188.99,
+            "y": 32994.14,
+            "z": 879.66,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

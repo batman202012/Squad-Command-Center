@@ -1,0 +1,797 @@
+{
+    "map_id": "maps",
+    "layer_name": "Sanxian_RAAS_v2",
+    "total_flags": 72,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 180027.89,
+            "y": -36831.35,
+            "z": 809.36,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 1,
+            "x": 84828.79,
+            "y": 2841.55,
+            "z": 31259.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A1-Rice Farm",
+                "A1-WW2 Bunkers",
+                "A1-Antenna Compound",
+                "A1-Farming Community"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 1,
+            "x": 109908.36,
+            "y": -48313.01,
+            "z": 22319.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B1-Taishan",
+                "B1-Logistics Center"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 1,
+            "x": 131205.36,
+            "y": -48905.01,
+            "z": 22319.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C1-Walled Farm"
+            ]
+        },
+        {
+            "name": "Walled Farm",
+            "lane": "C",
+            "order": 1,
+            "x": 131464.84,
+            "y": -52858.23,
+            "z": 4635.35,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "WW2 Bunkers",
+            "lane": "A",
+            "order": 1,
+            "x": 110519.84,
+            "y": 44811.77,
+            "z": 1051.09,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Farming Community",
+            "lane": "A",
+            "order": 1,
+            "x": 109329.21,
+            "y": 11680.46,
+            "z": 2486.87,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Logistics Center",
+            "lane": "B",
+            "order": 1,
+            "x": 108126.53,
+            "y": -34175.18,
+            "z": 4338.88,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Taishan",
+            "lane": "B",
+            "order": 1,
+            "x": 123754.0,
+            "y": -29509.38,
+            "z": 3688.88,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Rice Farm",
+            "lane": "A",
+            "order": 1,
+            "x": 68274.84,
+            "y": -12663.23,
+            "z": 2911.23,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Antenna Compound",
+            "lane": "A",
+            "order": 1,
+            "x": 85624.84,
+            "y": -5163.23,
+            "z": 3649.21,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 2,
+            "x": 70135.79,
+            "y": -45268.45,
+            "z": 31259.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B2-Plantations"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 2,
+            "x": 61108.79,
+            "y": 39742.55,
+            "z": 31259.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A2-Dacun Admin",
+                "A2-Dacun"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 2,
+            "x": 79649.36,
+            "y": -71167.01,
+            "z": 22319.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C2-Plantations",
+                "C2-Hilltop Estate",
+                "C2-Refinery"
+            ]
+        },
+        {
+            "name": "Refinery",
+            "lane": "C",
+            "order": 2,
+            "x": 84964.84,
+            "y": -92608.23,
+            "z": 1059.23,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Dacun",
+            "lane": "A",
+            "order": 2,
+            "x": 26113.64,
+            "y": 20188.02,
+            "z": 1088.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Plantations",
+            "lane": "B",
+            "order": 2,
+            "x": 53631.48,
+            "y": -45242.34,
+            "z": 1488.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Dacun Admin",
+            "lane": "A",
+            "order": 2,
+            "x": 68092.84,
+            "y": 29554.48,
+            "z": 1338.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hilltop Estate",
+            "lane": "C",
+            "order": 2,
+            "x": 68264.84,
+            "y": -65258.23,
+            "z": 4635.35,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Plantations",
+            "lane": "C",
+            "order": 2,
+            "x": 53631.48,
+            "y": -45242.34,
+            "z": 1488.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 3,
+            "x": 43194.36,
+            "y": 78785.99,
+            "z": 33729.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A3-Wushiwan",
+                "A3-Duwu"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 3,
+            "x": 13497.83,
+            "y": -43121.22,
+            "z": 33703.98,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B3-Canal Town",
+                "B3-East Gate"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 3,
+            "x": 26119.36,
+            "y": -68336.01,
+            "z": 22319.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C3-Canal Town"
+            ]
+        },
+        {
+            "name": "Canal Town",
+            "lane": "B",
+            "order": 3,
+            "x": 24439.84,
+            "y": -69153.23,
+            "z": 531.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Duwu",
+            "lane": "A",
+            "order": 3,
+            "x": 13634.7,
+            "y": 56064.07,
+            "z": 588.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Wushiwan",
+            "lane": "A",
+            "order": 3,
+            "x": 66594.95,
+            "y": 64453.99,
+            "z": 1786.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "East Gate",
+            "lane": "B",
+            "order": 3,
+            "x": 3711.84,
+            "y": -26352.23,
+            "z": 531.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Canal Town",
+            "lane": "C",
+            "order": 3,
+            "x": 24439.84,
+            "y": -69153.23,
+            "z": 531.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 4,
+            "x": -24257.64,
+            "y": -34491.01,
+            "z": 22319.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B4-Power Plant Admin",
+                "B4-Power Plant"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 4,
+            "x": 20393.8,
+            "y": 89405.55,
+            "z": 31259.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A4-Yueshan Warehouse",
+                "A4-South East Farm",
+                "A4-Yueshan",
+                "A4-Navy Port",
+                "A4-Yueshan Admin"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 4,
+            "x": -38311.64,
+            "y": -89899.01,
+            "z": 22319.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C4-Crossroads",
+                "C4-Lower Oil Storage",
+                "C4-Ridgeline Silos"
+            ]
+        },
+        {
+            "name": "Yueshan Warehouse",
+            "lane": "A",
+            "order": 4,
+            "x": 51995.81,
+            "y": 108861.74,
+            "z": 386.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ridgeline Silos",
+            "lane": "C",
+            "order": 4,
+            "x": -45249.92,
+            "y": -120731.68,
+            "z": 3441.37,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Yueshan Admin",
+            "lane": "A",
+            "order": 4,
+            "x": 64355.05,
+            "y": 109711.2,
+            "z": 386.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Yueshan",
+            "lane": "A",
+            "order": 4,
+            "x": 63238.17,
+            "y": 98649.79,
+            "z": 1136.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "South East Farm",
+            "lane": "A",
+            "order": 4,
+            "x": 26480.28,
+            "y": 91636.9,
+            "z": 836.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Power Plant",
+            "lane": "B",
+            "order": 4,
+            "x": -23001.91,
+            "y": -30918.91,
+            "z": 1829.18,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Power Plant Admin",
+            "lane": "B",
+            "order": 4,
+            "x": -25630.2,
+            "y": -47917.36,
+            "z": 1829.18,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Navy Port",
+            "lane": "A",
+            "order": 4,
+            "x": -6852.47,
+            "y": 56581.04,
+            "z": 1829.18,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Crossroads",
+            "lane": "C",
+            "order": 4,
+            "x": -27898.36,
+            "y": -83330.01,
+            "z": 1104.48,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lower Oil Storage",
+            "lane": "C",
+            "order": 4,
+            "x": -46784.94,
+            "y": -68547.21,
+            "z": 2504.48,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 5,
+            "x": -5587.64,
+            "y": 106717.99,
+            "z": 33729.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A5-Radar Station",
+                "A5-Hill 137"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 5,
+            "x": -39668.2,
+            "y": -25410.45,
+            "z": 38496.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B5-Coal Storage",
+                "B5-Yunbo Docks"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 5,
+            "x": -91162.64,
+            "y": -65739.01,
+            "z": 22319.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C5-Rentang Port North",
+                "C5-Rentang",
+                "C5-Rentang Port South"
+            ]
+        },
+        {
+            "name": "Rentang",
+            "lane": "C",
+            "order": 5,
+            "x": -93605.66,
+            "y": -91920.12,
+            "z": 349.78,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Radar Station",
+            "lane": "A",
+            "order": 5,
+            "x": 82.06,
+            "y": 124946.21,
+            "z": 936.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Rentang Port North",
+            "lane": "C",
+            "order": 5,
+            "x": -91420.09,
+            "y": -57202.55,
+            "z": 805.46,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Rentang Port South",
+            "lane": "C",
+            "order": 5,
+            "x": -85518.94,
+            "y": -44179.44,
+            "z": 805.46,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hill 137",
+            "lane": "A",
+            "order": 5,
+            "x": -8286.28,
+            "y": 104569.95,
+            "z": 1770.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Coal Storage",
+            "lane": "B",
+            "order": 5,
+            "x": -41452.49,
+            "y": -28682.6,
+            "z": 1829.18,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Yunbo Docks",
+            "lane": "B",
+            "order": 5,
+            "x": -80113.16,
+            "y": -11540.23,
+            "z": 216.03,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 6,
+            "x": -67971.64,
+            "y": 109905.99,
+            "z": 33729.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A6-Island Bravo",
+                "A6-Island Charlie",
+                "A6-Island Alpha"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 6,
+            "x": -74528.2,
+            "y": 11243.55,
+            "z": 38496.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B6-Telecom Compound",
+                "B6-Dongchung East",
+                "B6-Dongchung West"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 6,
+            "x": -126936.64,
+            "y": -31560.01,
+            "z": 22319.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C6-Chanwan",
+                "C6-Chanwan Docks",
+                "C6-Chanwan Warehouse"
+            ]
+        },
+        {
+            "name": "Island Charlie",
+            "lane": "A",
+            "order": 6,
+            "x": -69795.16,
+            "y": 125616.77,
+            "z": 1279.18,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Dongchung East",
+            "lane": "B",
+            "order": 6,
+            "x": -60740.16,
+            "y": 28596.77,
+            "z": 874.03,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Chanwan",
+            "lane": "C",
+            "order": 6,
+            "x": -142084.16,
+            "y": -40028.23,
+            "z": 515.83,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Chanwan Warehouse",
+            "lane": "C",
+            "order": 6,
+            "x": -108329.16,
+            "y": -30644.23,
+            "z": 225.53,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Chanwan Docks",
+            "lane": "C",
+            "order": 6,
+            "x": -135887.02,
+            "y": -52102.35,
+            "z": 805.46,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Island Alpha",
+            "lane": "A",
+            "order": 6,
+            "x": -88895.13,
+            "y": 93966.79,
+            "z": 1029.18,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Island Bravo",
+            "lane": "A",
+            "order": 6,
+            "x": -59845.16,
+            "y": 89516.79,
+            "z": 1029.18,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Dongchung West",
+            "lane": "B",
+            "order": 6,
+            "x": -83740.16,
+            "y": 25646.77,
+            "z": 524.03,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Telecom Compound",
+            "lane": "B",
+            "order": 6,
+            "x": -91990.16,
+            "y": 1196.77,
+            "z": 1274.03,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 7,
+            "x": -130336.64,
+            "y": 93017.99,
+            "z": 33729.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A7-Menzai",
+                "A7-Jipashi"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 7,
+            "x": -85959.2,
+            "y": 999.55,
+            "z": 38496.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B7-Harbour Town",
+                "B7-Harbour"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 7,
+            "x": -149886.64,
+            "y": 2577.99,
+            "z": 22319.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C7-Shipwreck Cove"
+            ]
+        },
+        {
+            "name": "Harbour Town",
+            "lane": "B",
+            "order": 7,
+            "x": -123334.16,
+            "y": 20471.77,
+            "z": 400.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Harbour",
+            "lane": "B",
+            "order": 7,
+            "x": -120027.2,
+            "y": 27015.43,
+            "z": 278.29,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Jipashi",
+            "lane": "A",
+            "order": 7,
+            "x": -147595.16,
+            "y": 102896.77,
+            "z": 1104.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Menzai",
+            "lane": "A",
+            "order": 7,
+            "x": -124837.94,
+            "y": 80646.84,
+            "z": 408.21,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Shipwreck Cove",
+            "lane": "C",
+            "order": 7,
+            "x": -154934.16,
+            "y": 1121.77,
+            "z": 200.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -187853.07,
+            "y": 70354.96,
+            "z": 707.33,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

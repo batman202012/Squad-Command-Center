@@ -1,0 +1,98 @@
+{
+    "map_id": "narva",
+    "layer_name": "Narva_AAS_v3",
+    "total_flags": 7,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -118839.81,
+            "y": -80835.35,
+            "z": 1417.27
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 127447.17,
+            "y": 33137.08,
+            "z": 309.59
+        },
+        {
+            "name": "Abandoned Airfield",
+            "x": -79489.95,
+            "y": -62021.24,
+            "z": 1516.4,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Ring Road",
+            "x": -64181.16,
+            "y": -10048.29,
+            "z": 684.37,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Quarry",
+            "x": -21461.12,
+            "y": 57911.62,
+            "z": 311.88,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Shipping Yard",
+            "x": 22762.39,
+            "y": 31328.34,
+            "z": 673.5,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Narva Castle",
+            "x": 50197.39,
+            "y": -17105.87,
+            "z": 690.75,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

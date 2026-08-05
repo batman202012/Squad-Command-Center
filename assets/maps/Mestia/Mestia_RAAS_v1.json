@@ -1,0 +1,173 @@
+{
+    "map_id": "mestia_green",
+    "layer_name": "Mestia_RAAS_v1",
+    "total_flags": 12,
+    "flags": [
+        {
+            "name": "USA Main",
+            "lane": "Any",
+            "order": 0,
+            "x": 102540.0,
+            "y": 55663.78,
+            "z": -4691.88
+        },
+        {
+            "name": "MIL Main",
+            "lane": "Any",
+            "order": 100,
+            "x": -97554.53,
+            "y": -4619.87,
+            "z": 3281.65
+        },
+        {
+            "name": "Farmstead",
+            "x": 59348.0,
+            "y": 27491.0,
+            "z": -6691.77,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Quarry",
+            "x": 39437.81,
+            "y": -39931.32,
+            "z": -8946.94,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Tunnel Entrance",
+            "x": 32589.55,
+            "y": 24278.38,
+            "z": -7978.16,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Crucible Gamma",
+            "x": 28854.45,
+            "y": 560.51,
+            "z": -1280.72,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Crucible Alpha",
+            "x": 10836.24,
+            "y": -2103.84,
+            "z": -1627.72,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Warehouse",
+            "x": -38960.56,
+            "y": 66551.05,
+            "z": -9710.02,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Crucible Bravo",
+            "x": 8294.0,
+            "y": 15049.0,
+            "z": -3515.02,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Shtugra Waterfall",
+            "x": -12730.74,
+            "y": 37260.31,
+            "z": -11766.24,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Armory",
+            "x": -58508.31,
+            "y": 23924.44,
+            "z": -6764.73,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Fortification",
+            "x": -33693.41,
+            "y": -7901.76,
+            "z": -6106.24,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

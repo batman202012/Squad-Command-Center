@@ -1,0 +1,122 @@
+{
+    "map_id": "manicouagan",
+    "layer_name": "Manicouagan_Seed_v1",
+    "total_flags": 10,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 102369.82,
+            "y": 142751.85,
+            "z": 5397.94
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -5532.01,
+            "y": 90468.3,
+            "z": 5644.0
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": -170099.52,
+            "y": -73194.71,
+            "z": 12147.0
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh",
+            "lane": "Any",
+            "order": -1,
+            "x": -33322.11,
+            "y": -35379.22,
+            "z": 5300.0
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh2",
+            "lane": "Any",
+            "order": -1,
+            "x": -34046.83,
+            "y": -32674.62,
+            "z": 5300.0
+        },
+        {
+            "name": "Comeau Gas Station",
+            "x": 66423.21,
+            "y": 137833.61,
+            "z": 5416.75,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Comeau Hay Barn",
+            "x": 38768.31,
+            "y": 136352.11,
+            "z": 5463.95,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Comeau Central",
+            "x": 32384.69,
+            "y": 126150.37,
+            "z": 5501.13,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Comeau Homestead",
+            "x": 27383.36,
+            "y": 116044.02,
+            "z": 5437.85,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Old Shacks",
+            "x": 33690.72,
+            "y": 79923.55,
+            "z": 5344.2,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

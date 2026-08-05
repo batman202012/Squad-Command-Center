@@ -1,0 +1,87 @@
+{
+    "map_id": "fallujah_city",
+    "layer_name": "Fallujah_Seed_v1",
+    "total_flags": 8,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 11663.11,
+            "y": -15773.68,
+            "z": -4402.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Shipping Area 1",
+            "lane": "Any",
+            "order": 1,
+            "x": 22854.11,
+            "y": -14699.44,
+            "z": -4420.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Market Center",
+            "lane": "Any",
+            "order": 2,
+            "x": 28571.95,
+            "y": -12943.86,
+            "z": -4414.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hallal Market",
+            "lane": "Any",
+            "order": 3,
+            "x": 34586.4,
+            "y": -8270.09,
+            "z": -4139.14,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 44705.5,
+            "y": -10197.74,
+            "z": -4339.92,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_3",
+            "lane": "Any",
+            "order": -1,
+            "x": 13294.93,
+            "y": 43220.02,
+            "z": -4412.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": -37129.02,
+            "y": 80872.95,
+            "z": -2988.29,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_2",
+            "lane": "Any",
+            "order": -1,
+            "x": -27127.36,
+            "y": -36929.61,
+            "z": -3818.97,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

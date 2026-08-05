@@ -1,0 +1,152 @@
+{
+    "map_id": "fallujah_city",
+    "layer_name": "Fallujah_Skirmish_v2",
+    "total_flags": 12,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -22761.91,
+            "y": -34452.52,
+            "z": -3627.89
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 89828.73,
+            "y": -67860.0,
+            "z": -4242.62
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": -37129.02,
+            "y": 80872.95,
+            "z": -2988.29
+        },
+        {
+            "name": "SM_USA_Flag_3",
+            "lane": "Any",
+            "order": -1,
+            "x": 13294.93,
+            "y": 43220.02,
+            "z": -4412.89
+        },
+        {
+            "name": "SM_USA_Flag_2",
+            "lane": "Any",
+            "order": -1,
+            "x": -27127.36,
+            "y": -36929.61,
+            "z": -3818.97
+        },
+        {
+            "name": "Commercial District",
+            "x": 5739.84,
+            "y": -24151.08,
+            "z": -4146.88,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Mosque",
+            "x": 36449.45,
+            "y": -29638.83,
+            "z": -5246.88,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Shurta Apartments",
+            "x": 33152.01,
+            "y": -49134.35,
+            "z": -5552.7,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Warehouse",
+            "x": 29178.85,
+            "y": -72928.94,
+            "z": -3876.25,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Muallimin",
+            "x": 7428.87,
+            "y": -57256.7,
+            "z": -4856.88,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Shurta Neighborhood",
+            "x": 61514.08,
+            "y": -53046.26,
+            "z": -4226.88,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "Askari Hill",
+            "x": 76126.57,
+            "y": -35424.31,
+            "z": -4566.88,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "7Any"
+            ]
+        }
+    ]
+}

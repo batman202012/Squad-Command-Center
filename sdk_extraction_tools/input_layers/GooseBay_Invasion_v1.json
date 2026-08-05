@@ -1,0 +1,447 @@
+{
+    "map_id": "goose_bay",
+    "layer_name": "GooseBay_Invasion_v1",
+    "total_flags": 44,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -154917.92,
+            "y": -178377.34,
+            "z": -22998.64,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 1,
+            "x": -43707.35,
+            "y": -131396.84,
+            "z": -2150.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 1,
+            "x": -85989.91,
+            "y": -101410.5,
+            "z": -2150.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 1,
+            "x": -122705.23,
+            "y": -56966.75,
+            "z": -2150.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Train Yard",
+            "lane": "B",
+            "order": 1,
+            "x": -83950.27,
+            "y": -102441.16,
+            "z": -23572.7,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Sheshatshiu",
+            "lane": "A",
+            "order": 1,
+            "x": -44169.86,
+            "y": -128504.88,
+            "z": -15982.71,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Naval Refueling Station",
+            "lane": "C",
+            "order": 1,
+            "x": -116586.63,
+            "y": -61517.23,
+            "z": -23572.7,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 2,
+            "x": 27245.26,
+            "y": -87156.92,
+            "z": -2150.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 2,
+            "x": -114285.19,
+            "y": -62660.13,
+            "z": -2150.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 2,
+            "x": -115631.58,
+            "y": -11223.8,
+            "z": -2150.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Naval Refueling Station",
+            "lane": "B",
+            "order": 2,
+            "x": -116586.63,
+            "y": -61517.23,
+            "z": -23572.7,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Churchill",
+            "lane": "A",
+            "order": 2,
+            "x": 33717.49,
+            "y": -89701.68,
+            "z": -19086.44,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Drilling Site",
+            "lane": "C",
+            "order": 2,
+            "x": -92314.14,
+            "y": -14392.5,
+            "z": -20077.78,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 3,
+            "x": 104613.78,
+            "y": -68726.83,
+            "z": -2150.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 3,
+            "x": -85181.45,
+            "y": -29384.62,
+            "z": -2150.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 3,
+            "x": -137021.53,
+            "y": 33776.79,
+            "z": -2150.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Weather Station",
+            "lane": "C",
+            "order": 3,
+            "x": -71629.55,
+            "y": 22755.53,
+            "z": -24012.38,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Shimik",
+            "lane": "B",
+            "order": 3,
+            "x": -89615.23,
+            "y": -46329.59,
+            "z": -23572.7,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Drilling Site",
+            "lane": "B",
+            "order": 3,
+            "x": -92314.14,
+            "y": -14392.5,
+            "z": -20077.78,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FOB Inkpen",
+            "lane": "A",
+            "order": 3,
+            "x": 93589.05,
+            "y": -110865.1,
+            "z": -14544.3,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "NORAD Facility",
+            "lane": "A",
+            "order": 3,
+            "x": 100267.8,
+            "y": -44503.58,
+            "z": -16490.11,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Fishing Village",
+            "lane": "C",
+            "order": 3,
+            "x": -116539.6,
+            "y": 55716.96,
+            "z": -24012.38,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 4,
+            "x": 96483.12,
+            "y": 20233.34,
+            "z": -2150.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 4,
+            "x": -15500.66,
+            "y": -14875.2,
+            "z": -2150.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 4,
+            "x": -74535.76,
+            "y": 101043.66,
+            "z": -2150.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hilltop Redoubt",
+            "lane": "B",
+            "order": 4,
+            "x": -9463.91,
+            "y": -13970.38,
+            "z": -16321.38,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "CFB Goose Bay",
+            "lane": "A",
+            "order": 4,
+            "x": 58169.91,
+            "y": 9381.05,
+            "z": -16670.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Military Housing",
+            "lane": "A",
+            "order": 4,
+            "x": 137724.91,
+            "y": 11863.12,
+            "z": -16670.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Research Station",
+            "lane": "C",
+            "order": 4,
+            "x": -57276.96,
+            "y": 91799.96,
+            "z": -23690.21,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "5 Wing HQ",
+            "lane": "C",
+            "order": 4,
+            "x": -94476.3,
+            "y": 113003.83,
+            "z": -24288.42,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 5,
+            "x": 87715.88,
+            "y": 67742.03,
+            "z": -2150.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 5,
+            "x": 54778.53,
+            "y": 23638.58,
+            "z": -2150.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 5,
+            "x": -12986.15,
+            "y": 139082.47,
+            "z": -2150.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "CFB Goose Bay2",
+            "lane": "B",
+            "order": 5,
+            "x": 35659.03,
+            "y": 38407.33,
+            "z": -16670.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "CFB Goose Bay3",
+            "lane": "B",
+            "order": 5,
+            "x": 52387.72,
+            "y": 27864.09,
+            "z": -16670.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Refinery",
+            "lane": "A",
+            "order": 5,
+            "x": 96144.95,
+            "y": 71934.24,
+            "z": -16490.11,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Airstrip",
+            "lane": "C",
+            "order": 5,
+            "x": -31247.17,
+            "y": 134153.3,
+            "z": -23818.7,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Happy Valley",
+            "lane": "C",
+            "order": 5,
+            "x": -12101.88,
+            "y": 153666.44,
+            "z": -23947.54,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "OP Hebb",
+            "lane": "C",
+            "order": 5,
+            "x": 15809.27,
+            "y": 109533.27,
+            "z": -19049.7,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 186623.94,
+            "y": 173893.72,
+            "z": -20372.83,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead2",
+            "lane": "Any",
+            "order": -1,
+            "x": 137463.02,
+            "y": 11862.72,
+            "z": -14388.09,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "CAF",
+            "lane": "Any",
+            "order": -1,
+            "x": 137461.98,
+            "y": 11859.9,
+            "z": -13546.48,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead3",
+            "lane": "Any",
+            "order": -1,
+            "x": -93157.02,
+            "y": 112599.05,
+            "z": -24388.09,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "CAF2",
+            "lane": "Any",
+            "order": -1,
+            "x": -93164.05,
+            "y": 112599.23,
+            "z": -23596.48,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

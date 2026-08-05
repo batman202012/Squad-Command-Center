@@ -1,0 +1,421 @@
+{
+    "map_id": "maps",
+    "layer_name": "BlackCoast_Invasion_v3",
+    "total_flags": 30,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 25207.31,
+            "y": 67444.97,
+            "z": 1734.59
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -116293.78,
+            "y": -166077.87,
+            "z": 989.0
+        },
+        {
+            "name": "FlagPole_Ballhead",
+            "lane": "Any",
+            "order": -1,
+            "x": 11920.24,
+            "y": -40469.14,
+            "z": 891.66
+        },
+        {
+            "name": "FlagPole_Ballhead2",
+            "lane": "Any",
+            "order": -1,
+            "x": 11920.24,
+            "y": -40469.14,
+            "z": 1627.19
+        },
+        {
+            "name": "FlagPole_Ballhead3",
+            "lane": "Any",
+            "order": -1,
+            "x": 64957.38,
+            "y": -23632.21,
+            "z": 5073.71
+        },
+        {
+            "name": "FlagPole_Ballhead4",
+            "lane": "Any",
+            "order": -1,
+            "x": 64957.38,
+            "y": -23632.2,
+            "z": 5808.99
+        },
+        {
+            "name": "FlagPole_Ballhead5",
+            "lane": "Any",
+            "order": -1,
+            "x": -2058.19,
+            "y": 83500.22,
+            "z": 887.74
+        },
+        {
+            "name": "FlagPole_Ballhead6",
+            "lane": "Any",
+            "order": -1,
+            "x": -2058.19,
+            "y": 83500.22,
+            "z": 1176.52
+        },
+        {
+            "name": "Old Fort",
+            "x": -25958.71,
+            "y": 131609.16,
+            "z": 2307.59,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "1A"
+            ]
+        },
+        {
+            "name": "Ozerivka",
+            "x": -21064.06,
+            "y": 91191.18,
+            "z": 1027.36,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "B"
+                },
+                {
+                    "order": 1,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "1B",
+                "1A"
+            ]
+        },
+        {
+            "name": "Gromovo E",
+            "x": -20787.84,
+            "y": 62451.81,
+            "z": 674.97,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1B"
+            ]
+        },
+        {
+            "name": "Landing Zone",
+            "x": -17960.29,
+            "y": 43767.82,
+            "z": 674.97,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "C"
+                },
+                {
+                    "order": 1,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1C",
+                "1B"
+            ]
+        },
+        {
+            "name": "Novo Ozerne S",
+            "x": -28888.71,
+            "y": 8351.08,
+            "z": 1036.37,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "1C"
+            ]
+        },
+        {
+            "name": "Torpedo Factory",
+            "x": -34531.84,
+            "y": 49829.49,
+            "z": 1928.25,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "Paseka S",
+            "x": -41105.57,
+            "y": 111715.32,
+            "z": 1738.39,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Paseka N",
+            "x": -48622.62,
+            "y": 98709.67,
+            "z": 1788.44,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Gromovo W",
+            "x": -47389.21,
+            "y": 71444.14,
+            "z": 1821.4,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "Pipeline",
+            "x": -89886.49,
+            "y": 114388.37,
+            "z": 972.86,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Kuznets",
+            "x": -124878.84,
+            "y": 57815.82,
+            "z": 1689.21,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Hill",
+            "x": -87021.17,
+            "y": 89318.14,
+            "z": 3560.54,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Gromovo N",
+            "x": -60354.26,
+            "y": 43824.27,
+            "z": 2247.56,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Construction Site",
+            "x": -45666.2,
+            "y": 26452.71,
+            "z": 1258.07,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Sablya",
+            "x": -51969.56,
+            "y": -366.8,
+            "z": 946.23,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                },
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3C",
+                "4B"
+            ]
+        },
+        {
+            "name": "Novo Ozerne N",
+            "x": -43896.73,
+            "y": -11816.09,
+            "z": 946.23,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "Convoy",
+            "x": -69497.24,
+            "y": -11231.74,
+            "z": 1259.4,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Navy Base",
+            "x": 8991.11,
+            "y": -22014.39,
+            "z": 946.23,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "Kalinovka",
+            "x": -39989.25,
+            "y": -64016.75,
+            "z": 946.23,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                },
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5B",
+                "5C"
+            ]
+        },
+        {
+            "name": "Fortified Farm",
+            "x": -91919.66,
+            "y": -50171.27,
+            "z": -766.01,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "Old Train Yard",
+            "x": -108422.09,
+            "y": -6379.16,
+            "z": -767.7,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Derevnya",
+            "x": 14457.34,
+            "y": -98298.31,
+            "z": 2827.21,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C"
+            ]
+        }
+    ]
+}

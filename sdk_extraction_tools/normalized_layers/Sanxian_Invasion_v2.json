@@ -1,0 +1,168 @@
+{
+    "map_id": "maps",
+    "layer_name": "Sanxian_Invasion_v2",
+    "total_flags": 11,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -191371.5,
+            "y": -99234.75,
+            "z": 275.16
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 103100.41,
+            "y": 121781.5,
+            "z": 737.2
+        },
+        {
+            "name": "Rentang",
+            "x": -93209.99,
+            "y": -93756.41,
+            "z": 185.96,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Power Plant",
+            "x": -22561.34,
+            "y": -32544.19,
+            "z": 1020.47,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Canal Town",
+            "x": 24174.63,
+            "y": -69617.73,
+            "z": 178.95,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "South Silos",
+            "x": -61215.23,
+            "y": -68653.05,
+            "z": 4466.94,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                },
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any",
+                "2Any"
+            ]
+        },
+        {
+            "name": "North Silos",
+            "x": -43822.14,
+            "y": -118291.28,
+            "z": 3534.94,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                },
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any",
+                "2Any"
+            ]
+        },
+        {
+            "name": "Rice Farm",
+            "x": 70078.31,
+            "y": -11211.26,
+            "z": 2881.48,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Hilltop Estate",
+            "x": 69519.78,
+            "y": -64396.18,
+            "z": 3575.47,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Logistics Center",
+            "x": 108285.25,
+            "y": -33369.78,
+            "z": 4397.94,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Taishan",
+            "x": 145480.7,
+            "y": -39616.37,
+            "z": 819.94,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

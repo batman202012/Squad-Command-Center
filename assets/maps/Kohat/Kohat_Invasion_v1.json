@@ -1,0 +1,148 @@
+{
+    "map_id": "kohat",
+    "layer_name": "Kohat_Invasion_v1",
+    "total_flags": 10,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 180242.81,
+            "y": -138786.06,
+            "z": 24687.12
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -138134.77,
+            "y": 70776.12,
+            "z": 11847.29
+        },
+        {
+            "name": "Bahadur Proper",
+            "x": -80808.48,
+            "y": 43119.2,
+            "z": 5316.48,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Bahadur Hill",
+            "x": -83592.94,
+            "y": 27653.18,
+            "z": 4034.4,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Bahadur Agriculture",
+            "x": -75928.94,
+            "y": 16986.18,
+            "z": 3349.4,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Ali Abad",
+            "x": -3023.36,
+            "y": -20923.03,
+            "z": 3686.15,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                },
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any",
+                "3Any"
+            ]
+        },
+        {
+            "name": "Bridge",
+            "x": -41983.94,
+            "y": -5568.82,
+            "z": 2040.4,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Thirah",
+            "x": 39637.48,
+            "y": -35758.06,
+            "z": 6273.79,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Khadizai",
+            "x": 56738.48,
+            "y": -3915.06,
+            "z": 3446.79,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Upper Nasrat",
+            "x": 96155.48,
+            "y": -38612.06,
+            "z": 7891.79,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

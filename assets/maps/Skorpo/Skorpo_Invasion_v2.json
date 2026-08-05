@@ -1,0 +1,263 @@
+{
+    "map_id": "skorpo",
+    "layer_name": "Skorpo_Invasion_v2",
+    "total_flags": 18,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -149238.33,
+            "y": -104305.16,
+            "z": -29199.5
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 264937.56,
+            "y": 139537.8,
+            "z": -24620.04
+        },
+        {
+            "name": "Borneset Shipyard East",
+            "x": -51022.12,
+            "y": -9727.77,
+            "z": -31819.73,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Flatholmen",
+            "x": 39528.67,
+            "y": -52512.37,
+            "z": -32055.52,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Borneset Shipyard West",
+            "x": -72455.12,
+            "y": -22047.78,
+            "z": -31819.73,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Marina",
+            "x": 45094.73,
+            "y": -3691.18,
+            "z": -28215.65,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Eik",
+            "x": -2317.25,
+            "y": 21617.58,
+            "z": -26454.8,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Uskedalen",
+            "x": 74559.34,
+            "y": -16527.75,
+            "z": -31073.64,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Captain's Farm",
+            "x": 62054.44,
+            "y": 18858.67,
+            "z": -28498.09,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Neset",
+            "x": 75454.44,
+            "y": -45641.33,
+            "z": -28498.09,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "EB Petrol",
+            "x": 97456.56,
+            "y": -31097.86,
+            "z": -27079.31,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Radio Tower",
+            "x": 92434.31,
+            "y": 2251.09,
+            "z": -25184.11,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Svingen",
+            "x": 133648.91,
+            "y": 18160.64,
+            "z": -29583.0,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Tacan Site",
+            "x": 113285.97,
+            "y": 61995.8,
+            "z": -30056.27,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Halsane",
+            "x": 125274.91,
+            "y": -40369.5,
+            "z": -24822.1,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Adnaklett",
+            "x": 170434.12,
+            "y": -27830.7,
+            "z": -10087.64,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Dossland",
+            "x": 190334.12,
+            "y": 65369.3,
+            "z": -26899.25,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Hjelmelandsgarden",
+            "x": 184734.12,
+            "y": 35869.3,
+            "z": -26899.25,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

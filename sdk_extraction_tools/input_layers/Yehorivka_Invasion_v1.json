@@ -1,0 +1,456 @@
+{
+    "map_id": "yehorivka",
+    "layer_name": "Yehorivka_Invasion_v1",
+    "total_flags": 41,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 243371.59,
+            "y": 219458.31,
+            "z": 3422.75,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 1,
+            "x": 4717.06,
+            "y": 131276.75,
+            "z": 12864.67,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A1-Yeho Airfield",
+                "A1-Yeho Hangars"
+            ]
+        },
+        {
+            "name": "Yeho Airfield",
+            "lane": "A",
+            "order": 1,
+            "x": 6367.1,
+            "y": 112923.84,
+            "z": 9907.57,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Yeho Hangars",
+            "lane": "A",
+            "order": 1,
+            "x": 942.1,
+            "y": 155454.84,
+            "z": 9907.57,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 2,
+            "x": -75190.71,
+            "y": 61215.97,
+            "z": 12864.67,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A2-Lower Mogilyovo"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 2,
+            "x": -4917.24,
+            "y": 60379.5,
+            "z": 12864.67,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B2-West Novo"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 2,
+            "x": 66210.06,
+            "y": 49001.78,
+            "z": 12864.67,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C2-Eastern Ridgeline",
+                "C2-East Novo",
+                "C2-Novo Radio Tower"
+            ]
+        },
+        {
+            "name": "East Novo",
+            "lane": "C",
+            "order": 2,
+            "x": 26890.44,
+            "y": 59261.5,
+            "z": 10410.5,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "West Novo",
+            "lane": "B",
+            "order": 2,
+            "x": -5767.85,
+            "y": 64122.25,
+            "z": 10410.51,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Lower Mogilyovo",
+            "lane": "A",
+            "order": 2,
+            "x": -73830.94,
+            "y": 65868.0,
+            "z": 6970.69,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Novo Radio Tower",
+            "lane": "C",
+            "order": 2,
+            "x": 61355.7,
+            "y": 53845.32,
+            "z": 11017.61,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Eastern Ridgeline",
+            "lane": "C",
+            "order": 2,
+            "x": 90788.69,
+            "y": 47390.59,
+            "z": 9829.25,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 3,
+            "x": -192863.49,
+            "y": 71601.47,
+            "z": 12864.67,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A3-Sokolov"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 3,
+            "x": -32616.91,
+            "y": 2107.56,
+            "z": 12864.67,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B3-Scrapyard",
+                "B3-East Mogilyovo"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 3,
+            "x": 120338.23,
+            "y": 10553.66,
+            "z": 12864.67,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C3-Bog Camp",
+                "C3-Stepne Farm2",
+                "C3-Stepne Farm"
+            ]
+        },
+        {
+            "name": "East Mogilyovo",
+            "lane": "B",
+            "order": 3,
+            "x": -52027.91,
+            "y": 10698.83,
+            "z": 8618.23,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Sokolov",
+            "lane": "A",
+            "order": 3,
+            "x": -189637.02,
+            "y": 77935.7,
+            "z": 5305.77,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Scrapyard",
+            "lane": "B",
+            "order": 3,
+            "x": 3257.26,
+            "y": 22628.81,
+            "z": 9820.95,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Stepne Farm",
+            "lane": "C",
+            "order": 3,
+            "x": 90159.86,
+            "y": 8626.41,
+            "z": 3981.98,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Stepne Farm2",
+            "lane": "C",
+            "order": 3,
+            "x": 158763.09,
+            "y": 10573.26,
+            "z": 5233.04,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Bog Camp",
+            "lane": "C",
+            "order": 3,
+            "x": 48143.32,
+            "y": -24196.04,
+            "z": 4903.03,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 4,
+            "x": -221247.43,
+            "y": 3300.03,
+            "z": 12864.67,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A4-Bilovia",
+                "A4-Alexey Posad"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 4,
+            "x": 33416.1,
+            "y": -22447.12,
+            "z": 12864.67,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B4-Novo Ridgeline"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 4,
+            "x": 107237.45,
+            "y": -43217.09,
+            "z": 12864.67,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C4-Stepne",
+                "C4-East Stepne",
+                "C4-Yevhinivka"
+            ]
+        },
+        {
+            "name": "Stepne",
+            "lane": "C",
+            "order": 4,
+            "x": 100666.06,
+            "y": -26308.0,
+            "z": 5293.69,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "East Stepne",
+            "lane": "C",
+            "order": 4,
+            "x": 128543.06,
+            "y": -30838.0,
+            "z": 5749.69,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Yevhinivka",
+            "lane": "C",
+            "order": 4,
+            "x": 74576.73,
+            "y": -58188.52,
+            "z": 5463.52,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Bilovia",
+            "lane": "A",
+            "order": 4,
+            "x": -222654.68,
+            "y": -9155.1,
+            "z": 61.72,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Alexey Posad",
+            "lane": "A",
+            "order": 4,
+            "x": -110439.18,
+            "y": -42701.21,
+            "z": 4575.01,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Novo Ridgeline",
+            "lane": "B",
+            "order": 4,
+            "x": 25633.36,
+            "y": -15919.63,
+            "z": 7429.95,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 5,
+            "x": -97117.27,
+            "y": -125488.22,
+            "z": 12864.67,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A5-Zolota Bunkers",
+                "A5-Zolota",
+                "A5-Kropy"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 5,
+            "x": -940.38,
+            "y": -87080.48,
+            "z": 12864.67,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B5-Upper Petrivka",
+                "B5-West Petrivka"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 5,
+            "x": 94273.87,
+            "y": -136860.83,
+            "z": 12864.67,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C5-Petrivka Overpass",
+                "C5-Peredove"
+            ]
+        },
+        {
+            "name": "Upper Petrivka",
+            "lane": "B",
+            "order": 5,
+            "x": 13943.44,
+            "y": -90499.05,
+            "z": 6370.93,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "West Petrivka",
+            "lane": "B",
+            "order": 5,
+            "x": -20180.27,
+            "y": -72191.52,
+            "z": 6350.52,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Peredove",
+            "lane": "C",
+            "order": 5,
+            "x": 129814.43,
+            "y": -154396.05,
+            "z": 7548.93,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Kropy",
+            "lane": "A",
+            "order": 5,
+            "x": -85873.57,
+            "y": -86977.05,
+            "z": 4512.93,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Zolota",
+            "lane": "A",
+            "order": 5,
+            "x": -75342.57,
+            "y": -144450.05,
+            "z": 5517.93,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Zolota Bunkers",
+            "lane": "A",
+            "order": 5,
+            "x": -95574.64,
+            "y": -143081.52,
+            "z": 4483.31,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Petrivka Overpass",
+            "lane": "C",
+            "order": 5,
+            "x": 47845.18,
+            "y": -125218.86,
+            "z": 9203.44,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 17270.53,
+            "y": -241813.69,
+            "z": 8244.3,
+            "is_sky_node": true,
+            "linked_flags": []
+        }
+    ]
+}

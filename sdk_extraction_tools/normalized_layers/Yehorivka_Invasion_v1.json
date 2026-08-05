@@ -1,0 +1,408 @@
+{
+    "map_id": "yehorivka",
+    "layer_name": "Yehorivka_Invasion_v1",
+    "total_flags": 27,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 243371.59,
+            "y": 219458.31,
+            "z": 3422.75
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 17270.53,
+            "y": -241813.69,
+            "z": 8244.3
+        },
+        {
+            "name": "Yeho Airfield",
+            "x": 6367.1,
+            "y": 112923.84,
+            "z": 9907.57,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                },
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1A",
+                "1Any"
+            ]
+        },
+        {
+            "name": "Yeho Hangars",
+            "x": 942.1,
+            "y": 155454.84,
+            "z": 9907.57,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                },
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1A",
+                "1Any"
+            ]
+        },
+        {
+            "name": "East Novo",
+            "x": 26890.44,
+            "y": 59261.5,
+            "z": 10410.5,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "West Novo",
+            "x": -5767.85,
+            "y": 64122.25,
+            "z": 10410.51,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "Lower Mogilyovo",
+            "x": -73830.94,
+            "y": 65868.0,
+            "z": 6970.69,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Novo Radio Tower",
+            "x": 61355.7,
+            "y": 53845.32,
+            "z": 11017.61,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "Eastern Ridgeline",
+            "x": 90788.69,
+            "y": 47390.59,
+            "z": 9829.25,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "East Mogilyovo",
+            "x": -52027.91,
+            "y": 10698.83,
+            "z": 8618.23,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Sokolov",
+            "x": -189637.02,
+            "y": 77935.7,
+            "z": 5305.77,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Scrapyard",
+            "x": 3257.26,
+            "y": 22628.81,
+            "z": 9820.95,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Stepne Farm",
+            "x": 90159.86,
+            "y": 8626.41,
+            "z": 3981.98,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "Bog Camp",
+            "x": 48143.32,
+            "y": -24196.04,
+            "z": 4903.03,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "Stepne",
+            "x": 100666.06,
+            "y": -26308.0,
+            "z": 5293.69,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "East Stepne",
+            "x": 128543.06,
+            "y": -30838.0,
+            "z": 5749.69,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "Yevhinivka",
+            "x": 74576.73,
+            "y": -58188.52,
+            "z": 5463.52,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "Bilovia",
+            "x": -222654.68,
+            "y": -9155.1,
+            "z": 61.72,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Alexey Posad",
+            "x": -110439.18,
+            "y": -42701.21,
+            "z": 4575.01,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Novo Ridgeline",
+            "x": 25633.36,
+            "y": -15919.63,
+            "z": 7429.95,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Upper Petrivka",
+            "x": 13943.44,
+            "y": -90499.05,
+            "z": 6370.93,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "West Petrivka",
+            "x": -20180.27,
+            "y": -72191.52,
+            "z": 6350.52,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "Peredove",
+            "x": 129814.43,
+            "y": -154396.05,
+            "z": 7548.93,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C"
+            ]
+        },
+        {
+            "name": "Kropy",
+            "x": -85873.57,
+            "y": -86977.05,
+            "z": 4512.93,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Zolota",
+            "x": -75342.57,
+            "y": -144450.05,
+            "z": 5517.93,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Zolota Bunkers",
+            "x": -95574.64,
+            "y": -143081.52,
+            "z": 4483.31,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Petrivka Overpass",
+            "x": 47845.18,
+            "y": -125218.86,
+            "z": 9203.44,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C"
+            ]
+        }
+    ]
+}

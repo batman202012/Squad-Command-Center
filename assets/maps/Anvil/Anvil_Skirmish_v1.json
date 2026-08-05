@@ -1,0 +1,128 @@
+{
+    "map_id": "anvil",
+    "layer_name": "Anvil_Skirmish_v1",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -170101.91,
+            "y": -72422.52,
+            "z": -5417.89
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -163341.27,
+            "y": -184860.0,
+            "z": -4672.62
+        },
+        {
+            "name": "Outskirts",
+            "x": -182387.44,
+            "y": -93752.11,
+            "z": -6296.88,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "South Block",
+            "x": -161513.0,
+            "y": -113000.82,
+            "z": -6086.88,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "South Compound",
+            "x": -170902.12,
+            "y": -123281.3,
+            "z": -6052.7,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Crossroads",
+            "x": -175860.73,
+            "y": -140453.79,
+            "z": -6366.25,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "North Suburb",
+            "x": -154184.0,
+            "y": -141699.29,
+            "z": -5156.88,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Bridge",
+            "x": -148194.19,
+            "y": -120888.8,
+            "z": -5796.88,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "Farm",
+            "x": -185601.07,
+            "y": -168563.76,
+            "z": -5706.88,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "7Any"
+            ]
+        }
+    ]
+}

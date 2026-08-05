@@ -1,0 +1,508 @@
+{
+    "map_id": "belaya_pass",
+    "layer_name": "Belaya_RAAS_v1",
+    "total_flags": 33,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -137184.79,
+            "y": 115432.24,
+            "z": -29493.73
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 93194.86,
+            "y": -152423.16,
+            "z": -30179.09
+        },
+        {
+            "name": "Kolbasa",
+            "x": -105381.66,
+            "y": 82504.58,
+            "z": -30255.27,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                },
+                {
+                    "order": 1,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1A",
+                "1B"
+            ]
+        },
+        {
+            "name": "Kagat",
+            "x": -84905.17,
+            "y": 105592.95,
+            "z": -30316.73,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1B"
+            ]
+        },
+        {
+            "name": "Aniva",
+            "x": -14520.72,
+            "y": 134609.83,
+            "z": -29969.44,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "1C"
+            ]
+        },
+        {
+            "name": "Depot",
+            "x": -82730.58,
+            "y": 35897.08,
+            "z": -30188.39,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                },
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2A",
+                "2B"
+            ]
+        },
+        {
+            "name": "Babenki",
+            "x": 41607.81,
+            "y": 108294.08,
+            "z": -30353.82,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "Musy",
+            "x": -58833.94,
+            "y": 101149.55,
+            "z": -29898.15,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "Kulushevo",
+            "x": -6155.34,
+            "y": 83167.16,
+            "z": -30029.73,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "Outpost",
+            "x": -16581.25,
+            "y": 63392.84,
+            "z": -28584.37,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Industrial Yard",
+            "x": -110389.61,
+            "y": -18415.58,
+            "z": -30663.7,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Krasny Kut",
+            "x": -41385.02,
+            "y": 70802.55,
+            "z": -29702.22,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Radio Station",
+            "x": -53229.75,
+            "y": 40786.43,
+            "z": -28426.6,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Homestead",
+            "x": 23405.65,
+            "y": 51761.77,
+            "z": -30169.34,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "Train Tunnel",
+            "x": -49753.54,
+            "y": -69809.8,
+            "z": -28225.88,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Karakul",
+            "x": 30983.05,
+            "y": 2930.04,
+            "z": -29998.48,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "Nikola East",
+            "x": -18389.75,
+            "y": 5378.43,
+            "z": -30096.6,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Nikola Central",
+            "x": -24660.75,
+            "y": -211.57,
+            "z": -30359.6,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Nikola West",
+            "x": -33066.75,
+            "y": -6592.57,
+            "z": -30417.6,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Nikola Outskirts",
+            "x": -37957.75,
+            "y": -13778.57,
+            "z": -29859.6,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Nikola East Intersection",
+            "x": -1738.75,
+            "y": 10527.43,
+            "z": -29656.6,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Tire Factory",
+            "x": -31634.88,
+            "y": -137122.19,
+            "z": -30261.01,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Hill",
+            "x": -20993.5,
+            "y": -46852.44,
+            "z": -27227.13,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "Nikola Hills",
+            "x": -11680.95,
+            "y": -25822.96,
+            "z": -28599.48,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "Gabukay",
+            "x": 27621.31,
+            "y": -32232.03,
+            "z": -30624.94,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                },
+                {
+                    "order": 6,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5C",
+                "6B"
+            ]
+        },
+        {
+            "name": "Coal Mine",
+            "x": 85646.84,
+            "y": -32858.85,
+            "z": -29963.46,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "6C"
+            ]
+        },
+        {
+            "name": "Velino Outskirts",
+            "x": -18137.28,
+            "y": -169825.72,
+            "z": -30466.3,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "Velino Gas Station",
+            "x": 7230.72,
+            "y": -148054.72,
+            "z": -30466.3,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "Velino South",
+            "x": 2864.72,
+            "y": -127015.72,
+            "z": -30663.3,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "Lumber Yard",
+            "x": 83561.95,
+            "y": -100107.95,
+            "z": -30056.55,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "B"
+                },
+                {
+                    "order": 7,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "7B",
+                "7C"
+            ]
+        },
+        {
+            "name": "Velino Central",
+            "x": 26084.72,
+            "y": -166115.72,
+            "z": -30775.3,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "7A"
+            ]
+        },
+        {
+            "name": "Velino North",
+            "x": 10430.72,
+            "y": -185870.72,
+            "z": -30775.3,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "7A"
+            ]
+        },
+        {
+            "name": "Swamp",
+            "x": 29507.95,
+            "y": -110916.95,
+            "z": -29600.55,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "7B"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "map_id": "fools_road",
+    "layer_name": "FoolsRoad_TC_v1",
+    "total_flags": 2,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 27810.97,
+            "y": 38192.52,
+            "z": -2814.58
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 12418.97,
+            "y": -117873.48,
+            "z": -4645.58
+        }
+    ]
+}

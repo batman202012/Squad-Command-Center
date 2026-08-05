@@ -1,0 +1,593 @@
+{
+    "map_id": "skorpo",
+    "layer_name": "Skorpo_RAAS_v1",
+    "total_flags": 40,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 213045.91,
+            "y": -133921.86,
+            "z": -26018.48
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -279204.36,
+            "y": 162092.48,
+            "z": -23344.28
+        },
+        {
+            "name": "Halsatoppen",
+            "x": 144421.08,
+            "y": -56754.19,
+            "z": -18815.46,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Korsneset",
+            "x": 151369.8,
+            "y": -112989.05,
+            "z": -27115.46,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Adnaklett",
+            "x": 164733.47,
+            "y": -27154.71,
+            "z": -9015.46,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Hjelmelandsgarden",
+            "x": 187009.41,
+            "y": 33349.98,
+            "z": -27888.3,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "Svingen",
+            "x": 137475.94,
+            "y": 20563.37,
+            "z": -27543.78,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "Lumberyard",
+            "x": 70621.11,
+            "y": -20391.44,
+            "z": -29070.31,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Neset",
+            "x": 73726.78,
+            "y": -47098.24,
+            "z": -27851.01,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Radio Tower",
+            "x": 94184.94,
+            "y": -1332.29,
+            "z": -27559.44,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "EB Petrol",
+            "x": 99121.11,
+            "y": -32791.44,
+            "z": -26670.31,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Flatholmen",
+            "x": 47266.07,
+            "y": -51256.47,
+            "z": -28151.01,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Lower Eik",
+            "x": 11813.27,
+            "y": 3625.37,
+            "z": -28831.17,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Tacan Site",
+            "x": 112099.41,
+            "y": 63879.98,
+            "z": -26174.3,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "Lillehaug",
+            "x": 27526.31,
+            "y": 43378.67,
+            "z": -20287.73,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "Nyland",
+            "x": 100049.41,
+            "y": 42229.98,
+            "z": -28660.3,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "Borvettunnelen",
+            "x": 162699.41,
+            "y": 74589.98,
+            "z": -27176.3,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "Helgheim",
+            "x": 72021.11,
+            "y": 3208.56,
+            "z": -29070.31,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Captain's Farm",
+            "x": 64521.11,
+            "y": 23108.56,
+            "z": -29070.31,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Power Plant",
+            "x": 40621.11,
+            "y": 20708.56,
+            "z": -27470.31,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Marina",
+            "x": 51321.11,
+            "y": -5891.44,
+            "z": -28770.31,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Water Storage",
+            "x": 8845.44,
+            "y": 54703.58,
+            "z": -20333.05,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Upper Eik",
+            "x": -12521.67,
+            "y": 25239.39,
+            "z": -26730.3,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Flatene",
+            "x": -4443.3,
+            "y": 145422.12,
+            "z": -8930.5,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "Pallane",
+            "x": -29055.06,
+            "y": 45217.71,
+            "z": -23029.44,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Observation Outpost",
+            "x": -21343.69,
+            "y": 82048.67,
+            "z": -13157.73,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "Steinsletta",
+            "x": -117240.98,
+            "y": 112160.86,
+            "z": -5015.14,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C"
+            ]
+        },
+        {
+            "name": "Bornset Shipyard West",
+            "x": -72984.47,
+            "y": -21915.8,
+            "z": -28192.53,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Bornset Shipyard East",
+            "x": -51191.86,
+            "y": -11708.39,
+            "z": -26266.32,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Stordalen Pass",
+            "x": -59858.97,
+            "y": 97734.86,
+            "z": -3968.67,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C"
+            ]
+        },
+        {
+            "name": "Stordalen Ridge",
+            "x": -75517.38,
+            "y": 112388.41,
+            "z": 2256.09,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C"
+            ]
+        },
+        {
+            "name": "Steinsletta Ridge",
+            "x": -101228.27,
+            "y": 86429.84,
+            "z": -4964.32,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C"
+            ]
+        },
+        {
+            "name": "Vaagen",
+            "x": -178306.05,
+            "y": -28165.36,
+            "z": -28915.49,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "Steinsletta Foot Hills",
+            "x": -135368.27,
+            "y": 72009.84,
+            "z": -7095.32,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "6C"
+            ]
+        },
+        {
+            "name": "Bringedalslia",
+            "x": -156910.59,
+            "y": 60702.37,
+            "z": -11471.77,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "6C"
+            ]
+        },
+        {
+            "name": "Ljosrnyr",
+            "x": -160560.59,
+            "y": 18222.37,
+            "z": -15828.77,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "Lia",
+            "x": -150506.05,
+            "y": -8165.36,
+            "z": -24615.49,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "Bringedal",
+            "x": -196418.95,
+            "y": 122344.5,
+            "z": -20881.69,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "7C"
+            ]
+        },
+        {
+            "name": "Fish Oil Factory",
+            "x": -283572.56,
+            "y": 61769.45,
+            "z": -27844.42,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "7A"
+            ]
+        },
+        {
+            "name": "Heroysund",
+            "x": -241245.12,
+            "y": 61500.12,
+            "z": -25073.2,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "7A"
+            ]
+        }
+    ]
+}

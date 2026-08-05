@@ -1,0 +1,54 @@
+{
+    "map_id": "jensens_range",
+    "layer_name": "Jensens_Range_BAF-IMF",
+    "total_flags": 5,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 7519.0,
+            "y": -26599.0,
+            "z": -45.0
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 5943.52,
+            "y": -27502.27,
+            "z": -45.32
+        },
+        {
+            "name": "FlagPole_Ballhead1",
+            "lane": "Any",
+            "order": -1,
+            "x": 6674.17,
+            "y": -19008.2,
+            "z": 235.91
+        },
+        {
+            "name": "FlagPole_Ballhead2",
+            "lane": "Any",
+            "order": -1,
+            "x": 6663.34,
+            "y": -16996.31,
+            "z": 235.91
+        },
+        {
+            "name": "Jensen's Test Track",
+            "x": 64681.57,
+            "y": -95540.85,
+            "z": -582.23,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        }
+    ]
+}

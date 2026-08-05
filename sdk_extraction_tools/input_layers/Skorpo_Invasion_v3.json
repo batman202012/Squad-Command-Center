@@ -1,0 +1,217 @@
+{
+    "map_id": "skorpo",
+    "layer_name": "Skorpo_Invasion_v3",
+    "total_flags": 21,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 129550.78,
+            "y": -147628.62,
+            "z": -28248.56,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 1,
+            "x": 160599.81,
+            "y": -115582.95,
+            "z": -24632.57,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Korsneset",
+            "lane": "Any",
+            "order": 1,
+            "x": 168521.01,
+            "y": -122974.52,
+            "z": -26238.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Korsneset2",
+            "lane": "Any",
+            "order": 1,
+            "x": 152188.27,
+            "y": -113081.84,
+            "z": -27785.05,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 2,
+            "x": 121650.77,
+            "y": -44898.49,
+            "z": -17547.29,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Halsatoppen",
+            "lane": "Any",
+            "order": 2,
+            "x": 143194.34,
+            "y": -58608.4,
+            "z": -18241.4,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Halsane",
+            "lane": "Any",
+            "order": 2,
+            "x": 124599.76,
+            "y": -40470.63,
+            "z": -25176.51,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "EB Petrol",
+            "lane": "Any",
+            "order": 2,
+            "x": 97088.22,
+            "y": -31301.6,
+            "z": -27346.49,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Neset",
+            "lane": "Any",
+            "order": 2,
+            "x": 77303.82,
+            "y": -47049.31,
+            "z": -27955.73,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Marina",
+            "lane": "Any",
+            "order": 2,
+            "x": 46736.76,
+            "y": -4701.14,
+            "z": -29137.84,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Helgheim",
+            "lane": "Any",
+            "order": 2,
+            "x": 69274.74,
+            "y": 472.26,
+            "z": -28944.54,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Captain's Farm",
+            "lane": "Any",
+            "order": 2,
+            "x": 66273.17,
+            "y": 24053.77,
+            "z": -28658.65,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Radio Hill",
+            "lane": "Any",
+            "order": 2,
+            "x": 92486.75,
+            "y": 721.49,
+            "z": -25441.82,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 3,
+            "x": 64321.6,
+            "y": 9890.87,
+            "z": -24545.92,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Borneset Shipyard East",
+            "lane": "Any",
+            "order": 3,
+            "x": -51182.83,
+            "y": -9499.25,
+            "z": -31154.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Borneset Shipyard West",
+            "lane": "Any",
+            "order": 3,
+            "x": -72481.07,
+            "y": -20574.59,
+            "z": -31154.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 4,
+            "x": 2737.58,
+            "y": 15375.13,
+            "z": -18082.11,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Eik",
+            "lane": "Any",
+            "order": 4,
+            "x": -2940.12,
+            "y": 28043.25,
+            "z": -24902.5,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Eik2",
+            "lane": "Any",
+            "order": 4,
+            "x": 7133.02,
+            "y": 7794.78,
+            "z": -28321.48,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 5,
+            "x": -65811.05,
+            "y": -9436.15,
+            "z": -18262.84,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -3982.58,
+            "y": 146438.39,
+            "z": -9487.17,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

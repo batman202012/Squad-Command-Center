@@ -1,0 +1,54 @@
+{
+    "map_id": "jensens_range",
+    "layer_name": "Jensens_Range_WPMC-TLF",
+    "total_flags": 5,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 7743.2,
+            "y": -27163.04,
+            "z": -45.31
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 6235.45,
+            "y": -27955.45,
+            "z": -45.31
+        },
+        {
+            "name": "FlagPole_Ballhead1",
+            "lane": "Any",
+            "order": -1,
+            "x": 6674.17,
+            "y": -19008.2,
+            "z": 235.91
+        },
+        {
+            "name": "FlagPole_Ballhead2",
+            "lane": "Any",
+            "order": -1,
+            "x": 6663.34,
+            "y": -16996.31,
+            "z": 235.91
+        },
+        {
+            "name": "Jensen's Test Track",
+            "x": 60964.22,
+            "y": -96575.63,
+            "z": -594.53,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        }
+    ]
+}

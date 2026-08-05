@@ -1,0 +1,217 @@
+{
+    "map_id": "maps",
+    "layer_name": "Harju_AAS_v2",
+    "total_flags": 21,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 60255.68,
+            "y": -182697.92,
+            "z": 772.48,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Scrapyard",
+            "lane": "Any",
+            "order": 1,
+            "x": 23348.73,
+            "y": -119677.78,
+            "z": 1141.01,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Gun Range",
+            "lane": "Any",
+            "order": 2,
+            "x": -16198.66,
+            "y": -136911.25,
+            "z": 497.25,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hangars",
+            "lane": "Any",
+            "order": 3,
+            "x": -49637.92,
+            "y": -111344.44,
+            "z": 541.01,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Military Apartments",
+            "lane": "Any",
+            "order": 4,
+            "x": -75980.59,
+            "y": -83115.41,
+            "z": 517.74,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Trucking Depot",
+            "lane": "Any",
+            "order": 5,
+            "x": -129846.88,
+            "y": -60436.39,
+            "z": 263.11,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -128776.44,
+            "y": -13323.86,
+            "z": 786.35,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "HorizontalFlag8",
+            "lane": "Any",
+            "order": -1,
+            "x": 33094.27,
+            "y": -88780.67,
+            "z": 3985.98,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "HorizontalFlag7",
+            "lane": "Any",
+            "order": -1,
+            "x": -60165.73,
+            "y": 54779.47,
+            "z": 856.04,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_3",
+            "lane": "Any",
+            "order": -1,
+            "x": -60166.42,
+            "y": 54782.28,
+            "z": 261.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead_Angled",
+            "lane": "Any",
+            "order": -1,
+            "x": 149.0,
+            "y": -53458.77,
+            "z": 1119.5,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead_Angled3",
+            "lane": "Any",
+            "order": -1,
+            "x": 110.84,
+            "y": -53468.02,
+            "z": 1158.76,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "HorizontalFlag3",
+            "lane": "Any",
+            "order": -1,
+            "x": -30138.54,
+            "y": -113734.52,
+            "z": 1107.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "HorizontalFlag4",
+            "lane": "Any",
+            "order": -1,
+            "x": -57055.11,
+            "y": -102082.51,
+            "z": 1175.74,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "HorizontalFlag9",
+            "lane": "Any",
+            "order": -1,
+            "x": -30132.83,
+            "y": -113735.54,
+            "z": 476.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead_Angled2",
+            "lane": "Any",
+            "order": -1,
+            "x": 60657.86,
+            "y": -79864.52,
+            "z": 638.96,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "HorizontalFlag5",
+            "lane": "Any",
+            "order": -1,
+            "x": 60622.98,
+            "y": -79879.95,
+            "z": 679.59,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh",
+            "lane": "Any",
+            "order": -1,
+            "x": 69160.72,
+            "y": -90375.8,
+            "z": 154.61,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "HorizontalFlag_InstancedMesh",
+            "lane": "Any",
+            "order": -1,
+            "x": 71324.23,
+            "y": -88866.98,
+            "z": 628.87,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh2",
+            "lane": "Any",
+            "order": -1,
+            "x": 84540.36,
+            "y": -87894.29,
+            "z": 172.2,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "HorizontalFlag_InstancedMesh2",
+            "lane": "Any",
+            "order": -1,
+            "x": 84544.05,
+            "y": -87892.7,
+            "z": 646.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

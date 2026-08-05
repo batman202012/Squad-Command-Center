@@ -1,0 +1,97 @@
+{
+    "map_id": "fools_road",
+    "layer_name": "FoolsRoad_Skirmish_v1",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 36778.09,
+            "y": -48382.52,
+            "z": -5047.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Homestead",
+            "lane": "Any",
+            "order": 1,
+            "x": 27903.59,
+            "y": -73442.54,
+            "z": -4146.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FOB Papanov",
+            "lane": "Any",
+            "order": 2,
+            "x": 13004.16,
+            "y": -115132.6,
+            "z": -5246.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Verto North",
+            "lane": "Any",
+            "order": 3,
+            "x": 12466.37,
+            "y": -91636.8,
+            "z": -5552.7,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hilltop North",
+            "lane": "Any",
+            "order": 4,
+            "x": 10054.14,
+            "y": -102992.01,
+            "z": -3876.25,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hilltop South",
+            "lane": "Any",
+            "order": 5,
+            "x": 5865.78,
+            "y": -77991.45,
+            "z": -4156.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Verto South",
+            "lane": "Any",
+            "order": 6,
+            "x": 7815.24,
+            "y": -86226.93,
+            "z": -4226.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Intersection",
+            "lane": "Any",
+            "order": 7,
+            "x": -13068.77,
+            "y": -101457.59,
+            "z": -4566.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -35501.27,
+            "y": -83010.0,
+            "z": -1962.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

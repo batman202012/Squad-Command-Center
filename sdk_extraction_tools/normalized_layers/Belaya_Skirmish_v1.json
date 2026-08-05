@@ -1,0 +1,98 @@
+{
+    "map_id": "belaya_pass",
+    "layer_name": "Belaya_Skirmish_v1",
+    "total_flags": 7,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -6285.25,
+            "y": -98984.74,
+            "z": -30254.9
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 61066.78,
+            "y": -191889.62,
+            "z": -28351.88
+        },
+        {
+            "name": "Tire Factory",
+            "x": -28359.01,
+            "y": -137721.94,
+            "z": -29784.81,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Velino Outskirts",
+            "x": 3251.18,
+            "y": -133733.19,
+            "z": -30508.24,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Velino DC",
+            "x": 22390.55,
+            "y": -146475.69,
+            "z": -29673.95,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Velino Slums",
+            "x": 10788.65,
+            "y": -161137.88,
+            "z": -30384.02,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Velino Upper",
+            "x": 22238.62,
+            "y": -182013.67,
+            "z": -30635.46,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,321 @@
+{
+    "map_id": "maps",
+    "layer_name": "Harju_Invasion_v2",
+    "total_flags": 30,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 138399.94,
+            "y": 117456.96,
+            "z": 385.07,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 1,
+            "x": 125535.22,
+            "y": 37691.98,
+            "z": 6850.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "01-Beachhead"
+            ]
+        },
+        {
+            "name": "Beachhead",
+            "lane": "Any",
+            "order": 1,
+            "x": 126664.27,
+            "y": 37854.03,
+            "z": 185.96,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 2,
+            "x": 75934.19,
+            "y": 17329.58,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "02-J\u00e4rvikyl\u00e4",
+                "02-Truck Stop"
+            ]
+        },
+        {
+            "name": "Truck Stop",
+            "lane": "Any",
+            "order": 2,
+            "x": 114982.66,
+            "y": 5410.59,
+            "z": 688.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "J\u00e4rvikyl\u00e4",
+            "lane": "Any",
+            "order": 2,
+            "x": 86610.05,
+            "y": 20554.72,
+            "z": 660.96,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 3,
+            "x": 111139.08,
+            "y": -26376.73,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "03-Liminka",
+                "03-Warehouse 21"
+            ]
+        },
+        {
+            "name": "Warehouse 21",
+            "lane": "Any",
+            "order": 3,
+            "x": 82823.07,
+            "y": -4134.69,
+            "z": 2318.0,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Liminka",
+            "lane": "Any",
+            "order": 3,
+            "x": 145566.17,
+            "y": -32527.93,
+            "z": 178.95,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 4,
+            "x": 102909.22,
+            "y": -56627.08,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "04-Harju Outskirts",
+                "04-Lumber Yard"
+            ]
+        },
+        {
+            "name": "Lumber Yard",
+            "lane": "Any",
+            "order": 4,
+            "x": 123828.19,
+            "y": -60111.12,
+            "z": 1907.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Harju Outskirts",
+            "lane": "Any",
+            "order": 4,
+            "x": 76419.16,
+            "y": -40623.59,
+            "z": 178.95,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 5,
+            "x": 110563.5,
+            "y": -90081.78,
+            "z": 6941.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "05-Shopping District",
+                "05-Town Hall"
+            ]
+        },
+        {
+            "name": "Town Hall",
+            "lane": "Any",
+            "order": 5,
+            "x": 78130.55,
+            "y": -91134.0,
+            "z": 1043.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Shopping District",
+            "lane": "Any",
+            "order": 5,
+            "x": 68542.98,
+            "y": -83869.91,
+            "z": 178.94,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 59770.47,
+            "y": -181920.95,
+            "z": 773.91,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "HorizontalFlag8",
+            "lane": "Any",
+            "order": -1,
+            "x": 33094.27,
+            "y": -88780.67,
+            "z": 3985.98,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "HorizontalFlag7",
+            "lane": "Any",
+            "order": -1,
+            "x": -60165.73,
+            "y": 54779.47,
+            "z": 856.04,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_3",
+            "lane": "Any",
+            "order": -1,
+            "x": -60166.42,
+            "y": 54782.28,
+            "z": 261.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead_Angled",
+            "lane": "Any",
+            "order": -1,
+            "x": 149.0,
+            "y": -53458.77,
+            "z": 1119.5,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead_Angled3",
+            "lane": "Any",
+            "order": -1,
+            "x": 110.84,
+            "y": -53468.02,
+            "z": 1158.76,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "HorizontalFlag3",
+            "lane": "Any",
+            "order": -1,
+            "x": -30138.54,
+            "y": -113734.52,
+            "z": 1107.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "HorizontalFlag4",
+            "lane": "Any",
+            "order": -1,
+            "x": -57055.11,
+            "y": -102082.51,
+            "z": 1175.74,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "HorizontalFlag9",
+            "lane": "Any",
+            "order": -1,
+            "x": -30132.83,
+            "y": -113735.54,
+            "z": 476.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead_Angled2",
+            "lane": "Any",
+            "order": -1,
+            "x": 60657.86,
+            "y": -79864.52,
+            "z": 638.96,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "HorizontalFlag5",
+            "lane": "Any",
+            "order": -1,
+            "x": 60622.98,
+            "y": -79879.95,
+            "z": 679.59,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh",
+            "lane": "Any",
+            "order": -1,
+            "x": 69160.72,
+            "y": -90375.8,
+            "z": 154.61,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "HorizontalFlag_InstancedMesh",
+            "lane": "Any",
+            "order": -1,
+            "x": 71324.23,
+            "y": -88866.98,
+            "z": 628.87,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh2",
+            "lane": "Any",
+            "order": -1,
+            "x": 84540.36,
+            "y": -87894.29,
+            "z": 172.2,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "HorizontalFlag_InstancedMesh2",
+            "lane": "Any",
+            "order": -1,
+            "x": 84544.05,
+            "y": -87892.7,
+            "z": 646.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

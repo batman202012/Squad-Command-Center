@@ -1,0 +1,147 @@
+{
+    "map_id": "kokan_valley",
+    "layer_name": "Kokan_Invasion_v1",
+    "total_flags": 14,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 68577.0,
+            "y": 77619.0,
+            "z": -24671.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 1,
+            "x": 22163.69,
+            "y": 25905.29,
+            "z": -24763.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "First Stand",
+            "lane": "Any",
+            "order": 1,
+            "x": 46447.34,
+            "y": 38053.86,
+            "z": -24675.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 2,
+            "x": 22163.69,
+            "y": 25905.29,
+            "z": -24763.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Gran Dell",
+            "lane": "Any",
+            "order": 2,
+            "x": 34113.52,
+            "y": 17308.28,
+            "z": -24680.79,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "The Nest",
+            "lane": "Any",
+            "order": 2,
+            "x": 19989.34,
+            "y": 34462.52,
+            "z": -24306.52,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 3,
+            "x": -24280.91,
+            "y": 17957.22,
+            "z": -24759.2,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Sarak",
+            "lane": "Any",
+            "order": 3,
+            "x": -19462.5,
+            "y": 26589.11,
+            "z": -24674.4,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Tempest Estate",
+            "lane": "Any",
+            "order": 3,
+            "x": -25704.74,
+            "y": 1696.83,
+            "z": -24299.1,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 4,
+            "x": -3431.4,
+            "y": -35063.7,
+            "z": -24817.22,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Market",
+            "lane": "Any",
+            "order": 4,
+            "x": -20576.15,
+            "y": -37186.3,
+            "z": -24639.43,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 5,
+            "x": -25353.06,
+            "y": -67956.98,
+            "z": -24817.22,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Stonebend",
+            "lane": "Any",
+            "order": 5,
+            "x": -10567.77,
+            "y": -81105.92,
+            "z": -24567.97,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 46330.0,
+            "y": -89535.0,
+            "z": -24684.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

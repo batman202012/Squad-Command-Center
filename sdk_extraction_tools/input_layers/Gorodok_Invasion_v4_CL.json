@@ -1,0 +1,377 @@
+{
+    "map_id": "gorodok",
+    "layer_name": "Gorodok_Invasion_v4_CL",
+    "total_flags": 37,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -25816.88,
+            "y": 166545.52,
+            "z": -3862.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 1,
+            "x": -108908.45,
+            "y": 55012.94,
+            "z": -4114.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 1,
+            "x": -108908.45,
+            "y": 55012.94,
+            "z": -4114.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "P115 Intersection",
+            "lane": "A",
+            "order": 1,
+            "x": -135810.48,
+            "y": 47414.95,
+            "z": -2472.43,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Outpost",
+            "lane": "A",
+            "order": 1,
+            "x": -98511.76,
+            "y": 74220.32,
+            "z": -2472.43,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Wheat Farm",
+            "lane": "A",
+            "order": 1,
+            "x": -78799.31,
+            "y": 37119.29,
+            "z": -3449.63,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "P115 Intersection",
+            "lane": "B",
+            "order": 1,
+            "x": -135810.48,
+            "y": 47414.95,
+            "z": -2472.43,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Outpost",
+            "lane": "B",
+            "order": 1,
+            "x": -98511.76,
+            "y": 74220.32,
+            "z": -2472.43,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Wheat Farm",
+            "lane": "B",
+            "order": 1,
+            "x": -78799.31,
+            "y": 37119.29,
+            "z": -3449.63,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 2,
+            "x": -45973.82,
+            "y": 10241.73,
+            "z": -2558.15,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 2,
+            "x": -45973.82,
+            "y": 10241.73,
+            "z": -2558.15,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Niva Upper1",
+            "lane": "A",
+            "order": 2,
+            "x": -30286.39,
+            "y": 10230.1,
+            "z": -1728.54,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Niva Lower1",
+            "lane": "B",
+            "order": 2,
+            "x": 365.68,
+            "y": 13976.39,
+            "z": -3776.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Niva Upper2",
+            "lane": "A",
+            "order": 2,
+            "x": -26336.92,
+            "y": 22449.78,
+            "z": -1593.19,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Abandoned Storage",
+            "lane": "A",
+            "order": 2,
+            "x": -64473.77,
+            "y": 554.92,
+            "z": -867.24,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hilltop Old Bunker",
+            "lane": "A",
+            "order": 2,
+            "x": -43769.98,
+            "y": -612.72,
+            "z": -972.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Niva Lower2",
+            "lane": "B",
+            "order": 2,
+            "x": 13916.94,
+            "y": 20759.18,
+            "z": -3776.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "River Fortifications",
+            "lane": "B",
+            "order": 2,
+            "x": 37955.03,
+            "y": 47746.39,
+            "z": -4677.36,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 3,
+            "x": 61045.81,
+            "y": -19227.87,
+            "z": -4114.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 3,
+            "x": 112616.76,
+            "y": 18292.69,
+            "z": -4114.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Radio Tower",
+            "lane": "A",
+            "order": 3,
+            "x": 40467.73,
+            "y": -4155.93,
+            "z": -3531.26,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Sluda Hamlet",
+            "lane": "A",
+            "order": 3,
+            "x": 74637.71,
+            "y": -39484.07,
+            "z": -2794.21,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Sluda Overlook",
+            "lane": "A",
+            "order": 3,
+            "x": 83514.05,
+            "y": -20129.63,
+            "z": -2169.41,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Boris Farmstead",
+            "lane": "B",
+            "order": 3,
+            "x": 102731.94,
+            "y": 54359.97,
+            "z": -89.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Tunnel Defences",
+            "lane": "B",
+            "order": 3,
+            "x": 136674.13,
+            "y": 19822.32,
+            "z": -2419.17,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Butcher's House",
+            "lane": "B",
+            "order": 3,
+            "x": 121672.77,
+            "y": -16447.12,
+            "z": -2773.5,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 4,
+            "x": 105765.72,
+            "y": -91471.43,
+            "z": -3163.03,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 4,
+            "x": 105765.72,
+            "y": -91471.43,
+            "z": -3163.03,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Akim Central1",
+            "lane": "A",
+            "order": 4,
+            "x": 127507.97,
+            "y": -77989.67,
+            "z": -3651.84,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Akim Central2",
+            "lane": "A",
+            "order": 4,
+            "x": 121718.62,
+            "y": -90171.98,
+            "z": -4255.35,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Rocky gorge",
+            "lane": "A",
+            "order": 4,
+            "x": 99177.66,
+            "y": -108230.33,
+            "z": -3651.84,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Akim Lower",
+            "lane": "A",
+            "order": 4,
+            "x": 72431.59,
+            "y": -93814.48,
+            "z": -4708.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Akim Central1",
+            "lane": "A",
+            "order": 4,
+            "x": 127507.97,
+            "y": -77989.67,
+            "z": -3651.84,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Akim Central2",
+            "lane": "A",
+            "order": 4,
+            "x": 121718.62,
+            "y": -90171.98,
+            "z": -4255.35,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Rocky gorge",
+            "lane": "A",
+            "order": 4,
+            "x": 99177.66,
+            "y": -108230.33,
+            "z": -3651.84,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Akim Lower",
+            "lane": "A",
+            "order": 4,
+            "x": 72431.59,
+            "y": -93814.48,
+            "z": -4708.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -1419.12,
+            "y": -176857.77,
+            "z": -3231.55,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

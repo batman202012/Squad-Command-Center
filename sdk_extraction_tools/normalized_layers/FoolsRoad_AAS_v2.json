@@ -1,0 +1,128 @@
+{
+    "map_id": "fools_road",
+    "layer_name": "FoolsRoad_AAS_v2",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 28028.98,
+            "y": 39092.02,
+            "z": -2809.05
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -106147.05,
+            "y": -108489.24,
+            "z": -4633.04
+        },
+        {
+            "name": "Dylym",
+            "x": 33839.1,
+            "y": -10003.05,
+            "z": -4792.86,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Hill",
+            "x": 24198.09,
+            "y": -62504.73,
+            "z": -3139.49,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Verto",
+            "x": 9689.43,
+            "y": -88820.34,
+            "z": -5215.78,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "FOB Papanov",
+            "x": 10935.79,
+            "y": -117486.64,
+            "z": -3497.95,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Hilltop Encampment",
+            "x": -33795.26,
+            "y": -78904.14,
+            "z": -1623.38,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Ammo Hill",
+            "x": -52777.79,
+            "y": -51125.07,
+            "z": -1858.23,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "OP Fortress",
+            "x": -92433.67,
+            "y": -45736.24,
+            "z": -2810.97,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "7Any"
+            ]
+        }
+    ]
+}

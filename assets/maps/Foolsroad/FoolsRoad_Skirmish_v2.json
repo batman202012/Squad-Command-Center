@@ -1,0 +1,121 @@
+{
+    "map_id": "fools_road",
+    "layer_name": "FoolsRoad_Skirmish_v2",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -121071.91,
+            "y": -115762.52,
+            "z": -5047.89
+        },
+        {
+            "name": "Main Room",
+            "lane": "Any",
+            "order": 5,
+            "x": -103982.08,
+            "y": -98765.55,
+            "z": -3066.88
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -72131.27,
+            "y": -85520.0,
+            "z": -4642.62
+        },
+        {
+            "name": "Bunker Alpha",
+            "x": -108064.66,
+            "y": -102175.2,
+            "z": -3956.88,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Stairwell",
+            "x": -100916.12,
+            "y": -101865.51,
+            "z": -3086.88,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Bunker Charlie",
+            "x": -97226.38,
+            "y": -96130.32,
+            "z": -3832.7,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Lower Corridor",
+            "x": -100057.0,
+            "y": -99685.09,
+            "z": -3746.25,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Bunker Bravo",
+            "x": -100342.14,
+            "y": -97415.18,
+            "z": -2446.88,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "Lower Entrance",
+            "x": -93172.49,
+            "y": -95661.93,
+            "z": -4566.88,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "7Any"
+            ]
+        }
+    ]
+}

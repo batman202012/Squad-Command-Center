@@ -1,0 +1,136 @@
+{
+    "map_id": "maps",
+    "layer_name": "AlBasrah_AAS_v3_CL",
+    "total_flags": 10,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 25090.23,
+            "y": -177832.05,
+            "z": 433.86
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -108068.89,
+            "y": 92913.35,
+            "z": 826.06
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": 62901.11,
+            "y": 65489.51,
+            "z": 487.93
+        },
+        {
+            "name": "Compound North",
+            "x": -40387.3,
+            "y": -148018.57,
+            "z": 634.37,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Fuel Depot",
+            "x": -45683.05,
+            "y": -114107.4,
+            "z": 691.23,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Terminal",
+            "x": -53504.94,
+            "y": -57341.33,
+            "z": 720.71,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Cargo Warehouse",
+            "x": -83938.45,
+            "y": -41239.14,
+            "z": 807.36,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Military Base",
+            "x": -114831.73,
+            "y": -47109.79,
+            "z": 2425.16,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Gas Station",
+            "x": -122834.76,
+            "y": -5938.44,
+            "z": 356.55,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "Pump Site",
+            "x": -119761.04,
+            "y": 21622.84,
+            "z": 394.84,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "7Any"
+            ]
+        }
+    ]
+}

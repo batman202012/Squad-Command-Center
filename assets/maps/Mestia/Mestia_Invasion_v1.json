@@ -1,0 +1,168 @@
+{
+    "map_id": "mestia_green",
+    "layer_name": "Mestia_Invasion_v1",
+    "total_flags": 11,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -97621.82,
+            "y": -4560.24,
+            "z": 3588.8
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 102548.06,
+            "y": 55206.57,
+            "z": -4584.64
+        },
+        {
+            "name": "Armory",
+            "x": -59456.0,
+            "y": 24312.07,
+            "z": -6702.97,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Fortification",
+            "x": -33772.19,
+            "y": -8284.06,
+            "z": -5485.25,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                },
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any",
+                "2Any"
+            ]
+        },
+        {
+            "name": "Warehouse",
+            "x": -39383.23,
+            "y": 65502.77,
+            "z": -9553.96,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Crucible Bravo",
+            "x": 7703.02,
+            "y": 14936.44,
+            "z": -2903.82,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Crucible Alpha",
+            "x": 10871.84,
+            "y": -2175.6,
+            "z": -1774.7,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Crucible Gamma",
+            "x": 28878.67,
+            "y": 350.2,
+            "z": -1935.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                },
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any",
+                "4Any"
+            ]
+        },
+        {
+            "name": "Quarry",
+            "x": 39423.2,
+            "y": -39847.65,
+            "z": -7413.66,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "TrainBridge",
+            "x": 18449.8,
+            "y": 49584.22,
+            "z": -8313.88,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Farmstead",
+            "x": 59419.59,
+            "y": 27679.77,
+            "z": -6762.5,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

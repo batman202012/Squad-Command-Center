@@ -1,0 +1,136 @@
+{
+    "map_id": "maps",
+    "layer_name": "AlBasrah_Skirmish_v2",
+    "total_flags": 10,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -2312.45,
+            "y": -10759.06,
+            "z": 967.15
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 9445.01,
+            "y": 91208.35,
+            "z": 602.34
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": 62901.11,
+            "y": 65489.51,
+            "z": 487.93
+        },
+        {
+            "name": "North Outskirts",
+            "x": 21598.96,
+            "y": 1026.86,
+            "z": 778.94,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Mosque",
+            "x": 36294.76,
+            "y": 28956.79,
+            "z": 681.48,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Courtyard",
+            "x": 19043.47,
+            "y": 23382.02,
+            "z": 1290.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Market",
+            "x": 19363.15,
+            "y": 38023.76,
+            "z": 472.3,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Dr. Zeno's Holisitic Medicine",
+            "x": 796.16,
+            "y": 36163.75,
+            "z": -551.36,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "South Apartments",
+            "x": 35720.6,
+            "y": 43500.51,
+            "z": 760.54,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "Oasis Apartments",
+            "x": 8435.77,
+            "y": 62301.31,
+            "z": -7.97,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "7Any"
+            ]
+        }
+    ]
+}

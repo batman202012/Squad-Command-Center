@@ -1,0 +1,401 @@
+{
+    "map_id": "logar_valley",
+    "layer_name": "Logar_RAAS_v1",
+    "total_flags": 36,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -73708.36,
+            "y": -16421.09,
+            "z": 4959.8,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 1,
+            "x": -60034.0,
+            "y": -10896.0,
+            "z": 9824.98,
+            "is_sky_node": true,
+            "linked_flags": [
+                "01-Bend",
+                "01-Estate",
+                "01-Abandoned Farm",
+                "01-Hilltop Storage",
+                "01-Twin Compound"
+            ]
+        },
+        {
+            "name": "Hilltop Storage",
+            "lane": "Any",
+            "order": 1,
+            "x": -59231.0,
+            "y": -39469.0,
+            "z": 8080.34,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Abandoned Farm",
+            "lane": "Any",
+            "order": 1,
+            "x": -49185.0,
+            "y": -36165.0,
+            "z": 7157.48,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Twin Compound",
+            "lane": "Any",
+            "order": 1,
+            "x": -74564.0,
+            "y": -45048.0,
+            "z": 7835.86,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Estate",
+            "lane": "Any",
+            "order": 1,
+            "x": -52203.04,
+            "y": -10996.38,
+            "z": 5455.08,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Bend",
+            "lane": "Any",
+            "order": 1,
+            "x": -58242.72,
+            "y": 5343.04,
+            "z": 5847.57,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 2,
+            "x": -33394.0,
+            "y": -19066.0,
+            "z": 11544.98,
+            "is_sky_node": true,
+            "linked_flags": [
+                "02-District Heights",
+                "02-Abandoned Storage",
+                "02-Strip Mall",
+                "02-Muhammad's Compound",
+                "02-Akhtar's Compound"
+            ]
+        },
+        {
+            "name": "Muhammad's Compound",
+            "lane": "Any",
+            "order": 2,
+            "x": -30912.27,
+            "y": 17060.83,
+            "z": 3638.64,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Strip Mall",
+            "lane": "Any",
+            "order": 2,
+            "x": -34754.53,
+            "y": -2784.84,
+            "z": 4381.07,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Akhtar's Compound",
+            "lane": "Any",
+            "order": 2,
+            "x": -42992.72,
+            "y": 19638.04,
+            "z": 4052.57,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Abandoned Storage",
+            "lane": "Any",
+            "order": 2,
+            "x": -36140.0,
+            "y": -56660.0,
+            "z": 4262.48,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "District Heights",
+            "lane": "Any",
+            "order": 2,
+            "x": -28279.53,
+            "y": -19069.84,
+            "z": 4381.07,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 3,
+            "x": -9340.0,
+            "y": -6314.0,
+            "z": 8254.23,
+            "is_sky_node": true,
+            "linked_flags": [
+                "03-Hemp Farm",
+                "03-Mosque",
+                "03-Lower District West",
+                "03-Shanty",
+                "03-Lower District East"
+            ]
+        },
+        {
+            "name": "Lower District East",
+            "lane": "Any",
+            "order": 3,
+            "x": -4400.0,
+            "y": -2832.0,
+            "z": 3362.93,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Lower District West",
+            "lane": "Any",
+            "order": 3,
+            "x": -16009.0,
+            "y": -332.0,
+            "z": 3357.8,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Hemp Farm",
+            "lane": "Any",
+            "order": 3,
+            "x": -19707.9,
+            "y": 8674.82,
+            "z": 3806.25,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Mosque",
+            "lane": "Any",
+            "order": 3,
+            "x": -6748.04,
+            "y": -3667.05,
+            "z": 3349.1,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Shanty",
+            "lane": "Any",
+            "order": 3,
+            "x": -13047.57,
+            "y": 3661.6,
+            "z": 3540.23,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 4,
+            "x": -6823.07,
+            "y": -34340.07,
+            "z": 6721.12,
+            "is_sky_node": true,
+            "linked_flags": [
+                "04-Upper DC Compound West",
+                "04-Upper District West",
+                "04-Central District",
+                "04-Upper District East",
+                "04-Upper Slums",
+                "04-Upper DC Compound East"
+            ]
+        },
+        {
+            "name": "Upper District East",
+            "lane": "Any",
+            "order": 4,
+            "x": -2354.0,
+            "y": -30579.0,
+            "z": 3660.91,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Central District",
+            "lane": "Any",
+            "order": 4,
+            "x": -7442.0,
+            "y": -20820.0,
+            "z": 3792.77,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Upper District West",
+            "lane": "Any",
+            "order": 4,
+            "x": -16948.0,
+            "y": -32436.0,
+            "z": 3439.69,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Upper DC Compound East",
+            "lane": "Any",
+            "order": 4,
+            "x": 2334.21,
+            "y": -32653.02,
+            "z": 3817.06,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Upper DC Compound West",
+            "lane": "Any",
+            "order": 4,
+            "x": -3644.86,
+            "y": -33771.65,
+            "z": 3903.05,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Upper Slums",
+            "lane": "Any",
+            "order": 4,
+            "x": -12630.93,
+            "y": -32915.59,
+            "z": 3465.82,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 5,
+            "x": 21356.0,
+            "y": -19546.0,
+            "z": 9058.41,
+            "is_sky_node": true,
+            "linked_flags": [
+                "05-Residence",
+                "05-Farmstead",
+                "05-Nomad Camp",
+                "05-Homestead"
+            ]
+        },
+        {
+            "name": "Nomad Camp",
+            "lane": "Any",
+            "order": 5,
+            "x": 37031.0,
+            "y": -8318.0,
+            "z": 5995.37,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Farmstead",
+            "lane": "Any",
+            "order": 5,
+            "x": 20417.0,
+            "y": 3986.0,
+            "z": 5813.22,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Residence",
+            "lane": "Any",
+            "order": 5,
+            "x": 34742.32,
+            "y": -43974.01,
+            "z": 4967.17,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Homestead",
+            "lane": "Any",
+            "order": 5,
+            "x": 19278.63,
+            "y": -56376.14,
+            "z": 4423.48,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 6,
+            "x": 58586.0,
+            "y": -32472.0,
+            "z": 7068.36,
+            "is_sky_node": true,
+            "linked_flags": [
+                "06-Farm",
+                "06-Governor's Estate",
+                "06-Material Storage"
+            ]
+        },
+        {
+            "name": "Material Storage",
+            "lane": "Any",
+            "order": 6,
+            "x": 58581.07,
+            "y": -53115.25,
+            "z": 4471.67,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Governor's Estate",
+            "lane": "Any",
+            "order": 6,
+            "x": 69533.7,
+            "y": -43686.52,
+            "z": 4589.12,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Farm",
+            "lane": "Any",
+            "order": 6,
+            "x": 53438.03,
+            "y": -42580.8,
+            "z": 4844.95,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 75553.57,
+            "y": -18378.8,
+            "z": 4918.74,
+            "is_sky_node": true,
+            "linked_flags": []
+        }
+    ]
+}

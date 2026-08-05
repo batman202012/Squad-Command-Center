@@ -1,0 +1,27 @@
+{
+    "map_id": "anvil",
+    "layer_name": "Anvil_TC_v1",
+    "total_flags": 2,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -157984.83,
+            "y": -180627.91,
+            "z": -4554.36,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 56032.31,
+            "y": -162817.42,
+            "z": -2591.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

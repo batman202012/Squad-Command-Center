@@ -1,0 +1,128 @@
+{
+    "map_id": "yehorivka",
+    "layer_name": "Yehorivka_Skirmish_v1",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 45303.0,
+            "y": -28566.29,
+            "z": 4433.52
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -51216.83,
+            "y": -108645.25,
+            "z": 4508.48
+        },
+        {
+            "name": "Lower Petrivka",
+            "x": 19733.37,
+            "y": -50832.12,
+            "z": 5901.1,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Petrivka Co-op",
+            "x": -8420.99,
+            "y": -49323.94,
+            "z": 6983.91,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Ditch",
+            "x": -27611.69,
+            "y": -33991.9,
+            "z": 6382.61,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Petrivka",
+            "x": 11319.89,
+            "y": -83314.95,
+            "z": 6492.14,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Upper Petrivka",
+            "x": 19682.21,
+            "y": -95275.86,
+            "z": 6341.62,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Creek",
+            "x": -3732.62,
+            "y": -63740.64,
+            "z": 6328.12,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "Farmstead",
+            "x": -39035.17,
+            "y": -74584.89,
+            "z": 6726.24,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "7Any"
+            ]
+        }
+    ]
+}

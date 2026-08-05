@@ -1,0 +1,97 @@
+{
+    "map_id": "maps",
+    "layer_name": "Sanxian_Skirmish_v1",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -67889.53,
+            "y": -32136.16,
+            "z": 431.95,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Storage",
+            "lane": "Any",
+            "order": 1,
+            "x": -41651.99,
+            "y": -28829.06,
+            "z": 1610.84,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Admin",
+            "lane": "Any",
+            "order": 2,
+            "x": -27135.74,
+            "y": -45848.18,
+            "z": 71.92,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Warehouse",
+            "lane": "Any",
+            "order": 3,
+            "x": -8255.25,
+            "y": -8201.79,
+            "z": -795.18,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Powerplant Basement",
+            "lane": "Any",
+            "order": 4,
+            "x": -25165.8,
+            "y": -28333.01,
+            "z": -295.19,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Powerplant Main Floor",
+            "lane": "Any",
+            "order": 5,
+            "x": -23269.64,
+            "y": -30878.42,
+            "z": 1905.87,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Powerplant Roof",
+            "lane": "Any",
+            "order": 6,
+            "x": -19147.94,
+            "y": -33440.43,
+            "z": 4180.72,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Entrance",
+            "lane": "Any",
+            "order": 7,
+            "x": 2008.5,
+            "y": -30156.67,
+            "z": 2698.19,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 14938.68,
+            "y": -26435.02,
+            "z": 479.54,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

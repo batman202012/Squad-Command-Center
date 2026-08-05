@@ -1,0 +1,107 @@
+{
+    "map_id": "jensens_range",
+    "layer_name": "Jensens_Range_CAF-MEI",
+    "total_flags": 10,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 5897.81,
+            "y": -27913.25,
+            "z": -45.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Jensen's Test Track",
+            "lane": "Any",
+            "order": 99,
+            "x": 60950.96,
+            "y": -95946.69,
+            "z": -582.92,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 8202.82,
+            "y": -26476.67,
+            "z": -45.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "CAF Rallypoint ARID",
+            "lane": "Any",
+            "order": -1,
+            "x": 6767.34,
+            "y": -17834.74,
+            "z": -45.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead1",
+            "lane": "Any",
+            "order": -1,
+            "x": 6674.17,
+            "y": -19008.2,
+            "z": 235.91,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "INS",
+            "lane": "Any",
+            "order": -1,
+            "x": 6674.44,
+            "y": -19008.84,
+            "z": 599.52,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead2",
+            "lane": "Any",
+            "order": -1,
+            "x": 6663.34,
+            "y": -16996.31,
+            "z": 224.91,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "CAF",
+            "lane": "Any",
+            "order": -1,
+            "x": 6662.44,
+            "y": -16996.84,
+            "z": 587.52,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "US RallyPoint",
+            "lane": "Any",
+            "order": -1,
+            "x": 6751.49,
+            "y": -17852.61,
+            "z": -45.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "INS Rallypoint",
+            "lane": "Any",
+            "order": -1,
+            "x": 6734.92,
+            "y": -18167.88,
+            "z": -45.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

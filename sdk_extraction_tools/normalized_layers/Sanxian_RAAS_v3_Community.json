@@ -1,0 +1,1008 @@
+{
+    "map_id": "maps",
+    "layer_name": "Sanxian_RAAS_v3_Community",
+    "total_flags": 45,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 147614.89,
+            "y": 1637.53,
+            "z": 2023.91
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -4571.36,
+            "y": -22204.49,
+            "z": 786.85
+        },
+        {
+            "name": "SharkCove",
+            "x": 131690.49,
+            "y": 20612.71,
+            "z": 761.6,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                },
+                {
+                    "order": 1,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1A",
+                "1B"
+            ]
+        },
+        {
+            "name": "TaishanA",
+            "x": 125208.86,
+            "y": -33246.45,
+            "z": 3638.03,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "C"
+                },
+                {
+                    "order": 2,
+                    "lane": "D"
+                },
+                {
+                    "order": 2,
+                    "lane": "H"
+                }
+            ],
+            "phase_labels": [
+                "1C",
+                "2D",
+                "2H"
+            ]
+        },
+        {
+            "name": "FarmingCommunity",
+            "x": 124710.9,
+            "y": 10056.65,
+            "z": 2442.33,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                },
+                {
+                    "order": 1,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1A",
+                "1B"
+            ]
+        },
+        {
+            "name": "Cliffside",
+            "x": 139464.05,
+            "y": 18612.16,
+            "z": 2079.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                },
+                {
+                    "order": 1,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1A",
+                "1B"
+            ]
+        },
+        {
+            "name": "TaishanB",
+            "x": 128542.58,
+            "y": -23946.34,
+            "z": 3614.8,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "C"
+                },
+                {
+                    "order": 1,
+                    "lane": "G"
+                },
+                {
+                    "order": 2,
+                    "lane": "D"
+                },
+                {
+                    "order": 2,
+                    "lane": "H"
+                }
+            ],
+            "phase_labels": [
+                "1C",
+                "1G",
+                "2D",
+                "2H"
+            ]
+        },
+        {
+            "name": "TaishanC",
+            "x": 119205.33,
+            "y": -26613.8,
+            "z": 3423.04,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "C"
+                },
+                {
+                    "order": 2,
+                    "lane": "D"
+                },
+                {
+                    "order": 2,
+                    "lane": "H"
+                }
+            ],
+            "phase_labels": [
+                "1C",
+                "2D",
+                "2H"
+            ]
+        },
+        {
+            "name": "PlantationsA",
+            "x": 108998.81,
+            "y": 11576.49,
+            "z": 2003.54,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "D"
+                },
+                {
+                    "order": 1,
+                    "lane": "E"
+                },
+                {
+                    "order": 1,
+                    "lane": "F"
+                },
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1D",
+                "1E",
+                "1F",
+                "2B"
+            ]
+        },
+        {
+            "name": "PlantationsB",
+            "x": 106095.0,
+            "y": 3081.56,
+            "z": 2136.68,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "D"
+                },
+                {
+                    "order": 1,
+                    "lane": "E"
+                },
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1D",
+                "1E",
+                "2B"
+            ]
+        },
+        {
+            "name": "PlantationsC",
+            "x": 118292.4,
+            "y": -11272.22,
+            "z": 2967.12,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "D"
+                },
+                {
+                    "order": 1,
+                    "lane": "E"
+                },
+                {
+                    "order": 1,
+                    "lane": "F"
+                },
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1D",
+                "1E",
+                "1F",
+                "2B"
+            ]
+        },
+        {
+            "name": "PlantationsF",
+            "x": 106095.0,
+            "y": 3081.56,
+            "z": 2136.68,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "F"
+                }
+            ],
+            "phase_labels": [
+                "1F"
+            ]
+        },
+        {
+            "name": "LowerTeishanA",
+            "x": 139474.87,
+            "y": -40395.63,
+            "z": 1751.68,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "G"
+                },
+                {
+                    "order": 1,
+                    "lane": "H"
+                },
+                {
+                    "order": 2,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "1G",
+                "1H",
+                "2E"
+            ]
+        },
+        {
+            "name": "LowerTeishanB",
+            "x": 145979.83,
+            "y": -33600.11,
+            "z": 545.95,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "G"
+                },
+                {
+                    "order": 1,
+                    "lane": "H"
+                },
+                {
+                    "order": 2,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "1G",
+                "1H",
+                "2E"
+            ]
+        },
+        {
+            "name": "TeishanHarbour",
+            "x": 154184.12,
+            "y": -39822.04,
+            "z": 249.99,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "H"
+                },
+                {
+                    "order": 2,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "1H",
+                "2E"
+            ]
+        },
+        {
+            "name": "Hilltop Farm",
+            "x": 131464.84,
+            "y": -52858.23,
+            "z": 4635.35,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                },
+                {
+                    "order": 2,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "2C",
+                "2E"
+            ]
+        },
+        {
+            "name": "PrideRock",
+            "x": 95503.83,
+            "y": 31172.85,
+            "z": 2582.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "WW2Bunkers",
+            "x": 109890.37,
+            "y": 44129.94,
+            "z": 1173.89,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "SmugglersHill",
+            "x": 107398.28,
+            "y": 33795.18,
+            "z": 1981.86,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Shrine",
+            "x": 137824.41,
+            "y": -61091.64,
+            "z": 5826.64,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                },
+                {
+                    "order": 2,
+                    "lane": "G"
+                }
+            ],
+            "phase_labels": [
+                "2C",
+                "2G"
+            ]
+        },
+        {
+            "name": "Walled Farm",
+            "x": 90553.38,
+            "y": -35531.42,
+            "z": 4314.83,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "F"
+                },
+                {
+                    "order": 3,
+                    "lane": "B"
+                },
+                {
+                    "order": 3,
+                    "lane": "C"
+                },
+                {
+                    "order": 3,
+                    "lane": "D"
+                },
+                {
+                    "order": 3,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "2F",
+                "3B",
+                "3C",
+                "3D",
+                "3E"
+            ]
+        },
+        {
+            "name": "Logistics Center",
+            "x": 108126.53,
+            "y": -34175.18,
+            "z": 4338.88,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "F"
+                },
+                {
+                    "order": 3,
+                    "lane": "B"
+                },
+                {
+                    "order": 3,
+                    "lane": "C"
+                },
+                {
+                    "order": 3,
+                    "lane": "D"
+                },
+                {
+                    "order": 3,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "2F",
+                "3B",
+                "3C",
+                "3D",
+                "3E"
+            ]
+        },
+        {
+            "name": "Central EstatesA",
+            "x": 91860.65,
+            "y": -29174.23,
+            "z": 3520.28,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "F"
+                },
+                {
+                    "order": 3,
+                    "lane": "B"
+                },
+                {
+                    "order": 3,
+                    "lane": "C"
+                },
+                {
+                    "order": 3,
+                    "lane": "D"
+                },
+                {
+                    "order": 3,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "2F",
+                "3B",
+                "3C",
+                "3D",
+                "3E"
+            ]
+        },
+        {
+            "name": "Central EstatesB",
+            "x": 99118.82,
+            "y": -33830.06,
+            "z": 4209.88,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "F"
+                },
+                {
+                    "order": 3,
+                    "lane": "B"
+                },
+                {
+                    "order": 3,
+                    "lane": "C"
+                },
+                {
+                    "order": 3,
+                    "lane": "D"
+                },
+                {
+                    "order": 3,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "2F",
+                "3B",
+                "3C",
+                "3D",
+                "3E"
+            ]
+        },
+        {
+            "name": "FishingDock",
+            "x": 156551.92,
+            "y": -55363.27,
+            "z": 710.13,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "G"
+                }
+            ],
+            "phase_labels": [
+                "2G"
+            ]
+        },
+        {
+            "name": "Antenna Hill",
+            "x": 85446.88,
+            "y": -5693.96,
+            "z": 3653.87,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                },
+                {
+                    "order": 3,
+                    "lane": "H"
+                }
+            ],
+            "phase_labels": [
+                "3A",
+                "3H"
+            ]
+        },
+        {
+            "name": "HellRidge",
+            "x": 80911.11,
+            "y": -18486.36,
+            "z": 3968.37,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                },
+                {
+                    "order": 3,
+                    "lane": "H"
+                }
+            ],
+            "phase_labels": [
+                "3A",
+                "3H"
+            ]
+        },
+        {
+            "name": "RecyclingStation",
+            "x": 93196.1,
+            "y": -75036.73,
+            "z": 1016.82,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "F"
+                },
+                {
+                    "order": 3,
+                    "lane": "G"
+                }
+            ],
+            "phase_labels": [
+                "3F",
+                "3G"
+            ]
+        },
+        {
+            "name": "FuelIslandA",
+            "x": 90346.78,
+            "y": -84924.56,
+            "z": 1053.23,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "G"
+                }
+            ],
+            "phase_labels": [
+                "3G"
+            ]
+        },
+        {
+            "name": "FuelIslandB",
+            "x": 96899.14,
+            "y": -93287.15,
+            "z": 1782.42,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "G"
+                }
+            ],
+            "phase_labels": [
+                "3G"
+            ]
+        },
+        {
+            "name": "FuelIslandC",
+            "x": 87874.22,
+            "y": -94061.87,
+            "z": 948.13,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "G"
+                }
+            ],
+            "phase_labels": [
+                "3G"
+            ]
+        },
+        {
+            "name": "FuelIslandD",
+            "x": 78923.97,
+            "y": -90878.88,
+            "z": 1670.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "G"
+                }
+            ],
+            "phase_labels": [
+                "3G"
+            ]
+        },
+        {
+            "name": "RiceFarmB",
+            "x": 65503.64,
+            "y": -14651.08,
+            "z": 2885.92,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                },
+                {
+                    "order": 4,
+                    "lane": "E"
+                },
+                {
+                    "order": 4,
+                    "lane": "H"
+                }
+            ],
+            "phase_labels": [
+                "4A",
+                "4E",
+                "4H"
+            ]
+        },
+        {
+            "name": "AbandonedFarm",
+            "x": 73238.37,
+            "y": -47722.48,
+            "z": 2848.02,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                },
+                {
+                    "order": 4,
+                    "lane": "F"
+                },
+                {
+                    "order": 4,
+                    "lane": "G"
+                }
+            ],
+            "phase_labels": [
+                "4B",
+                "4F",
+                "4G"
+            ]
+        },
+        {
+            "name": "RiceFarmA",
+            "x": 59776.18,
+            "y": -24108.37,
+            "z": 2199.98,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                },
+                {
+                    "order": 4,
+                    "lane": "E"
+                },
+                {
+                    "order": 4,
+                    "lane": "H"
+                }
+            ],
+            "phase_labels": [
+                "4A",
+                "4E",
+                "4H"
+            ]
+        },
+        {
+            "name": "Hilltop Estate",
+            "x": 68264.84,
+            "y": -65258.23,
+            "z": 4635.35,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                },
+                {
+                    "order": 4,
+                    "lane": "D"
+                },
+                {
+                    "order": 4,
+                    "lane": "F"
+                },
+                {
+                    "order": 4,
+                    "lane": "G"
+                }
+            ],
+            "phase_labels": [
+                "4C",
+                "4D",
+                "4F",
+                "4G"
+            ]
+        },
+        {
+            "name": "SugarPlantation",
+            "x": 53631.48,
+            "y": -45242.34,
+            "z": 1488.88,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                },
+                {
+                    "order": 4,
+                    "lane": "F"
+                }
+            ],
+            "phase_labels": [
+                "4B",
+                "4F"
+            ]
+        },
+        {
+            "name": "Old Estate",
+            "x": 49687.57,
+            "y": -3700.73,
+            "z": 1037.71,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                },
+                {
+                    "order": 5,
+                    "lane": "E"
+                },
+                {
+                    "order": 5,
+                    "lane": "F"
+                },
+                {
+                    "order": 5,
+                    "lane": "H"
+                }
+            ],
+            "phase_labels": [
+                "5A",
+                "5E",
+                "5F",
+                "5H"
+            ]
+        },
+        {
+            "name": "RepairShop",
+            "x": 41812.75,
+            "y": -10617.2,
+            "z": 1143.59,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                },
+                {
+                    "order": 5,
+                    "lane": "E"
+                },
+                {
+                    "order": 5,
+                    "lane": "F"
+                },
+                {
+                    "order": 5,
+                    "lane": "H"
+                }
+            ],
+            "phase_labels": [
+                "5A",
+                "5E",
+                "5F",
+                "5H"
+            ]
+        },
+        {
+            "name": "Canal TownB",
+            "x": 24439.84,
+            "y": -69153.23,
+            "z": 531.89,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                },
+                {
+                    "order": 5,
+                    "lane": "G"
+                }
+            ],
+            "phase_labels": [
+                "5B",
+                "5G"
+            ]
+        },
+        {
+            "name": "Bridgehead",
+            "x": 48447.54,
+            "y": 8091.66,
+            "z": 1044.89,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                },
+                {
+                    "order": 5,
+                    "lane": "E"
+                },
+                {
+                    "order": 5,
+                    "lane": "F"
+                },
+                {
+                    "order": 5,
+                    "lane": "H"
+                }
+            ],
+            "phase_labels": [
+                "5A",
+                "5E",
+                "5F",
+                "5H"
+            ]
+        },
+        {
+            "name": "Canal TownA",
+            "x": 17184.32,
+            "y": -74396.07,
+            "z": 531.89,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                },
+                {
+                    "order": 5,
+                    "lane": "G"
+                }
+            ],
+            "phase_labels": [
+                "5B",
+                "5G"
+            ]
+        },
+        {
+            "name": "Canal TownC",
+            "x": 32136.79,
+            "y": -66504.56,
+            "z": 531.89,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                },
+                {
+                    "order": 5,
+                    "lane": "G"
+                }
+            ],
+            "phase_labels": [
+                "5B",
+                "5G"
+            ]
+        },
+        {
+            "name": "North Canal",
+            "x": 42736.59,
+            "y": -80918.73,
+            "z": 296.86,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                },
+                {
+                    "order": 5,
+                    "lane": "G"
+                }
+            ],
+            "phase_labels": [
+                "5B",
+                "5G"
+            ]
+        },
+        {
+            "name": "Crossroad",
+            "x": 38456.28,
+            "y": -35217.22,
+            "z": 561.36,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                },
+                {
+                    "order": 5,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "5C",
+                "5D"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "map_id": "lashkar_valley",
+    "layer_name": "Lashkar_Skirmish_v1",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 3908.09,
+            "y": 22857.48,
+            "z": 839.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "East Orchard",
+            "lane": "Any",
+            "order": 1,
+            "x": 5705.67,
+            "y": -7603.8,
+            "z": 1119.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Farmstead",
+            "lane": "Any",
+            "order": 2,
+            "x": 9375.66,
+            "y": -34536.85,
+            "z": 540.15,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Souk",
+            "lane": "Any",
+            "order": 3,
+            "x": -17144.22,
+            "y": -36578.12,
+            "z": 1292.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lashkar",
+            "lane": "Any",
+            "order": 4,
+            "x": -4302.96,
+            "y": -29634.29,
+            "z": 211.63,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Backalleys",
+            "lane": "Any",
+            "order": 5,
+            "x": -10896.91,
+            "y": -22549.42,
+            "z": -237.19,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Elder's Compound",
+            "lane": "Any",
+            "order": 6,
+            "x": -8344.09,
+            "y": -38192.87,
+            "z": -1068.49,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Almond Orchard",
+            "lane": "Any",
+            "order": 7,
+            "x": -14518.54,
+            "y": -56940.56,
+            "z": 2420.85,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -34171.27,
+            "y": -63290.0,
+            "z": 921.93,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

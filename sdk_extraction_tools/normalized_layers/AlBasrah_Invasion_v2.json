@@ -1,0 +1,466 @@
+{
+    "map_id": "maps",
+    "layer_name": "AlBasrah_Invasion_v2",
+    "total_flags": 31,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 189769.92,
+            "y": -133434.86,
+            "z": 733.39
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -168612.19,
+            "y": 150367.31,
+            "z": 1205.96
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": 62901.11,
+            "y": 65489.51,
+            "z": 487.93
+        },
+        {
+            "name": "Al Yawiyah North",
+            "x": 117229.16,
+            "y": -136578.15,
+            "z": 725.84,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "1A"
+            ]
+        },
+        {
+            "name": "Kibasi NE",
+            "x": 131805.92,
+            "y": -69429.42,
+            "z": 1066.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1B"
+            ]
+        },
+        {
+            "name": "Highway 10 North Bridge",
+            "x": 155683.36,
+            "y": -66618.73,
+            "z": 1066.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "C"
+                },
+                {
+                    "order": 1,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "1C",
+                "1D"
+            ]
+        },
+        {
+            "name": "Kibasi Police Station",
+            "x": 122948.1,
+            "y": -39480.9,
+            "z": 482.02,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "Highway 10 South Bridge",
+            "x": 148599.03,
+            "y": 2879.14,
+            "z": 794.83,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                },
+                {
+                    "order": 2,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "2C",
+                "2D"
+            ]
+        },
+        {
+            "name": "Kibasi NW",
+            "x": 102076.04,
+            "y": -60413.0,
+            "z": 725.84,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "Kibasi Market",
+            "x": 132938.47,
+            "y": -17506.76,
+            "z": 482.02,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "Bridge Construction",
+            "x": 79899.22,
+            "y": -141969.71,
+            "z": 725.84,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "At Tannuhmah",
+            "x": 139175.6,
+            "y": 40333.82,
+            "z": 794.83,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "2D"
+            ]
+        },
+        {
+            "name": "Date Orchards",
+            "x": 107793.35,
+            "y": 22065.62,
+            "z": 6.85,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "Patrol Base",
+            "x": 89434.3,
+            "y": -31555.47,
+            "z": 410.34,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Highway 6 Interchange",
+            "x": 30738.64,
+            "y": -139707.94,
+            "z": 725.84,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Al Tuwaisa East",
+            "x": 76134.02,
+            "y": 44976.46,
+            "z": 328.75,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "The Brick",
+            "x": 116615.56,
+            "y": 87617.64,
+            "z": 412.85,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "4D"
+            ]
+        },
+        {
+            "name": "Sinbad Island",
+            "x": 68203.88,
+            "y": -24330.13,
+            "z": 820.01,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Dur Al Mattar",
+            "x": -31770.91,
+            "y": -131468.96,
+            "z": 725.84,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Island Park",
+            "x": 68064.02,
+            "y": 21406.46,
+            "z": 328.75,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "Kardalan",
+            "x": 115353.17,
+            "y": 80285.46,
+            "z": 412.85,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "4D"
+            ]
+        },
+        {
+            "name": "Hotel International",
+            "x": 63728.13,
+            "y": 65119.78,
+            "z": 395.57,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "5D"
+            ]
+        },
+        {
+            "name": "Lower Estates",
+            "x": 63031.77,
+            "y": 82393.33,
+            "z": 885.23,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "5D"
+            ]
+        },
+        {
+            "name": "Refinery",
+            "x": 49365.09,
+            "y": 5866.02,
+            "z": 410.34,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                },
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5B",
+                "5C"
+            ]
+        },
+        {
+            "name": "Mosque",
+            "x": 34796.35,
+            "y": 28165.16,
+            "z": 410.34,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C"
+            ]
+        },
+        {
+            "name": "Shu'Aiba Market",
+            "x": -57126.73,
+            "y": -127077.13,
+            "z": 725.84,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Garages",
+            "x": -63678.33,
+            "y": -107174.72,
+            "z": 725.84,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Civilian ATC",
+            "x": -44263.16,
+            "y": -90432.3,
+            "z": 725.84,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Muftiyah",
+            "x": 51065.09,
+            "y": 30196.02,
+            "z": 410.34,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C"
+            ]
+        },
+        {
+            "name": "Warehouse",
+            "x": 64561.77,
+            "y": 90153.33,
+            "z": 885.23,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "5D"
+            ]
+        },
+        {
+            "name": "Army HQ",
+            "x": 79031.74,
+            "y": 125498.1,
+            "z": 885.23,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "5D"
+            ]
+        }
+    ]
+}

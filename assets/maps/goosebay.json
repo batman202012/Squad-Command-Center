@@ -1,0 +1,22 @@
+{
+    "id": "goosebay",
+    "name": "Goose Bay",
+    "metadata": {
+        "mapExtent": [
+            0,
+            -8192,
+            8192,
+            0
+        ],
+        "physicalSizeMeters": 4030,
+        "physicalSizeMetersX": 4030,
+        "physicalSizeMetersY": 4030,
+        "ueOffsetX": 0,
+        "ueOffsetY": 0,
+        "maxZoom": 5,
+        "minZoom": 1,
+        "tileUrl": "./assets/maps/Goosebay/goosebay_tiles/{z}/{x}/{y}.png",
+        "heightmapUrl": "./assets/maps/Goosebay/goosebay_height_map.webp",
+        "heightmapSize": 4096
+    }
+}

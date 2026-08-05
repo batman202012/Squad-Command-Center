@@ -1,0 +1,128 @@
+{
+    "map_id": "yehorivka",
+    "layer_name": "Yehorivka_AAS_v2",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -144303.19,
+            "y": 154083.66,
+            "z": 5188.45
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 163271.59,
+            "y": -226390.08,
+            "z": 9071.88
+        },
+        {
+            "name": "Yeho Airfield",
+            "x": 4700.12,
+            "y": 113706.09,
+            "z": 9937.84,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "East Novo",
+            "x": 29734.29,
+            "y": 60208.78,
+            "z": 10611.67,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Lower Mogilyovo",
+            "x": -73597.19,
+            "y": 65333.81,
+            "z": 6414.3,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "West Mogilyovo",
+            "x": -85536.38,
+            "y": 3329.89,
+            "z": 8288.75,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Kropy",
+            "x": -86508.78,
+            "y": -88655.78,
+            "z": 4234.36,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Zolota Bunkers",
+            "x": -98723.52,
+            "y": -145116.58,
+            "z": 3890.64,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "Ivanivka",
+            "x": 58794.58,
+            "y": -189973.62,
+            "z": 8467.05,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "7Any"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,523 @@
+{
+    "map_id": "gorodok",
+    "layer_name": "Gorodok_RAAS_v2",
+    "total_flags": 33,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -150078.02,
+            "y": -154847.17,
+            "z": -2904.25
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 186440.84,
+            "y": 165418.31,
+            "z": -3220.21
+        },
+        {
+            "name": "Fruit Farm",
+            "x": -90370.38,
+            "y": -113373.88,
+            "z": -2870.93,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                },
+                {
+                    "order": 1,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1A",
+                "1B"
+            ]
+        },
+        {
+            "name": "Hill",
+            "x": -155572.41,
+            "y": -74370.09,
+            "z": -2150.36,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "1C"
+            ]
+        },
+        {
+            "name": "Igor's Homestead",
+            "x": -30789.82,
+            "y": 75571.06,
+            "z": -2556.9,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "Yard Apartments",
+            "x": -18164.83,
+            "y": -116768.28,
+            "z": -3812.46,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Mechanic's Homestead",
+            "x": 16785.43,
+            "y": -117201.81,
+            "z": -3186.35,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Shipping Yard",
+            "x": -25055.5,
+            "y": -141823.38,
+            "z": -3210.92,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Ambush Hill",
+            "x": -23764.67,
+            "y": -88235.78,
+            "z": -1640.83,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "Boar Hunter's Club",
+            "x": -118077.27,
+            "y": -10424.95,
+            "z": -2699.43,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "Grain Processing",
+            "x": -53735.33,
+            "y": -73488.97,
+            "z": -3356.34,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "Russian Outpost",
+            "x": -99064.92,
+            "y": 74285.91,
+            "z": -3312.43,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "Tractor Co-op",
+            "x": 78143.49,
+            "y": -144384.05,
+            "z": -4996.17,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Akim Lower",
+            "x": 72247.87,
+            "y": -94599.45,
+            "z": -5245.88,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Niva Radio Tower",
+            "x": 40459.13,
+            "y": -5007.94,
+            "z": -4494.23,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "WW2 Bunkers",
+            "x": -44258.35,
+            "y": -5649.33,
+            "z": -1818.33,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Desna",
+            "x": -67254.3,
+            "y": 121348.0,
+            "z": -2736.98,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "Akim Central",
+            "x": 124692.68,
+            "y": -86425.53,
+            "z": -4707.55,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Lumber Storage",
+            "x": -131006.3,
+            "y": 153653.0,
+            "z": -3303.98,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "Soloninki Upper",
+            "x": 6681.72,
+            "y": 104777.12,
+            "z": -3091.64,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C"
+            ]
+        },
+        {
+            "name": "Soloninki Lower",
+            "x": -12120.39,
+            "y": 127590.38,
+            "z": -4867.37,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C"
+            ]
+        },
+        {
+            "name": "Soloninki Ruins",
+            "x": 11878.84,
+            "y": 148808.34,
+            "z": -2856.48,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C"
+            ]
+        },
+        {
+            "name": "Niva Lower",
+            "x": 242.22,
+            "y": 13565.27,
+            "z": -4865.84,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                },
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B",
+                "4B"
+            ]
+        },
+        {
+            "name": "Train Bridge",
+            "x": 463.84,
+            "y": 49901.69,
+            "z": -4522.46,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "River Fortification",
+            "x": 37653.81,
+            "y": 48035.84,
+            "z": -4700.96,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "Butcher's House",
+            "x": 120411.55,
+            "y": -17195.34,
+            "z": -2803.82,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Sluda Hamlet",
+            "x": 73569.59,
+            "y": -39007.03,
+            "z": -3482.46,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Fortified Farmstead",
+            "x": 62648.2,
+            "y": 81787.44,
+            "z": -2760.77,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "B"
+                },
+                {
+                    "order": 6,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "6B",
+                "6C"
+            ]
+        },
+        {
+            "name": "Boris' Farmstead",
+            "x": 102756.02,
+            "y": 53861.0,
+            "z": -828.09,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "Tunnel Defenses",
+            "x": 136747.69,
+            "y": 17138.66,
+            "z": -2964.74,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "Pavlov's Farm",
+            "x": 41092.77,
+            "y": 140820.53,
+            "z": -3032.33,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "6C"
+            ]
+        },
+        {
+            "name": "Gas Station",
+            "x": 103039.93,
+            "y": 106954.71,
+            "z": -2772.18,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "A"
+                },
+                {
+                    "order": 7,
+                    "lane": "B"
+                },
+                {
+                    "order": 7,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "7A",
+                "7B",
+                "7C"
+            ]
+        },
+        {
+            "name": "Industrial Park",
+            "x": 133479.78,
+            "y": 111957.75,
+            "z": -3859.33,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "A"
+                },
+                {
+                    "order": 7,
+                    "lane": "B"
+                },
+                {
+                    "order": 7,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "7A",
+                "7B",
+                "7C"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,137 @@
+{
+    "map_id": "tallil_outskirts",
+    "layer_name": "Tallil_Skirmish_v2",
+    "total_flags": 13,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -78109.8,
+            "y": 160970.79,
+            "z": -6881.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "VCP",
+            "lane": "Any",
+            "order": 1,
+            "x": -55856.79,
+            "y": 126293.23,
+            "z": -7596.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Shacks",
+            "lane": "Any",
+            "order": 2,
+            "x": -53619.51,
+            "y": 104395.39,
+            "z": -7596.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hangar Delta",
+            "lane": "Any",
+            "order": 3,
+            "x": -45675.73,
+            "y": 92850.94,
+            "z": -7716.68,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hangar Charlie",
+            "lane": "Any",
+            "order": 4,
+            "x": -29316.53,
+            "y": 90965.73,
+            "z": -6537.83,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hangar Bravo",
+            "lane": "Any",
+            "order": 5,
+            "x": -46784.89,
+            "y": 79249.9,
+            "z": -7596.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Generators",
+            "lane": "Any",
+            "order": 6,
+            "x": -65536.91,
+            "y": 89262.32,
+            "z": -7596.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hangar Alpha",
+            "lane": "Any",
+            "order": 7,
+            "x": -62024.04,
+            "y": 64296.94,
+            "z": -7596.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -48189.73,
+            "y": 29421.07,
+            "z": -7207.55,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_4",
+            "lane": "Any",
+            "order": -1,
+            "x": -56791.81,
+            "y": 102645.78,
+            "z": -7225.26,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": -59253.03,
+            "y": 109318.96,
+            "z": -7103.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_2",
+            "lane": "Any",
+            "order": -1,
+            "x": -59292.87,
+            "y": 109131.57,
+            "z": -7103.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_3",
+            "lane": "Any",
+            "order": -1,
+            "x": -59334.63,
+            "y": 108935.06,
+            "z": -7103.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

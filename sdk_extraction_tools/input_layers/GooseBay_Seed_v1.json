@@ -1,0 +1,97 @@
+{
+    "map_id": "goose_bay",
+    "layer_name": "GooseBay_Seed_v1",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -34816.56,
+            "y": 131100.36,
+            "z": -23870.05,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "HV North",
+            "lane": "Any",
+            "order": 1,
+            "x": -12910.71,
+            "y": 137865.78,
+            "z": -23555.19,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Happy Valley Central",
+            "lane": "Any",
+            "order": 2,
+            "x": -11242.52,
+            "y": 157480.94,
+            "z": -23979.06,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "HV South",
+            "lane": "Any",
+            "order": 3,
+            "x": -18240.59,
+            "y": 170448.7,
+            "z": -23712.06,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -32126.14,
+            "y": 183998.67,
+            "z": -23982.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead2",
+            "lane": "Any",
+            "order": -1,
+            "x": 137463.02,
+            "y": 11862.72,
+            "z": -14388.09,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "CAF",
+            "lane": "Any",
+            "order": -1,
+            "x": 137461.98,
+            "y": 11859.9,
+            "z": -13546.48,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead3",
+            "lane": "Any",
+            "order": -1,
+            "x": -93157.02,
+            "y": 112599.05,
+            "z": -24388.09,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "CAF2",
+            "lane": "Any",
+            "order": -1,
+            "x": -93164.05,
+            "y": 112599.23,
+            "z": -23596.48,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

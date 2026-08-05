@@ -1,0 +1,97 @@
+{
+    "map_id": "kohat",
+    "layer_name": "Kohat_Skirmish_v1",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 41708.09,
+            "y": 49767.48,
+            "z": 3836.94,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "East Ridge",
+            "lane": "Any",
+            "order": 1,
+            "x": 18101.06,
+            "y": 45086.77,
+            "z": 4833.12,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Malak Abad",
+            "lane": "Any",
+            "order": 2,
+            "x": -10735.42,
+            "y": 9261.92,
+            "z": 2903.12,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Syed Abad",
+            "lane": "Any",
+            "order": 3,
+            "x": -11377.92,
+            "y": 28138.86,
+            "z": 2227.3,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Ali Abad",
+            "lane": "Any",
+            "order": 4,
+            "x": -4386.1,
+            "y": -22839.37,
+            "z": 4543.75,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Mohd Zai",
+            "lane": "Any",
+            "order": 5,
+            "x": -20035.24,
+            "y": 53214.82,
+            "z": 1413.12,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Elder's Compound",
+            "lane": "Any",
+            "order": 6,
+            "x": -18228.38,
+            "y": 69938.14,
+            "z": 1273.12,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Darbond Hill",
+            "lane": "Any",
+            "order": 7,
+            "x": -50479.97,
+            "y": 38908.59,
+            "z": 6953.12,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -73901.27,
+            "y": 22780.0,
+            "z": 3797.38,
+            "is_sky_node": true,
+            "linked_flags": []
+        }
+    ]
+}

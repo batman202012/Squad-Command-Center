@@ -1,0 +1,823 @@
+{
+    "map_id": "narva",
+    "layer_name": "Narva_RAAS_v1",
+    "total_flags": 51,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -117217.09,
+            "y": -83417.95,
+            "z": 1423.34
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 127188.99,
+            "y": 32994.14,
+            "z": 879.66
+        },
+        {
+            "name": "Farmstead",
+            "x": -94346.72,
+            "y": -37589.42,
+            "z": 1025.64,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "C"
+                },
+                {
+                    "order": 1,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "1C",
+                "1D"
+            ]
+        },
+        {
+            "name": "Airfield",
+            "x": -77605.44,
+            "y": -61275.83,
+            "z": 1516.39,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                },
+                {
+                    "order": 1,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1A",
+                "1B"
+            ]
+        },
+        {
+            "name": "Ring Road North",
+            "x": -66189.53,
+            "y": -13258.99,
+            "z": 684.37,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                },
+                {
+                    "order": 2,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "2C",
+                "2D"
+            ]
+        },
+        {
+            "name": "Radio Station",
+            "x": -54447.22,
+            "y": -78119.7,
+            "z": 1959.2,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Church",
+            "x": -26586.56,
+            "y": -57810.38,
+            "z": 768.85,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                },
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2A",
+                "2B"
+            ]
+        },
+        {
+            "name": "Ring Road South",
+            "x": -57276.78,
+            "y": -5303.76,
+            "z": 684.36,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                },
+                {
+                    "order": 2,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "2C",
+                "2D"
+            ]
+        },
+        {
+            "name": "Shanty Marina",
+            "x": -48720.22,
+            "y": -16827.54,
+            "z": 685.85,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "Council Towers",
+            "x": -22969.33,
+            "y": -36943.94,
+            "z": 696.09,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Narova East",
+            "x": -23577.52,
+            "y": -14906.88,
+            "z": 710.15,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                },
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3C",
+                "3B"
+            ]
+        },
+        {
+            "name": "Fuel Storage North",
+            "x": -56384.25,
+            "y": 24821.54,
+            "z": 99.95,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "3D"
+            ]
+        },
+        {
+            "name": "Oru Village West",
+            "x": -36964.66,
+            "y": 11825.85,
+            "z": 1113.81,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                },
+                {
+                    "order": 3,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "3C",
+                "3D"
+            ]
+        },
+        {
+            "name": "Old Hospital",
+            "x": -12517.78,
+            "y": -33132.99,
+            "z": 811.73,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Student Apartments",
+            "x": 1448.49,
+            "y": -51738.04,
+            "z": 207.02,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Old Barracks",
+            "x": -7822.8,
+            "y": -73763.78,
+            "z": 1494.58,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Factory",
+            "x": -6484.98,
+            "y": -51905.65,
+            "z": 207.01,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Oru Village East",
+            "x": -24614.08,
+            "y": 12346.04,
+            "z": 1113.84,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                },
+                {
+                    "order": 3,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "3C",
+                "3D"
+            ]
+        },
+        {
+            "name": "Fuel Storage South",
+            "x": -69330.45,
+            "y": 30730.22,
+            "z": 99.96,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "3D"
+            ]
+        },
+        {
+            "name": "Narova Abandoned",
+            "x": -35084.95,
+            "y": -20999.56,
+            "z": 710.15,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "Narova Ruins",
+            "x": -32932.44,
+            "y": -11659.85,
+            "z": 710.15,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "Quarry",
+            "x": -21878.2,
+            "y": 60400.66,
+            "z": 424.08,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "4D"
+            ]
+        },
+        {
+            "name": "Geneva Apartments",
+            "x": 7223.41,
+            "y": -27283.88,
+            "z": 689.12,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Foundry",
+            "x": -26686.56,
+            "y": 34921.87,
+            "z": 99.98,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "4D"
+            ]
+        },
+        {
+            "name": "University",
+            "x": 19729.45,
+            "y": -54823.8,
+            "z": 207.02,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Shopping Center",
+            "x": 14266.14,
+            "y": -39506.7,
+            "z": 686.72,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Uuskula Apartments",
+            "x": 3640.23,
+            "y": 17656.46,
+            "z": 1335.95,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "Fama Apartments",
+            "x": 7582.17,
+            "y": -39342.62,
+            "z": 686.72,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Central Narva",
+            "x": 1073.41,
+            "y": -16223.88,
+            "z": 689.12,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Bridgeview Apartments",
+            "x": 13904.59,
+            "y": -6005.23,
+            "z": 1520.62,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                },
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4C",
+                "5B"
+            ]
+        },
+        {
+            "name": "Train Depot",
+            "x": 25242.62,
+            "y": -5990.87,
+            "z": 1520.63,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "Kanda Court",
+            "x": 22122.36,
+            "y": 17777.77,
+            "z": 655.46,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C"
+            ]
+        },
+        {
+            "name": "Orchard",
+            "x": 10158.58,
+            "y": 59177.2,
+            "z": 1431.93,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "5D"
+            ]
+        },
+        {
+            "name": "Warehouse",
+            "x": 33979.84,
+            "y": 22731.92,
+            "z": 1468.13,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C"
+            ]
+        },
+        {
+            "name": "Uuskula Towers",
+            "x": -2820.51,
+            "y": 29237.26,
+            "z": 1335.96,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "5D"
+            ]
+        },
+        {
+            "name": "Downtown Storefronts",
+            "x": 25699.04,
+            "y": -26628.57,
+            "z": 689.83,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Dog Park Apartments",
+            "x": 30506.65,
+            "y": -37856.39,
+            "z": 686.71,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Kanepi North",
+            "x": -6145.11,
+            "y": 37953.38,
+            "z": 937.66,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "5D"
+            ]
+        },
+        {
+            "name": "Kanepi South",
+            "x": 4396.15,
+            "y": 46410.09,
+            "z": 782.23,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "5D"
+            ]
+        },
+        {
+            "name": "Narva Station",
+            "x": 35703.23,
+            "y": 9737.94,
+            "z": 1520.62,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                },
+                {
+                    "order": 6,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5C",
+                "6B"
+            ]
+        },
+        {
+            "name": "Narva Castle",
+            "x": 50642.22,
+            "y": -16551.68,
+            "z": 1478.9,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "Narva Heights",
+            "x": 49477.43,
+            "y": -36180.29,
+            "z": 1253.42,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "Train Inspection",
+            "x": 50564.17,
+            "y": 25843.17,
+            "z": 1468.17,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "6C"
+            ]
+        },
+        {
+            "name": "Turu Apartments",
+            "x": 50080.1,
+            "y": 34559.68,
+            "z": 1468.17,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "D"
+                },
+                {
+                    "order": 6,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "6D",
+                "6C"
+            ]
+        },
+        {
+            "name": "Castleview Apartments",
+            "x": 38570.25,
+            "y": -6056.45,
+            "z": 685.15,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "6B"
+            ]
+        },
+        {
+            "name": "Marina",
+            "x": 27293.75,
+            "y": 84202.34,
+            "z": -39.44,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "6D"
+            ]
+        },
+        {
+            "name": "Power Plant",
+            "x": 45297.31,
+            "y": 57687.69,
+            "z": 1477.89,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "6D"
+            ]
+        },
+        {
+            "name": "Kiriku",
+            "x": 60938.58,
+            "y": 10023.01,
+            "z": 685.91,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "C"
+                },
+                {
+                    "order": 7,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "6C",
+                "7B"
+            ]
+        },
+        {
+            "name": "Russian Border Checkpoint",
+            "x": 74107.44,
+            "y": -21030.29,
+            "z": 1153.42,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "7A"
+            ]
+        },
+        {
+            "name": "Ivangorod Outskirts",
+            "x": 94027.44,
+            "y": -23300.29,
+            "z": 473.42,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "7A"
+            ]
+        },
+        {
+            "name": "Parusinka",
+            "x": 81258.58,
+            "y": 49153.01,
+            "z": 475.91,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "C"
+                },
+                {
+                    "order": 7,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "7C",
+                "7D"
+            ]
+        }
+    ]
+}

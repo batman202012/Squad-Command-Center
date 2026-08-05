@@ -1,0 +1,127 @@
+{
+    "map_id": "goose_bay",
+    "layer_name": "GooseBay_AAS_v1",
+    "total_flags": 12,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -155433.67,
+            "y": -177261.38,
+            "z": -22543.06,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Sheshatshiu",
+            "lane": "Any",
+            "order": 1,
+            "x": -43963.54,
+            "y": -129528.0,
+            "z": -15526.93,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FOB Inkpen",
+            "lane": "Any",
+            "order": 2,
+            "x": 93113.22,
+            "y": -109303.38,
+            "z": -16392.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "NORAD Ground Station",
+            "lane": "Any",
+            "order": 3,
+            "x": 93115.46,
+            "y": -50387.29,
+            "z": -15503.97,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "CFB Goose Bay",
+            "lane": "Any",
+            "order": 4,
+            "x": 37979.64,
+            "y": 37518.74,
+            "z": -13693.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "OP Hebb",
+            "lane": "Any",
+            "order": 5,
+            "x": 16147.09,
+            "y": 108129.79,
+            "z": -19746.05,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Postville",
+            "lane": "Any",
+            "order": 6,
+            "x": 145216.61,
+            "y": 128703.77,
+            "z": -21303.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 184455.75,
+            "y": 172156.73,
+            "z": -20352.98,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead2",
+            "lane": "Any",
+            "order": -1,
+            "x": 137463.02,
+            "y": 11862.72,
+            "z": -14388.09,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "CAF",
+            "lane": "Any",
+            "order": -1,
+            "x": 137461.98,
+            "y": 11859.9,
+            "z": -13546.48,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead3",
+            "lane": "Any",
+            "order": -1,
+            "x": -93157.02,
+            "y": 112599.05,
+            "z": -24388.09,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "CAF2",
+            "lane": "Any",
+            "order": -1,
+            "x": -93164.05,
+            "y": 112599.23,
+            "z": -23596.48,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

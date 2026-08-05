@@ -1,0 +1,27 @@
+{
+    "map_id": "kamdesh_highlands",
+    "layer_name": "Kamdesh_TC_v1",
+    "total_flags": 2,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -154534.42,
+            "y": 41198.94,
+            "z": 6835.49,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 144880.3,
+            "y": 25604.82,
+            "z": 8892.9,
+            "is_sky_node": true,
+            "linked_flags": []
+        }
+    ]
+}

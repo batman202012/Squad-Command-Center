@@ -1,0 +1,97 @@
+{
+    "map_id": "chora",
+    "layer_name": "Chora_Skirmish_v1",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -11255.88,
+            "y": -62129.7,
+            "z": -76531.27,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Opium Blackmarket",
+            "lane": "Any",
+            "order": 1,
+            "x": -29050.38,
+            "y": -49137.82,
+            "z": -76233.27,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Radio Tower",
+            "lane": "Any",
+            "order": 2,
+            "x": -56109.33,
+            "y": -45053.96,
+            "z": -76265.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ruins",
+            "lane": "Any",
+            "order": 3,
+            "x": -69873.16,
+            "y": -28252.06,
+            "z": -75442.01,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Bridge",
+            "lane": "Any",
+            "order": 4,
+            "x": -66282.49,
+            "y": -60811.72,
+            "z": -76425.16,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Poppy Farm",
+            "lane": "Any",
+            "order": 5,
+            "x": -75303.56,
+            "y": -73791.54,
+            "z": -76372.58,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Irrigation",
+            "lane": "Any",
+            "order": 6,
+            "x": -54912.17,
+            "y": -95222.23,
+            "z": -76726.74,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Orchard",
+            "lane": "Any",
+            "order": 7,
+            "x": -100665.77,
+            "y": -67557.68,
+            "z": -75347.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -115581.81,
+            "y": -68221.94,
+            "z": -76660.26,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

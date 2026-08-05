@@ -1,0 +1,87 @@
+{
+    "map_id": "gorodok",
+    "layer_name": "Gorodok_AAS_v1",
+    "total_flags": 8,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -149631.75,
+            "y": -157681.0,
+            "z": -3718.72,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Fruit Farm",
+            "lane": "Any",
+            "order": 1,
+            "x": -92870.59,
+            "y": -107408.38,
+            "z": -1953.11,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Shipping Yard",
+            "lane": "Any",
+            "order": 2,
+            "x": -25341.48,
+            "y": -146637.0,
+            "z": -3210.93,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hilltop Bunker",
+            "lane": "Any",
+            "order": 3,
+            "x": -43128.98,
+            "y": -6928.11,
+            "z": -1195.29,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Niva Upper",
+            "lane": "Any",
+            "order": 4,
+            "x": -29808.09,
+            "y": 16102.38,
+            "z": -2382.16,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Soloninki",
+            "lane": "Any",
+            "order": 5,
+            "x": 3178.08,
+            "y": 107328.68,
+            "z": -3192.4,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Industrial Park",
+            "lane": "Any",
+            "order": 6,
+            "x": 133683.06,
+            "y": 112225.06,
+            "z": -3859.35,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 191864.14,
+            "y": 160828.98,
+            "z": -3131.56,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

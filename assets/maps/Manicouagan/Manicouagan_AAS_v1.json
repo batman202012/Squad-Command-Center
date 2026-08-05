@@ -1,0 +1,152 @@
+{
+    "map_id": "manicouagan",
+    "layer_name": "Manicouagan_AAS_v1",
+    "total_flags": 12,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 175616.19,
+            "y": 185694.76,
+            "z": 5181.77
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -182874.85,
+            "y": -173244.91,
+            "z": 8215.49
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": -170099.52,
+            "y": -73194.71,
+            "z": 12147.0
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh",
+            "lane": "Any",
+            "order": -1,
+            "x": -33322.11,
+            "y": -35379.22,
+            "z": 5300.0
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh2",
+            "lane": "Any",
+            "order": -1,
+            "x": -34046.83,
+            "y": -32674.62,
+            "z": 5300.0
+        },
+        {
+            "name": "Logistics Center",
+            "x": 102343.9,
+            "y": 141022.79,
+            "z": 5495.72,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Old Van Doo Garrison",
+            "x": -26241.22,
+            "y": 171488.41,
+            "z": 6882.02,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Patrol Base",
+            "x": -96649.47,
+            "y": 168924.91,
+            "z": 5277.89,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Fermont",
+            "x": -117453.8,
+            "y": 119623.43,
+            "z": 5473.02,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Antenna Facility",
+            "x": -146726.21,
+            "y": 69964.68,
+            "z": 7976.04,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Lumber Mill",
+            "x": -144955.04,
+            "y": -15020.79,
+            "z": 9966.82,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "Firebase Anna",
+            "x": -114307.69,
+            "y": -100876.39,
+            "z": 12245.54,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "7Any"
+            ]
+        }
+    ]
+}

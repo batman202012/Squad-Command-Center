@@ -1,0 +1,273 @@
+{
+    "map_id": "maps",
+    "layer_name": "Sanxian_Invasion_v1",
+    "total_flags": 17,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -39239.29,
+            "y": 195733.38,
+            "z": 1702.64
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -190394.12,
+            "y": -99275.31,
+            "z": 368.01
+        },
+        {
+            "name": "Landing Zone",
+            "x": -67927.28,
+            "y": 130261.34,
+            "z": 952.3,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Radar Station",
+            "x": 82.07,
+            "y": 124946.21,
+            "z": 936.89,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                },
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2Any",
+                "2A"
+            ]
+        },
+        {
+            "name": "Lagoon",
+            "x": -148523.72,
+            "y": 104542.45,
+            "z": 842.07,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "Navy Port",
+            "x": -13983.9,
+            "y": 56666.59,
+            "z": 944.89,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                },
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3Any",
+                "3A"
+            ]
+        },
+        {
+            "name": "Duwu",
+            "x": 14242.98,
+            "y": 57736.55,
+            "z": 588.92,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                },
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3Any",
+                "3A"
+            ]
+        },
+        {
+            "name": "Sanbai",
+            "x": -152691.61,
+            "y": 60931.66,
+            "z": 842.07,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Lower Plantation",
+            "x": -167610.56,
+            "y": 49331.19,
+            "z": 842.07,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Dacun Waterfront",
+            "x": 29527.99,
+            "y": 11214.06,
+            "z": 944.89,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                },
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4Any",
+                "4A"
+            ]
+        },
+        {
+            "name": "Harbour Town",
+            "x": -121810.18,
+            "y": 25216.67,
+            "z": 362.7,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Shipwreck Cove",
+            "x": -153145.56,
+            "y": -855.81,
+            "z": 59.05,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Power Plant",
+            "x": -22571.9,
+            "y": -32296.14,
+            "z": 642.22,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                },
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5Any",
+                "5A"
+            ]
+        },
+        {
+            "name": "Chanwan",
+            "x": -141674.77,
+            "y": -42911.5,
+            "z": 320.51,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "Chanwan Warehouse",
+            "x": -108644.36,
+            "y": -30590.02,
+            "z": 1216.32,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "Yunbo Docks",
+            "x": -82746.26,
+            "y": -11426.55,
+            "z": 306.34,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "Telecom Facility",
+            "x": -91815.57,
+            "y": 801.95,
+            "z": 1361.63,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        }
+    ]
+}

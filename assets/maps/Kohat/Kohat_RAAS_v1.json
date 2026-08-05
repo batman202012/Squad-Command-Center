@@ -1,0 +1,683 @@
+{
+    "map_id": "kohat",
+    "layer_name": "Kohat_RAAS_v1",
+    "total_flags": 41,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 175133.41,
+            "y": -138279.0,
+            "z": 24698.63
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -154961.83,
+            "y": 159288.5,
+            "z": 19138.98
+        },
+        {
+            "name": "Upper Nasrat",
+            "x": 96554.22,
+            "y": -39058.06,
+            "z": 7482.5,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                },
+                {
+                    "order": 1,
+                    "lane": "B"
+                },
+                {
+                    "order": 1,
+                    "lane": "C"
+                },
+                {
+                    "order": 1,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "1A",
+                "1B",
+                "1C",
+                "1D"
+            ]
+        },
+        {
+            "name": "FOB Connolly",
+            "x": 149635.03,
+            "y": -340.16,
+            "z": 8670.35,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "1E"
+            ]
+        },
+        {
+            "name": "Nasrat Proper",
+            "x": 91181.22,
+            "y": -11052.06,
+            "z": 5705.94,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                },
+                {
+                    "order": 2,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "2C",
+                "2D"
+            ]
+        },
+        {
+            "name": "Lower Thira",
+            "x": 41500.66,
+            "y": -36229.62,
+            "z": 6070.31,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                },
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2A",
+                "2B"
+            ]
+        },
+        {
+            "name": "Upper Thira",
+            "x": 20610.84,
+            "y": -59250.42,
+            "z": 7370.64,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Lower Nasrat",
+            "x": 100352.35,
+            "y": 19607.62,
+            "z": 4549.47,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "E"
+                },
+                {
+                    "order": 3,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "2E",
+                "3D"
+            ]
+        },
+        {
+            "name": "Hangu Orchard",
+            "x": 131352.34,
+            "y": 59407.62,
+            "z": 2449.47,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "E"
+                },
+                {
+                    "order": 3,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "2E",
+                "3E"
+            ]
+        },
+        {
+            "name": "Khadizai Radio Tower",
+            "x": 31830.73,
+            "y": 12669.17,
+            "z": 8159.68,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "Ali Abad",
+            "x": -1325.25,
+            "y": -14979.42,
+            "z": 3533.38,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Chakar Kot",
+            "x": -15956.34,
+            "y": -58435.62,
+            "z": 6042.19,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Lower Khadizai",
+            "x": 63521.66,
+            "y": 20333.38,
+            "z": 2758.91,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                },
+                {
+                    "order": 3,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "3C",
+                "3D"
+            ]
+        },
+        {
+            "name": "Upper Khadizai",
+            "x": 56302.35,
+            "y": -4542.38,
+            "z": 3499.47,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "Syed Abad",
+            "x": -6139.16,
+            "y": 32236.69,
+            "z": 2254.44,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Jouzara Proper",
+            "x": 84565.67,
+            "y": 60324.33,
+            "z": 2090.22,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "4D"
+            ]
+        },
+        {
+            "name": "Lower Jouzara",
+            "x": 66714.66,
+            "y": 73417.38,
+            "z": 2283.06,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "4D"
+            ]
+        },
+        {
+            "name": "Ambar Banda",
+            "x": 40276.66,
+            "y": 49421.38,
+            "z": 3450.66,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "Hangu Proper",
+            "x": 114800.22,
+            "y": 89502.94,
+            "z": 2757.86,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "4E"
+            ]
+        },
+        {
+            "name": "Malak Abad",
+            "x": -14166.16,
+            "y": 7958.69,
+            "z": 3429.79,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Suni Khel",
+            "x": -89855.28,
+            "y": -74522.17,
+            "z": 7322.41,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Lodi Khel",
+            "x": -148629.03,
+            "y": -68876.02,
+            "z": 9778.52,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Modi Khel",
+            "x": -116852.16,
+            "y": -72234.62,
+            "z": 7018.41,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Mohd Zai",
+            "x": -19663.47,
+            "y": 53106.94,
+            "z": 1681.18,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                },
+                {
+                    "order": 5,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "5C",
+                "5D"
+            ]
+        },
+        {
+            "name": "Bahadur Agriculture",
+            "x": -75091.58,
+            "y": 17108.73,
+            "z": 4644.16,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "Darbond Hill",
+            "x": -41347.58,
+            "y": 49648.73,
+            "z": 6773.09,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "Darbond",
+            "x": -51424.58,
+            "y": 63605.75,
+            "z": 6149.56,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "Lower Mohd Zai",
+            "x": -18262.47,
+            "y": 69906.94,
+            "z": 2036.19,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                },
+                {
+                    "order": 5,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "5C",
+                "5D"
+            ]
+        },
+        {
+            "name": "Hangu South",
+            "x": 90140.45,
+            "y": 110839.77,
+            "z": 2699.02,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "5E"
+            ]
+        },
+        {
+            "name": "Lakay Pass",
+            "x": 27415.27,
+            "y": 100869.28,
+            "z": 9259.42,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "5E"
+            ]
+        },
+        {
+            "name": "Hangu Agriculture",
+            "x": 62553.83,
+            "y": 119416.77,
+            "z": 2880.02,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "5E"
+            ]
+        },
+        {
+            "name": "Upper Sarozai",
+            "x": -166011.34,
+            "y": -18676.5,
+            "z": 6189.83,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Lower Sarozai",
+            "x": -174495.28,
+            "y": -2263.17,
+            "z": 6066.38,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Sarozai Highlands",
+            "x": -157165.59,
+            "y": 25528.36,
+            "z": 8675.22,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "Bahadur Hill",
+            "x": -84964.58,
+            "y": 27964.73,
+            "z": 5920.84,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "Bahadur",
+            "x": -81181.58,
+            "y": 43166.73,
+            "z": 5280.86,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "B"
+                },
+                {
+                    "order": 6,
+                    "lane": "C"
+                },
+                {
+                    "order": 6,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "6B",
+                "6C",
+                "6D"
+            ]
+        },
+        {
+            "name": "Bannu Rd",
+            "x": 20479.73,
+            "y": 160989.66,
+            "z": 3302.53,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "6E"
+            ]
+        },
+        {
+            "name": "Bahadur West",
+            "x": -103644.58,
+            "y": 10954.73,
+            "z": 6130.84,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "Attock",
+            "x": 2250.75,
+            "y": 166311.09,
+            "z": 3649.47,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "6E"
+            ]
+        },
+        {
+            "name": "Togh Sarai",
+            "x": -136233.28,
+            "y": 73084.84,
+            "z": 12126.16,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "A"
+                },
+                {
+                    "order": 7,
+                    "lane": "B"
+                },
+                {
+                    "order": 7,
+                    "lane": "C"
+                },
+                {
+                    "order": 7,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "7A",
+                "7B",
+                "7C",
+                "7D"
+            ]
+        },
+        {
+            "name": "Kamardhand",
+            "x": -51920.27,
+            "y": 173289.66,
+            "z": 6652.53,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "7E"
+            ]
+        }
+    ]
+}

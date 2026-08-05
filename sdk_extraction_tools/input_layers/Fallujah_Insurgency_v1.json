@@ -1,0 +1,2827 @@
+{
+    "map_id": "fallujah_city",
+    "layer_name": "Fallujah_Insurgency_v1",
+    "total_flags": 282,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -122316.86,
+            "y": -99313.03,
+            "z": -4570.29,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 61377.71,
+            "y": -54262.64,
+            "z": -4416.51,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective",
+            "lane": "Any",
+            "order": -1,
+            "x": 35592.92,
+            "y": -27549.75,
+            "z": -4340.91,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective2",
+            "lane": "Any",
+            "order": -1,
+            "x": 33000.07,
+            "y": -28432.42,
+            "z": -3875.66,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective3",
+            "lane": "Any",
+            "order": -1,
+            "x": 39499.33,
+            "y": -31182.83,
+            "z": -3022.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective4",
+            "lane": "Any",
+            "order": -1,
+            "x": 38547.21,
+            "y": -27366.29,
+            "z": -526.83,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective5",
+            "lane": "Any",
+            "order": -1,
+            "x": 33218.71,
+            "y": -29202.58,
+            "z": -525.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective6",
+            "lane": "Any",
+            "order": -1,
+            "x": 34711.6,
+            "y": -32883.75,
+            "z": -3515.41,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective7",
+            "lane": "Any",
+            "order": -1,
+            "x": 37696.1,
+            "y": -32501.7,
+            "z": -4341.41,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective8",
+            "lane": "Any",
+            "order": -1,
+            "x": 37880.6,
+            "y": -26950.98,
+            "z": -3875.61,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective9",
+            "lane": "Any",
+            "order": -1,
+            "x": 43384.55,
+            "y": -25739.04,
+            "z": -3505.58,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective10",
+            "lane": "Any",
+            "order": -1,
+            "x": 35122.73,
+            "y": -16221.4,
+            "z": -4048.25,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective11",
+            "lane": "Any",
+            "order": -1,
+            "x": 30306.27,
+            "y": -7031.63,
+            "z": -4342.5,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective12",
+            "lane": "Any",
+            "order": -1,
+            "x": 33833.05,
+            "y": -7546.14,
+            "z": -4352.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective13",
+            "lane": "Any",
+            "order": -1,
+            "x": 33613.66,
+            "y": -9983.55,
+            "z": -4397.95,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective14",
+            "lane": "Any",
+            "order": -1,
+            "x": 36162.92,
+            "y": -10321.76,
+            "z": -4368.14,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective15",
+            "lane": "Any",
+            "order": -1,
+            "x": 36638.28,
+            "y": -6753.3,
+            "z": -4386.78,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective17",
+            "lane": "Any",
+            "order": -1,
+            "x": 20003.54,
+            "y": -9906.56,
+            "z": -3893.94,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective18",
+            "lane": "Any",
+            "order": -1,
+            "x": 19621.93,
+            "y": -13725.71,
+            "z": -3894.01,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective19",
+            "lane": "Any",
+            "order": -1,
+            "x": 24200.87,
+            "y": -15244.74,
+            "z": -4138.84,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective20",
+            "lane": "Any",
+            "order": -1,
+            "x": 27508.8,
+            "y": -15227.48,
+            "z": -4353.95,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective21",
+            "lane": "Any",
+            "order": -1,
+            "x": 36921.55,
+            "y": -5858.14,
+            "z": -4373.18,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective22",
+            "lane": "Any",
+            "order": -1,
+            "x": 33035.41,
+            "y": -2599.29,
+            "z": -4048.5,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective23",
+            "lane": "Any",
+            "order": -1,
+            "x": 28905.37,
+            "y": -3930.39,
+            "z": -4374.33,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective24",
+            "lane": "Any",
+            "order": -1,
+            "x": 29992.33,
+            "y": -8722.83,
+            "z": -4387.96,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective25",
+            "lane": "Any",
+            "order": -1,
+            "x": 13634.36,
+            "y": -14657.91,
+            "z": -3440.19,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective26",
+            "lane": "Any",
+            "order": -1,
+            "x": 12730.33,
+            "y": -16150.6,
+            "z": -3437.91,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective27",
+            "lane": "Any",
+            "order": -1,
+            "x": 12077.09,
+            "y": -16729.99,
+            "z": -3697.04,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective28",
+            "lane": "Any",
+            "order": -1,
+            "x": 12250.5,
+            "y": -16019.13,
+            "z": -4017.04,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective29",
+            "lane": "Any",
+            "order": -1,
+            "x": 9599.09,
+            "y": -21450.23,
+            "z": -3478.52,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective30",
+            "lane": "Any",
+            "order": -1,
+            "x": 9576.43,
+            "y": -21353.74,
+            "z": -3898.52,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective31",
+            "lane": "Any",
+            "order": -1,
+            "x": 5174.86,
+            "y": -20810.63,
+            "z": -3514.9,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective32",
+            "lane": "Any",
+            "order": -1,
+            "x": 4233.7,
+            "y": -20929.46,
+            "z": -3514.9,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective33",
+            "lane": "Any",
+            "order": -1,
+            "x": 2755.82,
+            "y": -20886.48,
+            "z": -3888.27,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective34",
+            "lane": "Any",
+            "order": -1,
+            "x": 3410.23,
+            "y": -23240.01,
+            "z": -3887.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective35",
+            "lane": "Any",
+            "order": -1,
+            "x": -1520.38,
+            "y": -20716.3,
+            "z": -3913.68,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective36",
+            "lane": "Any",
+            "order": -1,
+            "x": -1805.55,
+            "y": -23727.73,
+            "z": -3399.95,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective37",
+            "lane": "Any",
+            "order": -1,
+            "x": -1793.79,
+            "y": -25458.85,
+            "z": -3079.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective38",
+            "lane": "Any",
+            "order": -1,
+            "x": 10830.75,
+            "y": 18699.63,
+            "z": -2720.82,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective39",
+            "lane": "Any",
+            "order": -1,
+            "x": 11013.9,
+            "y": 18761.3,
+            "z": -3298.73,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective40",
+            "lane": "Any",
+            "order": -1,
+            "x": 11398.95,
+            "y": 19357.47,
+            "z": -3693.68,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective41",
+            "lane": "Any",
+            "order": -1,
+            "x": 14231.16,
+            "y": 19599.91,
+            "z": -3047.73,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective42",
+            "lane": "Any",
+            "order": -1,
+            "x": 14311.46,
+            "y": 19679.58,
+            "z": -3697.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective43",
+            "lane": "Any",
+            "order": -1,
+            "x": 2924.97,
+            "y": 30955.68,
+            "z": -3704.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective44",
+            "lane": "Any",
+            "order": -1,
+            "x": -16042.84,
+            "y": 25487.47,
+            "z": -4420.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective45",
+            "lane": "Any",
+            "order": -1,
+            "x": -10864.55,
+            "y": 15209.18,
+            "z": -4050.73,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective46",
+            "lane": "Any",
+            "order": -1,
+            "x": -20661.2,
+            "y": 16737.4,
+            "z": -4077.19,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective47",
+            "lane": "Any",
+            "order": -1,
+            "x": -5388.36,
+            "y": 5523.56,
+            "z": -4348.29,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective48",
+            "lane": "Any",
+            "order": -1,
+            "x": -2567.97,
+            "y": 5183.55,
+            "z": -4348.29,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective49",
+            "lane": "Any",
+            "order": -1,
+            "x": 3494.38,
+            "y": -9723.33,
+            "z": -3513.87,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective50",
+            "lane": "Any",
+            "order": -1,
+            "x": 3646.75,
+            "y": -9885.62,
+            "z": -3139.04,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective51",
+            "lane": "Any",
+            "order": -1,
+            "x": -14033.65,
+            "y": -20935.73,
+            "z": -3509.37,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective52",
+            "lane": "Any",
+            "order": -1,
+            "x": -13131.42,
+            "y": -19178.27,
+            "z": -3509.37,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective53",
+            "lane": "Any",
+            "order": -1,
+            "x": -14693.79,
+            "y": -19140.61,
+            "z": -3882.75,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective54",
+            "lane": "Any",
+            "order": -1,
+            "x": -15254.13,
+            "y": -18249.55,
+            "z": -3882.75,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective55",
+            "lane": "Any",
+            "order": -1,
+            "x": -23415.64,
+            "y": -36368.23,
+            "z": -3465.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective56",
+            "lane": "Any",
+            "order": -1,
+            "x": -23514.5,
+            "y": -35824.54,
+            "z": -3165.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective57",
+            "lane": "Any",
+            "order": -1,
+            "x": -25383.91,
+            "y": -30751.33,
+            "z": -3699.22,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective58",
+            "lane": "Any",
+            "order": -1,
+            "x": -20619.07,
+            "y": -38213.18,
+            "z": -3763.9,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective59",
+            "lane": "Any",
+            "order": -1,
+            "x": -21447.65,
+            "y": -32884.98,
+            "z": -3764.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective60",
+            "lane": "Any",
+            "order": -1,
+            "x": -25272.11,
+            "y": -34956.77,
+            "z": -3714.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective61",
+            "lane": "Any",
+            "order": -1,
+            "x": -15420.72,
+            "y": -37656.95,
+            "z": -3354.33,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective62",
+            "lane": "Any",
+            "order": -1,
+            "x": -6971.66,
+            "y": -45411.37,
+            "z": -3091.55,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective63",
+            "lane": "Any",
+            "order": -1,
+            "x": 8894.54,
+            "y": -29124.89,
+            "z": -3058.66,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective64",
+            "lane": "Any",
+            "order": -1,
+            "x": 12936.89,
+            "y": -28146.69,
+            "z": -3518.1,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective65",
+            "lane": "Any",
+            "order": -1,
+            "x": 8675.89,
+            "y": -28320.33,
+            "z": -3377.93,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective66",
+            "lane": "Any",
+            "order": -1,
+            "x": 7948.4,
+            "y": -28914.4,
+            "z": -3697.93,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective67",
+            "lane": "Any",
+            "order": -1,
+            "x": 12350.66,
+            "y": -31385.7,
+            "z": -4333.42,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective68",
+            "lane": "Any",
+            "order": -1,
+            "x": 20756.86,
+            "y": -32717.33,
+            "z": -3909.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective69",
+            "lane": "Any",
+            "order": -1,
+            "x": 16066.9,
+            "y": -25194.65,
+            "z": -4037.52,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective70",
+            "lane": "Any",
+            "order": -1,
+            "x": 8972.09,
+            "y": -12351.17,
+            "z": -3376.04,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective71",
+            "lane": "Any",
+            "order": -1,
+            "x": 15446.28,
+            "y": 1416.39,
+            "z": -3949.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective72",
+            "lane": "Any",
+            "order": -1,
+            "x": 32678.76,
+            "y": -6273.99,
+            "z": -4352.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective73",
+            "lane": "Any",
+            "order": -1,
+            "x": 40386.15,
+            "y": -8277.98,
+            "z": -4359.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective74",
+            "lane": "Any",
+            "order": -1,
+            "x": 78701.98,
+            "y": -10694.46,
+            "z": -4012.22,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective75",
+            "lane": "Any",
+            "order": -1,
+            "x": 73552.84,
+            "y": -17400.15,
+            "z": -4364.49,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective76",
+            "lane": "Any",
+            "order": -1,
+            "x": 70975.42,
+            "y": -17408.44,
+            "z": -4388.56,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective77",
+            "lane": "Any",
+            "order": -1,
+            "x": 67915.41,
+            "y": -13094.18,
+            "z": -4364.49,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective78",
+            "lane": "Any",
+            "order": -1,
+            "x": 74592.53,
+            "y": -34711.66,
+            "z": -3294.35,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective79",
+            "lane": "Any",
+            "order": -1,
+            "x": 79151.85,
+            "y": -34278.09,
+            "z": -2589.92,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective80",
+            "lane": "Any",
+            "order": -1,
+            "x": 79006.4,
+            "y": -34837.82,
+            "z": -3012.92,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective81",
+            "lane": "Any",
+            "order": -1,
+            "x": 75231.2,
+            "y": -36024.2,
+            "z": -3146.34,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective82",
+            "lane": "Any",
+            "order": -1,
+            "x": 77331.27,
+            "y": -39738.17,
+            "z": -3172.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective83",
+            "lane": "Any",
+            "order": -1,
+            "x": 119772.05,
+            "y": -28998.27,
+            "z": -3740.48,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective84",
+            "lane": "Any",
+            "order": -1,
+            "x": 44961.69,
+            "y": 21039.46,
+            "z": -3482.24,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective85",
+            "lane": "Any",
+            "order": -1,
+            "x": 38748.26,
+            "y": 21277.9,
+            "z": -4100.3,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective86",
+            "lane": "Any",
+            "order": -1,
+            "x": 26307.46,
+            "y": 24742.0,
+            "z": -4040.64,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective87",
+            "lane": "Any",
+            "order": -1,
+            "x": 12574.39,
+            "y": 46080.21,
+            "z": -4307.15,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective88",
+            "lane": "Any",
+            "order": -1,
+            "x": 19307.25,
+            "y": 62867.35,
+            "z": -2164.76,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective89",
+            "lane": "Any",
+            "order": -1,
+            "x": 8737.52,
+            "y": 69826.86,
+            "z": -4476.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective90",
+            "lane": "Any",
+            "order": -1,
+            "x": 7914.85,
+            "y": 61693.8,
+            "z": -4480.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective91",
+            "lane": "Any",
+            "order": -1,
+            "x": 10414.75,
+            "y": 56450.98,
+            "z": -4489.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective92",
+            "lane": "Any",
+            "order": -1,
+            "x": 3173.52,
+            "y": 57138.63,
+            "z": -4490.67,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective93",
+            "lane": "Any",
+            "order": -1,
+            "x": -3742.07,
+            "y": 58269.86,
+            "z": -3895.41,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective94",
+            "lane": "Any",
+            "order": -1,
+            "x": -14582.81,
+            "y": 64490.64,
+            "z": -3493.51,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective95",
+            "lane": "Any",
+            "order": -1,
+            "x": -18029.66,
+            "y": 67804.13,
+            "z": -3701.79,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective96",
+            "lane": "Any",
+            "order": -1,
+            "x": -9987.63,
+            "y": 65802.05,
+            "z": -4278.12,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective97",
+            "lane": "Any",
+            "order": -1,
+            "x": -9674.25,
+            "y": 64614.08,
+            "z": -4278.12,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective98",
+            "lane": "Any",
+            "order": -1,
+            "x": -36273.26,
+            "y": 80815.12,
+            "z": -2878.1,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective99",
+            "lane": "Any",
+            "order": -1,
+            "x": -38406.49,
+            "y": 85134.77,
+            "z": -2879.1,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective100",
+            "lane": "Any",
+            "order": -1,
+            "x": -40988.52,
+            "y": 83978.99,
+            "z": -2754.5,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective101",
+            "lane": "Any",
+            "order": -1,
+            "x": -40546.22,
+            "y": 89170.59,
+            "z": -3054.67,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective102",
+            "lane": "Any",
+            "order": -1,
+            "x": -44064.91,
+            "y": 84211.67,
+            "z": -3592.19,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective103",
+            "lane": "Any",
+            "order": -1,
+            "x": -44503.2,
+            "y": 103860.02,
+            "z": -4069.63,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective104",
+            "lane": "Any",
+            "order": -1,
+            "x": -40675.33,
+            "y": 103172.57,
+            "z": -4110.7,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective105",
+            "lane": "Any",
+            "order": -1,
+            "x": -45604.22,
+            "y": 3684.47,
+            "z": -4390.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective106",
+            "lane": "Any",
+            "order": -1,
+            "x": -44303.25,
+            "y": 9282.59,
+            "z": -4013.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective107",
+            "lane": "Any",
+            "order": -1,
+            "x": -41859.36,
+            "y": 13285.85,
+            "z": -4048.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective108",
+            "lane": "Any",
+            "order": -1,
+            "x": -31572.05,
+            "y": -4764.32,
+            "z": -3911.72,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective109",
+            "lane": "Any",
+            "order": -1,
+            "x": -30516.23,
+            "y": -7190.39,
+            "z": -3386.22,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective110",
+            "lane": "Any",
+            "order": -1,
+            "x": -26722.37,
+            "y": -8561.51,
+            "z": -3589.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective111",
+            "lane": "Any",
+            "order": -1,
+            "x": -24541.46,
+            "y": -8968.53,
+            "z": -3429.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective112",
+            "lane": "Any",
+            "order": -1,
+            "x": -23640.87,
+            "y": -8739.29,
+            "z": -3689.02,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective113",
+            "lane": "Any",
+            "order": -1,
+            "x": -24036.0,
+            "y": -9322.06,
+            "z": -4009.03,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective115",
+            "lane": "Any",
+            "order": -1,
+            "x": -27756.52,
+            "y": -10029.5,
+            "z": -4389.4,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective116",
+            "lane": "Any",
+            "order": -1,
+            "x": -23556.78,
+            "y": -13993.25,
+            "z": -4399.7,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective117",
+            "lane": "Any",
+            "order": -1,
+            "x": -28583.2,
+            "y": -11578.57,
+            "z": -4368.58,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective118",
+            "lane": "Any",
+            "order": -1,
+            "x": -28911.05,
+            "y": -13820.71,
+            "z": -3909.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective119",
+            "lane": "Any",
+            "order": -1,
+            "x": -28590.38,
+            "y": -13679.85,
+            "z": -3589.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective120",
+            "lane": "Any",
+            "order": -1,
+            "x": -21005.86,
+            "y": -16087.79,
+            "z": -3377.46,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective121",
+            "lane": "Any",
+            "order": -1,
+            "x": -21225.68,
+            "y": -15156.95,
+            "z": -3697.45,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective122",
+            "lane": "Any",
+            "order": -1,
+            "x": -21030.67,
+            "y": -15694.29,
+            "z": -4337.75,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective123",
+            "lane": "Any",
+            "order": -1,
+            "x": -19652.24,
+            "y": -14395.55,
+            "z": -3699.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective124",
+            "lane": "Any",
+            "order": -1,
+            "x": 52787.31,
+            "y": -4179.57,
+            "z": -4370.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective125",
+            "lane": "Any",
+            "order": -1,
+            "x": 14249.31,
+            "y": -11451.35,
+            "z": -4389.11,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective126",
+            "lane": "Any",
+            "order": -1,
+            "x": 12205.42,
+            "y": -14525.47,
+            "z": -3398.18,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective127",
+            "lane": "Any",
+            "order": -1,
+            "x": 14018.3,
+            "y": -14619.75,
+            "z": -3438.34,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective128",
+            "lane": "Any",
+            "order": -1,
+            "x": 10723.19,
+            "y": -13821.36,
+            "z": -3440.18,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective129",
+            "lane": "Any",
+            "order": -1,
+            "x": 7986.26,
+            "y": 3303.25,
+            "z": -3742.03,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective130",
+            "lane": "Any",
+            "order": -1,
+            "x": 7213.84,
+            "y": 4825.37,
+            "z": -4400.95,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective131",
+            "lane": "Any",
+            "order": -1,
+            "x": 2850.76,
+            "y": 4092.29,
+            "z": -4420.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective132",
+            "lane": "Any",
+            "order": -1,
+            "x": 4551.5,
+            "y": -9280.48,
+            "z": -3513.87,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective133",
+            "lane": "Any",
+            "order": -1,
+            "x": 4016.67,
+            "y": -9540.12,
+            "z": -3887.25,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective134",
+            "lane": "Any",
+            "order": -1,
+            "x": 3601.23,
+            "y": -12143.12,
+            "z": -3886.79,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective135",
+            "lane": "Any",
+            "order": -1,
+            "x": 4835.24,
+            "y": -9909.37,
+            "z": -3887.25,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective136",
+            "lane": "Any",
+            "order": -1,
+            "x": 9608.16,
+            "y": -15741.18,
+            "z": -3055.58,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective137",
+            "lane": "Any",
+            "order": -1,
+            "x": 7929.91,
+            "y": -15989.71,
+            "z": -3117.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective138",
+            "lane": "Any",
+            "order": -1,
+            "x": 8793.34,
+            "y": -11948.55,
+            "z": -4399.23,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective139",
+            "lane": "Any",
+            "order": -1,
+            "x": 14115.19,
+            "y": -8127.53,
+            "z": -4049.92,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective140",
+            "lane": "Any",
+            "order": -1,
+            "x": 11946.78,
+            "y": -11157.94,
+            "z": -4395.1,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective141",
+            "lane": "Any",
+            "order": -1,
+            "x": 11831.45,
+            "y": -45982.99,
+            "z": -4044.99,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective142",
+            "lane": "Any",
+            "order": -1,
+            "x": 13926.76,
+            "y": -47339.72,
+            "z": -4416.34,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective143",
+            "lane": "Any",
+            "order": -1,
+            "x": 14744.96,
+            "y": -45090.84,
+            "z": -4382.27,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective144",
+            "lane": "Any",
+            "order": -1,
+            "x": 11432.83,
+            "y": -50928.31,
+            "z": -4426.91,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective145",
+            "lane": "Any",
+            "order": -1,
+            "x": 17480.69,
+            "y": -54274.84,
+            "z": -3892.75,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective146",
+            "lane": "Any",
+            "order": -1,
+            "x": 20005.21,
+            "y": -53802.68,
+            "z": -3892.75,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective147",
+            "lane": "Any",
+            "order": -1,
+            "x": 20532.73,
+            "y": -55225.56,
+            "z": -3519.37,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective148",
+            "lane": "Any",
+            "order": -1,
+            "x": 20045.45,
+            "y": -54200.57,
+            "z": -3519.37,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective149",
+            "lane": "Any",
+            "order": -1,
+            "x": 25029.97,
+            "y": -55558.81,
+            "z": -4016.54,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective150",
+            "lane": "Any",
+            "order": -1,
+            "x": 24822.54,
+            "y": -54473.9,
+            "z": -4084.99,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective151",
+            "lane": "Any",
+            "order": -1,
+            "x": 29690.14,
+            "y": -48577.39,
+            "z": -3906.5,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective152",
+            "lane": "Any",
+            "order": -1,
+            "x": 28405.26,
+            "y": -49115.92,
+            "z": -3533.12,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective153",
+            "lane": "Any",
+            "order": -1,
+            "x": 27804.83,
+            "y": -48190.48,
+            "z": -3533.12,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective154",
+            "lane": "Any",
+            "order": -1,
+            "x": 38418.99,
+            "y": -50049.29,
+            "z": -3524.87,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective155",
+            "lane": "Any",
+            "order": -1,
+            "x": 37904.87,
+            "y": -51038.06,
+            "z": -3524.87,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective156",
+            "lane": "Any",
+            "order": -1,
+            "x": 35556.93,
+            "y": -49030.77,
+            "z": -3898.25,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective157",
+            "lane": "Any",
+            "order": -1,
+            "x": 38190.79,
+            "y": -49302.96,
+            "z": -4408.57,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective158",
+            "lane": "Any",
+            "order": -1,
+            "x": 46716.23,
+            "y": -51540.12,
+            "z": -4413.64,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective159",
+            "lane": "Any",
+            "order": -1,
+            "x": 46471.45,
+            "y": -47837.32,
+            "z": -3901.67,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective160",
+            "lane": "Any",
+            "order": -1,
+            "x": 45704.6,
+            "y": -48266.06,
+            "z": -4383.42,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective161",
+            "lane": "Any",
+            "order": -1,
+            "x": 43945.54,
+            "y": -47975.49,
+            "z": -4098.08,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective162",
+            "lane": "Any",
+            "order": -1,
+            "x": 46669.01,
+            "y": -49045.57,
+            "z": -3966.08,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective163",
+            "lane": "Any",
+            "order": -1,
+            "x": 46103.48,
+            "y": -48002.38,
+            "z": -4392.67,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective164",
+            "lane": "Any",
+            "order": -1,
+            "x": -58636.3,
+            "y": -47415.11,
+            "z": -4009.2,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective165",
+            "lane": "Any",
+            "order": -1,
+            "x": -63619.62,
+            "y": -51975.67,
+            "z": -4159.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective166",
+            "lane": "Any",
+            "order": -1,
+            "x": -64259.66,
+            "y": -52660.4,
+            "z": -4097.63,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective167",
+            "lane": "Any",
+            "order": -1,
+            "x": -60384.14,
+            "y": -53016.16,
+            "z": -4081.18,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective168",
+            "lane": "Any",
+            "order": -1,
+            "x": -59341.77,
+            "y": -53837.08,
+            "z": -4053.13,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective169",
+            "lane": "Any",
+            "order": -1,
+            "x": -55178.55,
+            "y": -53583.34,
+            "z": -4101.25,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective170",
+            "lane": "Any",
+            "order": -1,
+            "x": -56237.18,
+            "y": -49630.07,
+            "z": -4057.5,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective171",
+            "lane": "Any",
+            "order": -1,
+            "x": -63980.26,
+            "y": -28036.96,
+            "z": -3379.5,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective172",
+            "lane": "Any",
+            "order": -1,
+            "x": -66882.65,
+            "y": -27166.21,
+            "z": -3340.55,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective173",
+            "lane": "Any",
+            "order": -1,
+            "x": -65077.41,
+            "y": -35383.77,
+            "z": -3455.98,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective174",
+            "lane": "Any",
+            "order": -1,
+            "x": -74973.06,
+            "y": -49040.08,
+            "z": -4241.66,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective175",
+            "lane": "Any",
+            "order": -1,
+            "x": -81216.31,
+            "y": -55349.9,
+            "z": -4422.66,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective176",
+            "lane": "Any",
+            "order": -1,
+            "x": -68300.23,
+            "y": -49035.26,
+            "z": -4016.54,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective177",
+            "lane": "Any",
+            "order": -1,
+            "x": -65213.93,
+            "y": -47256.42,
+            "z": -4048.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective178",
+            "lane": "Any",
+            "order": -1,
+            "x": -50344.36,
+            "y": -27270.85,
+            "z": -4388.16,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective179",
+            "lane": "Any",
+            "order": -1,
+            "x": -48080.54,
+            "y": -24510.51,
+            "z": -4394.79,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective180",
+            "lane": "Any",
+            "order": -1,
+            "x": -50230.34,
+            "y": -24227.68,
+            "z": -3396.66,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective181",
+            "lane": "Any",
+            "order": -1,
+            "x": -42880.95,
+            "y": -30331.31,
+            "z": -4356.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective182",
+            "lane": "Any",
+            "order": -1,
+            "x": -44297.5,
+            "y": -24135.11,
+            "z": -3908.06,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective183",
+            "lane": "Any",
+            "order": -1,
+            "x": -44365.46,
+            "y": -23951.12,
+            "z": -4328.06,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective184",
+            "lane": "Any",
+            "order": -1,
+            "x": -45824.5,
+            "y": -24857.87,
+            "z": -4001.67,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective185",
+            "lane": "Any",
+            "order": -1,
+            "x": -45752.9,
+            "y": -24194.26,
+            "z": -3745.55,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective186",
+            "lane": "Any",
+            "order": -1,
+            "x": -52063.87,
+            "y": -33309.96,
+            "z": -3689.1,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective187",
+            "lane": "Any",
+            "order": -1,
+            "x": -18285.12,
+            "y": -67829.03,
+            "z": -4026.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective188",
+            "lane": "Any",
+            "order": -1,
+            "x": -17109.73,
+            "y": -68008.05,
+            "z": -3948.95,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective189",
+            "lane": "Any",
+            "order": -1,
+            "x": -17940.97,
+            "y": -66903.41,
+            "z": -3589.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective190",
+            "lane": "Any",
+            "order": -1,
+            "x": -18809.02,
+            "y": -67843.63,
+            "z": -4016.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective191",
+            "lane": "Any",
+            "order": -1,
+            "x": -20832.12,
+            "y": -68472.52,
+            "z": -3998.43,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective192",
+            "lane": "Any",
+            "order": -1,
+            "x": -23663.87,
+            "y": -72119.97,
+            "z": -4132.26,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective193",
+            "lane": "Any",
+            "order": -1,
+            "x": -27170.54,
+            "y": -71458.17,
+            "z": -4113.35,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective194",
+            "lane": "Any",
+            "order": -1,
+            "x": -33325.13,
+            "y": -72973.49,
+            "z": -4043.2,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective195",
+            "lane": "Any",
+            "order": -1,
+            "x": -28312.9,
+            "y": -67130.74,
+            "z": -3684.02,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective196",
+            "lane": "Any",
+            "order": -1,
+            "x": -28370.37,
+            "y": -67493.75,
+            "z": -4068.02,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective197",
+            "lane": "Any",
+            "order": -1,
+            "x": -31939.02,
+            "y": -68356.92,
+            "z": -4010.93,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective198",
+            "lane": "Any",
+            "order": -1,
+            "x": -22126.1,
+            "y": -70931.28,
+            "z": -4151.29,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective199",
+            "lane": "Any",
+            "order": -1,
+            "x": 29410.89,
+            "y": -72052.63,
+            "z": -4344.3,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective200",
+            "lane": "Any",
+            "order": -1,
+            "x": 29326.53,
+            "y": -73019.8,
+            "z": -4346.71,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective201",
+            "lane": "Any",
+            "order": -1,
+            "x": 28289.24,
+            "y": -71865.52,
+            "z": -4346.71,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective202",
+            "lane": "Any",
+            "order": -1,
+            "x": 22573.04,
+            "y": -72165.81,
+            "z": -4040.97,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective203",
+            "lane": "Any",
+            "order": -1,
+            "x": 22958.21,
+            "y": -74982.18,
+            "z": -4021.02,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective204",
+            "lane": "Any",
+            "order": -1,
+            "x": 31311.69,
+            "y": -78930.16,
+            "z": -3586.83,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective205",
+            "lane": "Any",
+            "order": -1,
+            "x": 35398.55,
+            "y": -79046.82,
+            "z": -4050.74,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective206",
+            "lane": "Any",
+            "order": -1,
+            "x": 2350.71,
+            "y": -48302.96,
+            "z": -4093.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective207",
+            "lane": "Any",
+            "order": -1,
+            "x": -29.54,
+            "y": -48199.87,
+            "z": -4118.79,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective208",
+            "lane": "Any",
+            "order": -1,
+            "x": -1442.02,
+            "y": -51544.12,
+            "z": -4486.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective209",
+            "lane": "Any",
+            "order": -1,
+            "x": -3865.99,
+            "y": -51797.74,
+            "z": -4475.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective210",
+            "lane": "Any",
+            "order": -1,
+            "x": -4545.54,
+            "y": -51636.51,
+            "z": -4466.07,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective211",
+            "lane": "Any",
+            "order": -1,
+            "x": -4294.96,
+            "y": -52062.1,
+            "z": -3984.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective212",
+            "lane": "Any",
+            "order": -1,
+            "x": -4336.67,
+            "y": -49484.66,
+            "z": -4124.92,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective213",
+            "lane": "Any",
+            "order": -1,
+            "x": -1300.76,
+            "y": -51409.77,
+            "z": -4188.1,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective214",
+            "lane": "Any",
+            "order": -1,
+            "x": -21792.98,
+            "y": 25632.38,
+            "z": -4651.26,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective215",
+            "lane": "Any",
+            "order": -1,
+            "x": -23209.38,
+            "y": 30001.52,
+            "z": -4406.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective216",
+            "lane": "Any",
+            "order": -1,
+            "x": -22469.39,
+            "y": 29897.61,
+            "z": -3755.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective217",
+            "lane": "Any",
+            "order": -1,
+            "x": -22991.83,
+            "y": 29996.44,
+            "z": -4055.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective218",
+            "lane": "Any",
+            "order": -1,
+            "x": -28157.04,
+            "y": 34229.44,
+            "z": -4412.5,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective219",
+            "lane": "Any",
+            "order": -1,
+            "x": -30283.11,
+            "y": 35259.59,
+            "z": -4038.03,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective220",
+            "lane": "Any",
+            "order": -1,
+            "x": -29741.55,
+            "y": 34684.29,
+            "z": -4403.13,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective221",
+            "lane": "Any",
+            "order": -1,
+            "x": -4996.38,
+            "y": 52472.64,
+            "z": -4420.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective222",
+            "lane": "Any",
+            "order": -1,
+            "x": -3187.09,
+            "y": 57755.01,
+            "z": -4377.16,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective223",
+            "lane": "Any",
+            "order": -1,
+            "x": -12402.81,
+            "y": -8638.08,
+            "z": -4387.45,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective224",
+            "lane": "Any",
+            "order": -1,
+            "x": -13951.68,
+            "y": -9688.15,
+            "z": -4390.3,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective225",
+            "lane": "Any",
+            "order": -1,
+            "x": -13321.25,
+            "y": -7542.73,
+            "z": -3671.73,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective226",
+            "lane": "Any",
+            "order": -1,
+            "x": -13006.4,
+            "y": -7691.29,
+            "z": -3671.73,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective227",
+            "lane": "Any",
+            "order": -1,
+            "x": -13001.6,
+            "y": -7699.25,
+            "z": -3980.59,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective228",
+            "lane": "Any",
+            "order": -1,
+            "x": -14244.56,
+            "y": -6737.08,
+            "z": -3671.73,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective229",
+            "lane": "Any",
+            "order": -1,
+            "x": -14731.43,
+            "y": -6409.56,
+            "z": -3980.59,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective230",
+            "lane": "Any",
+            "order": -1,
+            "x": -14565.92,
+            "y": -5104.92,
+            "z": -3513.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective231",
+            "lane": "Any",
+            "order": -1,
+            "x": -13957.43,
+            "y": -5152.72,
+            "z": -3887.17,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective232",
+            "lane": "Any",
+            "order": -1,
+            "x": -12476.42,
+            "y": -3127.27,
+            "z": -3887.17,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective233",
+            "lane": "Any",
+            "order": -1,
+            "x": -14969.91,
+            "y": 865.09,
+            "z": -3647.56,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective234",
+            "lane": "Any",
+            "order": -1,
+            "x": -14537.2,
+            "y": 1524.36,
+            "z": -3956.42,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective236",
+            "lane": "Any",
+            "order": -1,
+            "x": -42892.9,
+            "y": 12787.21,
+            "z": -4018.92,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective237",
+            "lane": "Any",
+            "order": -1,
+            "x": -40242.03,
+            "y": 11822.32,
+            "z": -4420.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective238",
+            "lane": "Any",
+            "order": -1,
+            "x": -51991.07,
+            "y": 776.18,
+            "z": -4271.44,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective239",
+            "lane": "Any",
+            "order": -1,
+            "x": -51705.68,
+            "y": -3420.81,
+            "z": -4270.65,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective240",
+            "lane": "Any",
+            "order": -1,
+            "x": -49428.94,
+            "y": -7291.25,
+            "z": -4266.54,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective241",
+            "lane": "Any",
+            "order": -1,
+            "x": -49442.14,
+            "y": -6233.53,
+            "z": -4278.03,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective242",
+            "lane": "Any",
+            "order": -1,
+            "x": -48337.78,
+            "y": -3245.07,
+            "z": -4374.58,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective243",
+            "lane": "Any",
+            "order": -1,
+            "x": -43412.25,
+            "y": -2916.36,
+            "z": -4394.77,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective244",
+            "lane": "Any",
+            "order": -1,
+            "x": -44854.92,
+            "y": -1397.49,
+            "z": -4273.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective245",
+            "lane": "Any",
+            "order": -1,
+            "x": -48655.37,
+            "y": -137.43,
+            "z": -4290.9,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective246",
+            "lane": "Any",
+            "order": -1,
+            "x": -50091.86,
+            "y": 2170.4,
+            "z": -4270.87,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective247",
+            "lane": "Any",
+            "order": -1,
+            "x": -54006.05,
+            "y": 575.86,
+            "z": -4271.22,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective248",
+            "lane": "Any",
+            "order": -1,
+            "x": -48846.74,
+            "y": -11043.21,
+            "z": -4009.19,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective249",
+            "lane": "Any",
+            "order": -1,
+            "x": -68528.58,
+            "y": -16417.32,
+            "z": -4044.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective250",
+            "lane": "Any",
+            "order": -1,
+            "x": -68236.64,
+            "y": -14910.1,
+            "z": -3744.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective251",
+            "lane": "Any",
+            "order": -1,
+            "x": -67693.97,
+            "y": -16406.5,
+            "z": -4395.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective252",
+            "lane": "Any",
+            "order": -1,
+            "x": -64938.63,
+            "y": -17562.1,
+            "z": -3395.08,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective253",
+            "lane": "Any",
+            "order": -1,
+            "x": -63973.62,
+            "y": -14572.76,
+            "z": -3909.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective254",
+            "lane": "Any",
+            "order": -1,
+            "x": -68197.03,
+            "y": -10690.35,
+            "z": -3911.54,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective255",
+            "lane": "Any",
+            "order": -1,
+            "x": -69464.05,
+            "y": -22049.88,
+            "z": -4024.17,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective256",
+            "lane": "Any",
+            "order": -1,
+            "x": -64707.67,
+            "y": -21364.99,
+            "z": -4084.58,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective257",
+            "lane": "Any",
+            "order": -1,
+            "x": -56234.54,
+            "y": -15545.47,
+            "z": -3689.02,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective258",
+            "lane": "Any",
+            "order": -1,
+            "x": -56904.41,
+            "y": -16139.48,
+            "z": -3369.02,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective259",
+            "lane": "Any",
+            "order": -1,
+            "x": -54877.68,
+            "y": -18356.93,
+            "z": -3676.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective260",
+            "lane": "Any",
+            "order": -1,
+            "x": -48457.37,
+            "y": -19263.43,
+            "z": -4047.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective261",
+            "lane": "Any",
+            "order": -1,
+            "x": 63222.41,
+            "y": -6956.11,
+            "z": -4420.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective262",
+            "lane": "Any",
+            "order": -1,
+            "x": 63384.17,
+            "y": -10914.26,
+            "z": -4364.5,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective263",
+            "lane": "Any",
+            "order": -1,
+            "x": 61385.43,
+            "y": -6268.54,
+            "z": -4356.41,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective264",
+            "lane": "Any",
+            "order": -1,
+            "x": 67793.55,
+            "y": -9374.33,
+            "z": -4369.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective265",
+            "lane": "Any",
+            "order": -1,
+            "x": 79079.98,
+            "y": -57289.57,
+            "z": -3630.7,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective266",
+            "lane": "Any",
+            "order": -1,
+            "x": 78024.41,
+            "y": -62046.29,
+            "z": -3433.36,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective267",
+            "lane": "Any",
+            "order": -1,
+            "x": 75369.0,
+            "y": -61062.08,
+            "z": -3491.34,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective268",
+            "lane": "Any",
+            "order": -1,
+            "x": 78507.74,
+            "y": -64765.51,
+            "z": -3314.07,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective269",
+            "lane": "Any",
+            "order": -1,
+            "x": 75724.77,
+            "y": -64861.82,
+            "z": -3240.37,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective270",
+            "lane": "Any",
+            "order": -1,
+            "x": 62177.09,
+            "y": -66168.8,
+            "z": -4050.74,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective271",
+            "lane": "Any",
+            "order": -1,
+            "x": 62807.89,
+            "y": -69182.87,
+            "z": -4098.17,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective272",
+            "lane": "Any",
+            "order": -1,
+            "x": 71670.95,
+            "y": -65659.81,
+            "z": -3067.54,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective273",
+            "lane": "Any",
+            "order": -1,
+            "x": 91257.95,
+            "y": -37425.78,
+            "z": -3486.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective274",
+            "lane": "Any",
+            "order": -1,
+            "x": 105767.72,
+            "y": -36908.28,
+            "z": -3204.32,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective275",
+            "lane": "Any",
+            "order": -1,
+            "x": 101785.23,
+            "y": -36654.7,
+            "z": -3171.16,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective276",
+            "lane": "Any",
+            "order": -1,
+            "x": 35753.28,
+            "y": -56657.68,
+            "z": -4045.35,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective277",
+            "lane": "Any",
+            "order": -1,
+            "x": 79956.47,
+            "y": -35142.74,
+            "z": -2592.92,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective278",
+            "lane": "Any",
+            "order": -1,
+            "x": 80503.29,
+            "y": -35709.79,
+            "z": -3012.92,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective279",
+            "lane": "Any",
+            "order": -1,
+            "x": 78834.72,
+            "y": -33612.62,
+            "z": -3432.94,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "DestroyableObjective235",
+            "lane": "Any",
+            "order": -1,
+            "x": 38191.74,
+            "y": -32576.05,
+            "z": -3879.67,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_2",
+            "lane": "Any",
+            "order": -1,
+            "x": -27127.36,
+            "y": -36929.61,
+            "z": -3818.97,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_3",
+            "lane": "Any",
+            "order": -1,
+            "x": 13294.93,
+            "y": 43220.02,
+            "z": -4412.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": -37129.02,
+            "y": 80872.95,
+            "z": -2988.29,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

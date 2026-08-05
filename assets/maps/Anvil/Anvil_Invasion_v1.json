@@ -1,0 +1,143 @@
+{
+    "map_id": "anvil",
+    "layer_name": "Anvil_Invasion_v1",
+    "total_flags": 10,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -160172.71,
+            "y": -183452.84,
+            "z": -4590.69
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 77569.07,
+            "y": -2823.38,
+            "z": -5568.69
+        },
+        {
+            "name": "Holdout",
+            "x": -41797.0,
+            "y": -24105.0,
+            "z": 4486.31,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Lavender Farm",
+            "x": -31601.0,
+            "y": -45494.0,
+            "z": -6053.69,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Orchard",
+            "x": -71027.0,
+            "y": -59005.0,
+            "z": 0.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Police Station",
+            "x": -78217.0,
+            "y": -42525.0,
+            "z": 0.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Vineyard",
+            "x": -109824.0,
+            "y": -97165.0,
+            "z": 4486.31,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Market",
+            "x": -114700.12,
+            "y": -82510.9,
+            "z": 4486.31,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Interchange",
+            "x": -142442.0,
+            "y": -86100.0,
+            "z": 4486.31,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Urban South",
+            "x": -157123.99,
+            "y": -112631.0,
+            "z": -5997.69,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

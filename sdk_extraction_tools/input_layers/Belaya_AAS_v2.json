@@ -1,0 +1,97 @@
+{
+    "map_id": "belaya_pass",
+    "layer_name": "Belaya_AAS_v2",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -137540.14,
+            "y": 115010.72,
+            "z": -29551.91,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Outpost",
+            "lane": "Any",
+            "order": 1,
+            "x": -16588.56,
+            "y": 63391.3,
+            "z": -28584.38,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Depot",
+            "lane": "Any",
+            "order": 2,
+            "x": -81820.25,
+            "y": 35952.95,
+            "z": -30183.59,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Industrial Yard",
+            "lane": "Any",
+            "order": 3,
+            "x": -111089.59,
+            "y": -18058.84,
+            "z": -30654.27,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Nikola",
+            "lane": "Any",
+            "order": 4,
+            "x": -25539.02,
+            "y": -6010.92,
+            "z": -30519.39,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Train Tunnel",
+            "lane": "Any",
+            "order": 5,
+            "x": -51553.73,
+            "y": -69589.06,
+            "z": -30211.52,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Tire Factory",
+            "lane": "Any",
+            "order": 6,
+            "x": -27607.43,
+            "y": -136102.27,
+            "z": -30210.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Velino",
+            "lane": "Any",
+            "order": 7,
+            "x": 13891.43,
+            "y": -162213.44,
+            "z": -30447.75,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 91499.8,
+            "y": -153666.66,
+            "z": -30179.07,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

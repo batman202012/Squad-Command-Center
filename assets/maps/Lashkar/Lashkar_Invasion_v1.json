@@ -1,0 +1,513 @@
+{
+    "map_id": "lashkar_valley",
+    "layer_name": "Lashkar_Invasion_v1",
+    "total_flags": 33,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 2037.29,
+            "y": 155238.19,
+            "z": 1265.82
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -9156.16,
+            "y": -141057.12,
+            "z": 8823.52
+        },
+        {
+            "name": "Nangalam",
+            "x": -1614.09,
+            "y": 67155.63,
+            "z": 647.25,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                },
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1Any",
+                "2B"
+            ]
+        },
+        {
+            "name": "Sheena",
+            "x": -1492.28,
+            "y": 113096.48,
+            "z": 633.18,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                },
+                {
+                    "order": 1,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1Any",
+                "1B"
+            ]
+        },
+        {
+            "name": "Gardez",
+            "x": -18761.77,
+            "y": 66759.77,
+            "z": 647.32,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                },
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1Any",
+                "2B"
+            ]
+        },
+        {
+            "name": "Furlongs",
+            "x": 138553.27,
+            "y": 101639.71,
+            "z": 4348.68,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "1C"
+            ]
+        },
+        {
+            "name": "Kumbar Maidan Upper",
+            "x": -64504.32,
+            "y": 33357.18,
+            "z": 5566.29,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Kumbar Maidan Lower",
+            "x": -72119.82,
+            "y": 18988.09,
+            "z": 4476.88,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Ghawchak Village",
+            "x": 114141.7,
+            "y": 39928.16,
+            "z": 3776.58,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "Derapet",
+            "x": -88862.12,
+            "y": 63534.64,
+            "z": 3930.75,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Soviet Outpost",
+            "x": 102874.87,
+            "y": 86866.02,
+            "z": 9529.31,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "Watapur",
+            "x": -149458.22,
+            "y": 77829.38,
+            "z": 6723.8,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Malgir",
+            "x": 4484.59,
+            "y": 18957.66,
+            "z": 756.57,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Toormang",
+            "x": 29758.78,
+            "y": 46817.39,
+            "z": 782.59,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Gulestan",
+            "x": 81341.38,
+            "y": 2680.55,
+            "z": 2695.76,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "Toor Camp",
+            "x": -115091.88,
+            "y": -12461.09,
+            "z": 8981.39,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Ajabay",
+            "x": -142521.69,
+            "y": 7659.48,
+            "z": 8736.36,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Marjah",
+            "x": 150166.13,
+            "y": 2427.03,
+            "z": 2695.76,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "Central Lashkar",
+            "x": -3589.53,
+            "y": -34778.34,
+            "z": 919.79,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Upper Lashkar",
+            "x": -5348.4,
+            "y": -44069.42,
+            "z": 892.97,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Lashkar Market",
+            "x": -12351.84,
+            "y": -29760.66,
+            "z": 434.77,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Lashkar East",
+            "x": 8786.14,
+            "y": -34239.39,
+            "z": 1096.22,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Tizak",
+            "x": -148215.5,
+            "y": -33933.69,
+            "z": 4116.87,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Kanju",
+            "x": 144503.19,
+            "y": -70664.17,
+            "z": 3537.05,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "Takur Ghar",
+            "x": 73452.41,
+            "y": -61977.42,
+            "z": 3022.9,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "Sahib Abad",
+            "x": 70176.75,
+            "y": -110927.38,
+            "z": 1073.33,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C"
+            ]
+        },
+        {
+            "name": "Ak Toba",
+            "x": 33051.82,
+            "y": -82640.06,
+            "z": 946.08,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "Outdoor Market",
+            "x": -33727.41,
+            "y": -64615.28,
+            "z": 1175.26,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "Jowman",
+            "x": -64737.34,
+            "y": -61157.56,
+            "z": 902.14,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                },
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5A",
+                "5B"
+            ]
+        },
+        {
+            "name": "Grape Farm",
+            "x": -120922.9,
+            "y": -94233.03,
+            "z": 1337.71,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Asmar",
+            "x": -93396.36,
+            "y": -111512.84,
+            "z": 1035.9,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                },
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5A",
+                "5B"
+            ]
+        },
+        {
+            "name": "Gosam",
+            "x": 118653.7,
+            "y": -111440.66,
+            "z": 1029.35,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C"
+            ]
+        },
+        {
+            "name": "Dogram",
+            "x": 89822.66,
+            "y": -140295.47,
+            "z": 2773.57,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C"
+            ]
+        }
+    ]
+}

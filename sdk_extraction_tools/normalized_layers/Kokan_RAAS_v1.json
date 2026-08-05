@@ -1,0 +1,318 @@
+{
+    "map_id": "kokan_valley",
+    "layer_name": "Kokan_RAAS_v1",
+    "total_flags": 21,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 68561.61,
+            "y": 77845.41,
+            "z": -24676.06
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 46316.77,
+            "y": -88730.23,
+            "z": -24684.38
+        },
+        {
+            "name": "Nova Isle",
+            "x": 22710.0,
+            "y": 58771.0,
+            "z": -24660.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1B"
+            ]
+        },
+        {
+            "name": "Imam's Compound",
+            "x": -17538.0,
+            "y": 61769.0,
+            "z": -24672.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "1A"
+            ]
+        },
+        {
+            "name": "First Stand",
+            "x": 49404.2,
+            "y": 37610.66,
+            "z": -24669.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "1C"
+            ]
+        },
+        {
+            "name": "The Nest",
+            "x": 17854.0,
+            "y": 32566.0,
+            "z": -24672.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "Gran Dell",
+            "x": 33953.22,
+            "y": 19304.08,
+            "z": -24669.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "Sarak",
+            "x": -17912.64,
+            "y": 26351.36,
+            "z": -24672.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Novac",
+            "x": -47097.71,
+            "y": 30978.89,
+            "z": -24672.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Slums",
+            "x": -46223.0,
+            "y": -6798.0,
+            "z": -24341.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Tempest Estate",
+            "x": -27368.72,
+            "y": 1297.27,
+            "z": -24690.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "OP Larosse",
+            "x": -1770.68,
+            "y": 1973.49,
+            "z": -24850.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "HVT Compound",
+            "x": 15478.0,
+            "y": 929.0,
+            "z": -24559.83,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "Petrol Station",
+            "x": 54387.0,
+            "y": -9458.0,
+            "z": -24559.83,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "District Center",
+            "x": 12379.0,
+            "y": -39062.0,
+            "z": -24559.83,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                },
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4B",
+                "4C"
+            ]
+        },
+        {
+            "name": "Depot",
+            "x": -53086.0,
+            "y": -45907.0,
+            "z": -24657.76,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Market",
+            "x": -21279.0,
+            "y": -34078.0,
+            "z": -24665.7,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                },
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4A",
+                "4B"
+            ]
+        },
+        {
+            "name": "Informant's Compound",
+            "x": 39783.0,
+            "y": -36197.0,
+            "z": -24559.83,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "Ruins",
+            "x": -36126.0,
+            "y": -59378.0,
+            "z": -24674.0,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Stonebend",
+            "x": -7027.0,
+            "y": -76976.0,
+            "z": -24684.38,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "Farmstead",
+            "x": 26225.0,
+            "y": -58581.0,
+            "z": -24559.83,
+            "phases": [
+                {
+                    "order": 45,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "45C"
+            ]
+        }
+    ]
+}

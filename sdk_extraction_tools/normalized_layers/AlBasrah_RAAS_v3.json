@@ -1,0 +1,351 @@
+{
+    "map_id": "maps",
+    "layer_name": "AlBasrah_RAAS_v3",
+    "total_flags": 24,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 114215.9,
+            "y": 120314.22,
+            "z": 479.13
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 108704.17,
+            "y": -185555.38,
+            "z": 398.11
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": 62901.11,
+            "y": 65489.51,
+            "z": 487.93
+        },
+        {
+            "name": "The Brick",
+            "x": 116392.4,
+            "y": 87413.1,
+            "z": 534.78,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "1A"
+            ]
+        },
+        {
+            "name": "Kardalan",
+            "x": 113051.39,
+            "y": 75173.18,
+            "z": 554.68,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "1A"
+            ]
+        },
+        {
+            "name": "Shipbreakers Admin",
+            "x": 105094.4,
+            "y": 49834.15,
+            "z": 590.62,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "1A"
+            ]
+        },
+        {
+            "name": "Shuman",
+            "x": 139458.81,
+            "y": 25891.67,
+            "z": 863.62,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Highway 10 Bridge",
+            "x": 148709.55,
+            "y": 10884.62,
+            "z": 787.14,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Date Orchard",
+            "x": 118560.59,
+            "y": 21617.92,
+            "z": 658.15,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                },
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A",
+                "3A"
+            ]
+        },
+        {
+            "name": "At Tannuhmah",
+            "x": 136790.27,
+            "y": 38580.12,
+            "z": 658.82,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Riverside Hamlet",
+            "x": 100420.06,
+            "y": 19241.49,
+            "z": 1004.44,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Kibasi Market",
+            "x": 131740.4,
+            "y": -17840.85,
+            "z": 600.41,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Kibasi South",
+            "x": 145301.67,
+            "y": -16904.53,
+            "z": 764.89,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Docks",
+            "x": 86939.85,
+            "y": -31382.43,
+            "z": 1012.47,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Kibasi West",
+            "x": 112242.54,
+            "y": -25787.93,
+            "z": 546.42,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Police Station",
+            "x": 123439.71,
+            "y": -39260.4,
+            "z": 541.47,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Kibasi Central",
+            "x": 131606.4,
+            "y": -33513.85,
+            "z": 484.44,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Kibasi North",
+            "x": 133255.64,
+            "y": -68276.48,
+            "z": 488.03,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Highway",
+            "x": 149332.45,
+            "y": -53205.46,
+            "z": 683.9,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Al Yawiyah",
+            "x": 120924.85,
+            "y": -107429.43,
+            "z": 461.23,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "CanalTown",
+            "x": 169079.06,
+            "y": -95635.85,
+            "z": 430.15,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "Al Yawiyah North",
+            "x": 118381.85,
+            "y": -139502.43,
+            "z": 400.49,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "7A"
+            ]
+        },
+        {
+            "name": "CanalFarm",
+            "x": 164832.24,
+            "y": -167751.84,
+            "z": 299.98,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "7A"
+            ]
+        },
+        {
+            "name": "BridgeConstruction",
+            "x": 97806.3,
+            "y": -139668.56,
+            "z": 423.27,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "7A"
+            ]
+        }
+    ]
+}

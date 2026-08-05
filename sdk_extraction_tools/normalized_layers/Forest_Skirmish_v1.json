@@ -1,0 +1,98 @@
+{
+    "map_id": "forest",
+    "layer_name": "Forest_Skirmish_v1",
+    "total_flags": 7,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -34632.16,
+            "y": -3523.64,
+            "z": 1227.74
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -26317.31,
+            "y": -97859.84,
+            "z": 1649.52
+        },
+        {
+            "name": "RailDocs",
+            "x": -32360.12,
+            "y": -31068.71,
+            "z": -174.92,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Nilrem Village",
+            "x": -64162.88,
+            "y": -23062.31,
+            "z": -546.53,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "StorageSite",
+            "x": -73075.03,
+            "y": -47195.26,
+            "z": -54.32,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "TheCastle",
+            "x": -58645.19,
+            "y": -75827.81,
+            "z": 147.79,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "RailroadVillage",
+            "x": -23008.87,
+            "y": -65243.59,
+            "z": -552.31,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

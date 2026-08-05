@@ -1,0 +1,98 @@
+{
+    "map_id": "belaya_pass",
+    "layer_name": "Belaya_AAS_v3",
+    "total_flags": 7,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -138140.34,
+            "y": 115627.47,
+            "z": -29433.87
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 91297.45,
+            "y": -153679.78,
+            "z": -30179.06
+        },
+        {
+            "name": "Aniva",
+            "x": -12660.25,
+            "y": 135892.95,
+            "z": -30183.59,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Radio Station",
+            "x": -49293.73,
+            "y": 39340.94,
+            "z": -28461.52,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Nikola",
+            "x": -25539.02,
+            "y": -6010.92,
+            "z": -30519.39,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Gabukay",
+            "x": 26862.57,
+            "y": -31942.27,
+            "z": -30210.8,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Velino",
+            "x": 13891.43,
+            "y": -162213.44,
+            "z": -30447.75,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

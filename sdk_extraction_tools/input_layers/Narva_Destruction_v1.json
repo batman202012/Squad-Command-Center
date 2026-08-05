@@ -1,0 +1,2547 @@
+{
+    "map_id": "narva",
+    "layer_name": "Narva_Destruction_v1",
+    "total_flags": 254,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 127055.78,
+            "y": 34105.82,
+            "z": 311.24,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -118644.59,
+            "y": -80844.42,
+            "z": 1424.01,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation",
+            "lane": "Any",
+            "order": -1,
+            "x": -57498.66,
+            "y": -13638.71,
+            "z": 695.2,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation2",
+            "lane": "Any",
+            "order": -1,
+            "x": -58692.7,
+            "y": -14189.95,
+            "z": 684.37,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation3",
+            "lane": "Any",
+            "order": -1,
+            "x": -59572.58,
+            "y": -15150.81,
+            "z": 684.37,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation4",
+            "lane": "Any",
+            "order": -1,
+            "x": -58894.44,
+            "y": -15183.99,
+            "z": 701.12,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation5",
+            "lane": "Any",
+            "order": -1,
+            "x": -60326.72,
+            "y": -12061.09,
+            "z": 689.16,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation6",
+            "lane": "Any",
+            "order": -1,
+            "x": -59583.88,
+            "y": -14218.76,
+            "z": 684.37,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation7",
+            "lane": "Any",
+            "order": -1,
+            "x": -63444.49,
+            "y": -3553.22,
+            "z": 782.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation8",
+            "lane": "Any",
+            "order": -1,
+            "x": -63379.5,
+            "y": -4735.42,
+            "z": 782.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation9",
+            "lane": "Any",
+            "order": -1,
+            "x": -62480.29,
+            "y": -4074.28,
+            "z": 782.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation10",
+            "lane": "Any",
+            "order": -1,
+            "x": -61792.35,
+            "y": -4585.76,
+            "z": 782.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation11",
+            "lane": "Any",
+            "order": -1,
+            "x": -63101.94,
+            "y": -4099.87,
+            "z": 782.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation12",
+            "lane": "Any",
+            "order": -1,
+            "x": -62629.03,
+            "y": -3497.46,
+            "z": 782.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation13",
+            "lane": "Any",
+            "order": -1,
+            "x": -60523.75,
+            "y": -4125.4,
+            "z": 702.83,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation14",
+            "lane": "Any",
+            "order": -1,
+            "x": -60539.16,
+            "y": -3746.54,
+            "z": 702.83,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation15",
+            "lane": "Any",
+            "order": -1,
+            "x": -61013.32,
+            "y": -3770.16,
+            "z": 702.83,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation16",
+            "lane": "Any",
+            "order": -1,
+            "x": -60037.93,
+            "y": -3331.5,
+            "z": 782.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation17",
+            "lane": "Any",
+            "order": -1,
+            "x": -59986.89,
+            "y": -4475.58,
+            "z": 782.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation18",
+            "lane": "Any",
+            "order": -1,
+            "x": -58790.29,
+            "y": -4430.69,
+            "z": 782.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation19",
+            "lane": "Any",
+            "order": -1,
+            "x": -58385.12,
+            "y": -4406.58,
+            "z": 782.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation20",
+            "lane": "Any",
+            "order": -1,
+            "x": -58854.63,
+            "y": -3307.66,
+            "z": 782.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation21",
+            "lane": "Any",
+            "order": -1,
+            "x": -59247.51,
+            "y": -3327.86,
+            "z": 782.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation22",
+            "lane": "Any",
+            "order": -1,
+            "x": -59598.42,
+            "y": -4460.28,
+            "z": 782.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation23",
+            "lane": "Any",
+            "order": -1,
+            "x": -59640.2,
+            "y": -3351.84,
+            "z": 782.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation24",
+            "lane": "Any",
+            "order": -1,
+            "x": -59947.93,
+            "y": -3939.73,
+            "z": 782.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation25",
+            "lane": "Any",
+            "order": -1,
+            "x": -59394.15,
+            "y": -3911.6,
+            "z": 782.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation26",
+            "lane": "Any",
+            "order": -1,
+            "x": -57415.02,
+            "y": -6836.09,
+            "z": 684.37,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation27",
+            "lane": "Any",
+            "order": -1,
+            "x": -57711.96,
+            "y": -6997.98,
+            "z": 703.48,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation28",
+            "lane": "Any",
+            "order": -1,
+            "x": -70142.59,
+            "y": -6525.08,
+            "z": 684.37,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation29",
+            "lane": "Any",
+            "order": -1,
+            "x": -70702.03,
+            "y": -6042.71,
+            "z": 689.27,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation30",
+            "lane": "Any",
+            "order": -1,
+            "x": -72549.4,
+            "y": -7214.67,
+            "z": 696.09,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation31",
+            "lane": "Any",
+            "order": -1,
+            "x": -69806.68,
+            "y": -10722.44,
+            "z": 710.16,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation32",
+            "lane": "Any",
+            "order": -1,
+            "x": -69796.21,
+            "y": -11572.79,
+            "z": 710.16,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation33",
+            "lane": "Any",
+            "order": -1,
+            "x": -70465.66,
+            "y": -11557.49,
+            "z": 710.16,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation34",
+            "lane": "Any",
+            "order": -1,
+            "x": -71088.35,
+            "y": -11599.87,
+            "z": 710.16,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation35",
+            "lane": "Any",
+            "order": -1,
+            "x": -70700.07,
+            "y": -10782.48,
+            "z": 710.16,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation36",
+            "lane": "Any",
+            "order": -1,
+            "x": -71304.61,
+            "y": -10835.57,
+            "z": 710.16,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation37",
+            "lane": "Any",
+            "order": -1,
+            "x": -71826.8,
+            "y": -15475.01,
+            "z": 710.16,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation38",
+            "lane": "Any",
+            "order": -1,
+            "x": -70154.73,
+            "y": -14657.65,
+            "z": 710.16,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation39",
+            "lane": "Any",
+            "order": -1,
+            "x": -70562.98,
+            "y": -14680.03,
+            "z": 710.16,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation40",
+            "lane": "Any",
+            "order": -1,
+            "x": -70523.25,
+            "y": -15169.82,
+            "z": 710.16,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation41",
+            "lane": "Any",
+            "order": -1,
+            "x": -70114.43,
+            "y": -15152.88,
+            "z": 710.16,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation42",
+            "lane": "Any",
+            "order": -1,
+            "x": -69058.54,
+            "y": -15447.09,
+            "z": 710.16,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation43",
+            "lane": "Any",
+            "order": -1,
+            "x": -69717.38,
+            "y": -12104.02,
+            "z": 710.16,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation44",
+            "lane": "Any",
+            "order": -1,
+            "x": -63056.46,
+            "y": -14887.06,
+            "z": 698.75,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation45",
+            "lane": "Any",
+            "order": -1,
+            "x": -57521.08,
+            "y": -14087.25,
+            "z": 695.2,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation46",
+            "lane": "Any",
+            "order": -1,
+            "x": -57751.25,
+            "y": -13155.49,
+            "z": 695.2,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation47",
+            "lane": "Any",
+            "order": -1,
+            "x": -6831.4,
+            "y": -73881.4,
+            "z": 1064.97,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation48",
+            "lane": "Any",
+            "order": -1,
+            "x": -6449.72,
+            "y": -73066.52,
+            "z": 682.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation49",
+            "lane": "Any",
+            "order": -1,
+            "x": -7529.81,
+            "y": -73708.28,
+            "z": 682.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation50",
+            "lane": "Any",
+            "order": -1,
+            "x": -7181.24,
+            "y": -73359.7,
+            "z": 682.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation51",
+            "lane": "Any",
+            "order": -1,
+            "x": -7970.08,
+            "y": -74620.95,
+            "z": 682.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation52",
+            "lane": "Any",
+            "order": -1,
+            "x": -5885.09,
+            "y": -72923.74,
+            "z": 682.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation53",
+            "lane": "Any",
+            "order": -1,
+            "x": -12931.54,
+            "y": -75404.88,
+            "z": 689.51,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation54",
+            "lane": "Any",
+            "order": -1,
+            "x": -11339.31,
+            "y": -76018.93,
+            "z": 692.18,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation55",
+            "lane": "Any",
+            "order": -1,
+            "x": -9763.86,
+            "y": -75991.03,
+            "z": 695.17,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation56",
+            "lane": "Any",
+            "order": -1,
+            "x": -11784.69,
+            "y": -75983.19,
+            "z": 745.26,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation57",
+            "lane": "Any",
+            "order": -1,
+            "x": -10283.85,
+            "y": -75630.81,
+            "z": 692.42,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation58",
+            "lane": "Any",
+            "order": -1,
+            "x": -15376.94,
+            "y": -74571.34,
+            "z": 700.17,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation59",
+            "lane": "Any",
+            "order": -1,
+            "x": -12812.62,
+            "y": -79534.22,
+            "z": 682.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation60",
+            "lane": "Any",
+            "order": -1,
+            "x": -13338.77,
+            "y": -79089.51,
+            "z": 682.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation61",
+            "lane": "Any",
+            "order": -1,
+            "x": -5684.98,
+            "y": -69617.08,
+            "z": 692.19,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation62",
+            "lane": "Any",
+            "order": -1,
+            "x": -5706.91,
+            "y": -69239.41,
+            "z": 689.27,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation63",
+            "lane": "Any",
+            "order": -1,
+            "x": -5056.65,
+            "y": -68040.95,
+            "z": 715.91,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation64",
+            "lane": "Any",
+            "order": -1,
+            "x": -5314.65,
+            "y": -68641.66,
+            "z": 708.67,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation65",
+            "lane": "Any",
+            "order": -1,
+            "x": -5691.3,
+            "y": -68719.3,
+            "z": 695.34,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation66",
+            "lane": "Any",
+            "order": -1,
+            "x": -6418.99,
+            "y": -73475.27,
+            "z": 1064.97,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation67",
+            "lane": "Any",
+            "order": -1,
+            "x": -12326.79,
+            "y": -75601.62,
+            "z": 728.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation68",
+            "lane": "Any",
+            "order": -1,
+            "x": -12081.97,
+            "y": -69722.23,
+            "z": 685.87,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation69",
+            "lane": "Any",
+            "order": -1,
+            "x": -11556.47,
+            "y": -68905.53,
+            "z": 685.87,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation70",
+            "lane": "Any",
+            "order": -1,
+            "x": -10640.93,
+            "y": -68992.56,
+            "z": 1146.98,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation71",
+            "lane": "Any",
+            "order": -1,
+            "x": -9006.98,
+            "y": -67365.91,
+            "z": 1119.98,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation72",
+            "lane": "Any",
+            "order": -1,
+            "x": -9604.22,
+            "y": -67039.63,
+            "z": 693.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation73",
+            "lane": "Any",
+            "order": -1,
+            "x": -9830.99,
+            "y": -67355.0,
+            "z": 685.83,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation74",
+            "lane": "Any",
+            "order": -1,
+            "x": -10630.82,
+            "y": -68275.92,
+            "z": 688.03,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation75",
+            "lane": "Any",
+            "order": -1,
+            "x": -12667.74,
+            "y": -70563.12,
+            "z": 690.48,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation76",
+            "lane": "Any",
+            "order": -1,
+            "x": -14014.23,
+            "y": -71458.42,
+            "z": 682.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation77",
+            "lane": "Any",
+            "order": -1,
+            "x": -9384.07,
+            "y": -67373.7,
+            "z": 1119.98,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation78",
+            "lane": "Any",
+            "order": -1,
+            "x": -10122.72,
+            "y": -68385.6,
+            "z": 1158.98,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation79",
+            "lane": "Any",
+            "order": -1,
+            "x": -7124.85,
+            "y": -80349.48,
+            "z": 673.43,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation80",
+            "lane": "Any",
+            "order": -1,
+            "x": -6127.98,
+            "y": -79900.95,
+            "z": 669.24,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation81",
+            "lane": "Any",
+            "order": -1,
+            "x": -5656.57,
+            "y": -78776.92,
+            "z": 673.43,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation82",
+            "lane": "Any",
+            "order": -1,
+            "x": -8088.37,
+            "y": -81164.3,
+            "z": 673.43,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation83",
+            "lane": "Any",
+            "order": -1,
+            "x": -1616.57,
+            "y": -78226.16,
+            "z": 682.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation84",
+            "lane": "Any",
+            "order": -1,
+            "x": -2404.0,
+            "y": -77450.68,
+            "z": 682.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation85",
+            "lane": "Any",
+            "order": -1,
+            "x": -1892.88,
+            "y": -77958.06,
+            "z": 682.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation86",
+            "lane": "Any",
+            "order": -1,
+            "x": -2125.19,
+            "y": -71202.02,
+            "z": 673.44,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation87",
+            "lane": "Any",
+            "order": -1,
+            "x": -1235.97,
+            "y": -72343.56,
+            "z": 673.44,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation88",
+            "lane": "Any",
+            "order": -1,
+            "x": -42.2,
+            "y": -65163.29,
+            "z": 689.31,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation89",
+            "lane": "Any",
+            "order": -1,
+            "x": 214.37,
+            "y": -68180.0,
+            "z": 684.99,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation90",
+            "lane": "Any",
+            "order": -1,
+            "x": 215.84,
+            "y": -67750.22,
+            "z": 684.99,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation91",
+            "lane": "Any",
+            "order": -1,
+            "x": -115.59,
+            "y": -66844.11,
+            "z": 696.66,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation92",
+            "lane": "Any",
+            "order": -1,
+            "x": -11059.13,
+            "y": -77991.86,
+            "z": 692.25,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation93",
+            "lane": "Any",
+            "order": -1,
+            "x": 47211.91,
+            "y": -42639.67,
+            "z": 1206.13,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation94",
+            "lane": "Any",
+            "order": -1,
+            "x": 45203.04,
+            "y": -43811.64,
+            "z": 1211.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation95",
+            "lane": "Any",
+            "order": -1,
+            "x": 48457.81,
+            "y": -43489.05,
+            "z": 1159.99,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation96",
+            "lane": "Any",
+            "order": -1,
+            "x": 49708.73,
+            "y": -40674.58,
+            "z": 1133.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation97",
+            "lane": "Any",
+            "order": -1,
+            "x": 48898.56,
+            "y": -40609.48,
+            "z": 1133.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation98",
+            "lane": "Any",
+            "order": -1,
+            "x": 49371.25,
+            "y": -40044.24,
+            "z": 1120.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation99",
+            "lane": "Any",
+            "order": -1,
+            "x": 48681.51,
+            "y": -44121.71,
+            "z": 1146.99,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation101",
+            "lane": "Any",
+            "order": -1,
+            "x": 49051.07,
+            "y": -43028.25,
+            "z": 1131.99,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation102",
+            "lane": "Any",
+            "order": -1,
+            "x": 45796.71,
+            "y": -39424.7,
+            "z": 1194.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation103",
+            "lane": "Any",
+            "order": -1,
+            "x": 45158.81,
+            "y": -39727.39,
+            "z": 1194.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation104",
+            "lane": "Any",
+            "order": -1,
+            "x": 45981.0,
+            "y": -37212.9,
+            "z": 1665.08,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation105",
+            "lane": "Any",
+            "order": -1,
+            "x": 45509.47,
+            "y": -36800.57,
+            "z": 1640.08,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation106",
+            "lane": "Any",
+            "order": -1,
+            "x": 45640.95,
+            "y": -36952.38,
+            "z": 1349.92,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation107",
+            "lane": "Any",
+            "order": -1,
+            "x": 47114.19,
+            "y": -43356.57,
+            "z": 1206.13,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation108",
+            "lane": "Any",
+            "order": -1,
+            "x": 49998.64,
+            "y": -36667.76,
+            "z": 1324.15,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation109",
+            "lane": "Any",
+            "order": -1,
+            "x": 46316.51,
+            "y": -34693.7,
+            "z": 1293.06,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation110",
+            "lane": "Any",
+            "order": -1,
+            "x": 46243.63,
+            "y": -35384.93,
+            "z": 1272.06,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation111",
+            "lane": "Any",
+            "order": -1,
+            "x": 46849.63,
+            "y": -34724.36,
+            "z": 1264.27,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation112",
+            "lane": "Any",
+            "order": -1,
+            "x": 47227.92,
+            "y": -31403.67,
+            "z": 1238.41,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation113",
+            "lane": "Any",
+            "order": -1,
+            "x": 47887.09,
+            "y": -31631.57,
+            "z": 1238.41,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation114",
+            "lane": "Any",
+            "order": -1,
+            "x": 49576.57,
+            "y": -33234.35,
+            "z": 1278.64,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation115",
+            "lane": "Any",
+            "order": -1,
+            "x": 49098.27,
+            "y": -33055.19,
+            "z": 1288.6,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation116",
+            "lane": "Any",
+            "order": -1,
+            "x": 51760.9,
+            "y": -36235.26,
+            "z": 1280.57,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation117",
+            "lane": "Any",
+            "order": -1,
+            "x": 53229.14,
+            "y": -35495.88,
+            "z": 1668.37,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation118",
+            "lane": "Any",
+            "order": -1,
+            "x": 52605.62,
+            "y": -34978.02,
+            "z": 1368.37,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation119",
+            "lane": "Any",
+            "order": -1,
+            "x": 52837.76,
+            "y": -35150.46,
+            "z": 1368.37,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation120",
+            "lane": "Any",
+            "order": -1,
+            "x": 52740.44,
+            "y": -35099.13,
+            "z": 1968.37,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation121",
+            "lane": "Any",
+            "order": -1,
+            "x": 55332.85,
+            "y": -39007.56,
+            "z": 1325.78,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation123",
+            "lane": "Any",
+            "order": -1,
+            "x": 53399.93,
+            "y": -37762.71,
+            "z": 1347.51,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation124",
+            "lane": "Any",
+            "order": -1,
+            "x": 55405.65,
+            "y": -35580.88,
+            "z": 1344.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation125",
+            "lane": "Any",
+            "order": -1,
+            "x": 55657.46,
+            "y": -34597.3,
+            "z": 1341.66,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation126",
+            "lane": "Any",
+            "order": -1,
+            "x": 55920.41,
+            "y": -33442.58,
+            "z": 1279.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation127",
+            "lane": "Any",
+            "order": -1,
+            "x": 55898.73,
+            "y": -37719.95,
+            "z": 1359.35,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation129",
+            "lane": "Any",
+            "order": -1,
+            "x": 52659.33,
+            "y": -31954.66,
+            "z": 1030.95,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation131",
+            "lane": "Any",
+            "order": -1,
+            "x": 51172.08,
+            "y": -29159.47,
+            "z": 1105.19,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation132",
+            "lane": "Any",
+            "order": -1,
+            "x": 50833.1,
+            "y": -29953.41,
+            "z": 1105.19,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation133",
+            "lane": "Any",
+            "order": -1,
+            "x": 50667.99,
+            "y": -29046.66,
+            "z": 1405.19,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation134",
+            "lane": "Any",
+            "order": -1,
+            "x": 43778.58,
+            "y": -30878.9,
+            "z": 1292.94,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation135",
+            "lane": "Any",
+            "order": -1,
+            "x": 63454.86,
+            "y": 17115.62,
+            "z": 711.23,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation136",
+            "lane": "Any",
+            "order": -1,
+            "x": 62916.7,
+            "y": 16454.96,
+            "z": 711.23,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation137",
+            "lane": "Any",
+            "order": -1,
+            "x": 63101.96,
+            "y": 17445.33,
+            "z": 693.83,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation138",
+            "lane": "Any",
+            "order": -1,
+            "x": 63756.73,
+            "y": 17586.27,
+            "z": 685.94,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation139",
+            "lane": "Any",
+            "order": -1,
+            "x": 67372.88,
+            "y": 16369.66,
+            "z": 710.07,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation141",
+            "lane": "Any",
+            "order": -1,
+            "x": 59031.84,
+            "y": 7891.22,
+            "z": 1081.53,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation142",
+            "lane": "Any",
+            "order": -1,
+            "x": 58825.35,
+            "y": 7205.31,
+            "z": 781.53,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation143",
+            "lane": "Any",
+            "order": -1,
+            "x": 70175.77,
+            "y": 19837.71,
+            "z": 684.37,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation144",
+            "lane": "Any",
+            "order": -1,
+            "x": 69457.34,
+            "y": 20759.22,
+            "z": 683.17,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation145",
+            "lane": "Any",
+            "order": -1,
+            "x": 60964.45,
+            "y": 16593.84,
+            "z": 685.94,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation146",
+            "lane": "Any",
+            "order": -1,
+            "x": 65154.45,
+            "y": 12662.43,
+            "z": 1043.75,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation147",
+            "lane": "Any",
+            "order": -1,
+            "x": 59685.53,
+            "y": 14725.94,
+            "z": 1079.15,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation148",
+            "lane": "Any",
+            "order": -1,
+            "x": 60268.97,
+            "y": 15054.2,
+            "z": 779.15,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation149",
+            "lane": "Any",
+            "order": -1,
+            "x": 64189.66,
+            "y": 13416.47,
+            "z": 685.94,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation150",
+            "lane": "Any",
+            "order": -1,
+            "x": 63542.34,
+            "y": 13244.88,
+            "z": 685.94,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation151",
+            "lane": "Any",
+            "order": -1,
+            "x": 65840.41,
+            "y": 11959.45,
+            "z": 743.75,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation152",
+            "lane": "Any",
+            "order": -1,
+            "x": 62533.72,
+            "y": 12083.26,
+            "z": 705.14,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation154",
+            "lane": "Any",
+            "order": -1,
+            "x": 60870.6,
+            "y": 9359.8,
+            "z": 685.94,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation155",
+            "lane": "Any",
+            "order": -1,
+            "x": 52188.9,
+            "y": 18695.57,
+            "z": 112.33,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation156",
+            "lane": "Any",
+            "order": -1,
+            "x": 63812.0,
+            "y": 8021.3,
+            "z": 728.56,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation157",
+            "lane": "Any",
+            "order": -1,
+            "x": 63397.71,
+            "y": 10868.41,
+            "z": 685.94,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation158",
+            "lane": "Any",
+            "order": -1,
+            "x": 59081.34,
+            "y": 6248.79,
+            "z": 685.94,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation159",
+            "lane": "Any",
+            "order": -1,
+            "x": 59979.29,
+            "y": 14583.4,
+            "z": 779.15,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation160",
+            "lane": "Any",
+            "order": -1,
+            "x": 66061.34,
+            "y": 8976.05,
+            "z": 685.94,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation161",
+            "lane": "Any",
+            "order": -1,
+            "x": 63222.66,
+            "y": 8384.49,
+            "z": 1024.87,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation162",
+            "lane": "Any",
+            "order": -1,
+            "x": 58136.4,
+            "y": 13682.19,
+            "z": 776.24,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation163",
+            "lane": "Any",
+            "order": -1,
+            "x": 58046.03,
+            "y": 12852.04,
+            "z": 1076.24,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation164",
+            "lane": "Any",
+            "order": -1,
+            "x": 57424.05,
+            "y": 13359.94,
+            "z": 1076.24,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation165",
+            "lane": "Any",
+            "order": -1,
+            "x": 55153.57,
+            "y": 11418.25,
+            "z": 1017.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation166",
+            "lane": "Any",
+            "order": -1,
+            "x": 55289.77,
+            "y": 10746.75,
+            "z": 717.8,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation167",
+            "lane": "Any",
+            "order": -1,
+            "x": 54669.38,
+            "y": 9815.63,
+            "z": 685.94,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation168",
+            "lane": "Any",
+            "order": -1,
+            "x": 57268.2,
+            "y": 8010.24,
+            "z": 685.94,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation169",
+            "lane": "Any",
+            "order": -1,
+            "x": 59738.39,
+            "y": 10427.75,
+            "z": 710.12,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation171",
+            "lane": "Any",
+            "order": -1,
+            "x": 58508.42,
+            "y": 7954.73,
+            "z": 781.53,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation172",
+            "lane": "Any",
+            "order": -1,
+            "x": 60377.61,
+            "y": 6772.17,
+            "z": 706.98,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation173",
+            "lane": "Any",
+            "order": -1,
+            "x": 57657.28,
+            "y": 5594.32,
+            "z": 680.76,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation174",
+            "lane": "Any",
+            "order": -1,
+            "x": 58714.04,
+            "y": 7158.24,
+            "z": 1081.53,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation175",
+            "lane": "Any",
+            "order": -1,
+            "x": 55934.15,
+            "y": 4448.81,
+            "z": 1102.91,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation176",
+            "lane": "Any",
+            "order": -1,
+            "x": 55727.04,
+            "y": 3552.97,
+            "z": 685.37,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation177",
+            "lane": "Any",
+            "order": -1,
+            "x": 58534.76,
+            "y": 2444.24,
+            "z": 682.54,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation178",
+            "lane": "Any",
+            "order": -1,
+            "x": 57896.66,
+            "y": 4244.58,
+            "z": 709.82,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation179",
+            "lane": "Any",
+            "order": -1,
+            "x": 58384.96,
+            "y": 3643.81,
+            "z": 709.82,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation180",
+            "lane": "Any",
+            "order": -1,
+            "x": 57860.03,
+            "y": 3538.79,
+            "z": 709.82,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation181",
+            "lane": "Any",
+            "order": -1,
+            "x": 62464.72,
+            "y": 4603.35,
+            "z": 680.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation182",
+            "lane": "Any",
+            "order": -1,
+            "x": 61537.22,
+            "y": 4073.28,
+            "z": 707.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation183",
+            "lane": "Any",
+            "order": -1,
+            "x": 62190.36,
+            "y": 4396.94,
+            "z": 707.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation185",
+            "lane": "Any",
+            "order": -1,
+            "x": 58337.87,
+            "y": 7526.18,
+            "z": 1081.53,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation186",
+            "lane": "Any",
+            "order": -1,
+            "x": 56913.28,
+            "y": 5912.83,
+            "z": 785.83,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation187",
+            "lane": "Any",
+            "order": -1,
+            "x": 55706.62,
+            "y": 4587.54,
+            "z": 802.91,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation188",
+            "lane": "Any",
+            "order": -1,
+            "x": 45367.03,
+            "y": 63644.0,
+            "z": 228.48,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation189",
+            "lane": "Any",
+            "order": -1,
+            "x": 45906.3,
+            "y": 62497.48,
+            "z": 228.48,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation190",
+            "lane": "Any",
+            "order": -1,
+            "x": 45782.77,
+            "y": 63328.03,
+            "z": 228.48,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation191",
+            "lane": "Any",
+            "order": -1,
+            "x": 45299.41,
+            "y": 62274.91,
+            "z": 228.48,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation192",
+            "lane": "Any",
+            "order": -1,
+            "x": 44196.16,
+            "y": 62778.29,
+            "z": 228.48,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation193",
+            "lane": "Any",
+            "order": -1,
+            "x": 39441.93,
+            "y": 66690.94,
+            "z": 100.87,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation194",
+            "lane": "Any",
+            "order": -1,
+            "x": 38528.87,
+            "y": 66780.54,
+            "z": 128.68,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation195",
+            "lane": "Any",
+            "order": -1,
+            "x": 38953.71,
+            "y": 66847.91,
+            "z": 115.25,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation196",
+            "lane": "Any",
+            "order": -1,
+            "x": 38659.92,
+            "y": 59564.39,
+            "z": 928.38,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation197",
+            "lane": "Any",
+            "order": -1,
+            "x": 39219.81,
+            "y": 60095.86,
+            "z": 928.38,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation198",
+            "lane": "Any",
+            "order": -1,
+            "x": 39104.94,
+            "y": 58271.55,
+            "z": 928.38,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation202",
+            "lane": "Any",
+            "order": -1,
+            "x": 47295.09,
+            "y": 59777.42,
+            "z": 119.59,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation203",
+            "lane": "Any",
+            "order": -1,
+            "x": 47834.54,
+            "y": 59236.29,
+            "z": 119.59,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation204",
+            "lane": "Any",
+            "order": -1,
+            "x": 47374.27,
+            "y": 58648.89,
+            "z": 119.59,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation205",
+            "lane": "Any",
+            "order": -1,
+            "x": 54573.49,
+            "y": 58254.02,
+            "z": 114.08,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation206",
+            "lane": "Any",
+            "order": -1,
+            "x": 53630.53,
+            "y": 57340.27,
+            "z": 114.08,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation207",
+            "lane": "Any",
+            "order": -1,
+            "x": 54278.76,
+            "y": 57982.55,
+            "z": 114.08,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation208",
+            "lane": "Any",
+            "order": -1,
+            "x": 53249.61,
+            "y": 56995.6,
+            "z": 114.08,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation209",
+            "lane": "Any",
+            "order": -1,
+            "x": 52790.53,
+            "y": 56183.36,
+            "z": 103.3,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation210",
+            "lane": "Any",
+            "order": -1,
+            "x": 53087.62,
+            "y": 56800.5,
+            "z": 103.3,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation211",
+            "lane": "Any",
+            "order": -1,
+            "x": 52240.44,
+            "y": 56236.11,
+            "z": 103.3,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation212",
+            "lane": "Any",
+            "order": -1,
+            "x": 51786.64,
+            "y": 50227.02,
+            "z": 112.92,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation213",
+            "lane": "Any",
+            "order": -1,
+            "x": 52136.45,
+            "y": 51258.27,
+            "z": 112.92,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation214",
+            "lane": "Any",
+            "order": -1,
+            "x": 52390.88,
+            "y": 50651.14,
+            "z": 112.92,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation215",
+            "lane": "Any",
+            "order": -1,
+            "x": 51414.05,
+            "y": 50904.87,
+            "z": 112.92,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation216",
+            "lane": "Any",
+            "order": -1,
+            "x": 40684.34,
+            "y": 61787.51,
+            "z": 118.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation217",
+            "lane": "Any",
+            "order": -1,
+            "x": 41386.4,
+            "y": 61476.09,
+            "z": 118.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation218",
+            "lane": "Any",
+            "order": -1,
+            "x": 41899.51,
+            "y": 60921.05,
+            "z": 110.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation219",
+            "lane": "Any",
+            "order": -1,
+            "x": 42392.73,
+            "y": 59797.33,
+            "z": 110.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation221",
+            "lane": "Any",
+            "order": -1,
+            "x": 43532.93,
+            "y": 59348.44,
+            "z": 110.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation224",
+            "lane": "Any",
+            "order": -1,
+            "x": 43178.11,
+            "y": 60060.08,
+            "z": 110.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation226",
+            "lane": "Any",
+            "order": -1,
+            "x": 43155.2,
+            "y": 61082.01,
+            "z": 110.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation227",
+            "lane": "Any",
+            "order": -1,
+            "x": 44384.69,
+            "y": 59875.23,
+            "z": 110.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation228",
+            "lane": "Any",
+            "order": -1,
+            "x": 42107.68,
+            "y": 61113.02,
+            "z": 110.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation229",
+            "lane": "Any",
+            "order": -1,
+            "x": 41020.88,
+            "y": 61143.8,
+            "z": 118.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation230",
+            "lane": "Any",
+            "order": -1,
+            "x": 46903.46,
+            "y": 56004.58,
+            "z": 109.99,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation231",
+            "lane": "Any",
+            "order": -1,
+            "x": 48516.72,
+            "y": 54015.84,
+            "z": 110.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation232",
+            "lane": "Any",
+            "order": -1,
+            "x": 49588.34,
+            "y": 52975.92,
+            "z": 110.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation233",
+            "lane": "Any",
+            "order": -1,
+            "x": 48256.98,
+            "y": 53020.83,
+            "z": 110.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation234",
+            "lane": "Any",
+            "order": -1,
+            "x": 47497.94,
+            "y": 54762.16,
+            "z": 110.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation235",
+            "lane": "Any",
+            "order": -1,
+            "x": 43726.16,
+            "y": 58168.77,
+            "z": 110.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation236",
+            "lane": "Any",
+            "order": -1,
+            "x": 45655.77,
+            "y": 57594.16,
+            "z": 110.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation237",
+            "lane": "Any",
+            "order": -1,
+            "x": 44289.47,
+            "y": 59001.95,
+            "z": 110.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation220",
+            "lane": "Any",
+            "order": -1,
+            "x": -10771.27,
+            "y": 59854.92,
+            "z": 131.11,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation222",
+            "lane": "Any",
+            "order": -1,
+            "x": -11271.71,
+            "y": 59774.92,
+            "z": 515.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation223",
+            "lane": "Any",
+            "order": -1,
+            "x": -21420.62,
+            "y": 60442.72,
+            "z": 938.79,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation239",
+            "lane": "Any",
+            "order": -1,
+            "x": -21402.48,
+            "y": 62540.25,
+            "z": 938.79,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation240",
+            "lane": "Any",
+            "order": -1,
+            "x": -21021.58,
+            "y": 56532.01,
+            "z": 938.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation241",
+            "lane": "Any",
+            "order": -1,
+            "x": -21832.61,
+            "y": 56498.95,
+            "z": 938.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation242",
+            "lane": "Any",
+            "order": -1,
+            "x": -20585.73,
+            "y": 57621.18,
+            "z": 938.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation243",
+            "lane": "Any",
+            "order": -1,
+            "x": -22441.85,
+            "y": 57574.18,
+            "z": 938.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation244",
+            "lane": "Any",
+            "order": -1,
+            "x": -22181.03,
+            "y": 55744.35,
+            "z": 938.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation245",
+            "lane": "Any",
+            "order": -1,
+            "x": -20601.21,
+            "y": 55827.16,
+            "z": 938.81,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation246",
+            "lane": "Any",
+            "order": -1,
+            "x": -18906.43,
+            "y": 52737.19,
+            "z": 129.11,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation247",
+            "lane": "Any",
+            "order": -1,
+            "x": -19591.32,
+            "y": 50456.01,
+            "z": 571.76,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation248",
+            "lane": "Any",
+            "order": -1,
+            "x": -19565.43,
+            "y": 52061.97,
+            "z": 571.76,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation249",
+            "lane": "Any",
+            "order": -1,
+            "x": -18603.41,
+            "y": 49544.91,
+            "z": 129.11,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation250",
+            "lane": "Any",
+            "order": -1,
+            "x": -18207.06,
+            "y": 49183.23,
+            "z": 110.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation251",
+            "lane": "Any",
+            "order": -1,
+            "x": -18812.97,
+            "y": 43201.45,
+            "z": 100.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation252",
+            "lane": "Any",
+            "order": -1,
+            "x": -18331.95,
+            "y": 42610.98,
+            "z": 100.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation253",
+            "lane": "Any",
+            "order": -1,
+            "x": -17322.73,
+            "y": 42788.97,
+            "z": 100.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation254",
+            "lane": "Any",
+            "order": -1,
+            "x": -28849.93,
+            "y": 44801.22,
+            "z": 100.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation255",
+            "lane": "Any",
+            "order": -1,
+            "x": -29290.45,
+            "y": 44299.16,
+            "z": 100.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation256",
+            "lane": "Any",
+            "order": -1,
+            "x": -25928.12,
+            "y": 72633.24,
+            "z": 100.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation257",
+            "lane": "Any",
+            "order": -1,
+            "x": -26152.57,
+            "y": 71282.84,
+            "z": 99.99,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation258",
+            "lane": "Any",
+            "order": -1,
+            "x": -24459.69,
+            "y": 70813.55,
+            "z": 119.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ObjectiveSpawnLocation259",
+            "lane": "Any",
+            "order": -1,
+            "x": -25076.31,
+            "y": 72571.11,
+            "z": 115.86,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Objective_Barracks",
+            "lane": "Any",
+            "order": -1,
+            "x": -15832.22,
+            "y": -67221.02,
+            "z": 7729.95,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Objective_Crossroads",
+            "lane": "Any",
+            "order": -1,
+            "x": -59920.13,
+            "y": -17933.75,
+            "z": 6456.66,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Objective_Kiriku",
+            "lane": "Any",
+            "order": -1,
+            "x": 54314.87,
+            "y": 415.81,
+            "z": 7729.95,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Objective_NarvaHeights",
+            "lane": "Any",
+            "order": -1,
+            "x": 48557.38,
+            "y": -28194.7,
+            "z": 7729.95,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Objective_Powerplant",
+            "lane": "Any",
+            "order": -1,
+            "x": 33833.75,
+            "y": 63666.74,
+            "z": 7729.95,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Objective_Quarry",
+            "lane": "Any",
+            "order": -1,
+            "x": -15663.09,
+            "y": 57099.51,
+            "z": 7729.95,
+            "is_sky_node": true,
+            "linked_flags": []
+        }
+    ]
+}

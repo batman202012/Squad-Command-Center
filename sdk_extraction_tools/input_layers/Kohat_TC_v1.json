@@ -1,0 +1,27 @@
+{
+    "map_id": "kohat",
+    "layer_name": "Kohat_TC_v1",
+    "total_flags": 2,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -156669.86,
+            "y": 160744.69,
+            "z": 19077.59,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 179531.33,
+            "y": -139800.69,
+            "z": 24681.34,
+            "is_sky_node": true,
+            "linked_flags": []
+        }
+    ]
+}

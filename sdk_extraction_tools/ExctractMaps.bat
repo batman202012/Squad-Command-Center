@@ -1,0 +1,1 @@
+"D:\squadsdk\SquadEditor\UnrealEngine\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "D:\squadsdk\SquadEditor\Squad\SquadGame.uproject" -ExecutePythonScript="D:\squadsdk\SquadEditor\Squad\Content\Python\grab_layers.py" -nullrhi -nosplash -unattended -Log

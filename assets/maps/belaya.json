@@ -1,0 +1,22 @@
+{
+    "id": "belaya",
+    "name": "Belaya Pass",
+    "metadata": {
+        "mapExtent": [
+            0,
+            -8192,
+            8192,
+            0
+        ],
+        "physicalSizeMeters": 3905,
+        "physicalSizeMetersX": 3905,
+        "physicalSizeMetersY": 3905,
+        "ueOffsetX": 3,
+        "ueOffsetY": 127,
+        "maxZoom": 5,
+        "minZoom": 1,
+        "tileUrl": "./assets/maps/Belaya/belaya_tiles/{z}/{x}/{y}.png",
+        "heightmapUrl": "./assets/maps/Belaya/belaya_height_map.webp",
+        "heightmapSize": 4096
+    }
+}

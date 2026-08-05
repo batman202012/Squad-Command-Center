@@ -1,0 +1,173 @@
+{
+    "map_id": "gorodok",
+    "layer_name": "Gorodok_Invasion_v1",
+    "total_flags": 12,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -133114.72,
+            "y": 156661.94,
+            "z": -3468.59
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -149204.5,
+            "y": -159322.44,
+            "z": -3567.03
+        },
+        {
+            "name": "Desna",
+            "x": -67825.74,
+            "y": 121451.39,
+            "z": -2175.16,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Soloninki",
+            "x": -1337.41,
+            "y": 110850.98,
+            "z": -3477.51,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Russian Outpost",
+            "x": -99230.74,
+            "y": 75543.39,
+            "z": -2175.16,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Train Bridge",
+            "x": -2857.31,
+            "y": 52413.28,
+            "z": -4542.02,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Niva Upper",
+            "x": -27921.59,
+            "y": 14971.19,
+            "z": -2385.22,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Hilltop Old Bunker",
+            "x": -43312.82,
+            "y": -6070.73,
+            "z": -1257.3,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Niva Lower",
+            "x": 356.41,
+            "y": 14914.19,
+            "z": -4137.22,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Ambush Hillas",
+            "x": -25546.49,
+            "y": -88484.72,
+            "z": -1749.41,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Yard Apartments",
+            "x": -18717.43,
+            "y": -118906.19,
+            "z": -3171.06,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Grain Processing",
+            "x": -53366.16,
+            "y": -73550.56,
+            "z": -2096.22,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

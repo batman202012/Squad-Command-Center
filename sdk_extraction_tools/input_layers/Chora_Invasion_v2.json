@@ -1,0 +1,177 @@
+{
+    "map_id": "chora",
+    "layer_name": "Chora_Invasion_v2",
+    "total_flags": 17,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 72864.0,
+            "y": -152238.0,
+            "z": -76311.99,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 1,
+            "x": -208166.0,
+            "y": -29627.0,
+            "z": -77259.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Mosque",
+            "lane": "Any",
+            "order": 1,
+            "x": 16127.0,
+            "y": -85540.0,
+            "z": -76451.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 2,
+            "x": -208166.0,
+            "y": -29627.0,
+            "z": -77259.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Compound Abrams",
+            "lane": "Any",
+            "order": 2,
+            "x": -21574.09,
+            "y": -113074.05,
+            "z": -76418.73,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Naan Market",
+            "lane": "Any",
+            "order": 2,
+            "x": -11605.19,
+            "y": -61369.02,
+            "z": -76440.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 3,
+            "x": -208166.0,
+            "y": -29627.0,
+            "z": -77259.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hemp Farm",
+            "lane": "Any",
+            "order": 3,
+            "x": -33137.0,
+            "y": -93485.0,
+            "z": -76595.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lavender Estate",
+            "lane": "Any",
+            "order": 3,
+            "x": -28439.42,
+            "y": -68435.27,
+            "z": -76595.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 4,
+            "x": -208166.0,
+            "y": -29627.0,
+            "z": -77259.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Poppy Farm",
+            "lane": "Any",
+            "order": 4,
+            "x": -74972.0,
+            "y": -74394.0,
+            "z": -76741.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Radio Station",
+            "lane": "Any",
+            "order": 4,
+            "x": -55612.3,
+            "y": -44023.89,
+            "z": -76662.5,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Market",
+            "lane": "Any",
+            "order": 4,
+            "x": -61759.67,
+            "y": -47869.14,
+            "z": -76810.28,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 5,
+            "x": -208166.0,
+            "y": -29627.0,
+            "z": -77259.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Island Farm",
+            "lane": "Any",
+            "order": 5,
+            "x": -98056.1,
+            "y": -48867.8,
+            "z": -76994.42,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Upper Orchard",
+            "lane": "Any",
+            "order": 5,
+            "x": -104380.1,
+            "y": -82567.8,
+            "z": -75771.42,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -208701.41,
+            "y": -31815.02,
+            "z": -77152.14,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

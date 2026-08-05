@@ -1,0 +1,234 @@
+{
+    "map_id": "maps",
+    "layer_name": "BlackCoast_Invasion_v1",
+    "total_flags": 22,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 13704.86,
+            "y": 223249.34,
+            "z": -2576.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 1,
+            "x": 61339.5,
+            "y": 121406.45,
+            "z": 4107.93,
+            "is_sky_node": true,
+            "linked_flags": [
+                "01-Landing Zone"
+            ]
+        },
+        {
+            "name": "Landing Zone",
+            "lane": "Any",
+            "order": 1,
+            "x": -40303.28,
+            "y": 141688.36,
+            "z": 234.14,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 2,
+            "x": 24629.6,
+            "y": 69879.0,
+            "z": 1399.35,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Pipeline",
+            "lane": "Any",
+            "order": 2,
+            "x": -92085.78,
+            "y": 114263.89,
+            "z": 1014.33,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Paseka",
+            "lane": "Any",
+            "order": 2,
+            "x": -44923.48,
+            "y": 106140.91,
+            "z": 1791.14,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Fort",
+            "lane": "Any",
+            "order": 2,
+            "x": -25969.61,
+            "y": 131507.33,
+            "z": 1984.91,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Sablya Outskirts",
+            "lane": "Any",
+            "order": 2,
+            "x": -54116.2,
+            "y": 47924.5,
+            "z": 1669.99,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 3,
+            "x": -39484.59,
+            "y": 40211.34,
+            "z": 1123.98,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Torpedo Factory",
+            "lane": "Any",
+            "order": 3,
+            "x": -36413.83,
+            "y": 50798.45,
+            "z": 2309.53,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 4,
+            "x": -39234.22,
+            "y": -943.18,
+            "z": 2407.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "04-Train Station",
+                "04-Sablya"
+            ]
+        },
+        {
+            "name": "Sablya",
+            "lane": "Any",
+            "order": 4,
+            "x": -51780.32,
+            "y": -386.56,
+            "z": 1311.97,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Train Station",
+            "lane": "Any",
+            "order": 4,
+            "x": -28259.56,
+            "y": 9216.33,
+            "z": 1157.96,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 5,
+            "x": -39827.22,
+            "y": -74563.19,
+            "z": 2407.54,
+            "is_sky_node": true,
+            "linked_flags": [
+                "05-Kalinovka"
+            ]
+        },
+        {
+            "name": "Kalinovka",
+            "lane": "Any",
+            "order": 5,
+            "x": -40381.84,
+            "y": -62309.77,
+            "z": 899.67,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 109545.12,
+            "y": -182665.09,
+            "z": 7789.22,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead",
+            "lane": "Any",
+            "order": -1,
+            "x": 11920.24,
+            "y": -40469.14,
+            "z": 891.66,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead2",
+            "lane": "Any",
+            "order": -1,
+            "x": 11920.24,
+            "y": -40469.14,
+            "z": 1627.19,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead3",
+            "lane": "Any",
+            "order": -1,
+            "x": 64957.38,
+            "y": -23632.21,
+            "z": 5073.71,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead4",
+            "lane": "Any",
+            "order": -1,
+            "x": 64957.38,
+            "y": -23632.2,
+            "z": 5808.99,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead5",
+            "lane": "Any",
+            "order": -1,
+            "x": -2058.19,
+            "y": 83500.22,
+            "z": 887.74,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FlagPole_Ballhead6",
+            "lane": "Any",
+            "order": -1,
+            "x": -2058.19,
+            "y": 83500.22,
+            "z": 1176.52,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

@@ -1,0 +1,167 @@
+{
+    "map_id": "chora",
+    "layer_name": "Chora_Invasion_v1",
+    "total_flags": 16,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 72701.87,
+            "y": -153195.97,
+            "z": -76093.85,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 1,
+            "x": -58071.1,
+            "y": -43018.12,
+            "z": -76353.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Mosque",
+            "lane": "Any",
+            "order": 1,
+            "x": 16127.0,
+            "y": -85540.0,
+            "z": -76451.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Insurgent Checkpoint",
+            "lane": "Any",
+            "order": 1,
+            "x": -3509.23,
+            "y": -112779.79,
+            "z": -76431.24,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 2,
+            "x": -58071.1,
+            "y": -43018.12,
+            "z": -76353.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lavender Estate",
+            "lane": "Any",
+            "order": 2,
+            "x": -27959.85,
+            "y": -67618.47,
+            "z": -76431.24,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 3,
+            "x": -58071.1,
+            "y": -43018.12,
+            "z": -76353.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Poppy Farm",
+            "lane": "Any",
+            "order": 3,
+            "x": -74972.0,
+            "y": -74394.0,
+            "z": -76741.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Market",
+            "lane": "Any",
+            "order": 3,
+            "x": -61566.37,
+            "y": -47618.11,
+            "z": -76780.04,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 4,
+            "x": -58071.1,
+            "y": -43018.12,
+            "z": -76353.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Island Farm",
+            "lane": "Any",
+            "order": 4,
+            "x": -99387.65,
+            "y": -48950.18,
+            "z": -76488.7,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "Any",
+            "order": 5,
+            "x": -58071.1,
+            "y": -43018.12,
+            "z": -76353.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Nursery",
+            "lane": "Any",
+            "order": 5,
+            "x": -122057.42,
+            "y": -15368.13,
+            "z": -76331.1,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Monolith",
+            "lane": "Any",
+            "order": 5,
+            "x": -161734.0,
+            "y": -32000.0,
+            "z": -76345.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Small Mosque",
+            "lane": "Any",
+            "order": 5,
+            "x": -154229.11,
+            "y": -57263.85,
+            "z": -76331.1,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -205938.99,
+            "y": -30026.0,
+            "z": -77074.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

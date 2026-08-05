@@ -1,0 +1,665 @@
+{
+    "map_id": "anvil",
+    "layer_name": "Anvil_RAAS_v2",
+    "total_flags": 60,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -161827.83,
+            "y": -185468.45,
+            "z": -4763.36,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 1,
+            "x": -146729.64,
+            "y": -121837.02,
+            "z": 4529.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A1-Urban South",
+                "A1-Urban North"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 1,
+            "x": -144761.64,
+            "y": -136402.02,
+            "z": 4529.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B1-Urban North",
+                "B1-Ancient Ruins"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 1,
+            "x": -152311.64,
+            "y": -82779.02,
+            "z": 4529.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C1-Urban Outskirts",
+                "C1-Intersection Homes"
+            ]
+        },
+        {
+            "name": "Urban South",
+            "lane": "A",
+            "order": 1,
+            "x": -156559.77,
+            "y": -113224.6,
+            "z": -6113.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Urban Outskirts",
+            "lane": "C",
+            "order": 1,
+            "x": -167206.0,
+            "y": -87488.0,
+            "z": -6173.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ancient Ruins",
+            "lane": "B",
+            "order": 1,
+            "x": -136154.18,
+            "y": -144656.41,
+            "z": -5863.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Urban North",
+            "lane": "A",
+            "order": 1,
+            "x": -152679.83,
+            "y": -137733.28,
+            "z": -6363.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Urban North",
+            "lane": "B",
+            "order": 1,
+            "x": -152679.83,
+            "y": -137733.28,
+            "z": -6363.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Intersection Homes",
+            "lane": "C",
+            "order": 1,
+            "x": -141030.08,
+            "y": -86687.12,
+            "z": -6173.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 2,
+            "x": -104222.16,
+            "y": -68783.77,
+            "z": 4486.31,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A2-Bridge Hold West",
+                "A2-Vineyard",
+                "A2-Market"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 2,
+            "x": -109688.64,
+            "y": -99615.02,
+            "z": 4529.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B2-Bridge Alpha"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 2,
+            "x": -109725.64,
+            "y": -68703.02,
+            "z": 4529.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C2-Canyon Choke Point"
+            ]
+        },
+        {
+            "name": "Vineyard",
+            "lane": "A",
+            "order": 2,
+            "x": -109824.0,
+            "y": -97165.0,
+            "z": 4486.31,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Bridge Hold West",
+            "lane": "A",
+            "order": 2,
+            "x": -93547.12,
+            "y": -66341.9,
+            "z": 4486.31,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Market",
+            "lane": "A",
+            "order": 2,
+            "x": -115426.12,
+            "y": -81681.9,
+            "z": -5970.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Canyon Choke Point",
+            "lane": "C",
+            "order": 2,
+            "x": -103132.13,
+            "y": -56012.9,
+            "z": 4486.31,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Bridge Alpha",
+            "lane": "B",
+            "order": 2,
+            "x": -123483.39,
+            "y": -94880.29,
+            "z": -6318.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 3,
+            "x": -68582.89,
+            "y": -48203.28,
+            "z": 4486.31,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A3-Ammo Cache",
+                "A3-Police Station",
+                "A3-Orchard",
+                "A3-Canyon Exit North"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 3,
+            "x": -100254.64,
+            "y": -106884.02,
+            "z": 4529.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B3-Cliffside Compound"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 3,
+            "x": -79750.64,
+            "y": -19767.02,
+            "z": 4529.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C3-SW Canyon Exit"
+            ]
+        },
+        {
+            "name": "Canyon Exit North",
+            "lane": "A",
+            "order": 3,
+            "x": -62517.0,
+            "y": -73270.0,
+            "z": -5462.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ammo Cache",
+            "lane": "A",
+            "order": 3,
+            "x": -53099.0,
+            "y": -60000.0,
+            "z": -5320.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Orchard",
+            "lane": "A",
+            "order": 3,
+            "x": -71027.0,
+            "y": -59005.0,
+            "z": 4486.31,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Police Station",
+            "lane": "A",
+            "order": 3,
+            "x": -78217.0,
+            "y": -42525.0,
+            "z": 4486.31,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Cliffside Compound",
+            "lane": "B",
+            "order": 3,
+            "x": -98284.64,
+            "y": -111380.65,
+            "z": -2659.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SW Canyon Exit",
+            "lane": "C",
+            "order": 3,
+            "x": -79010.47,
+            "y": -11134.64,
+            "z": -4780.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 4,
+            "x": -28259.77,
+            "y": -35037.6,
+            "z": 4486.31,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A4-Lavender Farm",
+                "A4-Holdout"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 4,
+            "x": -67089.64,
+            "y": -115874.02,
+            "z": 4529.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B4-Radio Station North",
+                "B4-Plateau Village"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 4,
+            "x": -49524.64,
+            "y": 56596.99,
+            "z": 4529.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C4-Soviet Radio Station"
+            ]
+        },
+        {
+            "name": "Lavender Farm",
+            "lane": "A",
+            "order": 4,
+            "x": -32327.0,
+            "y": -44935.0,
+            "z": 4486.31,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Holdout",
+            "lane": "A",
+            "order": 4,
+            "x": -41797.0,
+            "y": -24105.0,
+            "z": 4486.31,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Radio Station North",
+            "lane": "B",
+            "order": 4,
+            "x": -67476.12,
+            "y": -118681.9,
+            "z": -1120.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Soviet Radio Station",
+            "lane": "C",
+            "order": 4,
+            "x": -46983.22,
+            "y": 57714.01,
+            "z": -517.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Plateau Village",
+            "lane": "B",
+            "order": 4,
+            "x": -35817.33,
+            "y": -130759.81,
+            "z": -1932.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 5,
+            "x": 631.23,
+            "y": -50867.6,
+            "z": 4486.31,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A5-Bridge Hold East",
+                "A5-Hemp",
+                "A5-Central Mansion"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 5,
+            "x": -17125.64,
+            "y": -126920.02,
+            "z": 4529.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B5-North Poppy Farm"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 5,
+            "x": -4229.64,
+            "y": 1753.99,
+            "z": 4529.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C5-Sympathizer's Compound",
+                "C5-Elder's Compound"
+            ]
+        },
+        {
+            "name": "Central Mansion",
+            "lane": "A",
+            "order": 5,
+            "x": -18002.0,
+            "y": -61425.0,
+            "z": 4486.31,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Bridge Hold East",
+            "lane": "A",
+            "order": 5,
+            "x": -12514.0,
+            "y": -36988.0,
+            "z": -6317.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hemp",
+            "lane": "A",
+            "order": 5,
+            "x": -16667.0,
+            "y": -24665.0,
+            "z": 4486.31,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "North Poppy Farm",
+            "lane": "B",
+            "order": 5,
+            "x": -4132.05,
+            "y": -134444.77,
+            "z": -5790.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Elder's Compound",
+            "lane": "C",
+            "order": 5,
+            "x": 1565.16,
+            "y": 10684.63,
+            "z": -4075.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Sympathizer's Compound",
+            "lane": "C",
+            "order": 5,
+            "x": -4351.89,
+            "y": -11739.16,
+            "z": -5545.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 6,
+            "x": 2859.23,
+            "y": -84406.6,
+            "z": 4486.31,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A6-Qalat",
+                "A6-Lower Poppy Farms",
+                "A6-Compound 16"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 6,
+            "x": 39840.36,
+            "y": -146278.02,
+            "z": 4529.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B6-Waterfall Village"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 6,
+            "x": 12539.36,
+            "y": -44051.01,
+            "z": 4529.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C6-Village",
+                "C6-Riverside"
+            ]
+        },
+        {
+            "name": "Compound 16",
+            "lane": "A",
+            "order": 6,
+            "x": 364.0,
+            "y": -89014.0,
+            "z": -5082.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lower Poppy Farms",
+            "lane": "A",
+            "order": 6,
+            "x": -12434.05,
+            "y": -96726.4,
+            "z": -5924.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Qalat",
+            "lane": "A",
+            "order": 6,
+            "x": 8159.0,
+            "y": -66760.0,
+            "z": -6046.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Waterfall Village",
+            "lane": "B",
+            "order": 6,
+            "x": 40753.78,
+            "y": -153587.72,
+            "z": -3979.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Village",
+            "lane": "C",
+            "order": 6,
+            "x": 15778.0,
+            "y": -39000.0,
+            "z": 4486.31,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Riverside",
+            "lane": "C",
+            "order": 6,
+            "x": 8948.0,
+            "y": -48715.0,
+            "z": 4486.31,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "A",
+            "order": 7,
+            "x": 55555.23,
+            "y": -72154.6,
+            "z": 4486.31,
+            "is_sky_node": true,
+            "linked_flags": [
+                "A7-Insurgent Hideout"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "B",
+            "order": 7,
+            "x": 64597.36,
+            "y": -99479.02,
+            "z": 4529.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "B7-Canyon Exit NE"
+            ]
+        },
+        {
+            "name": "Capture Zone",
+            "lane": "C",
+            "order": 7,
+            "x": 56664.36,
+            "y": -47838.01,
+            "z": 4529.0,
+            "is_sky_node": true,
+            "linked_flags": [
+                "C7-Eastern Poppy Farms"
+            ]
+        },
+        {
+            "name": "Insurgent Hideout",
+            "lane": "A",
+            "order": 7,
+            "x": 49770.0,
+            "y": -84672.0,
+            "z": -5739.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Canyon Exit NE",
+            "lane": "B",
+            "order": 7,
+            "x": 62193.0,
+            "y": -93902.0,
+            "z": -3345.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Eastern Poppy Farms",
+            "lane": "C",
+            "order": 7,
+            "x": 56836.53,
+            "y": -49359.82,
+            "z": -5469.69,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 68593.62,
+            "y": -2847.98,
+            "z": -6070.48,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

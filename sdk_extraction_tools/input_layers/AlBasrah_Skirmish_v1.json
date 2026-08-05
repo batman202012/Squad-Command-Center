@@ -1,0 +1,107 @@
+{
+    "map_id": "maps",
+    "layer_name": "AlBasrah_Skirmish_v1",
+    "total_flags": 10,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -2312.45,
+            "y": -10759.06,
+            "z": 967.15,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Checkpoint",
+            "lane": "Any",
+            "order": 1,
+            "x": -34056.16,
+            "y": -49364.79,
+            "z": 778.94,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hotel",
+            "lane": "Any",
+            "order": 2,
+            "x": -54633.99,
+            "y": -41997.25,
+            "z": 681.48,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Terminal",
+            "lane": "Any",
+            "order": 3,
+            "x": -53494.07,
+            "y": -57233.94,
+            "z": 1290.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "ATC Tower",
+            "lane": "Any",
+            "order": 4,
+            "x": -74022.25,
+            "y": -60438.3,
+            "z": 472.3,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Helicopter Base",
+            "lane": "Any",
+            "order": 5,
+            "x": -97065.82,
+            "y": -61637.04,
+            "z": 482.11,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Warehouse",
+            "lane": "Any",
+            "order": 6,
+            "x": -93583.0,
+            "y": -39405.01,
+            "z": 2540.05,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Storage Center",
+            "lane": "Any",
+            "order": 7,
+            "x": -127628.75,
+            "y": -49684.95,
+            "z": -7.97,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -152360.44,
+            "y": -93120.27,
+            "z": 518.74,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": 62901.11,
+            "y": 65489.51,
+            "z": 487.93,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

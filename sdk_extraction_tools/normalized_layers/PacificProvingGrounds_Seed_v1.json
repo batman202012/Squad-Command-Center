@@ -1,0 +1,98 @@
+{
+    "map_id": "pacificprovinggrounds",
+    "layer_name": "PacificProvingGrounds_Seed_v1",
+    "total_flags": 7,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 154569.68,
+            "y": -5739.2,
+            "z": 2059.6
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 154360.3,
+            "y": 128922.85,
+            "z": 917.08
+        },
+        {
+            "name": "Warehouse",
+            "x": 150444.25,
+            "y": 12561.57,
+            "z": 1666.12,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Old Camp",
+            "x": 150007.64,
+            "y": 37981.63,
+            "z": 2445.17,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Trenches",
+            "x": 148826.98,
+            "y": 62244.04,
+            "z": 1900.75,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Bunkers",
+            "x": 162874.06,
+            "y": 83172.16,
+            "z": 1258.1,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Old HQ",
+            "x": 160114.67,
+            "y": 107156.58,
+            "z": 2289.45,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

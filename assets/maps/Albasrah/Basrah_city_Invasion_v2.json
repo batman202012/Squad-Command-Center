@@ -1,0 +1,453 @@
+{
+    "map_id": "basrah_city",
+    "layer_name": "AlBasrah_Invasion_v2",
+    "total_flags": 29,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 48037.52,
+            "y": -134147.56,
+            "z": -776.78
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 62647.95,
+            "y": 115752.84,
+            "z": -767.42
+        },
+        {
+            "name": "North Hwy 6 Bridge",
+            "x": 35115.7,
+            "y": -48801.42,
+            "z": -573.77,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "1C"
+            ]
+        },
+        {
+            "name": "North Hangars",
+            "x": -63190.36,
+            "y": -102878.62,
+            "z": -778.44,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                },
+                {
+                    "order": 1,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "1Any",
+                "1A"
+            ]
+        },
+        {
+            "name": "Basrah Airport",
+            "x": -67285.36,
+            "y": -70647.62,
+            "z": -778.44,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "B"
+                },
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "1B",
+                "2A"
+            ]
+        },
+        {
+            "name": "North VCP Ruins",
+            "x": -7509.3,
+            "y": -27339.42,
+            "z": -573.77,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "C"
+                },
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1C",
+                "2B"
+            ]
+        },
+        {
+            "name": "Basrah Airport Admin",
+            "x": -60009.36,
+            "y": -69890.62,
+            "z": -778.44,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Refinery Housing",
+            "x": 33577.92,
+            "y": 30945.06,
+            "z": -766.01,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "Basrah Airport Camp",
+            "x": -74300.36,
+            "y": -72158.62,
+            "z": -778.44,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Refinery",
+            "x": 46727.5,
+            "y": 33266.25,
+            "z": -766.01,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "Guest House",
+            "x": -39967.81,
+            "y": 13198.5,
+            "z": -778.45,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                },
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2B",
+                "3A"
+            ]
+        },
+        {
+            "name": "VCP",
+            "x": -7361.02,
+            "y": -7485.13,
+            "z": -573.77,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "North Outskirts",
+            "x": 14192.05,
+            "y": 25471.36,
+            "z": -766.01,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Ruins",
+            "x": -81498.45,
+            "y": 7730.01,
+            "z": -778.45,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Al Khora",
+            "x": -84229.26,
+            "y": 38534.16,
+            "z": -778.45,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "West Outskirts",
+            "x": -5428.5,
+            "y": 43870.07,
+            "z": -766.01,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Mosque",
+            "x": 31542.99,
+            "y": 50106.5,
+            "z": -395.56,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                },
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3C",
+                "4B"
+            ]
+        },
+        {
+            "name": "North Apartments",
+            "x": 44577.61,
+            "y": 51540.79,
+            "z": -395.56,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "Gas Station",
+            "x": -4695.65,
+            "y": 70709.74,
+            "z": -778.45,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Oasis Park",
+            "x": -871.93,
+            "y": 84983.12,
+            "z": -778.45,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Druglord Compound",
+            "x": -38597.51,
+            "y": 46579.53,
+            "z": -778.44,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Crossroads",
+            "x": 22551.99,
+            "y": 63239.09,
+            "z": -395.56,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Market Apartments",
+            "x": 10841.06,
+            "y": 56363.46,
+            "z": -395.56,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "South Apartments",
+            "x": 46957.44,
+            "y": 69014.88,
+            "z": -395.58,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "Central Apartments",
+            "x": 39772.73,
+            "y": 67874.04,
+            "z": -395.58,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "4C"
+            ]
+        },
+        {
+            "name": "Island Suburbs",
+            "x": 65793.76,
+            "y": 65649.34,
+            "z": -978.54,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C"
+            ]
+        },
+        {
+            "name": "Lower Fringe",
+            "x": 2696.01,
+            "y": 116025.7,
+            "z": -778.43,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Commerce District",
+            "x": 14203.02,
+            "y": 82597.55,
+            "z": -395.56,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "South Suburbs",
+            "x": 30441.56,
+            "y": 79001.71,
+            "z": -395.56,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        }
+    ]
+}

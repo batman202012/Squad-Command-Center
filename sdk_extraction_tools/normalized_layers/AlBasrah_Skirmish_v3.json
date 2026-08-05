@@ -1,0 +1,136 @@
+{
+    "map_id": "maps",
+    "layer_name": "AlBasrah_Skirmish_v3",
+    "total_flags": 10,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 102647.4,
+            "y": -83769.87,
+            "z": 172.67
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 140187.8,
+            "y": 21650.53,
+            "z": 855.38
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": 62901.11,
+            "y": 65489.51,
+            "z": 487.93
+        },
+        {
+            "name": "Mosque Compound",
+            "x": 105640.27,
+            "y": -57438.84,
+            "z": 778.94,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Police Station",
+            "x": 122995.51,
+            "y": -39248.64,
+            "z": 681.48,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Bazaar",
+            "x": 132235.78,
+            "y": -16943.63,
+            "z": 1290.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "MSR Overwatch",
+            "x": 144703.97,
+            "y": -35352.84,
+            "z": 472.3,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Patrol Base",
+            "x": 88001.52,
+            "y": -28582.67,
+            "z": -551.36,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Cutoff Position",
+            "x": 108083.98,
+            "y": -22132.05,
+            "z": 760.54,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "Canal Residences",
+            "x": 124644.95,
+            "y": 3711.74,
+            "z": -7.97,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "7Any"
+            ]
+        }
+    ]
+}

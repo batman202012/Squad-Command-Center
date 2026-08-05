@@ -1,0 +1,113 @@
+{
+    "map_id": "gorodok",
+    "layer_name": "Gorodok_AAS_v1",
+    "total_flags": 8,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -149631.75,
+            "y": -157681.0,
+            "z": -3718.72
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 191864.14,
+            "y": 160828.98,
+            "z": -3131.56
+        },
+        {
+            "name": "Fruit Farm",
+            "x": -92870.59,
+            "y": -107408.38,
+            "z": -1953.11,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Shipping Yard",
+            "x": -25341.48,
+            "y": -146637.0,
+            "z": -3210.93,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Hilltop Bunker",
+            "x": -43128.98,
+            "y": -6928.11,
+            "z": -1195.29,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Niva Upper",
+            "x": -29808.09,
+            "y": 16102.38,
+            "z": -2382.16,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Soloninki",
+            "x": 3178.08,
+            "y": 107328.68,
+            "z": -3192.4,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Industrial Park",
+            "x": 133683.06,
+            "y": 112225.06,
+            "z": -3859.35,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        }
+    ]
+}

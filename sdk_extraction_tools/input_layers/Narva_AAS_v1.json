@@ -1,0 +1,87 @@
+{
+    "map_id": "narva",
+    "layer_name": "Narva_AAS_v1",
+    "total_flags": 8,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -119568.92,
+            "y": -81703.48,
+            "z": 1417.17,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Radio Station",
+            "lane": "Any",
+            "order": 1,
+            "x": -54447.24,
+            "y": -78119.7,
+            "z": 1937.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Church",
+            "lane": "Any",
+            "order": 2,
+            "x": -26513.25,
+            "y": -56709.98,
+            "z": 1303.48,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Geneva Apts",
+            "lane": "Any",
+            "order": 3,
+            "x": 7295.57,
+            "y": -27466.0,
+            "z": 942.41,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Train Depot",
+            "lane": "Any",
+            "order": 4,
+            "x": 25752.88,
+            "y": -5873.2,
+            "z": 1488.27,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Shipping Yard",
+            "lane": "Any",
+            "order": 5,
+            "x": 23009.77,
+            "y": 31471.14,
+            "z": 655.47,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Power Plant",
+            "lane": "Any",
+            "order": 6,
+            "x": 45297.31,
+            "y": 57687.69,
+            "z": 1477.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 127528.06,
+            "y": 33131.69,
+            "z": 305.95,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

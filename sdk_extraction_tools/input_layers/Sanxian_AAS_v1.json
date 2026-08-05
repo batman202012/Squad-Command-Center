@@ -1,0 +1,77 @@
+{
+    "map_id": "maps",
+    "layer_name": "Sanxian_AAS_v1",
+    "total_flags": 7,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 179878.34,
+            "y": -35766.53,
+            "z": 1101.93,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Farming Community",
+            "lane": "Any",
+            "order": 1,
+            "x": 111163.53,
+            "y": 12907.33,
+            "z": 2695.72,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Navy Port",
+            "lane": "Any",
+            "order": 2,
+            "x": -8323.07,
+            "y": 59354.42,
+            "z": 1282.02,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Lagoon",
+            "lane": "Any",
+            "order": 3,
+            "x": -75478.94,
+            "y": 107077.57,
+            "z": 2227.89,
+            "is_sky_node": true,
+            "linked_flags": []
+        },
+        {
+            "name": "Telecom Compound",
+            "lane": "Any",
+            "order": 4,
+            "x": -90773.3,
+            "y": 1589.7,
+            "z": 1265.53,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Rentang",
+            "lane": "Any",
+            "order": 5,
+            "x": -91322.61,
+            "y": -90617.63,
+            "z": 1076.04,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -189115.25,
+            "y": -98069.02,
+            "z": 611.99,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

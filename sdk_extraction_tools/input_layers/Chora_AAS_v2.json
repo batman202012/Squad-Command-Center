@@ -1,0 +1,77 @@
+{
+    "map_id": "chora",
+    "layer_name": "Chora_AAS_v2",
+    "total_flags": 7,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 42562.46,
+            "y": -89504.68,
+            "z": -76243.76,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Mosque",
+            "lane": "Any",
+            "order": 1,
+            "x": 16130.0,
+            "y": -85512.0,
+            "z": -76526.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Checkpoint",
+            "lane": "Any",
+            "order": 2,
+            "x": -3208.0,
+            "y": -112865.0,
+            "z": -76708.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hemp Farm",
+            "lane": "Any",
+            "order": 3,
+            "x": -33144.0,
+            "y": -93474.0,
+            "z": -76594.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Vineyard",
+            "lane": "Any",
+            "order": 4,
+            "x": -74454.0,
+            "y": -90921.0,
+            "z": -76312.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Upper Orchard",
+            "lane": "Any",
+            "order": 5,
+            "x": -104517.0,
+            "y": -83177.0,
+            "z": -76343.0,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -128452.94,
+            "y": -77381.65,
+            "z": -76589.83,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

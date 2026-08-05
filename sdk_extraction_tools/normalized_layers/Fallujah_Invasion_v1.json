@@ -1,0 +1,292 @@
+{
+    "map_id": "fallujah_city",
+    "layer_name": "Fallujah_Invasion_v1",
+    "total_flags": 21,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -119677.59,
+            "y": -100628.73,
+            "z": -4319.98
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 62819.99,
+            "y": -55030.47,
+            "z": -4416.51
+        },
+        {
+            "name": "SM_USA_Flag_2",
+            "lane": "Any",
+            "order": -1,
+            "x": -27127.36,
+            "y": -36929.61,
+            "z": -3818.97
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": -37129.02,
+            "y": 80872.95,
+            "z": -2988.29
+        },
+        {
+            "name": "SM_USA_Flag_3",
+            "lane": "Any",
+            "order": -1,
+            "x": 13294.93,
+            "y": 43220.02,
+            "z": -4412.89
+        },
+        {
+            "name": "Checkpoint",
+            "x": -95710.38,
+            "y": -56261.7,
+            "z": -3165.81,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                },
+                {
+                    "order": 1,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "1A",
+                "1B"
+            ]
+        },
+        {
+            "name": "Train Station",
+            "x": -36629.26,
+            "y": -90011.51,
+            "z": -3165.81,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "1A"
+            ]
+        },
+        {
+            "name": "Bus Terminal",
+            "x": -46259.42,
+            "y": -32389.86,
+            "z": -4420.32,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Old Town",
+            "x": -65510.98,
+            "y": -18378.77,
+            "z": -3522.7,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2B"
+            ]
+        },
+        {
+            "name": "Crash Site",
+            "x": -61507.8,
+            "y": -47538.62,
+            "z": -3165.81,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Police Station",
+            "x": -22825.65,
+            "y": -34481.41,
+            "z": -3220.71,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Refugee Camp",
+            "x": -25662.66,
+            "y": -68448.41,
+            "z": -3220.71,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Cemetary",
+            "x": -48880.22,
+            "y": -3140.25,
+            "z": -3522.7,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Crossroads Apartments",
+            "x": -31987.18,
+            "y": -7730.97,
+            "z": -3522.7,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Jubai",
+            "x": -45905.72,
+            "y": 43980.52,
+            "z": -3522.7,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3B"
+            ]
+        },
+        {
+            "name": "Muallimin",
+            "x": -737.13,
+            "y": -48160.11,
+            "z": -3544.79,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Commercial District",
+            "x": 6616.24,
+            "y": -23691.05,
+            "z": -3094.88,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Risala",
+            "x": -25291.81,
+            "y": 23334.67,
+            "z": -3522.7,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Blue Mosque",
+            "x": 36351.47,
+            "y": -29801.28,
+            "z": -2239.01,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Bazaar",
+            "x": 32537.23,
+            "y": -13283.86,
+            "z": -2239.01,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Green Zone",
+            "x": 11398.77,
+            "y": 22033.36,
+            "z": -3522.7,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        }
+    ]
+}

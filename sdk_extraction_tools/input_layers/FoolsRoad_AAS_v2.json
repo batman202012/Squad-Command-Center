@@ -1,0 +1,97 @@
+{
+    "map_id": "fools_road",
+    "layer_name": "FoolsRoad_AAS_v2",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 28028.98,
+            "y": 39092.02,
+            "z": -2809.05,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Dylym",
+            "lane": "Any",
+            "order": 1,
+            "x": 33839.1,
+            "y": -10003.05,
+            "z": -4792.86,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hill 123",
+            "lane": "Any",
+            "order": 2,
+            "x": 24198.09,
+            "y": -62504.73,
+            "z": -3139.49,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Verto",
+            "lane": "Any",
+            "order": 3,
+            "x": 9689.43,
+            "y": -88820.34,
+            "z": -5215.78,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "FOB Papanov",
+            "lane": "Any",
+            "order": 4,
+            "x": 10935.79,
+            "y": -117486.64,
+            "z": -3497.95,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Hilltop Encampment",
+            "lane": "Any",
+            "order": 5,
+            "x": -33795.26,
+            "y": -78904.14,
+            "z": -1623.38,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Ammo Hill",
+            "lane": "Any",
+            "order": 6,
+            "x": -52777.79,
+            "y": -51125.07,
+            "z": -1858.23,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "OP Fortress",
+            "lane": "Any",
+            "order": 7,
+            "x": -92433.67,
+            "y": -45736.24,
+            "z": -2810.97,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -106147.05,
+            "y": -108489.24,
+            "z": -4633.04,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "map_id": "anvil",
+    "layer_name": "Anvil_Skirmish_v1",
+    "total_flags": 9,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -170101.91,
+            "y": -72422.52,
+            "z": -5417.89,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Outskirts",
+            "lane": "Any",
+            "order": 1,
+            "x": -182387.44,
+            "y": -93752.11,
+            "z": -6296.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "South Block",
+            "lane": "Any",
+            "order": 2,
+            "x": -161513.0,
+            "y": -113000.82,
+            "z": -6086.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "South Compound",
+            "lane": "Any",
+            "order": 3,
+            "x": -170902.12,
+            "y": -123281.3,
+            "z": -6052.7,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Crossroads",
+            "lane": "Any",
+            "order": 4,
+            "x": -175860.73,
+            "y": -140453.79,
+            "z": -6366.25,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "North Suburb",
+            "lane": "Any",
+            "order": 5,
+            "x": -154184.0,
+            "y": -141699.29,
+            "z": -5156.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Bridge",
+            "lane": "Any",
+            "order": 6,
+            "x": -148194.19,
+            "y": -120888.8,
+            "z": -5796.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Farm",
+            "lane": "Any",
+            "order": 7,
+            "x": -185601.07,
+            "y": -168563.76,
+            "z": -5706.88,
+            "is_sky_node": false,
+            "linked_flags": []
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -163341.27,
+            "y": -184860.0,
+            "z": -4672.62,
+            "is_sky_node": false,
+            "linked_flags": []
+        }
+    ]
+}

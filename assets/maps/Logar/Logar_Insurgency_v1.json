@@ -1,0 +1,1975 @@
+{
+    "map_id": "logar_valley",
+    "layer_name": "Logar_Insurgency_v1",
+    "total_flags": 246,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 59946.88,
+            "y": -5022.05,
+            "z": 5722.48
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -72753.47,
+            "y": -44586.96,
+            "z": 7834.0
+        },
+        {
+            "name": "DestroyableObjective103",
+            "lane": "Any",
+            "order": -1,
+            "x": -71240.0,
+            "y": -3000.0,
+            "z": 4940.0
+        },
+        {
+            "name": "DestroyableObjective102",
+            "lane": "Any",
+            "order": -1,
+            "x": -72110.0,
+            "y": -840.0,
+            "z": 4940.0
+        },
+        {
+            "name": "DestroyableObjective101",
+            "lane": "Any",
+            "order": -1,
+            "x": -80520.0,
+            "y": -2300.0,
+            "z": 5530.0
+        },
+        {
+            "name": "DestroyableObjective100",
+            "lane": "Any",
+            "order": -1,
+            "x": -80640.0,
+            "y": -3470.0,
+            "z": 5540.0
+        },
+        {
+            "name": "DestroyableObjective104",
+            "lane": "Any",
+            "order": -1,
+            "x": -70290.0,
+            "y": 2340.0,
+            "z": 4970.0
+        },
+        {
+            "name": "DestroyableObjective105",
+            "lane": "Any",
+            "order": -1,
+            "x": -66300.0,
+            "y": 6700.0,
+            "z": 5190.0
+        },
+        {
+            "name": "DestroyableObjective106",
+            "lane": "Any",
+            "order": -1,
+            "x": -59220.0,
+            "y": 3400.0,
+            "z": 5850.0
+        },
+        {
+            "name": "DestroyableObjective107",
+            "lane": "Any",
+            "order": -1,
+            "x": -58660.0,
+            "y": 3680.0,
+            "z": 5850.0
+        },
+        {
+            "name": "DestroyableObjective108",
+            "lane": "Any",
+            "order": -1,
+            "x": -56420.0,
+            "y": 4700.0,
+            "z": 5850.0
+        },
+        {
+            "name": "DestroyableObjective109",
+            "lane": "Any",
+            "order": -1,
+            "x": -55680.0,
+            "y": 5070.0,
+            "z": 5850.0
+        },
+        {
+            "name": "DestroyableObjective110",
+            "lane": "Any",
+            "order": -1,
+            "x": -60300.0,
+            "y": 23200.0,
+            "z": 4600.0
+        },
+        {
+            "name": "DestroyableObjective111",
+            "lane": "Any",
+            "order": -1,
+            "x": -60680.0,
+            "y": 21470.0,
+            "z": 4600.0
+        },
+        {
+            "name": "DestroyableObjective112",
+            "lane": "Any",
+            "order": -1,
+            "x": -60590.0,
+            "y": 20850.0,
+            "z": 4630.0
+        },
+        {
+            "name": "DestroyableObjective113",
+            "lane": "Any",
+            "order": -1,
+            "x": -54160.0,
+            "y": 13400.0,
+            "z": 4240.0
+        },
+        {
+            "name": "DestroyableObjective114",
+            "lane": "Any",
+            "order": -1,
+            "x": -54240.0,
+            "y": 11930.0,
+            "z": 4230.0
+        },
+        {
+            "name": "DestroyableObjective115",
+            "lane": "Any",
+            "order": -1,
+            "x": -49810.0,
+            "y": 12430.0,
+            "z": 4070.0
+        },
+        {
+            "name": "DestroyableObjective116",
+            "lane": "Any",
+            "order": -1,
+            "x": -50650.0,
+            "y": 17980.0,
+            "z": 4090.0
+        },
+        {
+            "name": "DestroyableObjective117",
+            "lane": "Any",
+            "order": -1,
+            "x": -49260.0,
+            "y": 18270.0,
+            "z": 4090.0
+        },
+        {
+            "name": "DestroyableObjective118",
+            "lane": "Any",
+            "order": -1,
+            "x": -43960.0,
+            "y": 18020.0,
+            "z": 3920.0
+        },
+        {
+            "name": "DestroyableObjective119",
+            "lane": "Any",
+            "order": -1,
+            "x": -43850.0,
+            "y": 20690.0,
+            "z": 4052.0
+        },
+        {
+            "name": "DestroyableObjective120",
+            "lane": "Any",
+            "order": -1,
+            "x": -42530.0,
+            "y": 20830.0,
+            "z": 3940.0
+        },
+        {
+            "name": "DestroyableObjective121",
+            "lane": "Any",
+            "order": -1,
+            "x": -35493.44,
+            "y": 7194.32,
+            "z": 3649.02
+        },
+        {
+            "name": "DestroyableObjective123",
+            "lane": "Any",
+            "order": -1,
+            "x": -36760.0,
+            "y": 8740.0,
+            "z": 3620.0
+        },
+        {
+            "name": "DestroyableObjective125",
+            "lane": "Any",
+            "order": -1,
+            "x": -32220.0,
+            "y": 4120.0,
+            "z": 3580.0
+        },
+        {
+            "name": "DestroyableObjective126",
+            "lane": "Any",
+            "order": -1,
+            "x": -29350.0,
+            "y": 10480.0,
+            "z": 3540.0
+        },
+        {
+            "name": "DestroyableObjective127",
+            "lane": "Any",
+            "order": -1,
+            "x": -27900.0,
+            "y": 10110.0,
+            "z": 3530.0
+        },
+        {
+            "name": "DestroyableObjective128",
+            "lane": "Any",
+            "order": -1,
+            "x": -31380.0,
+            "y": 18370.0,
+            "z": 3670.0
+        },
+        {
+            "name": "DestroyableObjective129",
+            "lane": "Any",
+            "order": -1,
+            "x": -31660.0,
+            "y": 16070.0,
+            "z": 3640.0
+        },
+        {
+            "name": "DestroyableObjective130",
+            "lane": "Any",
+            "order": -1,
+            "x": -29770.0,
+            "y": 15927.0,
+            "z": 3640.0
+        },
+        {
+            "name": "DestroyableObjective131",
+            "lane": "Any",
+            "order": -1,
+            "x": -26440.0,
+            "y": 15510.0,
+            "z": 3790.0
+        },
+        {
+            "name": "DestroyableObjective132",
+            "lane": "Any",
+            "order": -1,
+            "x": -25300.0,
+            "y": 15380.0,
+            "z": 3790.0
+        },
+        {
+            "name": "DestroyableObjective133",
+            "lane": "Any",
+            "order": -1,
+            "x": -5560.0,
+            "y": 13440.0,
+            "z": 4270.0
+        },
+        {
+            "name": "DestroyableObjective134",
+            "lane": "Any",
+            "order": -1,
+            "x": -4770.0,
+            "y": 14870.0,
+            "z": 4270.0
+        },
+        {
+            "name": "DestroyableObjective138",
+            "lane": "Any",
+            "order": -1,
+            "x": 13640.0,
+            "y": 1210.0,
+            "z": 5840.0
+        },
+        {
+            "name": "DestroyableObjective139",
+            "lane": "Any",
+            "order": -1,
+            "x": 13730.0,
+            "y": 2720.0,
+            "z": 5860.0
+        },
+        {
+            "name": "DestroyableObjective140",
+            "lane": "Any",
+            "order": -1,
+            "x": 17890.0,
+            "y": 2600.0,
+            "z": 5830.0
+        },
+        {
+            "name": "DestroyableObjective141",
+            "lane": "Any",
+            "order": -1,
+            "x": 17620.0,
+            "y": 890.0,
+            "z": 5800.0
+        },
+        {
+            "name": "DestroyableObjective142",
+            "lane": "Any",
+            "order": -1,
+            "x": 18190.0,
+            "y": 1160.0,
+            "z": 5830.0
+        },
+        {
+            "name": "DestroyableObjective143",
+            "lane": "Any",
+            "order": -1,
+            "x": 21760.0,
+            "y": 1800.0,
+            "z": 5890.0
+        },
+        {
+            "name": "DestroyableObjective144",
+            "lane": "Any",
+            "order": -1,
+            "x": 21740.0,
+            "y": 3550.0,
+            "z": 5890.0
+        },
+        {
+            "name": "DestroyableObjective145",
+            "lane": "Any",
+            "order": -1,
+            "x": 22070.0,
+            "y": 6920.0,
+            "z": 5890.0
+        },
+        {
+            "name": "DestroyableObjective146",
+            "lane": "Any",
+            "order": -1,
+            "x": 23550.0,
+            "y": 7430.0,
+            "z": 5890.0
+        },
+        {
+            "name": "DestroyableObjective147",
+            "lane": "Any",
+            "order": -1,
+            "x": 26540.0,
+            "y": 7240.0,
+            "z": 5890.0
+        },
+        {
+            "name": "DestroyableObjective148",
+            "lane": "Any",
+            "order": -1,
+            "x": 26840.0,
+            "y": 17640.0,
+            "z": 5830.0
+        },
+        {
+            "name": "DestroyableObjective149",
+            "lane": "Any",
+            "order": -1,
+            "x": 29430.0,
+            "y": 17190.0,
+            "z": 5830.0
+        },
+        {
+            "name": "DestroyableObjective157",
+            "lane": "Any",
+            "order": -1,
+            "x": 73980.0,
+            "y": -43500.0,
+            "z": 4650.0
+        },
+        {
+            "name": "DestroyableObjective158",
+            "lane": "Any",
+            "order": -1,
+            "x": 72550.0,
+            "y": -44420.0,
+            "z": 4660.0
+        },
+        {
+            "name": "DestroyableObjective159",
+            "lane": "Any",
+            "order": -1,
+            "x": 69820.0,
+            "y": -46460.0,
+            "z": 4540.0
+        },
+        {
+            "name": "DestroyableObjective160",
+            "lane": "Any",
+            "order": -1,
+            "x": 66200.0,
+            "y": -47030.0,
+            "z": 4580.0
+        },
+        {
+            "name": "DestroyableObjective161",
+            "lane": "Any",
+            "order": -1,
+            "x": 67210.0,
+            "y": -47620.0,
+            "z": 4540.0
+        },
+        {
+            "name": "DestroyableObjective162",
+            "lane": "Any",
+            "order": -1,
+            "x": 68778.11,
+            "y": -48088.39,
+            "z": 4548.65
+        },
+        {
+            "name": "DestroyableObjective165",
+            "lane": "Any",
+            "order": -1,
+            "x": 69220.0,
+            "y": -48290.0,
+            "z": 4917.98
+        },
+        {
+            "name": "DestroyableObjective166",
+            "lane": "Any",
+            "order": -1,
+            "x": 70040.0,
+            "y": -42060.0,
+            "z": 4630.0
+        },
+        {
+            "name": "DestroyableObjective167",
+            "lane": "Any",
+            "order": -1,
+            "x": 69160.0,
+            "y": -39860.0,
+            "z": 4620.0
+        },
+        {
+            "name": "DestroyableObjective168",
+            "lane": "Any",
+            "order": -1,
+            "x": 59160.0,
+            "y": -54950.0,
+            "z": 4520.0
+        },
+        {
+            "name": "DestroyableObjective169",
+            "lane": "Any",
+            "order": -1,
+            "x": 55080.0,
+            "y": -36860.0,
+            "z": 4710.0
+        },
+        {
+            "name": "DestroyableObjective170",
+            "lane": "Any",
+            "order": -1,
+            "x": 56370.0,
+            "y": -40930.0,
+            "z": 4860.0
+        },
+        {
+            "name": "DestroyableObjective171",
+            "lane": "Any",
+            "order": -1,
+            "x": 54490.0,
+            "y": -40260.0,
+            "z": 4840.0
+        },
+        {
+            "name": "DestroyableObjective172",
+            "lane": "Any",
+            "order": -1,
+            "x": 54120.0,
+            "y": -41970.0,
+            "z": 4840.0
+        },
+        {
+            "name": "DestroyableObjective173",
+            "lane": "Any",
+            "order": -1,
+            "x": 54130.0,
+            "y": -43060.0,
+            "z": 4840.0
+        },
+        {
+            "name": "DestroyableObjective174",
+            "lane": "Any",
+            "order": -1,
+            "x": 54510.0,
+            "y": -44090.0,
+            "z": 4840.0
+        },
+        {
+            "name": "DestroyableObjective175",
+            "lane": "Any",
+            "order": -1,
+            "x": 52340.0,
+            "y": -42970.0,
+            "z": 4850.0
+        },
+        {
+            "name": "DestroyableObjective176",
+            "lane": "Any",
+            "order": -1,
+            "x": 52350.0,
+            "y": -41810.0,
+            "z": 4850.0
+        },
+        {
+            "name": "DestroyableObjective177",
+            "lane": "Any",
+            "order": -1,
+            "x": 52340.0,
+            "y": -40680.0,
+            "z": 4850.0
+        },
+        {
+            "name": "DestroyableObjective178",
+            "lane": "Any",
+            "order": -1,
+            "x": 52530.0,
+            "y": -39910.0,
+            "z": 4850.0
+        },
+        {
+            "name": "DestroyableObjective179",
+            "lane": "Any",
+            "order": -1,
+            "x": 51430.0,
+            "y": -39880.0,
+            "z": 4840.0
+        },
+        {
+            "name": "DestroyableObjective180",
+            "lane": "Any",
+            "order": -1,
+            "x": 50300.0,
+            "y": -42010.0,
+            "z": 4880.0
+        },
+        {
+            "name": "DestroyableObjective181",
+            "lane": "Any",
+            "order": -1,
+            "x": 47440.0,
+            "y": -42000.0,
+            "z": 4600.0
+        },
+        {
+            "name": "DestroyableObjective182",
+            "lane": "Any",
+            "order": -1,
+            "x": 28910.0,
+            "y": -58700.0,
+            "z": 4510.0
+        },
+        {
+            "name": "DestroyableObjective183",
+            "lane": "Any",
+            "order": -1,
+            "x": 36710.0,
+            "y": -44960.0,
+            "z": 4580.0
+        },
+        {
+            "name": "DestroyableObjective184",
+            "lane": "Any",
+            "order": -1,
+            "x": 35270.0,
+            "y": -42190.0,
+            "z": 4740.0
+        },
+        {
+            "name": "DestroyableObjective185",
+            "lane": "Any",
+            "order": -1,
+            "x": 33930.0,
+            "y": -42450.0,
+            "z": 4750.0
+        },
+        {
+            "name": "DestroyableObjective186",
+            "lane": "Any",
+            "order": -1,
+            "x": 21270.0,
+            "y": -55250.0,
+            "z": 4380.0
+        },
+        {
+            "name": "DestroyableObjective191",
+            "lane": "Any",
+            "order": -1,
+            "x": 20430.0,
+            "y": -57630.0,
+            "z": 4410.0
+        },
+        {
+            "name": "DestroyableObjective192",
+            "lane": "Any",
+            "order": -1,
+            "x": 17670.0,
+            "y": -57340.0,
+            "z": 4450.0
+        },
+        {
+            "name": "DestroyableObjective193",
+            "lane": "Any",
+            "order": -1,
+            "x": -29430.0,
+            "y": -6520.0,
+            "z": 3920.0
+        },
+        {
+            "name": "DestroyableObjective194",
+            "lane": "Any",
+            "order": -1,
+            "x": -29130.0,
+            "y": -5300.0,
+            "z": 3930.0
+        },
+        {
+            "name": "DestroyableObjective195",
+            "lane": "Any",
+            "order": -1,
+            "x": -29420.0,
+            "y": -5210.0,
+            "z": 3960.0
+        },
+        {
+            "name": "DestroyableObjective196",
+            "lane": "Any",
+            "order": -1,
+            "x": -28597.63,
+            "y": -10663.98,
+            "z": 3890.0
+        },
+        {
+            "name": "DestroyableObjective197",
+            "lane": "Any",
+            "order": -1,
+            "x": -10552.75,
+            "y": -34240.31,
+            "z": 3492.28
+        },
+        {
+            "name": "DestroyableObjective198",
+            "lane": "Any",
+            "order": -1,
+            "x": -13277.01,
+            "y": -34212.88,
+            "z": 3472.28
+        },
+        {
+            "name": "DestroyableObjective200",
+            "lane": "Any",
+            "order": -1,
+            "x": -13521.54,
+            "y": -32096.72,
+            "z": 3492.28
+        },
+        {
+            "name": "DestroyableObjective201",
+            "lane": "Any",
+            "order": -1,
+            "x": -11784.72,
+            "y": -31795.55,
+            "z": 3472.28
+        },
+        {
+            "name": "DestroyableObjective203",
+            "lane": "Any",
+            "order": -1,
+            "x": -16600.0,
+            "y": -30090.0,
+            "z": 3330.0
+        },
+        {
+            "name": "DestroyableObjective204",
+            "lane": "Any",
+            "order": -1,
+            "x": -14112.18,
+            "y": -25359.47,
+            "z": 3270.0
+        },
+        {
+            "name": "DestroyableObjective205",
+            "lane": "Any",
+            "order": -1,
+            "x": -14410.0,
+            "y": -28240.0,
+            "z": 3280.0
+        },
+        {
+            "name": "DestroyableObjective206",
+            "lane": "Any",
+            "order": -1,
+            "x": -12153.08,
+            "y": -22028.17,
+            "z": 3270.33
+        },
+        {
+            "name": "DestroyableObjective207",
+            "lane": "Any",
+            "order": -1,
+            "x": -12316.52,
+            "y": -20750.24,
+            "z": 3283.16
+        },
+        {
+            "name": "DestroyableObjective209",
+            "lane": "Any",
+            "order": -1,
+            "x": -14181.04,
+            "y": -22246.38,
+            "z": 3270.33
+        },
+        {
+            "name": "DestroyableObjective210",
+            "lane": "Any",
+            "order": -1,
+            "x": -10271.98,
+            "y": -27972.95,
+            "z": 3426.19
+        },
+        {
+            "name": "DestroyableObjective211",
+            "lane": "Any",
+            "order": -1,
+            "x": -6900.0,
+            "y": -27590.0,
+            "z": 3490.0
+        },
+        {
+            "name": "DestroyableObjective212",
+            "lane": "Any",
+            "order": -1,
+            "x": -5170.0,
+            "y": -27690.0,
+            "z": 3460.0
+        },
+        {
+            "name": "DestroyableObjective213",
+            "lane": "Any",
+            "order": -1,
+            "x": -5470.0,
+            "y": -26990.0,
+            "z": 3480.0
+        },
+        {
+            "name": "DestroyableObjective214",
+            "lane": "Any",
+            "order": -1,
+            "x": -8900.0,
+            "y": -24240.0,
+            "z": 3440.0
+        },
+        {
+            "name": "DestroyableObjective215",
+            "lane": "Any",
+            "order": -1,
+            "x": -8370.0,
+            "y": -22010.0,
+            "z": 3430.0
+        },
+        {
+            "name": "DestroyableObjective216",
+            "lane": "Any",
+            "order": -1,
+            "x": -10930.0,
+            "y": -14930.0,
+            "z": 3330.0
+        },
+        {
+            "name": "DestroyableObjective217",
+            "lane": "Any",
+            "order": -1,
+            "x": -12330.0,
+            "y": -14670.0,
+            "z": 3330.0
+        },
+        {
+            "name": "DestroyableObjective218",
+            "lane": "Any",
+            "order": -1,
+            "x": -8790.0,
+            "y": -14260.0,
+            "z": 3340.0
+        },
+        {
+            "name": "DestroyableObjective219",
+            "lane": "Any",
+            "order": -1,
+            "x": -12040.0,
+            "y": -14030.0,
+            "z": 3330.0
+        },
+        {
+            "name": "DestroyableObjective220",
+            "lane": "Any",
+            "order": -1,
+            "x": -11760.0,
+            "y": -12200.0,
+            "z": 3320.0
+        },
+        {
+            "name": "DestroyableObjective221",
+            "lane": "Any",
+            "order": -1,
+            "x": -13510.0,
+            "y": -11260.0,
+            "z": 3330.0
+        },
+        {
+            "name": "DestroyableObjective222",
+            "lane": "Any",
+            "order": -1,
+            "x": -10840.0,
+            "y": -11360.0,
+            "z": 3320.0
+        },
+        {
+            "name": "DestroyableObjective223",
+            "lane": "Any",
+            "order": -1,
+            "x": -10570.0,
+            "y": -12660.0,
+            "z": 3350.0
+        },
+        {
+            "name": "DestroyableObjective224",
+            "lane": "Any",
+            "order": -1,
+            "x": -9840.0,
+            "y": -11660.0,
+            "z": 3350.0
+        },
+        {
+            "name": "DestroyableObjective226",
+            "lane": "Any",
+            "order": -1,
+            "x": -12230.0,
+            "y": -9980.0,
+            "z": 3330.0
+        },
+        {
+            "name": "DestroyableObjective227",
+            "lane": "Any",
+            "order": -1,
+            "x": -13180.0,
+            "y": -9480.0,
+            "z": 3370.0
+        },
+        {
+            "name": "DestroyableObjective228",
+            "lane": "Any",
+            "order": -1,
+            "x": -14350.0,
+            "y": -9270.0,
+            "z": 3389.0
+        },
+        {
+            "name": "DestroyableObjective229",
+            "lane": "Any",
+            "order": -1,
+            "x": -20094.99,
+            "y": -10688.05,
+            "z": 3377.62
+        },
+        {
+            "name": "DestroyableObjective22",
+            "lane": "Any",
+            "order": -1,
+            "x": -54810.0,
+            "y": -24270.0,
+            "z": 6370.0
+        },
+        {
+            "name": "DestroyableObjective230",
+            "lane": "Any",
+            "order": -1,
+            "x": -20050.05,
+            "y": -9289.47,
+            "z": 3799.75
+        },
+        {
+            "name": "DestroyableObjective231",
+            "lane": "Any",
+            "order": -1,
+            "x": -16173.2,
+            "y": -5944.79,
+            "z": 3392.21
+        },
+        {
+            "name": "DestroyableObjective232",
+            "lane": "Any",
+            "order": -1,
+            "x": -18090.0,
+            "y": -7370.0,
+            "z": 3390.0
+        },
+        {
+            "name": "DestroyableObjective233",
+            "lane": "Any",
+            "order": -1,
+            "x": -21810.0,
+            "y": -6660.0,
+            "z": 3400.0
+        },
+        {
+            "name": "DestroyableObjective234",
+            "lane": "Any",
+            "order": -1,
+            "x": -21740.0,
+            "y": -5120.0,
+            "z": 3440.0
+        },
+        {
+            "name": "DestroyableObjective235",
+            "lane": "Any",
+            "order": -1,
+            "x": -20560.0,
+            "y": -1110.0,
+            "z": 3510.0
+        },
+        {
+            "name": "DestroyableObjective236",
+            "lane": "Any",
+            "order": -1,
+            "x": -14000.0,
+            "y": -3970.0,
+            "z": 3370.0
+        },
+        {
+            "name": "DestroyableObjective237",
+            "lane": "Any",
+            "order": -1,
+            "x": -19140.0,
+            "y": 2490.0,
+            "z": 3490.0
+        },
+        {
+            "name": "DestroyableObjective238",
+            "lane": "Any",
+            "order": -1,
+            "x": -19650.0,
+            "y": 2820.0,
+            "z": 3490.0
+        },
+        {
+            "name": "DestroyableObjective239",
+            "lane": "Any",
+            "order": -1,
+            "x": -12680.0,
+            "y": 5440.0,
+            "z": 3550.0
+        },
+        {
+            "name": "DestroyableObjective240",
+            "lane": "Any",
+            "order": -1,
+            "x": -11500.0,
+            "y": 4350.0,
+            "z": 3540.0
+        },
+        {
+            "name": "DestroyableObjective241",
+            "lane": "Any",
+            "order": -1,
+            "x": -12230.0,
+            "y": 4160.0,
+            "z": 3580.0
+        },
+        {
+            "name": "DestroyableObjective242",
+            "lane": "Any",
+            "order": -1,
+            "x": -13850.0,
+            "y": 3470.0,
+            "z": 3570.0
+        },
+        {
+            "name": "DestroyableObjective243",
+            "lane": "Any",
+            "order": -1,
+            "x": -13920.0,
+            "y": 3180.0,
+            "z": 3570.0
+        },
+        {
+            "name": "DestroyableObjective244",
+            "lane": "Any",
+            "order": -1,
+            "x": -11980.0,
+            "y": 2220.0,
+            "z": 3540.0
+        },
+        {
+            "name": "DestroyableObjective245",
+            "lane": "Any",
+            "order": -1,
+            "x": -12580.0,
+            "y": 2340.0,
+            "z": 3540.0
+        },
+        {
+            "name": "DestroyableObjective246",
+            "lane": "Any",
+            "order": -1,
+            "x": -11710.0,
+            "y": 1540.0,
+            "z": 3922.04
+        },
+        {
+            "name": "DestroyableObjective247",
+            "lane": "Any",
+            "order": -1,
+            "x": -7380.0,
+            "y": 5600.0,
+            "z": 3670.0
+        },
+        {
+            "name": "DestroyableObjective248",
+            "lane": "Any",
+            "order": -1,
+            "x": -5262.7,
+            "y": 423.31,
+            "z": 3402.84
+        },
+        {
+            "name": "DestroyableObjective249",
+            "lane": "Any",
+            "order": -1,
+            "x": -5652.95,
+            "y": 617.76,
+            "z": 3766.26
+        },
+        {
+            "name": "DestroyableObjective250",
+            "lane": "Any",
+            "order": -1,
+            "x": -8416.71,
+            "y": -180.34,
+            "z": 3418.17
+        },
+        {
+            "name": "DestroyableObjective251",
+            "lane": "Any",
+            "order": -1,
+            "x": -6040.0,
+            "y": -4250.0,
+            "z": 3360.0
+        },
+        {
+            "name": "DestroyableObjective252",
+            "lane": "Any",
+            "order": -1,
+            "x": -8990.0,
+            "y": -5750.0,
+            "z": 3360.0
+        },
+        {
+            "name": "DestroyableObjective253",
+            "lane": "Any",
+            "order": -1,
+            "x": -5750.0,
+            "y": -6700.0,
+            "z": 3360.0
+        },
+        {
+            "name": "DestroyableObjective254",
+            "lane": "Any",
+            "order": -1,
+            "x": -4550.0,
+            "y": -11180.0,
+            "z": 3330.0
+        },
+        {
+            "name": "DestroyableObjective255",
+            "lane": "Any",
+            "order": -1,
+            "x": -2920.0,
+            "y": -11360.0,
+            "z": 3371.0
+        },
+        {
+            "name": "DestroyableObjective256",
+            "lane": "Any",
+            "order": -1,
+            "x": -1880.0,
+            "y": -11180.0,
+            "z": 3330.0
+        },
+        {
+            "name": "DestroyableObjective257",
+            "lane": "Any",
+            "order": -1,
+            "x": -2770.0,
+            "y": -10140.0,
+            "z": 3350.0
+        },
+        {
+            "name": "DestroyableObjective258",
+            "lane": "Any",
+            "order": -1,
+            "x": -1580.0,
+            "y": -9860.0,
+            "z": 3350.0
+        },
+        {
+            "name": "DestroyableObjective259",
+            "lane": "Any",
+            "order": -1,
+            "x": 2390.0,
+            "y": -9800.0,
+            "z": 3480.0
+        },
+        {
+            "name": "DestroyableObjective260",
+            "lane": "Any",
+            "order": -1,
+            "x": 2270.0,
+            "y": -11320.0,
+            "z": 3490.0
+        },
+        {
+            "name": "DestroyableObjective261",
+            "lane": "Any",
+            "order": -1,
+            "x": -5090.0,
+            "y": -13670.0,
+            "z": 3340.0
+        },
+        {
+            "name": "DestroyableObjective264",
+            "lane": "Any",
+            "order": -1,
+            "x": -4360.0,
+            "y": -3360.0,
+            "z": 3390.0
+        },
+        {
+            "name": "DestroyableObjective265",
+            "lane": "Any",
+            "order": -1,
+            "x": -5240.0,
+            "y": -3360.0,
+            "z": 3360.0
+        },
+        {
+            "name": "DestroyableObjective266",
+            "lane": "Any",
+            "order": -1,
+            "x": -4700.0,
+            "y": -4260.0,
+            "z": 3360.0
+        },
+        {
+            "name": "DestroyableObjective267",
+            "lane": "Any",
+            "order": -1,
+            "x": -6490.0,
+            "y": -2270.0,
+            "z": 3360.0
+        },
+        {
+            "name": "DestroyableObjective28",
+            "lane": "Any",
+            "order": -1,
+            "x": -34390.0,
+            "y": -55370.0,
+            "z": 4070.0
+        },
+        {
+            "name": "DestroyableObjective29",
+            "lane": "Any",
+            "order": -1,
+            "x": -27510.0,
+            "y": -53680.0,
+            "z": 4060.0
+        },
+        {
+            "name": "DestroyableObjective30",
+            "lane": "Any",
+            "order": -1,
+            "x": -28530.0,
+            "y": -52770.0,
+            "z": 4020.0
+        },
+        {
+            "name": "DestroyableObjective31",
+            "lane": "Any",
+            "order": -1,
+            "x": -28350.0,
+            "y": -51840.0,
+            "z": 3960.0
+        },
+        {
+            "name": "DestroyableObjective32",
+            "lane": "Any",
+            "order": -1,
+            "x": -19540.0,
+            "y": -43690.0,
+            "z": 3620.0
+        },
+        {
+            "name": "DestroyableObjective33",
+            "lane": "Any",
+            "order": -1,
+            "x": -18330.0,
+            "y": -43380.0,
+            "z": 3580.0
+        },
+        {
+            "name": "DestroyableObjective34",
+            "lane": "Any",
+            "order": -1,
+            "x": -16480.0,
+            "y": -42820.0,
+            "z": 3910.0
+        },
+        {
+            "name": "DestroyableObjective35",
+            "lane": "Any",
+            "order": -1,
+            "x": -17190.0,
+            "y": -42950.0,
+            "z": 3910.0
+        },
+        {
+            "name": "DestroyableObjective36",
+            "lane": "Any",
+            "order": -1,
+            "x": -17220.0,
+            "y": -42970.0,
+            "z": 3580.0
+        },
+        {
+            "name": "DestroyableObjective37",
+            "lane": "Any",
+            "order": -1,
+            "x": -16690.0,
+            "y": -42490.0,
+            "z": 3580.0
+        },
+        {
+            "name": "DestroyableObjective38",
+            "lane": "Any",
+            "order": -1,
+            "x": -17310.0,
+            "y": -40680.0,
+            "z": 3580.0
+        },
+        {
+            "name": "DestroyableObjective39",
+            "lane": "Any",
+            "order": -1,
+            "x": -8294.22,
+            "y": -37433.42,
+            "z": 3650.07
+        },
+        {
+            "name": "DestroyableObjective40",
+            "lane": "Any",
+            "order": -1,
+            "x": -1525.26,
+            "y": -34147.34,
+            "z": 4335.56
+        },
+        {
+            "name": "DestroyableObjective42",
+            "lane": "Any",
+            "order": -1,
+            "x": -3740.0,
+            "y": -29920.0,
+            "z": 3680.0
+        },
+        {
+            "name": "DestroyableObjective43",
+            "lane": "Any",
+            "order": -1,
+            "x": -2380.0,
+            "y": -29350.0,
+            "z": 3690.0
+        },
+        {
+            "name": "DestroyableObjective44",
+            "lane": "Any",
+            "order": -1,
+            "x": 2486.8,
+            "y": -30273.19,
+            "z": 3481.43
+        },
+        {
+            "name": "DestroyableObjective45",
+            "lane": "Any",
+            "order": -1,
+            "x": 2251.51,
+            "y": -27448.47,
+            "z": 3372.66
+        },
+        {
+            "name": "DestroyableObjective46",
+            "lane": "Any",
+            "order": -1,
+            "x": 2662.54,
+            "y": -28059.25,
+            "z": 3372.66
+        },
+        {
+            "name": "DestroyableObjective47",
+            "lane": "Any",
+            "order": -1,
+            "x": 6930.0,
+            "y": -36310.0,
+            "z": 3780.0
+        },
+        {
+            "name": "DestroyableObjective48",
+            "lane": "Any",
+            "order": -1,
+            "x": 6920.0,
+            "y": -37380.0,
+            "z": 3780.0
+        },
+        {
+            "name": "DestroyableObjective49",
+            "lane": "Any",
+            "order": -1,
+            "x": 7260.0,
+            "y": -39130.0,
+            "z": 3780.0
+        },
+        {
+            "name": "DestroyableObjective50",
+            "lane": "Any",
+            "order": -1,
+            "x": 7430.0,
+            "y": -40110.0,
+            "z": 3780.0
+        },
+        {
+            "name": "DestroyableObjective51",
+            "lane": "Any",
+            "order": -1,
+            "x": 1130.0,
+            "y": -41780.0,
+            "z": 3750.0
+        },
+        {
+            "name": "DestroyableObjective52",
+            "lane": "Any",
+            "order": -1,
+            "x": 8150.0,
+            "y": -26900.0,
+            "z": 3520.0
+        },
+        {
+            "name": "DestroyableObjective53",
+            "lane": "Any",
+            "order": -1,
+            "x": 8130.0,
+            "y": -25780.0,
+            "z": 3520.0
+        },
+        {
+            "name": "DestroyableObjective55",
+            "lane": "Any",
+            "order": -1,
+            "x": 5610.0,
+            "y": -23650.0,
+            "z": 3520.0
+        },
+        {
+            "name": "DestroyableObjective56",
+            "lane": "Any",
+            "order": -1,
+            "x": 549.45,
+            "y": -17811.12,
+            "z": 3390.0
+        },
+        {
+            "name": "DestroyableObjective57",
+            "lane": "Any",
+            "order": -1,
+            "x": -997.2,
+            "y": -21349.78,
+            "z": 3380.0
+        },
+        {
+            "name": "DestroyableObjective58",
+            "lane": "Any",
+            "order": -1,
+            "x": -1160.0,
+            "y": -18840.0,
+            "z": 3390.0
+        },
+        {
+            "name": "DestroyableObjective59",
+            "lane": "Any",
+            "order": -1,
+            "x": -2120.0,
+            "y": -17700.0,
+            "z": 3370.0
+        },
+        {
+            "name": "DestroyableObjective60",
+            "lane": "Any",
+            "order": -1,
+            "x": -2550.0,
+            "y": -15410.0,
+            "z": 3390.0
+        },
+        {
+            "name": "DestroyableObjective61",
+            "lane": "Any",
+            "order": -1,
+            "x": -20580.0,
+            "y": -36330.0,
+            "z": 3480.0
+        },
+        {
+            "name": "DestroyableObjective62",
+            "lane": "Any",
+            "order": -1,
+            "x": -19220.0,
+            "y": -36780.0,
+            "z": 3450.0
+        },
+        {
+            "name": "DestroyableObjective63",
+            "lane": "Any",
+            "order": -1,
+            "x": -19210.0,
+            "y": -36310.0,
+            "z": 3480.0
+        },
+        {
+            "name": "DestroyableObjective64",
+            "lane": "Any",
+            "order": -1,
+            "x": -19610.0,
+            "y": -33830.0,
+            "z": 3450.0
+        },
+        {
+            "name": "DestroyableObjective65",
+            "lane": "Any",
+            "order": -1,
+            "x": -23392.02,
+            "y": -31220.99,
+            "z": 3747.77
+        },
+        {
+            "name": "DestroyableObjective66",
+            "lane": "Any",
+            "order": -1,
+            "x": -24870.0,
+            "y": -26630.0,
+            "z": 3820.0
+        },
+        {
+            "name": "DestroyableObjective67",
+            "lane": "Any",
+            "order": -1,
+            "x": -24700.0,
+            "y": -25470.0,
+            "z": 3840.0
+        },
+        {
+            "name": "DestroyableObjective68",
+            "lane": "Any",
+            "order": -1,
+            "x": -19040.0,
+            "y": -23270.0,
+            "z": 3400.0
+        },
+        {
+            "name": "DestroyableObjective69",
+            "lane": "Any",
+            "order": -1,
+            "x": -20750.0,
+            "y": -24620.0,
+            "z": 3400.0
+        },
+        {
+            "name": "DestroyableObjective70",
+            "lane": "Any",
+            "order": -1,
+            "x": -20530.0,
+            "y": -24280.0,
+            "z": 3400.0
+        },
+        {
+            "name": "DestroyableObjective71",
+            "lane": "Any",
+            "order": -1,
+            "x": -21010.0,
+            "y": -19960.0,
+            "z": 3780.0
+        },
+        {
+            "name": "DestroyableObjective72",
+            "lane": "Any",
+            "order": -1,
+            "x": -23060.0,
+            "y": -18950.0,
+            "z": 4156.59
+        },
+        {
+            "name": "DestroyableObjective74",
+            "lane": "Any",
+            "order": -1,
+            "x": -22764.29,
+            "y": -19214.67,
+            "z": 3773.39
+        },
+        {
+            "name": "DestroyableObjective75",
+            "lane": "Any",
+            "order": -1,
+            "x": -22200.0,
+            "y": -17280.0,
+            "z": 3780.0
+        },
+        {
+            "name": "DestroyableObjective76",
+            "lane": "Any",
+            "order": -1,
+            "x": -20960.0,
+            "y": -16210.0,
+            "z": 3820.0
+        },
+        {
+            "name": "DestroyableObjective77",
+            "lane": "Any",
+            "order": -1,
+            "x": -19520.0,
+            "y": -18270.0,
+            "z": 3770.0
+        },
+        {
+            "name": "DestroyableObjective78",
+            "lane": "Any",
+            "order": -1,
+            "x": -52180.0,
+            "y": -13440.0,
+            "z": 5582.0
+        },
+        {
+            "name": "DestroyableObjective79",
+            "lane": "Any",
+            "order": -1,
+            "x": -50330.0,
+            "y": -10680.0,
+            "z": 5837.23
+        },
+        {
+            "name": "DestroyableObjective80",
+            "lane": "Any",
+            "order": -1,
+            "x": -50818.24,
+            "y": -11810.0,
+            "z": 5842.49
+        },
+        {
+            "name": "DestroyableObjective81",
+            "lane": "Any",
+            "order": -1,
+            "x": -50730.0,
+            "y": -10770.0,
+            "z": 5460.0
+        },
+        {
+            "name": "DestroyableObjective83",
+            "lane": "Any",
+            "order": -1,
+            "x": -52250.0,
+            "y": -9750.0,
+            "z": 5460.0
+        },
+        {
+            "name": "DestroyableObjective84",
+            "lane": "Any",
+            "order": -1,
+            "x": -68270.0,
+            "y": -18290.0,
+            "z": 4990.0
+        },
+        {
+            "name": "DestroyableObjective85",
+            "lane": "Any",
+            "order": -1,
+            "x": -69160.0,
+            "y": -16620.0,
+            "z": 4980.0
+        },
+        {
+            "name": "DestroyableObjective86",
+            "lane": "Any",
+            "order": -1,
+            "x": -68970.0,
+            "y": -13660.0,
+            "z": 4980.0
+        },
+        {
+            "name": "DestroyableObjective87",
+            "lane": "Any",
+            "order": -1,
+            "x": -71260.0,
+            "y": -12750.0,
+            "z": 4950.0
+        },
+        {
+            "name": "DestroyableObjective88",
+            "lane": "Any",
+            "order": -1,
+            "x": -75290.0,
+            "y": -16410.0,
+            "z": 4950.0
+        },
+        {
+            "name": "DestroyableObjective89",
+            "lane": "Any",
+            "order": -1,
+            "x": -77780.0,
+            "y": -15690.0,
+            "z": 4980.0
+        },
+        {
+            "name": "DestroyableObjective90",
+            "lane": "Any",
+            "order": -1,
+            "x": -74980.0,
+            "y": -13270.0,
+            "z": 4950.0
+        },
+        {
+            "name": "DestroyableObjective91",
+            "lane": "Any",
+            "order": -1,
+            "x": -73660.0,
+            "y": -11380.0,
+            "z": 4940.0
+        },
+        {
+            "name": "DestroyableObjective92",
+            "lane": "Any",
+            "order": -1,
+            "x": -75110.0,
+            "y": -10540.0,
+            "z": 4910.0
+        },
+        {
+            "name": "DestroyableObjective93",
+            "lane": "Any",
+            "order": -1,
+            "x": -76200.0,
+            "y": -7640.0,
+            "z": 4860.0
+        },
+        {
+            "name": "DestroyableObjective94",
+            "lane": "Any",
+            "order": -1,
+            "x": -76100.0,
+            "y": -6210.0,
+            "z": 4890.0
+        },
+        {
+            "name": "DestroyableObjective95",
+            "lane": "Any",
+            "order": -1,
+            "x": -78770.0,
+            "y": -4120.0,
+            "z": 5200.0
+        },
+        {
+            "name": "DestroyableObjective96",
+            "lane": "Any",
+            "order": -1,
+            "x": -79380.0,
+            "y": -430.0,
+            "z": 5240.0
+        },
+        {
+            "name": "DestroyableObjective97",
+            "lane": "Any",
+            "order": -1,
+            "x": -79980.0,
+            "y": -1480.0,
+            "z": 5200.0
+        },
+        {
+            "name": "DestroyableObjective98",
+            "lane": "Any",
+            "order": -1,
+            "x": -80440.0,
+            "y": -3340.0,
+            "z": 5200.0
+        },
+        {
+            "name": "DestroyableObjective99",
+            "lane": "Any",
+            "order": -1,
+            "x": -80490.0,
+            "y": -2650.0,
+            "z": 5200.0
+        },
+        {
+            "name": "DestroyableObjective268",
+            "lane": "Any",
+            "order": -1,
+            "x": 34060.65,
+            "y": -22614.43,
+            "z": 8166.38
+        },
+        {
+            "name": "DestroyableObjective269",
+            "lane": "Any",
+            "order": -1,
+            "x": 25800.54,
+            "y": -16517.02,
+            "z": 7418.76
+        },
+        {
+            "name": "DestroyableObjective270",
+            "lane": "Any",
+            "order": -1,
+            "x": -5672.62,
+            "y": -519.03,
+            "z": 3797.59
+        },
+        {
+            "name": "DestroyableObjective271",
+            "lane": "Any",
+            "order": -1,
+            "x": -9582.41,
+            "y": -39115.51,
+            "z": 4023.2
+        },
+        {
+            "name": "DestroyableObjective272",
+            "lane": "Any",
+            "order": -1,
+            "x": -9415.97,
+            "y": -39379.27,
+            "z": 4023.2
+        },
+        {
+            "name": "DestroyableObjective273",
+            "lane": "Any",
+            "order": -1,
+            "x": -9638.85,
+            "y": -40062.87,
+            "z": 3642.62
+        },
+        {
+            "name": "DestroyableObjective274",
+            "lane": "Any",
+            "order": -1,
+            "x": -9330.16,
+            "y": -38254.2,
+            "z": 4023.65
+        },
+        {
+            "name": "DestroyableObjective275",
+            "lane": "Any",
+            "order": -1,
+            "x": -9601.45,
+            "y": -38820.32,
+            "z": 3649.18
+        },
+        {
+            "name": "DestroyableObjective276",
+            "lane": "Any",
+            "order": -1,
+            "x": -6522.84,
+            "y": -36719.39,
+            "z": 4007.68
+        },
+        {
+            "name": "DestroyableObjective41",
+            "lane": "Any",
+            "order": -1,
+            "x": 2539.47,
+            "y": -31541.36,
+            "z": 3903.52
+        },
+        {
+            "name": "DestroyableObjective54",
+            "lane": "Any",
+            "order": -1,
+            "x": -1748.11,
+            "y": -20578.08,
+            "z": 3742.06
+        },
+        {
+            "name": "DestroyableObjective122",
+            "lane": "Any",
+            "order": -1,
+            "x": 4587.37,
+            "y": -12584.6,
+            "z": 3544.92
+        },
+        {
+            "name": "DestroyableObjective124",
+            "lane": "Any",
+            "order": -1,
+            "x": 3544.19,
+            "y": -17605.91,
+            "z": 3544.92
+        },
+        {
+            "name": "DestroyableObjective135",
+            "lane": "Any",
+            "order": -1,
+            "x": 3631.95,
+            "y": -17173.13,
+            "z": 3544.92
+        },
+        {
+            "name": "DestroyableObjective262",
+            "lane": "Any",
+            "order": -1,
+            "x": -23267.41,
+            "y": -9895.01,
+            "z": 3762.11
+        },
+        {
+            "name": "DestroyableObjective263",
+            "lane": "Any",
+            "order": -1,
+            "x": -23833.17,
+            "y": -9921.23,
+            "z": 3402.25
+        },
+        {
+            "name": "DestroyableObjective277",
+            "lane": "Any",
+            "order": -1,
+            "x": -6385.85,
+            "y": -36321.32,
+            "z": 4048.49
+        },
+        {
+            "name": "DestroyableObjective278",
+            "lane": "Any",
+            "order": -1,
+            "x": -7193.4,
+            "y": -37220.8,
+            "z": 3665.34
+        },
+        {
+            "name": "DestroyableObjective208",
+            "lane": "Any",
+            "order": -1,
+            "x": -12255.9,
+            "y": -23342.49,
+            "z": 3270.33
+        },
+        {
+            "name": "DestroyableObjective225",
+            "lane": "Any",
+            "order": -1,
+            "x": -14155.8,
+            "y": -20823.36,
+            "z": 3253.27
+        },
+        {
+            "name": "DestroyableObjective279",
+            "lane": "Any",
+            "order": -1,
+            "x": -8618.23,
+            "y": -17930.76,
+            "z": 3374.25
+        },
+        {
+            "name": "DestroyableObjective280",
+            "lane": "Any",
+            "order": -1,
+            "x": -35399.74,
+            "y": -1787.91,
+            "z": 4388.13
+        },
+        {
+            "name": "DestroyableObjective281",
+            "lane": "Any",
+            "order": -1,
+            "x": -35699.0,
+            "y": -700.76,
+            "z": 4382.62
+        },
+        {
+            "name": "DestroyableObjective282",
+            "lane": "Any",
+            "order": -1,
+            "x": -34962.14,
+            "y": -1210.63,
+            "z": 4768.46
+        },
+        {
+            "name": "DestroyableObjective283",
+            "lane": "Any",
+            "order": -1,
+            "x": -34546.69,
+            "y": -5472.03,
+            "z": 4789.98
+        },
+        {
+            "name": "DestroyableObjective284",
+            "lane": "Any",
+            "order": -1,
+            "x": -34792.95,
+            "y": -4429.17,
+            "z": 4405.34
+        },
+        {
+            "name": "DestroyableObjective285",
+            "lane": "Any",
+            "order": -1,
+            "x": -37974.46,
+            "y": 7052.22,
+            "z": 3624.59
+        },
+        {
+            "name": "DestroyableObjective286",
+            "lane": "Any",
+            "order": -1,
+            "x": -19979.44,
+            "y": 8510.46,
+            "z": 3524.37
+        },
+        {
+            "name": "DestroyableObjective287",
+            "lane": "Any",
+            "order": -1,
+            "x": -5152.59,
+            "y": 19316.12,
+            "z": 4839.58
+        },
+        {
+            "name": "DestroyableObjective288",
+            "lane": "Any",
+            "order": -1,
+            "x": -1400.93,
+            "y": 19239.45,
+            "z": 4840.29
+        },
+        {
+            "name": "DestroyableObjective289",
+            "lane": "Any",
+            "order": -1,
+            "x": -1850.66,
+            "y": -8885.67,
+            "z": 3358.01
+        }
+    ]
+}

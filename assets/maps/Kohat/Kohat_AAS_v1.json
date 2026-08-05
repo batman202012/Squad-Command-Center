@@ -1,0 +1,143 @@
+{
+    "map_id": "kohat",
+    "layer_name": "Kohat_AAS_v1",
+    "total_flags": 10,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 178248.17,
+            "y": -138461.62,
+            "z": 24770.49
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -151821.56,
+            "y": 170829.84,
+            "z": 18976.85
+        },
+        {
+            "name": "FOB Conolly",
+            "x": 149445.83,
+            "y": -953.4,
+            "z": 8868.51,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Central Nasrat",
+            "x": 91911.15,
+            "y": -9452.75,
+            "z": 5707.19,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Upper Ambar Banda",
+            "x": 43563.27,
+            "y": 46569.04,
+            "z": 3553.22,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Malak Abad",
+            "x": -15774.8,
+            "y": 5841.67,
+            "z": 3535.23,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Mohd Zai",
+            "x": -18263.47,
+            "y": 53356.94,
+            "z": 1681.18,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        },
+        {
+            "name": "Bahadur",
+            "x": -79481.58,
+            "y": 43666.73,
+            "z": 4930.86,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "6Any"
+            ]
+        },
+        {
+            "name": "Sarozai Highlands",
+            "x": -156076.38,
+            "y": 25361.78,
+            "z": 8685.02,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "7Any"
+            ]
+        },
+        {
+            "name": "Togh Sarai",
+            "x": -136530.22,
+            "y": 73570.28,
+            "z": 11360.59,
+            "phases": [
+                {
+                    "order": 8,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "8Any"
+            ]
+        }
+    ]
+}

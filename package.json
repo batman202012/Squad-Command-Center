@@ -1,0 +1,61 @@
+{
+  "name": "squad_command_center",
+  "version": "1.0.3",
+  "description": "Squad Tactical Map and Armor Viewer",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "keywords": [],
+  "author": "Squad C2 Team",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@electron/rebuild": "^4.2.0",
+    "electron": "^43.1.1",
+    "electron-builder": "^26.15.3",
+    "undici": ">=7.29.0"
+  },
+  "dependencies": {
+    "@geoman-io/leaflet-geoman-free": "^2.20.0",
+    "leaflet": "^1.9.4",
+    "leaflet-polylinedecorator": "^1.6.0",
+    "sharp": "^0.35.3",
+    "steamworks.js": "^0.4.0",
+    "undici": ">=7.29.0"
+  },
+  "build": {
+    "appId": "com.squadc2.app",
+    "productName": "Squad C2 Center",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis",
+      "executableName": "SquadC2Center"
+    },
+    "nsis": {
+      "shortcutName": "Squad C2 Center",
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    },
+    "asar": true,
+    "files": [
+      "**/*",
+      "!sdk_extraction_tools/**/*",
+      "!sdk_extraction_tools",
+      "!generate_tiles.js",
+      "!assets/maps/**/*_tiles",
+      "!assets/maps/**/*_tiles/**/*"
+    ]
+  },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "batman202012",
+        "repo": "Squad-Command-Center"
+      }
+    ]
+}

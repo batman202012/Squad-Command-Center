@@ -1,0 +1,606 @@
+{
+    "map_id": "maps",
+    "layer_name": "BlackCoast_RAAS_v2",
+    "total_flags": 33,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": 183075.55,
+            "y": 170691.5,
+            "z": 676.97
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": -119859.6,
+            "y": -169363.86,
+            "z": 2125.31
+        },
+        {
+            "name": "FlagPole_Ballhead",
+            "lane": "Any",
+            "order": -1,
+            "x": 11920.24,
+            "y": -40469.14,
+            "z": 891.66
+        },
+        {
+            "name": "FlagPole_Ballhead2",
+            "lane": "Any",
+            "order": -1,
+            "x": 11920.24,
+            "y": -40469.14,
+            "z": 1627.19
+        },
+        {
+            "name": "FlagPole_Ballhead3",
+            "lane": "Any",
+            "order": -1,
+            "x": 64957.38,
+            "y": -23632.21,
+            "z": 5073.71
+        },
+        {
+            "name": "FlagPole_Ballhead4",
+            "lane": "Any",
+            "order": -1,
+            "x": 64957.38,
+            "y": -23632.2,
+            "z": 5808.99
+        },
+        {
+            "name": "FlagPole_Ballhead5",
+            "lane": "Any",
+            "order": -1,
+            "x": -2058.19,
+            "y": 83500.22,
+            "z": 887.74
+        },
+        {
+            "name": "FlagPole_Ballhead6",
+            "lane": "Any",
+            "order": -1,
+            "x": -2058.19,
+            "y": 83500.22,
+            "z": 1176.52
+        },
+        {
+            "name": "Monastery",
+            "x": 70838.14,
+            "y": 115108.5,
+            "z": 4731.28,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "A"
+                },
+                {
+                    "order": 1,
+                    "lane": "B"
+                },
+                {
+                    "order": 1,
+                    "lane": "C"
+                },
+                {
+                    "order": 2,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "1A",
+                "1B",
+                "1C",
+                "2E"
+            ]
+        },
+        {
+            "name": "VLF Array",
+            "x": 136270.12,
+            "y": 110476.5,
+            "z": 4731.28,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "1E"
+            ]
+        },
+        {
+            "name": "Pond Junction",
+            "x": 38403.14,
+            "y": 148031.5,
+            "z": 1007.28,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "D"
+                },
+                {
+                    "order": 2,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "1D",
+                "2E"
+            ]
+        },
+        {
+            "name": "Fortress",
+            "x": -25827.86,
+            "y": 131906.5,
+            "z": 1829.28,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                },
+                {
+                    "order": 2,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "2A",
+                "2D"
+            ]
+        },
+        {
+            "name": "Paseka",
+            "x": -44772.18,
+            "y": 106215.58,
+            "z": 1829.28,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "2A"
+            ]
+        },
+        {
+            "name": "Chernikov Shoreline",
+            "x": 16021.33,
+            "y": 84061.98,
+            "z": 1829.28,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                },
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3B",
+                "2C"
+            ]
+        },
+        {
+            "name": "Chernikov Central",
+            "x": 25890.54,
+            "y": 67646.09,
+            "z": 1829.28,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                },
+                {
+                    "order": 3,
+                    "lane": "D"
+                },
+                {
+                    "order": 3,
+                    "lane": "E"
+                },
+                {
+                    "order": 2,
+                    "lane": "B"
+                },
+                {
+                    "order": 4,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "3B",
+                "3D",
+                "3E",
+                "2B",
+                "4D"
+            ]
+        },
+        {
+            "name": "Chernikov Electric",
+            "x": 44604.54,
+            "y": 64461.09,
+            "z": 1829.28,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                },
+                {
+                    "order": 3,
+                    "lane": "C"
+                },
+                {
+                    "order": 3,
+                    "lane": "D"
+                },
+                {
+                    "order": 3,
+                    "lane": "E"
+                },
+                {
+                    "order": 2,
+                    "lane": "B"
+                },
+                {
+                    "order": 4,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "3B",
+                "3C",
+                "3D",
+                "3E",
+                "2B",
+                "4D"
+            ]
+        },
+        {
+            "name": "Chernikov Bridge",
+            "x": -7287.64,
+            "y": 84038.49,
+            "z": 1829.28,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                },
+                {
+                    "order": 3,
+                    "lane": "D"
+                },
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3B",
+                "3D",
+                "2C"
+            ]
+        },
+        {
+            "name": "Pipeline",
+            "x": -91419.88,
+            "y": 114373.58,
+            "z": 1829.28,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Torpedo Factory",
+            "x": -34622.13,
+            "y": 49822.44,
+            "z": 1829.28,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "D"
+                },
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3D",
+                "4B"
+            ]
+        },
+        {
+            "name": "Farming Village",
+            "x": -133726.88,
+            "y": 62499.5,
+            "z": 1697.28,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Hill",
+            "x": 22294.13,
+            "y": -4236.5,
+            "z": 2712.28,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                },
+                {
+                    "order": 4,
+                    "lane": "D"
+                },
+                {
+                    "order": 5,
+                    "lane": "E"
+                },
+                {
+                    "order": 5,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "4C",
+                "4D",
+                "5E",
+                "5D"
+            ]
+        },
+        {
+            "name": "Quarry",
+            "x": 115683.14,
+            "y": 45963.5,
+            "z": 8179.0,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "4E"
+            ]
+        },
+        {
+            "name": "Old Barracks",
+            "x": 52959.61,
+            "y": -25370.31,
+            "z": 1829.28,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "C"
+                },
+                {
+                    "order": 5,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "4C",
+                "5E"
+            ]
+        },
+        {
+            "name": "Torpedo West",
+            "x": -57284.41,
+            "y": 44993.06,
+            "z": 1829.28,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Western Ridge",
+            "x": -85645.88,
+            "y": 55910.5,
+            "z": 3224.28,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Quarry North",
+            "x": 91871.14,
+            "y": 14789.5,
+            "z": 8179.0,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "4E"
+            ]
+        },
+        {
+            "name": "Old Train Yard",
+            "x": -108407.26,
+            "y": -6286.38,
+            "z": 1829.28,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Train Station",
+            "x": -28331.26,
+            "y": 9040.08,
+            "z": 1829.28,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "Kalinovka",
+            "x": -40489.85,
+            "y": -61822.51,
+            "z": 1829.28,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                },
+                {
+                    "order": 6,
+                    "lane": "B"
+                },
+                {
+                    "order": 6,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "5C",
+                "6B",
+                "6C"
+            ]
+        },
+        {
+            "name": "Derevnya",
+            "x": 13213.13,
+            "y": -96581.5,
+            "z": 2712.28,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                },
+                {
+                    "order": 5,
+                    "lane": "D"
+                },
+                {
+                    "order": 6,
+                    "lane": "E"
+                },
+                {
+                    "order": 6,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "5C",
+                "5D",
+                "6E",
+                "6D"
+            ]
+        },
+        {
+            "name": "Sablya",
+            "x": -52080.87,
+            "y": -326.5,
+            "z": 1697.28,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "Fortified Farm",
+            "x": -91793.2,
+            "y": -50353.39,
+            "z": 1829.28,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "Pig Farm",
+            "x": -69160.87,
+            "y": -123786.5,
+            "z": 1697.28,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "C"
+                },
+                {
+                    "order": 7,
+                    "lane": "A"
+                },
+                {
+                    "order": 7,
+                    "lane": "B"
+                },
+                {
+                    "order": 7,
+                    "lane": "D"
+                },
+                {
+                    "order": 7,
+                    "lane": "E"
+                },
+                {
+                    "order": 7,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "6C",
+                "7A",
+                "7B",
+                "7D",
+                "7E",
+                "7C"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "map_id": "sumari",
+    "layer_name": "Sumari_AAS_v2",
+    "total_flags": 7,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -51875.88,
+            "y": 29679.06,
+            "z": -12774.18
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 56319.98,
+            "y": 6636.68,
+            "z": -13223.43
+        },
+        {
+            "name": "Checkpoint",
+            "x": -35737.0,
+            "y": 36598.0,
+            "z": -12969.0,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "1Any"
+            ]
+        },
+        {
+            "name": "Rooftop House",
+            "x": -12843.0,
+            "y": 27522.0,
+            "z": -13418.0,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "2Any"
+            ]
+        },
+        {
+            "name": "Materials Site",
+            "x": 2439.0,
+            "y": 30098.0,
+            "z": -13152.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "3Any"
+            ]
+        },
+        {
+            "name": "Bakery",
+            "x": 20102.0,
+            "y": 34267.0,
+            "z": -12987.0,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "4Any"
+            ]
+        },
+        {
+            "name": "Training Camp",
+            "x": 37070.35,
+            "y": 15449.15,
+            "z": -13478.0,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "Any"
+                }
+            ],
+            "phase_labels": [
+                "5Any"
+            ]
+        }
+    ]
+}

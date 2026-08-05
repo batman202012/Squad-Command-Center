@@ -1,0 +1,685 @@
+{
+    "map_id": "manicouagan",
+    "layer_name": "Manicouagan_RAAS_v2",
+    "total_flags": 43,
+    "flags": [
+        {
+            "name": "Team 1 Main",
+            "lane": "Main",
+            "order": 0,
+            "x": -186548.18,
+            "y": 186454.99,
+            "z": 4530.51
+        },
+        {
+            "name": "Dam Maintenance",
+            "lane": "B",
+            "order": 4,
+            "x": -44215.16,
+            "y": -107548.23,
+            "z": 4869.18
+        },
+        {
+            "name": "Team 2 Main",
+            "lane": "Main",
+            "order": 100,
+            "x": 158884.84,
+            "y": -182568.08,
+            "z": 13698.91
+        },
+        {
+            "name": "SM_USA_Flag_01",
+            "lane": "Any",
+            "order": -1,
+            "x": -170099.52,
+            "y": -73194.71,
+            "z": 12147.0
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh",
+            "lane": "Any",
+            "order": -1,
+            "x": -33322.11,
+            "y": -35379.22,
+            "z": 5300.0
+        },
+        {
+            "name": "FlagPole_Ballhead_InstancedMesh2",
+            "lane": "Any",
+            "order": -1,
+            "x": -34046.83,
+            "y": -32674.62,
+            "z": 5300.0
+        },
+        {
+            "name": "Antenna Compound",
+            "x": -146445.16,
+            "y": 69446.77,
+            "z": 8119.18,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "B"
+                },
+                {
+                    "order": 1,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "1B",
+                "1A"
+            ]
+        },
+        {
+            "name": "Fermont",
+            "x": -119172.61,
+            "y": 120878.15,
+            "z": 5737.02,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "1C"
+            ]
+        },
+        {
+            "name": "Patrol Base",
+            "x": -97185.16,
+            "y": 168641.77,
+            "z": 4099.18,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "1D"
+            ]
+        },
+        {
+            "name": "Old Van Doo Garrison",
+            "x": -26215.16,
+            "y": 170926.77,
+            "z": 6979.18,
+            "phases": [
+                {
+                    "order": 1,
+                    "lane": "E"
+                },
+                {
+                    "order": 2,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "1E",
+                "2D"
+            ]
+        },
+        {
+            "name": "Logging Camp",
+            "x": 61254.84,
+            "y": 183366.77,
+            "z": 6979.18,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "2E"
+            ]
+        },
+        {
+            "name": "Trenches",
+            "x": -113177.31,
+            "y": 40790.83,
+            "z": 5697.01,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "2C"
+            ]
+        },
+        {
+            "name": "Lumber Mill",
+            "x": -144084.16,
+            "y": -15228.23,
+            "z": 9741.8,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "A"
+                },
+                {
+                    "order": 2,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "2A",
+                "2B"
+            ]
+        },
+        {
+            "name": "Bay Comeau East",
+            "x": 30154.73,
+            "y": 122890.77,
+            "z": 5842.01,
+            "phases": [
+                {
+                    "order": 2,
+                    "lane": "E"
+                },
+                {
+                    "order": 3,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "2E",
+                "3D"
+            ]
+        },
+        {
+            "name": "Bay Comeau West",
+            "x": -56475.16,
+            "y": 60191.77,
+            "z": 5369.18,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "Bay Comeau Central",
+            "x": -20725.16,
+            "y": 83281.77,
+            "z": 5459.18,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "3D"
+            ]
+        },
+        {
+            "name": "Contractor Compound",
+            "x": -5805.16,
+            "y": 90831.77,
+            "z": 5429.18,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "3D"
+            ]
+        },
+        {
+            "name": "Telecom Facility",
+            "x": -104029.16,
+            "y": -40994.23,
+            "z": 7125.53,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "B"
+                },
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3B",
+                "3A"
+            ]
+        },
+        {
+            "name": "Logistics Center",
+            "x": 102109.84,
+            "y": 140846.77,
+            "z": 5409.18,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "3E"
+            ]
+        },
+        {
+            "name": "Firebase Boris",
+            "x": -26690.16,
+            "y": 25686.77,
+            "z": 5814.18,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                },
+                {
+                    "order": 4,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C",
+                "4C"
+            ]
+        },
+        {
+            "name": "Observation Post",
+            "x": -75085.16,
+            "y": 19851.77,
+            "z": 7709.18,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "3C"
+            ]
+        },
+        {
+            "name": "Alma",
+            "x": -121079.16,
+            "y": -71054.23,
+            "z": 7490.53,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                },
+                {
+                    "order": 3,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "3A",
+                "3B"
+            ]
+        },
+        {
+            "name": "Firebase Dmitri",
+            "x": -162484.72,
+            "y": -63680.8,
+            "z": 11857.0,
+            "phases": [
+                {
+                    "order": 3,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "3A"
+            ]
+        },
+        {
+            "name": "Diefenbunker",
+            "x": 117269.31,
+            "y": 111456.8,
+            "z": 5842.0,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "4E"
+            ]
+        },
+        {
+            "name": "Old Train Station",
+            "x": 37119.84,
+            "y": 40831.77,
+            "z": 5044.18,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "4D"
+            ]
+        },
+        {
+            "name": "Dam Administration",
+            "x": -55780.16,
+            "y": -40553.23,
+            "z": 4574.18,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Dam Outlet",
+            "x": -49091.64,
+            "y": -69541.59,
+            "z": 4229.18,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "4B"
+            ]
+        },
+        {
+            "name": "Firebase Anna",
+            "x": -115260.95,
+            "y": -103094.29,
+            "z": 12037.0,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "4A"
+            ]
+        },
+        {
+            "name": "Lost Reservists",
+            "x": 72459.84,
+            "y": 85961.77,
+            "z": 5044.18,
+            "phases": [
+                {
+                    "order": 4,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "4D"
+            ]
+        },
+        {
+            "name": "Cannabis Farm",
+            "x": 98919.84,
+            "y": 54361.77,
+            "z": 8359.18,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "D"
+                },
+                {
+                    "order": 5,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "5D",
+                "5E"
+            ]
+        },
+        {
+            "name": "Power Station",
+            "x": -33695.16,
+            "y": -33478.23,
+            "z": 4574.18,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "Dam Storage",
+            "x": -6510.16,
+            "y": -71053.23,
+            "z": 5104.18,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5B"
+            ]
+        },
+        {
+            "name": "Gold Mine",
+            "x": 167514.84,
+            "y": 76841.77,
+            "z": 9549.18,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "5E"
+            ]
+        },
+        {
+            "name": "Hilltop",
+            "x": 16067.84,
+            "y": -4031.23,
+            "z": 9099.18,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                },
+                {
+                    "order": 6,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5C",
+                "6B"
+            ]
+        },
+        {
+            "name": "Penstocks",
+            "x": 2834.84,
+            "y": -30028.23,
+            "z": 7379.18,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "C"
+                },
+                {
+                    "order": 6,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "5C",
+                "6B"
+            ]
+        },
+        {
+            "name": "Dam Inlet",
+            "x": -49336.16,
+            "y": -148378.7,
+            "z": 11847.0,
+            "phases": [
+                {
+                    "order": 5,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "5A"
+            ]
+        },
+        {
+            "name": "Checkpoint",
+            "x": 88124.84,
+            "y": -1413.23,
+            "z": 10339.18,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "C"
+                },
+                {
+                    "order": 6,
+                    "lane": "D"
+                }
+            ],
+            "phase_labels": [
+                "6C",
+                "6D"
+            ]
+        },
+        {
+            "name": "Dieppe",
+            "x": 66314.84,
+            "y": -72858.23,
+            "z": 13729.18,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "C"
+                },
+                {
+                    "order": 7,
+                    "lane": "B"
+                }
+            ],
+            "phase_labels": [
+                "6C",
+                "7B"
+            ]
+        },
+        {
+            "name": "Warehouses",
+            "x": 143025.87,
+            "y": 9937.18,
+            "z": 8571.98,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "D"
+                },
+                {
+                    "order": 6,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "6D",
+                "6E"
+            ]
+        },
+        {
+            "name": "Ridgeline Defenses",
+            "x": 51345.61,
+            "y": -36244.98,
+            "z": 14316.98,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "C"
+                }
+            ],
+            "phase_labels": [
+                "6C"
+            ]
+        },
+        {
+            "name": "Abandoned Island",
+            "x": 8035.22,
+            "y": -161558.62,
+            "z": 13427.0,
+            "phases": [
+                {
+                    "order": 6,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "6A"
+            ]
+        },
+        {
+            "name": "Four Corners",
+            "x": 142989.84,
+            "y": -66753.23,
+            "z": 12084.18,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "C"
+                },
+                {
+                    "order": 7,
+                    "lane": "D"
+                },
+                {
+                    "order": 7,
+                    "lane": "E"
+                }
+            ],
+            "phase_labels": [
+                "7C",
+                "7D",
+                "7E"
+            ]
+        },
+        {
+            "name": "Old Convent",
+            "x": 65540.29,
+            "y": -139610.34,
+            "z": 13392.0,
+            "phases": [
+                {
+                    "order": 7,
+                    "lane": "A"
+                }
+            ],
+            "phase_labels": [
+                "7A"
+            ]
+        }
+    ]
+}
