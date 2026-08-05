@@ -31,7 +31,7 @@ Every official release is scanned prior to publication. You can verify the safet
 #### How to verify the file hash on Windows:
 Open PowerShell and run the following command on your downloaded installer:
 ```powershell
-Get-FileHash -Algorithm SHA256 "path\to\Squad.Command.Center.Setup.v1.0.3.exe"
+Get-FileHash -Algorithm SHA256 "path\to\Squad.C2.Center.Setup.1.0.3.exe"
 ```
 
 ## Build It Yourself
