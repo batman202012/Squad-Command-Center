@@ -46,7 +46,7 @@ Want to compile the app from source? It's easy. The project is built using [Elec
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/batman202012/Squad-Command-Center.git](https://github.com/batman202012/Squad-Command-Center.git)
+   git clone https://github.com/batman202012/Squad-Command-Center.git
    cd Squad-Command-Center
    ```
 
