@@ -25,8 +25,8 @@ We understand that downloading `.exe` files from the internet requires trust. **
 ### Verification & Virus Total Reports
 Every official release is scanned prior to publication. You can verify the safety of our latest release below:
 
-- **VirusTotal Scan:** [View Antivirus Report](https://www.virustotal.com/gui/file/2c6a73d1d72bf3eaacea4b50be64f722a74e7c3e87745a2fec3dd51ac223a0b3)
-- **SHA-256 Hash:** `2C6A73D1D72BF3EAACEA4B50BE64F722A74E7C3E87745A2FEC3DD51AC223A0B3`
+- **VirusTotal Scan:** [View Antivirus Report](https://www.virustotal.com/gui/file/39cca0d38cda4479b9190728e7810761c4dbeef14eb5950a24620217cbcb8e08)
+- **SHA-256 Hash:** `39CCA0D38CDA4479B9190728E7810761C4DBEEF14EB5950A24620217CBCB8E08`
 
 #### How to verify the file hash on Windows:
 Open PowerShell and run the following command on your downloaded installer:
