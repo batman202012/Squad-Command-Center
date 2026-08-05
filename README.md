@@ -31,7 +31,7 @@ Every official release is scanned prior to publication. You can verify the safet
 #### How to verify the file hash on Windows:
 Open PowerShell and run the following command on your downloaded installer:
 ```powershell
-Get-FileHash -Algorithm SHA256 "path\to\Squad C2 Center Setup 1.0.1.exe"
+Get-FileHash -Algorithm SHA256 "path\to\Squad.Command.Center.Setup.1.0.3.exe"
 ```
 
 ## Build It Yourself
@@ -46,8 +46,8 @@ Want to compile the app from source? It's easy. The project is built using [Elec
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/batman202012/squad-c2-center.git](https://github.com/batman202012/squad-c2-center.git)
-   cd squad-c2-center
+   git clone [https://github.com/batman202012/Squad-Command-Center.git](https://github.com/batman202012/Squad-Command-Center.git)
+   cd Squad-Command-Center
    ```
 
 2. **Install dependencies:**
@@ -67,7 +67,7 @@ To build a standalone `.exe` installer (NSIS) for Windows:
 ```bash
 npm run build
 ```
-Once complete, you will find a lightweight `Squad C2 Center Setup 1.0.1.exe` file inside the `dist/` directory, ready to be distributed.
+Once complete, you will find a lightweight `Squad C2 Center Setup 1.0.3.exe` file inside the `dist/` directory, ready to be distributed.
 
 ### ⚠️ Developer Map Assets
 To keep this repository lightweight, the 8.6 GB of raw high-resolution map tiles are not included in this repo. If you want to build the app with local tiles exactly as I did, download the raw map assets here:
