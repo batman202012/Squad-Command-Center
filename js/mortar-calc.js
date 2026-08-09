@@ -98,6 +98,8 @@ window.createMortarTarget = function(latlng) {
 
     splash.on('contextmenu', (e) => {
         L.DomEvent.stop(e.originalEvent);
+        window.suppressContextMenu = true;
+        setTimeout(() => { window.suppressContextMenu = false; }, 100);
         mortarTargetsLayer.removeLayer(targetGroup);
     });
 };
