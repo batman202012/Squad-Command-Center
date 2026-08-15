@@ -18,6 +18,9 @@ let currentMatchState = {
     outcome: null, ticketsFriendly: null, ticketsEnemy: null
 };
 
+let previousMatchFinishedOnServer = false;
+let stagingTimeout = null;
+
 // ==========================================
 // --- STATE RESET HELPER ---
 // ==========================================
@@ -196,6 +199,21 @@ function watchSquadLogs() {
     });
 }
 
+// ==========================================
+// --- TIMESTAMP RECENCY HELPER ---
+// ==========================================
+function isLogLineRecent(line, maxAgeSeconds = 5) {
+    // Matches Unreal Engine UTC bracket timestamp: [YYYY.MM.DD-HH.MM.SS:MS]
+    const match = line.match(/^\[(\d{4})\.(\d{2})\.(\d{2})-(\d{2})\.(\d{2})\.(\d{2})/);
+    if (!match) return false;
+
+    const logTime = new Date(`${match[1]}-${match[2]}-${match[3]}T${match[4]}:${match[5]}:${match[6]}Z`).getTime();
+    const ageMs = Date.now() - logTime;
+
+    // Line must have occurred within the last maxAgeSeconds (with a 2s clock drift allowance)
+    return ageMs >= -2000 && ageMs <= (maxAgeSeconds * 1000);
+}
+
 function parseLogData(data) {
     const lines = data.split('\n');
     
@@ -211,6 +229,8 @@ function parseLogData(data) {
         if (line.includes("CloseBunch") || line.includes("NetworkFailure") || line.includes("Server connection closed")) {
             if (currentMatchState.serverName || currentMatchState.layer) {
                 console.log(`[C2 Engine] Server disconnect detected. Wiping state.`);
+                if (stagingTimeout) clearTimeout(stagingTimeout);
+                previousMatchFinishedOnServer = false;
                 resetMatchState();
                 currentMatchState.serverName = null; // Hard wipe IP
             }
@@ -341,7 +361,29 @@ function parseLogData(data) {
                 
                 // Once we have both ticket values, the match is officially over. Save it instantly!
                 if (currentMatchState.ticketsFriendly !== null && currentMatchState.ticketsEnemy !== null) {
+                    previousMatchFinishedOnServer = true;
                     submitMatchToServer(currentMatchState);
+                }
+            }
+        }
+
+        // 6. Staging Handling on Loading Screen End
+        if (line.includes("LogSquad: Display: Hiding loading screen")) {
+            if (isLogLineRecent(line, 10)) {
+                if (previousMatchFinishedOnServer) {
+                    // Confirmed new match rollover from previous round on the same server
+                    console.log("[C2 Engine] Confirmed server map rollover! Starting 180s staging countdown.");
+                    previousMatchFinishedOnServer = false; // Reset for next match
+
+                    const isSeed = currentMatchState.layer && (
+                        currentMatchState.layer.toLowerCase().includes("seed") || 
+                        currentMatchState.layer.toLowerCase().includes("skirmish")
+                    );
+                    mainWindow.webContents.send('staging-phase-started', { matchInfo: currentMatchState, isSeed: isSeed });
+                } else {
+                    // Joined from server browser/menu — await faction/staging selection from UI
+                    console.log("[C2 Engine] Connected from menu. Waiting for UI team/staging selection.");
+                    currentMatchState.isNewMatch = false;
                 }
             }
         }
@@ -824,7 +866,7 @@ function createWindow() {
     });
     
     // --- OPSEC: PREVENT SCREEN CAPTURE & STEAM BROADCASTING ---
-    mainWindow.setContentProtection(true);
+    //mainWindow.setContentProtection(true);
 
     mainWindow.loadFile('index.html');
 
@@ -870,6 +912,10 @@ app.whenReady().then(() => {
     });
 
     globalShortcut.register('Alt+5', () => {
+        if (mainWindow) mainWindow.webContents.send('switch-tab', 'timers-view');
+    });
+
+    globalShortcut.register('Alt+6', () => {
         if (mainWindow) mainWindow.webContents.send('switch-tab', 'browser-view');
     });
 

@@ -147,6 +147,7 @@ ipcRenderer.on('switch-tab', (event, tabName) => {
         'meta-view': 'button-meta-view',
         'uniform-view': 'button-uniform-view',
         'browser-view': 'button-browser-view',
+        'timers-view': 'button-timers-view',
         'settings-view': 'button-settings-view' 
     };
 
