@@ -666,11 +666,6 @@
     <div class="legend-item"><span class="color-box" style="background: rgba(139, 69, 19, 0.5);"></span> Mountain Peaks (&gt; 230m)</div>
     </div>
 
-    <!-- MODE OVERLAY -->
-    <div id="mode-overlay" class="mode-friendly">
-        Mode: FRIENDLY (Press 'Q' to swap)
-    </div>
-
     <!-- SQUAD-STYLE RADIAL CONTEXT MENU -->
     <div id="squad-context-menu" class="hidden friendly-mode">
         <!-- TOP-LEFT QUADRANT: Logistics & Requests -->
@@ -851,6 +846,10 @@
         </div>
     </div>
         <div id="map"></div>
+        <!-- MODE OVERLAY -->
+        <div id="mode-overlay" class="mode-friendly">
+            Mode: FRIENDLY (Press 'Q' to swap)
+        </div>
         <div id="map-style-toggle">
             <button class="map-style-btn active" data-style="base" onclick="setMapStyle('base')">Standard</button>
             <button class="map-style-btn" data-style="topo" onclick="setMapStyle('topo')">Topographic</button>
@@ -1080,7 +1079,7 @@
         </div>
         <div style="position:absolute; bottom: 15px; left: 15px; font-family:monospace; font-size:12px; color:#666;">Squad Tactical Map v1.0.3</div>
         <!-- Minimal Donation Link -->
-        <div style="position: absolute; bottom: 70px; right: 15px;">
+        <div style="position: absolute; bottom: 15px; right: 15px;">
             <a href="#" onclick="openCoffeeLink(event)" class="coffee-link" style="color: #666; text-decoration: none; font-family: monospace; transition: color 0.2s;">
                 ☕ Buy me a coffee
             </a>
