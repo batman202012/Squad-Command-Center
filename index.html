@@ -36,6 +36,7 @@
         #meta-view.active { display: block; }
         #uniform-view.active { display: flex; flex-direction: row; height: 100%; }
         #browser-view.active { display: block; }
+        #timers-view.active { display: flex; flex-direction: column; }
         #settings-view.active { display: block; padding: 30px; }
         
         /* 4-Up Grid Layout */
@@ -798,7 +799,8 @@
         <button id="button-armor-view" class="tab-btn" onclick="switchTab('armor-view', this)">[2] Armor Bay</button>
         <button id="button-meta-view" class="tab-btn" onclick="switchTab('meta-view', this)">[3] Faction Meta</button>
         <button id="button-uniform-view" class="tab-btn" onclick="switchTab('uniform-view', this)">[4] Uniform Ref</button>
-        <button id="button-browser-view" class="tab-btn" onclick="switchTab('browser-view', this)">[5] Server Browser</button>
+        <button id="button-timers-view" class="tab-btn"  onclick="switchTab('timers-view', this)">[5] Timers</button>
+        <button id="button-browser-view" class="tab-btn" onclick="switchTab('browser-view', this)">[6] Server Browser</button>
         <button id="button-settings-view" class="tab-btn" onclick="switchTab('settings-view', this)" style="margin-left: auto;">[9] Settings</button>
         
         <select id="faction-sync" onchange="syncArmorWindows(this.value)" style="display: none; margin-left: auto; padding: 5px; background: #333; color: white; border: 1px solid #555;">
@@ -1046,6 +1048,47 @@
             </div>
         </div>
     </div>
+    
+    <div id="timers-view" class="view-container" style="padding: 20px; color: white; height: 100%; overflow-y: auto;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; margin-right: 50px; background: #252526; padding: 10px; border-radius: 5px;">
+            <h2>Tactical Timers</h2>
+            <div style="display: flex; gap: 20px;">
+                <div style="display: flex; flex-direction: column; gap: 5px;">
+                    <label style="color: #66b3ff; font-weight: bold;">Friendly Team</label>
+                    <div>
+                        <select id="timers-friendly-faction"></select>
+                        <select id="timers-friendly-division"></select>
+                    </div>
+                </div>
+                
+                <div style="display: flex; flex-direction: column; gap: 5px;">
+                    <label style="color: #ff6666; font-weight: bold;">Enemy Team</label>
+                    <div>
+                        <select id="timers-enemy-faction"></select>
+                        <select id="timers-enemy-division"></select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div style="display: flex; gap: 20px; flex-grow: 1;">
+            <div style="flex: 1; background: rgba(0, 102, 204, 0.1); padding: 15px; border-radius: 8px; border: 1px solid #0066cc;">
+                <h3 style="color: #66b3ff; border-bottom: 1px solid #0066cc; padding-bottom: 10px;">Friendly Command Assets</h3>
+                <div id="friendly-spawner-list" style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;"></div>
+                <h4>Active Timers</h4>
+                <div id="friendly-active-timers"></div>
+            </div>
+
+            <div style="flex: 1; background: rgba(204, 0, 0, 0.1); padding: 15px; border-radius: 8px; border: 1px solid #cc0000;">
+                <h3 style="color: #ff6666; border-bottom: 1px solid #cc0000; padding-bottom: 10px; margin-top: 0;">Enemy Command Assets</h3>
+                <div id="enemy-asset-spawner-list" style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;"></div>
+                <h3 style="color: #ff6666; border-bottom: 1px solid #cc0000; padding-bottom: 10px; margin-top: 0;">Enemy Vehicles</h3>
+                <div id="enemy-vehicle-spawner-list" style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;"></div>
+                <h4>Active Timers</h4>
+                <div id="enemy-active-timers"></div>
+            </div>
+        </div>
+    </div>
 
     <div id="browser-view" class="view-container">
         <iframe src="https://squadbrowser.app/" style="width: 100%; height: 100%; border: none;"></iframe>
@@ -1113,6 +1156,8 @@
     
     <script src="https://unpkg.com/leaflet-polylinedecorator@1.6.0/dist/leaflet.polylineDecorator.js"></script>
     <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
+
+
     <!-- SQUAD TACTICAL MAP SCRIPTS -->
     <script src="./js/globals.js"></script>
     <script src="./js/map-core.js"></script> 
@@ -1123,6 +1168,7 @@
     <script src="./js/mortar-calc.js"></script>
     <script src="./js/los-engine.js"></script>
     <script src="./js/ruler-engine.js"></script>
+    <script src="./js/timers.js"></script>
     
     <script src="./js/tactical-menu.js"></script>
     <script src="./js/ui-controls.js"></script>
@@ -1282,6 +1328,57 @@
                 
                 // Inject the image. 
                 enemyImgContainer.innerHTML = `<img src="https://maps.tpun.online/uniforms/${matchData.enemyFaction}.png" alt="${matchData.enemyFaction}" style="max-width: 100%; max-height: 100%; object-fit: contain; filter: drop-shadow(0px 0px 8px #cc0000);" onerror="this.outerHTML='<span style=\\'color: #888; background: #333; padding: 20px; border-radius: 8px;\\'>Uniform image not found for ${matchData.enemyFaction}</span>'">`;
+            }
+
+            // ==========================================
+            // 6. AUTO-SYNC THE TIMERS TAB
+            // ==========================================
+            if (matchData.team1Setup || matchData.team2Setup || matchData.playerFaction) {
+                const fFaction = document.getElementById('timers-friendly-faction');
+                const fDiv = document.getElementById('timers-friendly-division');
+                const eFaction = document.getElementById('timers-enemy-faction');
+                const eDiv = document.getElementById('timers-enemy-division');
+
+                if (fFaction && eFaction && fDiv && eDiv) {
+                    const isPlayerTeam1 = (window.playerTeamIndex === 1);
+
+                    // Setup strings from log telemetry (e.g. "USMC_LO_Motorized")
+                    const friendlySetup = isPlayerTeam1 ? (matchData.team1Setup || matchData.playerFaction) : (matchData.team2Setup || matchData.playerFaction);
+                    const enemySetup = isPlayerTeam1 ? (matchData.team2Setup || matchData.enemyFaction) : (matchData.team1Setup || matchData.enemyFaction);
+
+                    const friendlyCode = isPlayerTeam1 ? (matchData.team1 || friendlySetup?.split('_')[0]) : (matchData.team2 || friendlySetup?.split('_')[0]);
+                    const enemyCode = isPlayerTeam1 ? (matchData.team2 || enemySetup?.split('_')[0]) : (matchData.team1 || enemySetup?.split('_')[0]);
+
+                    if (friendlyCode) fFaction.value = friendlyCode;
+                    if (enemyCode) eFaction.value = enemyCode;
+
+                    fFaction.dispatchEvent(new Event('change'));
+                    eFaction.dispatchEvent(new Event('change'));
+
+                    // Direct setup selection
+                    setTimeout(() => {
+                        if (friendlySetup && Array.from(fDiv.options).some(o => o.value === friendlySetup)) {
+                            fDiv.value = friendlySetup;
+                        }
+                        if (enemySetup && Array.from(eDiv.options).some(o => o.value === enemySetup)) {
+                            eDiv.value = enemySetup;
+                        }
+
+                        fDiv.dispatchEvent(new Event('change'));
+                        eDiv.dispatchEvent(new Event('change'));
+
+                        console.log(`[AutoSync] Timers Tab synchronized — Friendly: ${fFaction.value} (${fDiv.value}), Enemy: ${eFaction.value} (${eDiv.value})`);
+                    }, 50);
+                }
+            }
+        });
+
+        // --- HANDLE STAGING PHASE END ---
+        electronRenderer.on('staging-phase-started', () => {
+            console.log("[UI] Staging phase started. Automatically starting initial spawn timers.");
+
+            if (typeof window.triggerInitialTimers === 'function') {
+                window.triggerInitialTimers();
             }
         });
 
