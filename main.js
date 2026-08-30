@@ -369,17 +369,33 @@ function parseLogData(data) {
         if (line.includes("LogSquad: Display: Hiding loading screen")) {
             if (isLogLineRecent(line, 10)) {
                 if (previousMatchFinishedOnServer) {
-                    // Confirmed new match rollover from previous round on the same server
-                    console.log("[C2 Engine] Confirmed server map rollover! Starting 180s staging countdown.");
+                    console.log("[C2 Engine] Confirmed server map rollover! Syncing factions and starting timers.");
                     previousMatchFinishedOnServer = false; // Reset for next match
 
                     const isSeed = currentMatchState.layer && (
                         currentMatchState.layer.toLowerCase().includes("seed") || 
                         currentMatchState.layer.toLowerCase().includes("skirmish")
                     );
-                    mainWindow.webContents.send('staging-phase-started', { matchInfo: currentMatchState, isSeed: isSeed });
+
+                    const pFac = currentMatchState.playerFaction || currentMatchState.team1;
+                    const eFac = currentMatchState.enemyFaction || currentMatchState.team2;
+                    const pDiv = (pFac === currentMatchState.team1) ? currentMatchState.team1Setup : currentMatchState.team2Setup;
+                    const eDiv = (eFac === currentMatchState.team2) ? currentMatchState.team2Setup : currentMatchState.team1Setup;
+
+                    const payload = {
+                        isNewMatch: true,
+                        isSeed: Boolean(isSeed),
+                        layer: currentMatchState.layer,
+                        team1: { faction: currentMatchState.team1, division: currentMatchState.team1Setup },
+                        team2: { faction: currentMatchState.team2, division: currentMatchState.team2Setup },
+                        friendly: { faction: pFac, division: pDiv },
+                        enemy: { faction: eFac, division: eDiv }
+                    };
+
+                    if (mainWindow && !mainWindow.isDestroyed()) {
+                        mainWindow.webContents.send('staging-phase-started', payload);
+                    }
                 } else {
-                    // Joined from server browser/menu — await faction/staging selection from UI
                     console.log("[C2 Engine] Connected from menu. Waiting for UI team/staging selection.");
                     currentMatchState.isNewMatch = false;
                 }
