@@ -261,7 +261,7 @@ function updateTimerUI() {
 }
 
 // --- INITIAL TIMERS LAUNCHER ---
-window.triggerInitialTimers = function() {
+window.triggerInitialTimers = function(stagingOffsetSeconds = 0) {
     const allButtons = document.querySelectorAll('.spawner-btn');
     
     allButtons.forEach(btn => {
@@ -277,10 +277,11 @@ window.triggerInitialTimers = function() {
             initialDelays = [];
         }
 
-        // Trigger a timer for each delayed instance
+        // Trigger a timer for each delayed instance (adding staging duration offset if fired at staging start)
         initialDelays.forEach(delay => {
             if (delay > 0) {
-                startTimer(name, delay, team, max, group, true);
+                const totalDelay = delay + stagingOffsetSeconds;
+                startTimer(name, totalDelay, team, max, group, true);
             }
         });
     });
@@ -290,31 +291,47 @@ window.triggerInitialTimers = function() {
 if (typeof require !== 'undefined') {
     try {
         const { ipcRenderer } = require('electron');
-        ipcRenderer.on('staging-phase-started', (event, matchInfo = {}, isSeed = false) => {
-            // Treat as fresh match if flag is true OR if no explicit mid-match flag is set
-            const isFresh = matchInfo.isNewMatch !== false;
+        ipcRenderer.on('staging-phase-started', (event, data = {}) => {
+            const matchInfo = data.matchInfo || data;
+            const isSeed = data.isSeed || false;
 
-            if (isFresh) {
-                console.log('[Timers] Fresh round start detected. Launching initial delayed timers.');
+            if (matchInfo.isNewMatch !== false) {
+                console.log('[Timers] Fresh round start detected. Syncing dropdowns to new factions.');
                 
-                // Clear any leftover timers from previous match
+                // 1. Wipe existing active timers from previous match
                 activeTimers = [];
-                
-                // Auto-sync faction and division dropdowns if detected
-                if (matchInfo.team1 && matchInfo.team2) {
-                    if (typeof friendlyFaction !== 'undefined' && friendlyFaction) friendlyFaction.value = matchInfo.team1.faction;
-                    if (typeof enemyFaction !== 'undefined' && enemyFaction) enemyFaction.value = matchInfo.team2.faction;
-                    if (typeof updateDivisions === 'function') {
-                        updateDivisions('friendly');
-                        updateDivisions('enemy');
-                    }
-                    if (typeof friendlyDivision !== 'undefined' && friendlyDivision) friendlyDivision.value = matchInfo.team1.division;
-                    if (typeof enemyDivision !== 'undefined' && enemyDivision) enemyDivision.value = matchInfo.team2.division;
-                    if (typeof renderSpawnerButtons === 'function') renderSpawnerButtons();
+                if (friendlyActive) friendlyActive.innerHTML = '';
+                if (enemyActive) enemyActive.innerHTML = '';
+
+                // 2. Extract friendly and enemy factions
+                const fFac = matchInfo.friendly?.faction || matchInfo.playerFaction || matchInfo.team1?.faction || matchInfo.team1;
+                const fDiv = matchInfo.friendly?.division || matchInfo.playerSetup || matchInfo.team1?.division || matchInfo.team1Setup;
+
+                const eFac = matchInfo.enemy?.faction || matchInfo.enemyFaction || matchInfo.team2?.faction || matchInfo.team2;
+                const eDiv = matchInfo.enemy?.division || matchInfo.enemySetup || matchInfo.team2?.division || matchInfo.team2Setup;
+
+                // 3. Update dropdowns
+                if (fFac && friendlyFaction) {
+                    friendlyFaction.value = fFac;
+                    if (typeof updateDivisions === 'function') updateDivisions('friendly');
+                    if (fDiv && friendlyDivision) friendlyDivision.value = fDiv;
+                }
+
+                if (eFac && enemyFaction) {
+                    enemyFaction.value = eFac;
+                    if (typeof updateDivisions === 'function') updateDivisions('enemy');
+                    if (eDiv && enemyDivision) enemyDivision.value = eDiv;
+                }
+
+                // 4. Render buttons for the new factions (e.g. USMC vs BAF)
+                if (typeof renderSpawnerButtons === 'function') {
+                    renderSpawnerButtons();
                 }
                 
+                // 5. Launch initial timers (adds 180s staging offset if fired at staging start)
+                const stagingOffset = isSeed ? 120 : 180;
                 if (typeof window.triggerInitialTimers === 'function') {
-                    window.triggerInitialTimers();
+                    window.triggerInitialTimers(stagingOffset);
                 }
             } else {
                 console.log('[Timers] Joined session mid-match. Skipping automatic initial timers.');
