@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Squad Command & Control Center</title>
@@ -1094,10 +1095,11 @@
         <iframe src="https://squadbrowser.app/" style="width: 100%; height: 100%; border: none;"></iframe>
     </div>
 
-    <div id="settings-view" class="view-container">
+    <div id="settings-view" class="view-container" style="overflow-y: auto; padding: 30px; box-sizing: border-box;">
         <h2>Application Settings</h2>
         <hr style="border-color: #333; margin-bottom: 20px;">
         
+        <!-- Squad Collaboration (Steam P2P) -->
         <div>
             <h3>Squad Collaboration (Steam P2P)</h3>
             <p style="color: #aaa; font-size: 13px;">Host a session to share tactical markers with your squad in real-time. Traffic is masked via Steam Datagram Relay (No IPs exposed).</p>
@@ -1110,22 +1112,122 @@
 
             <div id="lobby-status-container" style="display: none; background: #252526; padding: 15px; border: 1px solid #d7b500; border-radius: 6px;">
                 <h4 style="margin-top: 0; color: #d7b500;">Active Lobby Members</h4>
-                <ul id="lobby-members-list" style="list-style: none; padding: 0; margin: 0;">
-                    </ul>
+                <ul id="lobby-members-list" style="list-style: none; padding: 0; margin: 0;"></ul>
             </div>
         </div>
 
+        <!-- Map Preferences -->
         <div style="margin-top: 30px;">
             <h3>Map Preferences</h3>
-            <label for="grid-opacity-slider" style="display: block; margin-bottom: 8px;">Grid Line Opacity</label>
-            <input type="range" id="grid-opacity-slider" min="0" max="1" step="0.05" value="0.80" style="width: 90%;">
+            <label for="grid-opacity-slider" style="display: block; margin-bottom: 8px;">Grid Line Opacity: <span id="opacity-val" style="color: #d7b500;">80%</span></label>
+            <input type="range" id="grid-opacity-slider" min="0" max="1" step="0.05" value="0.80" style="width: 320px;">
+
+            <!-- Pan Distance Setting -->
+            <div style="margin-top: 20px;">
+                <label for="pan-distance-input" style="display: block; margin-bottom: 8px;">Map Pan Distance (Pixels):</label>
+                <input type="number" id="pan-distance-input" min="20" max="1000" step="10" value="150" style="background: #252526; color: white; border: 1px solid #555; padding: 8px 12px; border-radius: 4px; width: 140px; font-size: 14px;">
+            </div>
         </div>
-        <div style="position:absolute; bottom: 15px; left: 15px; font-family:monospace; font-size:12px; color:#666;">Squad Tactical Map v1.0.3</div>
-        <!-- Minimal Donation Link -->
-        <div style="position: absolute; bottom: 15px; right: 15px;">
-            <a href="#" onclick="openCoffeeLink(event)" class="coffee-link" style="color: #666; text-decoration: none; font-family: monospace; transition: color 0.2s;">
-                ☕ Buy me a coffee
-            </a>
+
+        <!-- Global Hotkeys Configuration -->
+        <div style="margin-top: 35px; padding-bottom: 50px;">
+            <h3>Global Hotkeys & Shortcuts</h3>
+            <p style="color: #aaa; font-size: 13px;">Click on any box and press your key combination (e.g., <code>Alt+W</code>, <code>Ctrl+Shift+F</code>) to rebind. These work even when the app is running in the background.</p>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px; max-width: 800px; margin-top: 15px;">
+                <!-- Map Panning -->
+                <div style="background: #252526; padding: 15px; border-radius: 6px; border: 1px solid #3e3e42;">
+                    <h4 style="margin: 0 0 12px 0; color: #66b3ff;">Map Movement</h4>
+                    <div style="display: flex; flex-direction: column; gap: 8px;">
+                        <label style="display: flex; justify-content: space-between; align-items: center; font-size: 13px;">
+                            Pan North (Up):
+                            <input type="text" class="hotkey-input" data-key="panUp" value="Alt+W" readonly style="width: 120px; background: #1e1e1e; color: #fff; border: 1px solid #555; padding: 6px; border-radius: 3px; text-align: center; cursor: pointer;">
+                        </label>
+                        <label style="display: flex; justify-content: space-between; align-items: center; font-size: 13px;">
+                            Pan South (Down):
+                            <input type="text" class="hotkey-input" data-key="panDown" value="Alt+S" readonly style="width: 120px; background: #1e1e1e; color: #fff; border: 1px solid #555; padding: 6px; border-radius: 3px; text-align: center; cursor: pointer;">
+                        </label>
+                        <label style="display: flex; justify-content: space-between; align-items: center; font-size: 13px;">
+                            Pan West (Left):
+                            <input type="text" class="hotkey-input" data-key="panLeft" value="Alt+A" readonly style="width: 120px; background: #1e1e1e; color: #fff; border: 1px solid #555; padding: 6px; border-radius: 3px; text-align: center; cursor: pointer;">
+                        </label>
+                        <label style="display: flex; justify-content: space-between; align-items: center; font-size: 13px;">
+                            Pan East (Right):
+                            <input type="text" class="hotkey-input" data-key="panRight" value="Alt+D" readonly style="width: 120px; background: #1e1e1e; color: #fff; border: 1px solid #555; padding: 6px; border-radius: 3px; text-align: center; cursor: pointer;">
+                        </label>
+
+                        <hr style="border-color: #333; margin: 4px 0;">
+
+                        <!-- ZOOM HOTKEYS -->
+                        <label style="display: flex; justify-content: space-between; align-items: center; font-size: 13px;">
+                            Zoom In:
+                            <input type="text" class="hotkey-input" data-key="zoomIn" value="Alt+E" readonly style="width: 120px; background: #1e1e1e; color: #fff; border: 1px solid #555; padding: 6px; border-radius: 3px; text-align: center; cursor: pointer;">
+                        </label>
+                        <label style="display: flex; justify-content: space-between; align-items: center; font-size: 13px;">
+                            Zoom Out:
+                            <input type="text" class="hotkey-input" data-key="zoomOut" value="Alt+Q" readonly style="width: 120px; background: #1e1e1e; color: #fff; border: 1px solid #555; padding: 6px; border-radius: 3px; text-align: center; cursor: pointer;">
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Window Focus -->
+                <div style="background: #252526; padding: 15px; border-radius: 6px; border: 1px solid #3e3e42;">
+                    <h4 style="margin: 0 0 12px 0; color: #ffcc00;">Window Controls</h4>
+                    <div style="display: flex; flex-direction: column; gap: 8px;">
+                        <label style="display: flex; justify-content: space-between; align-items: center; font-size: 13px;">
+                            Toggle Focus (Game/App):
+                            <input type="text" class="hotkey-input" data-key="toggleFocus" value="Alt+Shift+F" readonly style="width: 120px; background: #1e1e1e; color: #fff; border: 1px solid #555; padding: 6px; border-radius: 3px; text-align: center; cursor: pointer;">
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Tab Navigation -->
+                <div style="background: #252526; padding: 15px; border-radius: 6px; border: 1px solid #3e3e42; grid-column: 1 / -1;">
+                    <h4 style="margin: 0 0 12px 0; color: #4caf50;">Tab Navigation</h4>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                        <label style="display: flex; justify-content: space-between; align-items: center; font-size: 13px;">
+                            [1] Tactical Map:
+                            <input type="text" class="hotkey-input" data-key="tabMap" value="Alt+1" readonly style="width: 100px; background: #1e1e1e; color: #fff; border: 1px solid #555; padding: 6px; border-radius: 3px; text-align: center; cursor: pointer;">
+                        </label>
+                        <label style="display: flex; justify-content: space-between; align-items: center; font-size: 13px;">
+                            [2] Armor Bay:
+                            <input type="text" class="hotkey-input" data-key="tabArmor" value="Alt+2" readonly style="width: 100px; background: #1e1e1e; color: #fff; border: 1px solid #555; padding: 6px; border-radius: 3px; text-align: center; cursor: pointer;">
+                        </label>
+                        <label style="display: flex; justify-content: space-between; align-items: center; font-size: 13px;">
+                            [3] Faction Meta:
+                            <input type="text" class="hotkey-input" data-key="tabMeta" value="Alt+3" readonly style="width: 100px; background: #1e1e1e; color: #fff; border: 1px solid #555; padding: 6px; border-radius: 3px; text-align: center; cursor: pointer;">
+                        </label>
+                        <label style="display: flex; justify-content: space-between; align-items: center; font-size: 13px;">
+                            [4] Uniform Ref:
+                            <input type="text" class="hotkey-input" data-key="tabUniform" value="Alt+4" readonly style="width: 100px; background: #1e1e1e; color: #fff; border: 1px solid #555; padding: 6px; border-radius: 3px; text-align: center; cursor: pointer;">
+                        </label>
+                        <label style="display: flex; justify-content: space-between; align-items: center; font-size: 13px;">
+                            [5] Timers:
+                            <input type="text" class="hotkey-input" data-key="tabTimers" value="Alt+5" readonly style="width: 100px; background: #1e1e1e; color: #fff; border: 1px solid #555; padding: 6px; border-radius: 3px; text-align: center; cursor: pointer;">
+                        </label>
+                        <label style="display: flex; justify-content: space-between; align-items: center; font-size: 13px;">
+                            [6] Server Browser:
+                            <input type="text" class="hotkey-input" data-key="tabBrowser" value="Alt+6" readonly style="width: 100px; background: #1e1e1e; color: #fff; border: 1px solid #555; padding: 6px; border-radius: 3px; text-align: center; cursor: pointer;">
+                        </label>
+                        <label style="display: flex; justify-content: space-between; align-items: center; font-size: 13px;">
+                            [9] Settings:
+                            <input type="text" class="hotkey-input" data-key="tabSettings" value="Alt+9" readonly style="width: 100px; background: #1e1e1e; color: #fff; border: 1px solid #555; padding: 6px; border-radius: 3px; text-align: center; cursor: pointer;">
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Save / Reset Controls -->
+            <div style="margin-top: 25px; display: flex; gap: 15px; align-items: center;">
+                <button id="btn-save-settings" style="background: #28a745; color: white; border: none; padding: 10px 24px; border-radius: 4px; font-weight: bold; cursor: pointer; font-size: 14px;">💾 Save Settings</button>
+                <button id="btn-reset-hotkeys" style="background: #444; color: #ccc; border: 1px solid #666; padding: 10px 18px; border-radius: 4px; cursor: pointer; font-size: 13px;">Reset Defaults</button>
+                <span id="settings-status-msg" style="color: #4caf50; font-weight: bold; font-size: 14px; display: none;">Settings Saved!</span>
+            </div>
+        </div>
+
+        <div style="font-family:monospace; font-size:12px; color:#666; margin-top: 20px;">Squad Tactical Map v1.0.3</div>
+        <div style="position: fixed; bottom: 15px; right: 15px;">
+            <a href="#" onclick="openCoffeeLink(event)" class="coffee-link">☕ Buy me a coffee</a>
         </div>
     </div>
 

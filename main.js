@@ -55,7 +55,6 @@ async function fetchVotingIntel(layer, knownEnemyFaction = null, enemyTeamNum = 
             url += `&enemyTeam=${encodeURIComponent(enemyTeamNum)}`;
         }
 
-        // --- THE MISSING CODE ---
         const response = await fetch(url, {
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
@@ -101,7 +100,6 @@ async function submitMatchToServer(matchData) {
     } catch (error) {
         console.error("Failed to upload match data:", error.message);
     } finally {
-        // --- RESTORED LOGIC ---
         // 1. Push the After-Action Report to the UI (Executes even if API fails)
         if (mainWindow && !mainWindow.isDestroyed()) {
             mainWindow.webContents.send('match-ended-auto', matchData);
@@ -863,10 +861,18 @@ function createWindow() {
             nodeIntegration: true,
             contextIsolation: false
         }
+
+    });
+
+    mainWindow.on('blur', () => {
+        if (shortcutsPaused) {
+            shortcutsPaused = false;
+            registerAppShortcuts();
+        }
     });
     
     // --- OPSEC: PREVENT SCREEN CAPTURE & STEAM BROADCASTING ---
-    //mainWindow.setContentProtection(true);
+    mainWindow.setContentProtection(true);
 
     mainWindow.loadFile('index.html');
 
@@ -887,57 +893,164 @@ function createWindow() {
     });
 }
 
-app.whenReady().then(() => {
-    createWindow();
-    
-    mainWindow.webContents.once('did-finish-load', () => {
-        watchSquadLogs();
+// ==========================================
+// --- PERSISTENT USER SETTINGS & HOTKEYS ---
+// ==========================================
+const DEFAULT_APP_SETTINGS = {
+    panDistance: 150,
+    gridOpacity: 0.80,
+    hotkeys: {
+        panUp: 'Alt+W',
+        panDown: 'Alt+S',
+        panLeft: 'Alt+A',
+        panRight: 'Alt+D',
+        zoomIn: 'Alt+E',
+        zoomOut: 'Alt+Q',
+        toggleFocus: 'Alt+Shift+F',
+        tabMap: 'Alt+1',
+        tabArmor: 'Alt+2',
+        tabMeta: 'Alt+3',
+        tabUniform: 'Alt+4',
+        tabTimers: 'Alt+5',
+        tabBrowser: 'Alt+6',
+        tabSettings: 'Alt+9'
+    }
+};
+
+let userSettings = { ...DEFAULT_APP_SETTINGS };
+
+function getSettingsFilePath() {
+    return path.join(app.getPath('userData'), 'user-settings.json');
+}
+
+function loadUserSettings() {
+    try {
+        const filePath = getSettingsFilePath();
+        if (fs.existsSync(filePath)) {
+            const raw = fs.readFileSync(filePath, 'utf8');
+            const parsed = JSON.parse(raw);
+            userSettings = {
+                ...DEFAULT_APP_SETTINGS,
+                ...parsed,
+                hotkeys: { ...DEFAULT_APP_SETTINGS.hotkeys, ...(parsed.hotkeys || {}) }
+            };
+            console.log("[Settings] Loaded user settings from disk.");
+        }
+    } catch (err) {
+        console.error("[Settings] Error loading user-settings.json:", err);
+    }
+}
+
+function saveUserSettingsToDisk(newSettings) {
+    try {
+        const filePath = getSettingsFilePath();
+        fs.writeFileSync(filePath, JSON.stringify(newSettings, null, 2), 'utf8');
+        userSettings = newSettings;
+        console.log("[Settings] Saved user settings to disk.");
+        return true;
+    } catch (err) {
+        console.error("[Settings] Failed to write user-settings.json:", err);
+        return false;
+    }
+}
+
+function registerAppShortcuts() {
+    globalShortcut.unregisterAll();
+
+    const hk = userSettings.hotkeys || DEFAULT_APP_SETTINGS.hotkeys;
+    const panStep = userSettings.panDistance || 150;
+
+    const safeRegister = (accelerator, callback) => {
+        if (!accelerator || typeof accelerator !== 'string' || accelerator.trim() === '') return;
+        try {
+            globalShortcut.register(accelerator.trim(), callback);
+        } catch (e) {
+            console.warn(`[Hotkeys] Failed to register accelerator '${accelerator}':`, e.message);
+        }
+    };
+
+    // Map Panning
+    safeRegister(hk.panUp, () => {
+        if (mainWindow && !mainWindow.isDestroyed()) {
+            mainWindow.webContents.send('pan-map', { dx: 0, dy: -panStep });
+        }
     });
 
-    // --- TAB HOTKEYS ---
-    globalShortcut.register('Alt+1', () => {
-        if (mainWindow) mainWindow.webContents.send('switch-tab', 'map-view');
-    });
-    
-    globalShortcut.register('Alt+2', () => {
-        if (mainWindow) mainWindow.webContents.send('switch-tab', 'armor-view');
+    safeRegister(hk.panDown, () => {
+        if (mainWindow && !mainWindow.isDestroyed()) {
+            mainWindow.webContents.send('pan-map', { dx: 0, dy: panStep });
+        }
     });
 
-    globalShortcut.register('Alt+3', () => {
-        if (mainWindow) mainWindow.webContents.send('switch-tab', 'meta-view');
+    safeRegister(hk.panLeft, () => {
+        if (mainWindow && !mainWindow.isDestroyed()) {
+            mainWindow.webContents.send('pan-map', { dx: -panStep, dy: 0 });
+        }
     });
 
-    globalShortcut.register('Alt+4', () => {
-        if (mainWindow) mainWindow.webContents.send('switch-tab', 'uniform-view');
+    safeRegister(hk.panRight, () => {
+        if (mainWindow && !mainWindow.isDestroyed()) {
+            mainWindow.webContents.send('pan-map', { dx: panStep, dy: 0 });
+        }
     });
 
-    globalShortcut.register('Alt+5', () => {
-        if (mainWindow) mainWindow.webContents.send('switch-tab', 'timers-view');
+    // Map Zooming (Global Unfocused)
+    safeRegister(hk.zoomIn, () => {
+        if (mainWindow && !mainWindow.isDestroyed()) {
+            mainWindow.webContents.send('zoom-map', 'in');
+        }
     });
 
-    globalShortcut.register('Alt+6', () => {
-        if (mainWindow) mainWindow.webContents.send('switch-tab', 'browser-view');
+    safeRegister(hk.zoomOut, () => {
+        if (mainWindow && !mainWindow.isDestroyed()) {
+            mainWindow.webContents.send('zoom-map', 'out');
+        }
     });
 
-    globalShortcut.register('Alt+9', () => {
-        if (mainWindow) mainWindow.webContents.send('switch-tab', 'settings-view');
-    });
-
-    // --- INSTANT FOCUS TOGGLE (LOCAL & GEFORCE NOW SUPPORT) ---
-    globalShortcut.register('Alt+Shift+F', () => {
+    // Window Focus
+    safeRegister(hk.toggleFocus, () => {
         if (mainWindow.isFocused()) {
-            console.log("Pushing focus back to the Game...");
             const psCommand = `powershell -NoProfile -Command "$p = Get-Process | Where-Object { ($_.ProcessName -match 'Squad' -or $_.MainWindowTitle -match 'GeForce NOW') -and $_.MainWindowHandle -ne 0 } | Select-Object -First 1; if ($p) { $w = $p.MainWindowHandle; $sig = '[DllImport(\\"user32.dll\\")] public static extern bool SetForegroundWindow(IntPtr h); [DllImport(\\"user32.dll\\")] public static extern bool ShowWindow(IntPtr h, int nCmd);'; $api = Add-Type -MemberDefinition $sig -Name WAPI -Namespace Win32 -PassThru; $api::ShowWindow($w, 9); $api::SetForegroundWindow($w); }"`;
-            
             exec(psCommand, (error) => {
                 if (error) console.error("Focus switch failed:", error);
             });
         } else {
-            console.log("Pulling focus to Command Center...");
             if (mainWindow.isMinimized()) mainWindow.restore();
             mainWindow.show();
             mainWindow.focus();
         }
+    });
+
+    // Tab Switching
+    safeRegister(hk.tabMap, () => mainWindow && mainWindow.webContents.send('switch-tab', 'map-view'));
+    safeRegister(hk.tabArmor, () => mainWindow && mainWindow.webContents.send('switch-tab', 'armor-view'));
+    safeRegister(hk.tabMeta, () => mainWindow && mainWindow.webContents.send('switch-tab', 'meta-view'));
+    safeRegister(hk.tabUniform, () => mainWindow && mainWindow.webContents.send('switch-tab', 'uniform-view'));
+    safeRegister(hk.tabTimers, () => mainWindow && mainWindow.webContents.send('switch-tab', 'timers-view'));
+    safeRegister(hk.tabBrowser, () => mainWindow && mainWindow.webContents.send('switch-tab', 'browser-view'));
+    safeRegister(hk.tabSettings, () => mainWindow && mainWindow.webContents.send('switch-tab', 'settings-view'));
+}
+
+// IPC Handlers for Settings
+ipcMain.handle('get-app-settings', () => {
+    return userSettings;
+});
+
+ipcMain.handle('save-app-settings', (event, updatedSettings) => {
+    const success = saveUserSettingsToDisk(updatedSettings);
+    if (success) {
+        registerAppShortcuts();
+    }
+    return success;
+});
+
+app.whenReady().then(() => {
+loadUserSettings();
+    createWindow();
+    
+    mainWindow.webContents.once('did-finish-load', () => {
+        watchSquadLogs();
+        registerAppShortcuts();
     });
 
     app.on('activate', function () {
@@ -947,6 +1060,26 @@ app.whenReady().then(() => {
     // --- AUTO-UPDATER ---
     autoUpdater.checkForUpdatesAndNotify();
 });
+
+// ==========================================
+// --- PAUSE / RESUME GLOBAL SHORTCUTS ---
+// ==========================================
+let shortcutsPaused = false;
+
+ipcMain.on('disable-global-shortcuts', () => {
+    shortcutsPaused = true;
+    globalShortcut.unregisterAll();
+    console.log("[Hotkeys] Paused global shortcuts for keybind recording.");
+});
+
+ipcMain.on('resume-global-shortcuts', () => {
+    if (shortcutsPaused) {
+        shortcutsPaused = false;
+        registerAppShortcuts();
+        console.log("[Hotkeys] Resumed global shortcuts.");
+    }
+});
+
 
 autoUpdater.on('update-downloaded', (info) => {
     
