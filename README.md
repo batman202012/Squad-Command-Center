@@ -25,13 +25,13 @@ We understand that downloading `.exe` files from the internet requires trust. **
 ### Verification & Virus Total Reports
 Every official release is scanned prior to publication. You can verify the safety of our latest release below:
 
-- **VirusTotal Scan:** [View Antivirus Report](https://www.virustotal.com/gui/file/1652340f0e3d2999fd07cfcc2347b78508deb500a1949d56613ce80239bc1492)
-- **SHA-256 Hash:** `1652340F0E3D2999FD07CFCC2347B78508DEB500A1949D56613CE80239BC1492`
+- **VirusTotal Scan:** [View Antivirus Report](https://www.virustotal.com/gui/file/08F15735C7A4C67A52A453689BFF9D91FCA3AAEAB67F579B4E98D561A94D0948)
+- **SHA-256 Hash:** `08F15735C7A4C67A52A453689BFF9D91FCA3AAEAB67F579B4E98D561A94D0948`
 
 #### How to verify the file hash on Windows:
 Open PowerShell and run the following command on your downloaded installer:
 ```powershell
-Get-FileHash -Algorithm SHA256 "path\to\Squad.C2.Center.Setup.1.0.3.exe"
+Get-FileHash -Algorithm SHA256 "path\to\Squad.C2.Center.Setup.1.1.1.exe"
 ```
 
 ## Build It Yourself
