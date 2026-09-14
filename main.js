@@ -432,14 +432,15 @@ ipcMain.on('user-selected-faction', (event, selectedFaction) => {
 
 ipcMain.handle('read-map-json', async (event, mapId) => {
     try {
+        const cleanMapId = path.basename(String(mapId));
         // Build the safe path inside the ASAR archive
-        const jsonPath = path.join(__dirname, 'assets', 'data', `hab_${mapId}.json`);
+        const jsonPath = path.join(__dirname, 'assets', 'data', 'hab_' + cleanMapId + '.json');
         
         // Return the parsed object directly
         const rawData = fs.readFileSync(jsonPath, 'utf-8');
         return JSON.parse(rawData);
     } catch (error) {
-        console.error(`[Backend] Failed to read HAB JSON for: ${mapId}`);
+        console.error('[Backend] Failed to read HAB JSON for: ' + mapId);
         return null; // Return null so the frontend knows it failed gracefully
     }
 });
@@ -490,13 +491,14 @@ ipcMain.on('request-manual-intel', (event, data) => {
 // --- API: FETCH MAP LAYERS FROM FOLDER ---
 // ==========================================
 ipcMain.on('request-map-layers', (event, mapId) => {
+    const cleanMapId = path.basename(String(mapId));
     // Capitalize the first letter to match your folder structure (e.g., "albasrah" -> "Albasrah")
-    const folderName = mapId.charAt(0).toUpperCase() + mapId.slice(1);
+    const folderName = cleanMapId.charAt(0).toUpperCase() + cleanMapId.slice(1);
     const mapDir = path.join(__dirname, 'assets', 'maps', folderName);
 
     fs.readdir(mapDir, (err, files) => {
         if (err) {
-            console.error(`[C2 Engine] Directory not found or unreadable: ${mapDir}`);
+            console.error('[C2 Engine] Directory not found or unreadable: ' + mapDir);
             event.reply('map-layers-response', { success: false, layers: [] });
             return;
         }
@@ -611,6 +613,7 @@ try {
 
             // --- 2. HOST KICK SIGNAL (Soft Ban) ---
             if (payload.type === 'TACTICAL_SYNC' && payload.data && payload.data.action === 'kicked') {
+                if (isLobbyHost || senderId !== currentHostId) continue;
                 console.log("[Steamworks] You were kicked by the Host.");
                 connectedPeers.clear();
                 pendingPeers.clear();
@@ -624,7 +627,8 @@ try {
 
             // --- 3. HOST APPROVAL SIGNAL ---
             if (payload.type === 'TACTICAL_SYNC' && payload.data && payload.data.action === 'approved') {
-                const hostName = payload.data.name || "Host";
+                if (isLobbyHost || senderId !== currentHostId) continue;
+                console.log("[Steamworks] Host " + hostName + " approved your connection!");
                 console.log(`[Steamworks] Host ${hostName} approved your connection!`);
                 peerNames.set(senderId, hostName);
                 connectedPeers.add(senderId); 
@@ -932,11 +936,8 @@ function createWindow() {
     });
 
     mainWindow.webContents.setWindowOpenHandler(({ url }) => {
-        if (url.startsWith('steam://')) {
             shell.openExternal(url);
             return { action: 'deny' }; 
-        }
-        return { action: 'allow' };
     });
 }
 

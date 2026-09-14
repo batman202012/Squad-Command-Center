@@ -1875,7 +1875,8 @@
                     li.style.boxSizing = 'border-box';
                     li.style.width = '100%';
                     
-                    let label = `🎮 ${member.name}`;
+                    const safeName = String(member.name || 'Unknown Soldier').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+                    let label = '🎮 ' + safeName;
                     if (member.isHost) label += ' <span style="color: #d7b500; font-size: 12px; margin-left: 5px;">(Host)</span>';
                     if (member.isPending && !member.isHost) label += ' <span style="color: #ffc107; font-size: 12px; margin-left: 5px;">(Waiting Room)</span>';
                     
