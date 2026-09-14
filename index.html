@@ -1107,6 +1107,7 @@
             <div style="display: flex; gap: 15px; margin-bottom: 20px;">
                 <button id="btn-host-lobby" class="action-btn" style="background: #0066cc; color: white; padding: 10px 20px; border: none; border-radius: 4px; font-weight: bold; cursor: pointer;">🌐 Host Lobby</button>
                 <button id="btn-invite-friends" class="action-btn" style="display: none; background: #28a745; color: white; padding: 10px 20px; border: none; border-radius: 4px; font-weight: bold; cursor: pointer;">+ Invite via Steam</button>
+                <button id="btn-copy-invite" class="action-btn" style="display: none; background: #28a745; color: white; padding: 10px 20px; border: none; border-radius: 4px; font-weight: bold; cursor: pointer;">📋 Copy Steam Invite Link</button>
                 <button id="btn-resync-map" class="action-btn" style="display: none; background: #17a2b8; color: white; padding: 10px 20px; border: none; border-radius: 4px; font-weight: bold; cursor: pointer;">🔄 Resync Map</button>
             </div>
 
@@ -1718,22 +1719,26 @@
         // ==========================================
         // --- STEAMWORKS LOBBY UI UPDATES ---
         // ==========================================
-        let isLocalHost = false; 
 
         electronRenderer.on('steam-lobby-joined', (event, lobbyId) => {
+            const isLocalHost = electronRenderer.sendSync('get-host-status-sync');
+            window.isLocalHost = isLocalHost;
             const statusContainer = document.getElementById('lobby-status-container');
             const inviteBtn = document.getElementById('btn-invite-friends');
+            const copyBtn = document.getElementById('btn-copy-invite');
+            const resyncBtn = document.getElementById('btn-resync-map');
             const hostBtn = document.getElementById('btn-host-lobby');
 
             if (statusContainer) statusContainer.style.display = 'block';
             if (inviteBtn) inviteBtn.style.display = 'inline-block';
+            if (copyBtn) copyBtn.style.display = 'inline-block';
             if (hostBtn) hostBtn.style.display = 'none'; 
 
             const header = statusContainer.querySelector('h4');
             // If we are not the host, we are in the waiting room until approved
             if (header) {
-                const statusBadge = isLocalHost ? '🟢 Host Active' : '🟡 Waiting for Approval...';
-                const statusColor = isLocalHost ? '#4caf50' : '#ffc107';
+                const statusBadge = window.isLocalHost ? '🟢 Host Active' : '🟡 Waiting for Approval...';
+                const statusColor = window.isLocalHost ? '#4caf50' : '#ffc107';
                 header.innerHTML = `Active Lobby Members <span id="lobby-connection-badge" style="float: right; color: ${statusColor}; font-size: 13px;">${statusBadge}</span>`;
             }
         });
@@ -1762,12 +1767,14 @@
         electronRenderer.on('p2p-kicked', () => {
             const statusContainer = document.getElementById('lobby-status-container');
             const inviteBtn = document.getElementById('btn-invite-friends');
+            const copyBtn = document.getElementById('btn-copy-invite');
             const hostBtn = document.getElementById('btn-host-lobby');
             const resyncBtn = document.getElementById('btn-resync-map'); // Grab resync
             const list = document.getElementById('lobby-members-list');
             const badge = document.getElementById('lobby-connection-badge');
 
             if (inviteBtn) inviteBtn.style.display = 'none';
+            if (copyBtn) copyBtn.style.display = 'none';
             if (resyncBtn) resyncBtn.style.display = 'none'; // Hide resync
             if (hostBtn) {
                 hostBtn.style.display = 'inline-block';
@@ -1787,6 +1794,7 @@
 
         // --- BIND THE RESYNC BUTTON ---
         const btnResyncMap = document.getElementById('btn-resync-map');
+        const copyBtn = document.getElementById('btn-copy-invite');
         if (btnResyncMap) {
             btnResyncMap.addEventListener('click', () => {
                 // 1. Silently wipe the local board
@@ -1841,12 +1849,23 @@
         electronRenderer.on('steam-lobby-members', (event, members) => {
             const statusContainer = document.getElementById('lobby-status-container');
             const list = document.getElementById('lobby-members-list');
+            const isLocalHost = electronRenderer.sendSync('get-host-status-sync');
+            window.isLocalHost = isLocalHost;
+            const header = statusContainer.querySelector('h4');
+            // If we are not the host, we are in the waiting room until approved
+            if (window.isLocalHost) {
+                const statusBadge = '🟢 Host Active';
+                const statusColor = '#4caf50';
+                header.innerHTML = `Active Lobby Members <span id="lobby-connection-badge" style="float: right; color: ${statusColor}; font-size: 13px;">${statusBadge}</span>`;
+            }
             
             if (statusContainer && list) {
                 statusContainer.style.display = 'block'; 
                 list.innerHTML = ''; 
+                console.log('localHost:', window.isLocalHost);
                 
                 members.forEach(member => {
+                    console.log(`[Lobby] Member: ${member.name} | ID: ${member.id} | Host: ${member.isHost} | Pending: ${member.isPending}`);
                     const li = document.createElement('li');
                     li.style.padding = '8px 10px';
                     li.style.borderBottom = '1px solid #444';
@@ -1856,7 +1875,8 @@
                     li.style.boxSizing = 'border-box';
                     li.style.width = '100%';
                     
-                    let label = `🎮 ${member.name}`;
+                    const safeName = String(member.name || 'Unknown Soldier').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+                    let label = '🎮 ' + safeName;
                     if (member.isHost) label += ' <span style="color: #d7b500; font-size: 12px; margin-left: 5px;">(Host)</span>';
                     if (member.isPending && !member.isHost) label += ' <span style="color: #ffc107; font-size: 12px; margin-left: 5px;">(Waiting Room)</span>';
                     
@@ -1875,7 +1895,7 @@
                     rightDiv.appendChild(idSpan);
 
                     // HOST CONTROLS (Approve / Kick)
-                    if (isLocalHost && !member.isHost) {
+                    if (window.isLocalHost && !member.isHost) {
                         
                         if (member.isPending) {
                             const approveBtn = document.createElement('button');
@@ -1919,25 +1939,19 @@
             }
         });
 
-        const btnHostLobby = document.getElementById('btn-host-lobby');
-        if (btnHostLobby) {
-            btnHostLobby.addEventListener('click', async () => {
-                btnHostLobby.innerText = "⏳ Creating...";
-                const result = await electronRenderer.invoke('steam-host-lobby');
-                if (result.success) {
-                    isLocalHost = true; 
-                    electronRenderer.emit('steam-lobby-joined', null, result.lobbyId);
-                } else {
-                    btnHostLobby.innerText = "❌ Failed";
-                    setTimeout(() => btnHostLobby.innerText = "🌐 Host Lobby", 2000);
-                }
-            });
-        }
-
         const btnInviteFriends = document.getElementById('btn-invite-friends');
         if (btnInviteFriends) {
             btnInviteFriends.addEventListener('click', () => {
                 electronRenderer.send('steam-invite-friends');
+            });
+        }
+
+        const btnCopyInvite = document.getElementById('btn-copy-invite');
+        if (btnCopyInvite) {
+            btnCopyInvite.addEventListener('click', () => {
+                electronRenderer.send('steam-copy-invite-link');
+                btnCopyInvite.innerText = "✅ Copied!";
+                setTimeout(() => btnCopyInvite.innerText = "📋 Copy Steam Invite Link", 2000);
             });
         }
 
