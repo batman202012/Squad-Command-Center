@@ -677,12 +677,30 @@ try {
     console.warn("[Steamworks] Failed to init. Steam is likely not running.", error.message);
 }
 
+let isLocalHost = false;
+
+function setHostStatus(newStatus) {
+    isLocalHost = newStatus;
+    if (mainWindow && !mainWindow.isDestroyed()) {
+        mainWindow.webContents.send('host-status-changed', isLocalHost);
+    }
+}
+
+ipcMain.on('get-host-status-sync', (event) => {
+    event.returnValue = isLocalHost;
+});
+
+ipcMain.on('set-host-status', (event, newStatus) => {
+    setHostStatus(newStatus);
+});
+
 // --- IPC HANDLERS FOR UI ---
 ipcMain.handle('steam-host-lobby', async () => {
     try {
-        const lobby = await steamClient.matchmaking.createLobby(1, 9);
+        const lobby = await steamClient.matchmaking.createLobby(2, 9);
         activeLobbyId = lobby.id;
         isLobbyHost = true;
+        setHostStatus(true);
         currentHostId = steamClient.localplayer.getSteamId().steamId64.toString();
         
         // Cache our own name
@@ -690,14 +708,25 @@ ipcMain.handle('steam-host-lobby', async () => {
         
         connectedPeers.clear();
         pendingPeers.clear();
-        return { success: true, lobbyId: activeLobbyId.toString() };
+        broadcastLobbyState();
+        console.log(`[Steamworks] Lobby hosted successfully. Lobby ID: ${activeLobbyId}, Host ID: ${currentHostId}, isLobbyHost: ${isLobbyHost}, isLocalHost: ${isLocalHost}`);
+        return { success: true, lobbyId: activeLobbyId.toString(), hostId: currentHostId.toString() };
     } catch (e) {
-        return { success: false, error: e.message };
+        return { success: false, error: String(e.message) + (activeLobbyId ? ', Lobby ID: ' + String(activeLobbyId) : '') + (currentHostId ? ', Host ID: ' + String(currentHostId) : '') };
     }
 });
 
 ipcMain.on('steam-invite-friends', () => {
     if (activeLobbyId && steamClient) steamClient.overlay.activateInviteDialog(activeLobbyId);
+});
+
+ipcMain.on('steam-copy-invite-link', () => {
+    if (activeLobbyId) {
+        const { clipboard } = require('electron');
+        const inviteLink = `steam://joinlobby/480/${activeLobbyId}/${currentHostId}`;
+        clipboard.writeText(inviteLink);
+        console.log(`[Steamworks] Invite link copied to clipboard: ${inviteLink}`);
+    }
 });
 
 // CLIENT ACTION: Request Manual Resync from Host
@@ -833,6 +862,7 @@ function broadcastLobbyState() {
                 
                 let uniqueIds = new Set([...connectedPeers, ...pendingPeers]);
                 uniqueIds.add(localSteamId); // Always ensure the host is in the list
+                console.log(`[Steamworks] Broadcasting lobby state. Total members: ${uniqueIds.size}`);
 
                 const memberData = Array.from(uniqueIds).map(id => {
                     // Extract name explicitly from our Cache
@@ -844,6 +874,7 @@ function broadcastLobbyState() {
                         isPending: pendingPeers.has(id) // If they are in pending, flag them for the waiting room UI
                     };
                 });
+                console.log("[Steamworks] Lobby Members:", memberData);
                     
                 mainWindow.webContents.send('steam-lobby-members', memberData);
             } catch (err) {
