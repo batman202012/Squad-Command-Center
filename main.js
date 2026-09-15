@@ -628,8 +628,8 @@ try {
             // --- 3. HOST APPROVAL SIGNAL ---
             if (payload.type === 'TACTICAL_SYNC' && payload.data && payload.data.action === 'approved') {
                 if (isLobbyHost || senderId !== currentHostId) continue;
+                const hostName = payload.data.name || "Host";
                 console.log("[Steamworks] Host " + hostName + " approved your connection!");
-                console.log(`[Steamworks] Host ${hostName} approved your connection!`);
                 peerNames.set(senderId, hostName);
                 connectedPeers.add(senderId); 
                 
@@ -936,8 +936,8 @@ function createWindow() {
     });
 
     mainWindow.webContents.setWindowOpenHandler(({ url }) => {
-            shell.openExternal(url);
-            return { action: 'deny' }; 
+        shell.openExternal(url);
+        return { action: 'deny' };
     });
 }
 
