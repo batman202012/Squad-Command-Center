@@ -25,13 +25,13 @@ We understand that downloading `.exe` files from the internet requires trust. **
 ### Verification & Virus Total Reports
 Every official release is scanned prior to publication. You can verify the safety of our latest release below:
 
-- **VirusTotal Scan:** [View Antivirus Report](https://www.virustotal.com/gui/file/08F15735C7A4C67A52A453689BFF9D91FCA3AAEAB67F579B4E98D561A94D0948)
-- **SHA-256 Hash:** `08F15735C7A4C67A52A453689BFF9D91FCA3AAEAB67F579B4E98D561A94D0948`
+- **VirusTotal Scan:** [View Antivirus Report](https://www.virustotal.com/gui/file/89FB25653C69CD316E674B7393C8AAA7CFAB3C383DD343C7CBA7721D2AE0C884)
+- **SHA-256 Hash:** `89FB25653C69CD316E674B7393C8AAA7CFAB3C383DD343C7CBA7721D2AE0C884`
 
 #### How to verify the file hash on Windows:
 Open PowerShell and run the following command on your downloaded installer:
 ```powershell
-Get-FileHash -Algorithm SHA256 "path\to\Squad.C2.Center.Setup.1.1.1.exe"
+Get-FileHash -Algorithm SHA256 "path\to\Squad.C2.Center.Setup.1.1.2.exe"
 ```
 
 ## Build It Yourself
@@ -67,7 +67,7 @@ To build a standalone `.exe` installer (NSIS) for Windows:
 ```bash
 npm run build
 ```
-Once complete, you will find a lightweight `Squad C2 Center Setup 1.0.3.exe` file inside the `dist/` directory, ready to be distributed.
+Once complete, you will find a lightweight `Squad C2 Center Setup 1.1.2.exe` file inside the `dist/` directory, ready to be distributed.
 
 ### ⚠️ Developer Map Assets
 To keep this repository lightweight, the 8.6 GB of raw high-resolution map tiles are not included in this repo. If you want to build the app with local tiles exactly as I did, download the raw map assets here:
